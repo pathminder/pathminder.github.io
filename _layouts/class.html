@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Class Features</h2>
+
+<dl>
+  <dt>Prerequisites</dt>
+  <dd>{{ page.prerequisites | join: ", " }}</dd>
+
+  <dt>Hit Die</dt>
+  <dd>d{{ page.hit_die }}</dd>
+
+  <dt>Class Skills</dt>
+  <dd>{{ page.class_skills | sort | join: ", " }}</dd>
+
+  <dt>Starting Wealth</dt>
+  <dd>{{ page.starting_wealth }}</dd>
+
+  <dt>Weapon Proficiencies</dt>
+  <dd>{{ page.weapon_proficiencies | join: ", " }}</dd>
+
+  <dt>Armor Proficiencies</dt>
+  <dd>{{ page.armor_proficiencies | join: ", " }}</dd>
+
+  <dt>Shield Proficiencies</dt>
+  <dd>{{ page.shield_proficiencies | join: ", " }}</dd>
+</dl>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>Level</th>
+      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+        <abbr title="Base Attack Bonus">BAB</abbr>
+      </th>
+      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+        <abbr title="Fortitude Save">Fort</abbr></th>
+      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+        <abbr title="Reflex Save">Ref</abbr>
+      </th>
+      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+        <abbr title="Will Save">Will</abbr>
+      </th>
+      <th {% if page.spells_per_day %}rowspan="2"{% endif %}>Special</th>
+      {% if page.spells_per_day %}
+        <th class="text-center" colspan="6">Spells per Day</th>
+      {% endif %}
+    </tr>
+    {% if page.spells_per_day %}
+      <tr>
+        {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
+          <th class="text-center">{{ spell_level }}</th>
+        {% endfor %}
+      </tr>
+    {% endif %}
+  </thead>
+
+  <tbody>
+    {% for level in (1..page.max_level) %}
+      <tr>
+        <td class="text-center">{{ level }}</td>
+        <td class="text-center">{{ level | times: page.bab_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-center">{{ level | plus: page.fort_adder | times: page.fort_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-center">{{ level | plus: page.ref_adder | times: page.ref_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-center">{{ level | plus: page.will_adder | times: page.will_multiplier | floor | prepend: '+' }}</td>
+        <td>
+          {% assign level_features = "" | split:"|" %}
+          {% for feature in page.class_features %}
+            {% if feature.levels contains level %}
+              {% assign slugified_name = feature.name | slugify %}
+              {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: feature.name | append: '</a>' %}
+              {% assign level_features = level_features | push: feature_link %}
+            {% endif %}
+          {% endfor %}
+          {{ level_features | sort | join: ", " | capitalize }}
+        </td>
+        {% if page.spells_per_day %}
+          {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
+            {% assign spell_level_minus_one = spell_level | minus: 1 %}
+            <td>
+              {{ site.data.spells-per-day[page.spells_per_day][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+            </td>
+          {% endfor %}
+        {% endif %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% for level in (1..page.max_level) %}
+  {% assign level_features = "" | split:"|" %}
+  {% for feature in page.class_features %}
+    {% if feature.levels contains level %}
+      {% assign level_features = level_features | push: feature %}
+    {% endif %}
+  {% endfor %}
+  {% assign level_features = level_features | sort: "name" %}
+
+  {% for feature in level_features %}
+    <h3 id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
+
+    {{ feature.text | markdownify }}
+  {% endfor %}
+{% endfor %}

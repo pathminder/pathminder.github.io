@@ -1,0 +1,39 @@
+# Site settings
+baseurl: ""
+
+# These are overridden by Github. They're here for local rendering
+github:
+  project_title: Pathminder
+  repository_url: https://github.com/pathminder/pathminder.github.io
+  issues_url: https://github.com/pathminder/pathminder.github.io/issues
+
+gems:
+  - jekyll-sitemap
+
+exclude:
+  - CNAME
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: classes
+    values:
+      layout: class
+
+collections:
+  classes:
+    permalink: /:collection/:title/
+    output: true
+  sources:
+    permalink: /:collection/:title/
+    output: false
