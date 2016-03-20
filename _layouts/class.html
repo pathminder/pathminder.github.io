@@ -13,7 +13,10 @@ layout: default
   <dt>Hit Die</dt>
   <dd>d{{ page.hit_die }}</dd>
 
-  <dt>Class Skills</dt>
+  <dt>Skill Ranks per Level</dt>
+  <dd>{{ page.skill_ranks_per_level }} + Int</dd>
+
+  <dt>Class Skills
   <dd>{{ page.class_skills | sort | join: ", " }}</dd>
 
   <dt>Starting Wealth</dt>
