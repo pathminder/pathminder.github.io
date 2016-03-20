@@ -54,16 +54,30 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 15. Copyright NOTICE
 
-- Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc.
-- System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
-
-- *Advanced Player's Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
-- *Pathfinder RPG Core Rulebook*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+- *Advanced Player's Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn
+- *Hyperconscious: Explorations in Psionics*, Copyright 2004, Bruce R Cordell. All rights reserved.
+- *If Thoughts Could Kill*, Copyright 2001–2004, Bruce R. Cordell. All rights reserved. Mindscapes, Copyright 2003–2004, Bruce R. Cordell. All rights reserved.
+- *Legendary VI: Legendary Armor*, Copyright 2012, Purple Duck Games; Author: Marc Radle.
+- *Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing.
+- *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
+- *Pathfinder Roleplaying Game Advanced Race Guide*, Copyright 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney- MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.
 - *Pathfinder Roleplaying Game Core Rulebook*, Copyright 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
-
+- *Pathfinder Roleplaying Game Ultimate Combat*, Copyright 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.
+- *Pathfinder Roleplaying Game Ultimate Magic*, Copyright 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.
+- *Pathfinder RPG Core Rulebook*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+- *Pathfinder RPG Bestiary*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+- *Pathfinder RPG GameMastery Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.
+- *Psionics Unleashed*, Copyright 2010, Dreamscarred Press. Psionic Bestiary, Copyright 2013, Dreamscarred Press. Psionics Augmented, Copyright 2013, Dreamscarred Press Ultimate Psionics, Copyright 2013, Dreamscarred Press
+- *Swords of Our Fathers*, Copyright 2003, The Game Mechanics.
 - *The Book of Experimental Might*, Copyright 2008, Monte J. Cook. All rights reserved.
-- *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christo erson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
-
+- *The Genius Guide To: Feats of Psionic Might*, Copyright 2011, Super Genius Games. Author: Owen K.C. Stephens
+- *The Iconic Bestiary: Classics of Fantasy*, Copyright 2005, Lions Den Press; Author Ari Marmell
+- *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+- *Unearthed Arcana*, Copyright 2004, Wizards of the Coast, Inc.; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman
+- Modern System Reference Document, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
+- Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc.
 - Pathminder, Copyright 2016, Drumanagh Wilpole.
+- System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+- The Grand OGL Wiki, http://grandwiki.wikidot.com, Copyright 2008-2011 Purple Duck Games; Authors: Mark Gedak, Alex Schroeder, Joel Arellano, George Fields, Yair Rezek, Mike Whalen, Shane O'Connor, Mike Rickard, John Whamond, Bill Browne, Eric Williamson, Slatz Grubnik, Charles R. Wenzler Jr, John Fraser, Jonathon Thompson, Thomas Boxall.
 
 END OF LICENSE
