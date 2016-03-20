@@ -370,7 +370,8 @@ class_features:
       | Shocking burst                         |           +2            |       7        |
       | Suppression                            |           +2            |       7        |
       | Unholy                                 |           +2            |       7        |
-      | Wounding Wrenching (ranged only)       |           +2            |       7        |
+      | Wounding                               |           +2            |       7        |
+      | Wrenching (ranged only)                |           +2            |       7        |
       | Bodyfeeder                             |           +3            |       9        |
       | Dislocator                             |           +3            |       9        |
       | Mindfeeder                             |           +3            |       9        |
