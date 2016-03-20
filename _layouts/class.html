@@ -32,32 +32,32 @@ layout: default
 <table class="table table-striped">
   <thead>
     <tr>
-      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>Level</th>
-      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>Level</th>
+      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
         <abbr title="Base Attack Bonus">BAB</abbr>
       </th>
-      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
         <abbr title="Fortitude Save">Fort</abbr></th>
-      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
         <abbr title="Reflex Save">Ref</abbr>
       </th>
-      <th class="text-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
         <abbr title="Will Save">Will</abbr>
       </th>
       <th {% if page.spells_per_day %}rowspan="2"{% endif %}>Special</th>
       {% if page.spells_per_day %}
-        <th class="text-center" colspan="6">Spells per Day</th>
+        <th class="text-xs-center" colspan="6">Spells per Day</th>
       {% endif %}
       {% if page.manifesting_progression %}
-        <th>Power Points/Day</th>
-        <th>Powers Known</th>
-        <th>Maximum Power Level Known</th>
+        <th class="text-xs-center"><abbr title="Power Points">PP</abbr>/Day</th>
+        <th class="text-xs-center">Powers Known</th>
+        <th class="text-xs-center">Maximum Power Level Known</th>
       {% endif %}
     </tr>
     {% if page.spells_per_day %}
       <tr>
         {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
-          <th class="text-center">{{ spell_level }}</th>
+          <th class="text-xs-center">{{ spell_level }}</th>
         {% endfor %}
       </tr>
     {% endif %}
@@ -66,11 +66,11 @@ layout: default
   <tbody>
     {% for level in (1..page.max_level) %}
       <tr>
-        <td class="text-center">{{ level }}</td>
-        <td class="text-center">{{ level | times: page.bab_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-center">{{ level | plus: page.fort_adder | times: page.fort_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-center">{{ level | plus: page.ref_adder | times: page.ref_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-center">{{ level | plus: page.will_adder | times: page.will_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-xs-center">{{ level }}</td>
+        <td class="text-xs-center">{{ level | times: page.bab_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-xs-center">{{ level | plus: page.fort_adder | times: page.fort_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-xs-center">{{ level | plus: page.ref_adder | times: page.ref_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-xs-center">{{ level | plus: page.will_adder | times: page.will_multiplier | floor | prepend: '+' }}</td>
         <td>
           {% assign level_features = "" | split:"|" %}
           {% for feature in page.class_features %}
@@ -96,8 +96,8 @@ layout: default
         {% endif %}
         {% if page.manifesting_progression %}
           {% for i in (0..2) %}
-            <td>
-              {{ site.data.manifesting-progressions[page.manifesting_progression][i] }}
+            <td class="text-xs-center">
+              {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
           {% endfor %}
         {% endif %}
