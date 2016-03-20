@@ -48,6 +48,11 @@ layout: default
       {% if page.spells_per_day %}
         <th class="text-center" colspan="6">Spells per Day</th>
       {% endif %}
+      {% if page.manifesting_progression %}
+        <th>Power Points/Day</th>
+        <th>Powers Known</th>
+        <th>Maximum Power Level Known</th>
+      {% endif %}
     </tr>
     {% if page.spells_per_day %}
       <tr>
@@ -89,6 +94,13 @@ layout: default
             </td>
           {% endfor %}
         {% endif %}
+        {% if page.manifesting_progression %}
+          {% for i in (0..2) %}
+            <td>
+              {{ site.data.manifesting-progressions[page.manifesting_progression][i] }}
+            </td>
+          {% endfor %}
+        {% endif %}
       </tr>
     {% endfor %}
   </tbody>
@@ -96,7 +108,7 @@ layout: default
 {% for level in (1..page.max_level) %}
   {% assign level_features = "" | split:"|" %}
   {% for feature in page.class_features %}
-    {% if feature.levels contains level %}
+    {% if feature.levels[0] == level %}
       {% assign level_features = level_features | push: feature %}
     {% endif %}
   {% endfor %}
