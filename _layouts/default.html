@@ -50,7 +50,14 @@
               <small>
                 <p>The text on this page is Open Game Content, and is licensed for public use under the terms of the <a href="/license/">Open Game License v1.0a</a>.</p>
 
-                <p>SECTION 15</p>
+                <p><strong>Sources:</strong></p>
+                <ul>
+                  {% for source in page.sources %}
+                    <li>{{ source | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {% endfor %}
+                </ul>
+
+                <p><strong>SECTION 15</strong></p>
 
                 {% assign section_15_entries = "" | split:"|" %}
                 {% for site_source in site.sources %}
