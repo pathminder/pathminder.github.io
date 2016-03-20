@@ -4,7 +4,7 @@ section_15:
   - "Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc."
   - "System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
   - "*Pathfinder RPG Core Rulebook*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
-  - "*Pathfinder RPG Bestiary, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+  - "*Pathfinder RPG Bestiary*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
   - "*Advanced Player's Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
   - "*Pathfinder RPG GameMastery Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff."
   - "*Pathfinder Roleplaying Game Ultimate Magic*, Copyright 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
