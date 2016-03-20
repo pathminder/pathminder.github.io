@@ -24,8 +24,8 @@ section_15:
   - "*Legendary VI: Legendary Armor*, Copyright 2012, Purple Duck Games; Author: Marc Radle."
   - "*The Genius Guide To: Feats of Psionic Might*, Copyright 2011, Super Genius Games. Author: Owen K.C. Stephens"
   - "*Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker."
-  - "*Psionics Unleashed*, Copyright 2010, Dreamscarred Press"
-  - "*Psionic Bestiary*, Copyright 2013, Dreamscarred Press"
-  - "*Psionics Augmented*, Copyright 2013, Dreamscarred Press"
-  - "*Ultimate Psionics*, Copyright 2013, Dreamscarred Press"
+  - "*Psionics Unleashed*, Copyright 2010, Dreamscarred Press."
+  - "*Psionic Bestiary*, Copyright 2013, Dreamscarred Press."
+  - "*Psionics Augmented*, Copyright 2013, Dreamscarred Press."
+  - "*Ultimate Psionics*, Copyright 2013, Dreamscarred Press."
 ---
