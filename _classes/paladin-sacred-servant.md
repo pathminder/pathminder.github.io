@@ -62,16 +62,23 @@ class_features:
   - name: aura of good
     type: Ex
     levels: [1]
-    text: The power of a paladin's aura of good (see the [*detect good*](/spells/detect-good/) spell) is equal to her paladin level.
+    text: The power of a paladin's aura of good (see the *detect good* spell) is equal to her paladin level.
 
   - name: detect evil
     type: Sp
     levels: [1]
-    text: At will, a paladin can use detect evil, as the spell. A paladin can, as a move action, concentrate on a single item or individual within 60 feet and determine if it is evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, the paladin does not detect evil in any other object or individual within range.
+    text: At will, a paladin can use *detect evil*, as the spell. A paladin can, as a move action, concentrate on a single item or individual within 60 feet and determine if it is evil, learning the strength of its aura as if having studied it for 3 rounds. While focusing on one individual or object, the paladin does not detect evil in any other object or individual within range.
 
   - name: smite evil
     type: Su
     levels: [1, 7, 10, 13, 16, 19]
+    levels_text:
+      1: 1/day
+      7: 2/day
+      10: 3/day
+      13: 4/day
+      16: 5/day
+      19: 6/day
     text: |
       Once per day, a paladin can call out to the powers of good to aid her in her struggle against evil. As a swift action, the paladin chooses one target within sight to smite. If this target is evil, the paladin adds her Cha bonus (if any) to her attack rolls and adds her paladin level to all damage rolls made against the target of her smite. If the target of smite evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to 2 points of damage per level the paladin possesses. Regardless of the target, smite evil attacks automatically bypass any DR the creature might possess.
 
@@ -160,6 +167,13 @@ class_features:
   - name: divine bond
     type: Su
     levels: [5, 8, 11, 14, 17, 20]
+    levels_text:
+      5: 1/day
+      8: 2/day
+      11: 3/day
+      14: 4/day
+      17: 5/day
+      20: 6/day
     text: |
       At 5th level, a sacred servant forms a bond with her holy symbol.
 
@@ -181,6 +195,10 @@ class_features:
   - name: call celestial ally
     type: Sp
     levels: [8, 12, 16]
+    levels_text:
+      8: "*lesser planar ally*"
+      12: "*planar ally*"
+      16: "*greater planar ally*"
     text: |
       At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast lesser planar ally once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to planar ally and at 16th level, this improves to greater planar ally. The sacred servant’s caster level for this effect is equal to her paladin level.
 

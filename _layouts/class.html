@@ -72,6 +72,10 @@ layout: default
             {% if feature.levels contains level %}
               {% assign slugified_name = feature.name | slugify %}
               {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: feature.name | append: '</a>' %}
+              {% if feature.levels_text[level] %}
+                {% assign this_level_text = feature.levels_text[level] | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+                {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
+              {% endif %}
               {% assign level_features = level_features | push: feature_link %}
             {% endif %}
           {% endfor %}
