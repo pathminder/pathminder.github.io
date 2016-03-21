@@ -1,5 +1,7 @@
 ---
 title: Ultimate Psionics
+product_image: /images/ultimate-psionics.png
+product_url: http://www.drivethrurpg.com/product/124281/Ultimate-Psionics
 section_15:
   - "Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc."
   - "System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."

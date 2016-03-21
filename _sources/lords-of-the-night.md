@@ -1,5 +1,7 @@
 ---
 title: Lords of the Night
+product_image: /images/lords-of-the-night.png
+product_url: http://drivethrurpg.com/product/148871/Lords-of-the-Night
 section_15:
   - "System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
   - "*Pathfinder Roleplaying Game Core Rulebook*, Copyright 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."

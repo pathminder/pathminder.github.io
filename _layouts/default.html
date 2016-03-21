@@ -57,6 +57,30 @@
           </h1>
           <hr class="m-b-2">
 
+          {% if page.sources %}
+            <div class="pull-md-right col-xs-6 col-md-4 col-lg-3">
+              {% for site_source in site.sources %}
+                {% if page.sources contains site_source.title %}
+                  <div class="card  m-b-1 m-l-1">
+                    <div class="card-header">
+                      {{ site_source.title }}
+                    </div>
+
+                    {% if site_source.product_image %}
+                      <img class="img-fluid" src="{{ site_source.product_image }}" alt="{{ site_source.title }}">
+                    {% endif %}
+
+                    {% if site_source.product_url %}
+                      <div class="card-block">
+                        <a href="{{ site_source.product_url }}" class="btn btn-primary btn-block">Buy a Copy</a>
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+
           {{ content }}
 
           {% if page.sources %}
