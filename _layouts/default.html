@@ -49,12 +49,28 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
-          <h1 class="display-4 m-t-3">
-            {% if page.title %}{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.github.project_title }}{% endif %}
-              <a href="{{ site.github.issues_url }}/new" class="btn btn-primary btn-sm pull-xs-right m-t-2" target="_new">
-                Suggest a Change
-              </a>
-          </h1>
+          <div class="row">
+            <div class="col-sm-12 col-md-9">
+              <h1 class="display-4 m-t-3">
+                {% if page.title %}{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.github.project_title }}{% endif %}
+              </h1>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <div class="hidden-sm-down m-t-3"></div>
+              <div class="row">
+                <div class="col-xs-6 col-md-12">
+                  <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" class="btn btn-secondary btn-sm btn-block" target="_new">
+                    Make an Edit
+                  </a>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                  <a href="{{ site.github.issues_url }}/new" class="btn btn-secondary btn-sm btn-block" target="_new">
+                    Report a Problem
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <hr class="m-b-2">
 
           {% if page.sources %}
