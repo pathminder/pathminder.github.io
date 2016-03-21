@@ -7,7 +7,7 @@ layout: default
 <h2>Maneuvers and Stances</h2>
 
 {% assign discipline_maneuvers = site.maneuvers | where: 'discipline', page.title %}
-{% assign discipline_maneuvers_by_level = discipline_maneuvers | group_by: 'level' %}
+{% assign discipline_maneuvers_by_level = discipline_maneuvers | group_by: 'level' | sort: 'name' %}
 
 {% for level in discipline_maneuvers_by_level %}
   <h3>Level {{ level.name }}</h3>
@@ -17,7 +17,7 @@ layout: default
     {% for maneuver in sorted_maneuvers %}
       <li>
         <strong><a href="{{ maneuver.url }}">{{ maneuver.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>:</strong>
-        {{ maneuver.type }}&mdash;{{ maneuver.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+        {{ maneuver.type }}{% if maneuver.descriptors %} [{{ maneuver.descriptors | join: ', ' }}]{% endif %}&mdash;{{ maneuver.summary | markdownify | remove: '<p>' | remove: '</p>' }}
       </li>
     {% endfor %}
   </ul>

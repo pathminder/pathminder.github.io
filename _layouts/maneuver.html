@@ -8,6 +8,9 @@ layout: default
     {% assign disciplines = site.martial-disciplines | where: 'title', page.discipline %}
     <a href="{{ disciplines[0].url }}">{{ page.discipline }}</a>
     ({{ page.type }})
+    {% if page.descriptors %}
+      [{{ page.descriptors | join: ', ' }}]
+    {% endif %}
   </li>
   <li><strong>Level:</strong> {{ page.level }}</dd>
   <li>
