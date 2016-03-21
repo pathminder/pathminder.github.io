@@ -7,7 +7,7 @@ title: Feats
   <li>
     <strong>
       <a href="{{ feat.url }}">{{ feat.title }}</a>{% unless feat.types %}:{% endunless %}</strong>
-      {% if feat.types %}[{{ feat.types | join: ', ' }}]:{% endif %}
+      {% if feat.types %}({{ feat.types | join: ', ' }}):{% endif %}
       {% if feat.summary %}
         {{ feat.summary | markdownify | remove: '<p>' | remove: '</p>' }}
       {% else %}
