@@ -55,8 +55,10 @@ layout: default
       {% endif %}
       {% if page.manifesting_progression %}
         <th class="text-xs-center"><abbr title="Power Points">PP</abbr>/Day</th>
-        <th class="text-xs-center">Powers Known</th>
-        <th class="text-xs-center">Maximum Power Level Known</th>
+        {% unless site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
+          <th class="text-xs-center">Powers Known</th>
+          <th class="text-xs-center">Maximum Power Level Known</th>
+        {% endunless %}
       {% endif %}
       {% if page.initiating_progression %}
         <th class="text-xs-center">Maneuvers Known</th>
@@ -105,7 +107,11 @@ layout: default
           {% endfor %}
         {% endif %}
         {% if page.manifesting_progression %}
-          {% for i in (0..2) %}
+          {% assign max = 2 %}
+          {% if site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
+            {% assign max = 0 %}
+          {% endif %}
+          {% for i in (0..max) %}
             <td class="text-xs-center">
               {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>

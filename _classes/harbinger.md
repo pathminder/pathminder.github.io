@@ -40,7 +40,7 @@ ref_multiplier: 0.3333
 will_adder: 4
 will_multiplier: 0.5
 
-initiating_progression: harbinger
+initiating_progression: full
 
 weapon_proficiencies:
   - Simple
