@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<ul class="list-unstyled">
+  <li>
+    <strong>Discipline:</strong>
+    {% assign disciplines = site.martial-disciplines | where: 'title', page.discipline %}
+    <a href="{{ disciplines[0].url }}">{{ page.discipline }}</a>
+    ({{ page.type }})
+  </li>
+  <li><strong>Level:</strong> {{ page.level }}</dd>
+  <li>
+    <strong>Prerequisites:</strong>
+    {% if page.prerequisites %}
+      {{ page.prerequisites | join: ', ' }}
+    {% else %}
+      &mdash;
+    {% endif %}
+  </li>
+  <li><strong>Initiation Action:</strong> {{ page.action }}</li>
+  <li><strong>Range:</strong> {{ page.range }}</li>
+  <li><strong>Target:</strong> {{ page.target }}</li>
+  <li><strong>Duration:</strong> {{ page.duration }}</li>
+</ul>
+
+{{ content }}

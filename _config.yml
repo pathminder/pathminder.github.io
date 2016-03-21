@@ -29,9 +29,25 @@ defaults:
       type: classes
     values:
       layout: class
+  - scope:
+      path: ""
+      type: maneuvers
+    values:
+      layout: maneuver
+  - scope:
+      path: ""
+      type: martial-disciplines
+    values:
+      layout: martial-discipline
 
 collections:
   classes:
+    permalink: /:collection/:title/
+    output: true
+  maneuvers:
+    permalink: /:collection/:title/
+    output: true
+  martial-disciplines:
     permalink: /:collection/:title/
     output: true
   sources:

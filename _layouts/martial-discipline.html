@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Maneuvers and Stances</h2>
+
+{% assign discipline_maneuvers = site.maneuvers | where: 'discipline', page.title %}
+{% assign discipline_maneuvers_by_level = discipline_maneuvers | group_by: 'level' %}
+
+{% for level in discipline_maneuvers_by_level %}
+  <h3>Level {{ level.name }}</h3>
+
+  {% assign sorted_maneuvers = level.items | sort: 'title' %}
+  <ul class="list-unstyled">
+    {% for maneuver in sorted_maneuvers %}
+      <li>
+        <strong><a href="{{ maneuver.url }}">{{ maneuver.title | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>:</strong>
+        {{ maneuver.type }}&mdash;{{ maneuver.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
