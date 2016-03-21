@@ -7,8 +7,10 @@ layout: default
 <h2>Class Features</h2>
 
 <dl>
-  <dt>Prerequisites</dt>
-  <dd>{{ page.prerequisites | join: ", " }}</dd>
+  {% if page.prerequisites %}
+    <dt>Prerequisites</dt>
+    <dd>{{ page.prerequisites | join: ", " }}</dd>
+  {% endif %}
 
   <dt>Hit Die</dt>
   <dd>d{{ page.hit_die }}</dd>
@@ -56,6 +58,11 @@ layout: default
         <th class="text-xs-center">Powers Known</th>
         <th class="text-xs-center">Maximum Power Level Known</th>
       {% endif %}
+      {% if page.initiating_progression %}
+        <th class="text-xs-center">Maneuvers Known</th>
+        <th class="text-xs-center">Maneuvers Readied</th>
+        <th class="text-xs-center">Stances</th>
+      {% endif %}
     </tr>
     {% if page.spells_per_day %}
       <tr>
@@ -81,13 +88,13 @@ layout: default
               {% assign slugified_name = feature.name | slugify %}
               {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: feature.name | append: '</a>' %}
               {% if feature.levels_text[level] %}
-                {% assign this_level_text = feature.levels_text[level] | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+                {% assign this_level_text = feature.levels_text[level] | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
                 {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
               {% endif %}
               {% assign level_features = level_features | push: feature_link %}
             {% endif %}
           {% endfor %}
-          {{ level_features | sort | join: ", " | capitalize }}
+          {{ level_features | sort | join: ", " }}
         </td>
         {% if page.spells_per_day %}
           {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
@@ -101,6 +108,13 @@ layout: default
           {% for i in (0..2) %}
             <td class="text-xs-center">
               {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+            </td>
+          {% endfor %}
+        {% endif %}
+        {% if page.initiating_progression %}
+          {% for i in (0..2) %}
+            <td class="text-xs-center">
+              {{ site.data.initiating-progressions[page.initiating_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
           {% endfor %}
         {% endif %}
