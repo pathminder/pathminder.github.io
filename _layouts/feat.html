@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% if page.flavor_text %}
+  <em>{{ page.flavor_text | markdownify }}</em>
+{% endif %}
+
+<dl>
+  {% if page.types %}
+    {% assign types = "" | split:"|" %}
+    {% for type in site.feat-types %}
+      {% if page.types contains type.title %}
+        {% assign type_link = '<a href="' | append: type.url | append: '">' | append: type.title | append: '</a>' %}
+        {% assign types = types | push: type_link %}
+      {% endif %}
+    {% endfor %}
+
+    <dt>Feat Type(s)</dt>
+    <dd>
+      {{ types | join: ', ' }}
+    </dd>
+  {% endif %}
+
+  {% if page.prerequisites %}
+    {% assign prerequisites = "" | split:"|" %}
+    {% for prerequisite in page.prerequisites %}
+      {% assign marked_prerequisite = prerequisite | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+      {% assign prerequisites = prerequisites | push: marked_prerequisite %}
+    {% endfor %}
+
+    <dt>Prerequisites</dt>
+    <dd>{{ prerequisites | join: ', ' }}</dd>
+  {% endif %}
+
+  {% if page.benefit %}
+    <dt>Benefit</dt>
+    <dd>{{ page.benefit | markdownify }}</dd>
+  {% endif %}
+
+  {% if page.special %}
+    <dt>Special</dt>
+    <dd>{{ page.special | markdownify }}</dd>
+  {% endif %}
+
+  {% if page.normal %}
+    <dt>Normal</dt>
+    <dd>{{ page.normal | markdownify }}</dd>
+  {% endif %}
+</dl>
+
+{{ content }}

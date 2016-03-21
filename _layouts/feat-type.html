@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Feats</h2>
+
+{% assign feats = "" | split:"|" %}
+{% for feat in site.feats %}
+  {% if feat.types contains page.title %}
+    {% assign feats = feats | push: feat %}
+  {% endif %}
+{% endfor %}
+{% assign feats = feats | sort: 'title' %}
+
+<ul style="list-unstyled">
+  {% for feat in feats %}
+    <li>
+      <strong>
+        <a href="{{ feat.url }}">{{ feat.title }}</a>{% unless feat.types %}:{% endunless %}</strong>
+        {% if feat.types %}[{{ feat.types | join: ', ' }}]:{% endif %}
+        {% if feat.summary %}
+          {{ feat.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% else %}
+          {{ feat.flavor_text | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% endif %}
+    </li>
+  {% endfor %}
+</ul>
