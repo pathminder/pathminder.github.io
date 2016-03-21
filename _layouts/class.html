@@ -64,6 +64,9 @@ layout: default
         <th class="text-xs-center">Maneuvers Known</th>
         <th class="text-xs-center">Maneuvers Readied</th>
         <th class="text-xs-center">Stances</th>
+        {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
+          <th class="text-xs-center">Max. Maneuver Level Known</th>
+        {% endif %}
       {% endif %}
     </tr>
     {% if page.spells_per_day %}
@@ -107,18 +110,22 @@ layout: default
           {% endfor %}
         {% endif %}
         {% if page.manifesting_progression %}
-          {% assign max = 2 %}
+          {% assign cols = 2 %}
           {% if site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
-            {% assign max = 0 %}
+            {% assign cols = 0 %}
           {% endif %}
-          {% for i in (0..max) %}
+          {% for i in (0..cols) %}
             <td class="text-xs-center">
               {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
           {% endfor %}
         {% endif %}
         {% if page.initiating_progression %}
-          {% for i in (0..2) %}
+          {% assign cols = 2 %}
+          {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
+            {% assign cols = 3 %}
+          {% endif %}
+          {% for i in (0..cols) %}
             <td class="text-xs-center">
               {{ site.data.initiating-progressions[page.initiating_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
