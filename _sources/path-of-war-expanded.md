@@ -1,5 +1,7 @@
 ---
 title: "Path of War: Expanded"
+product_image: /images/path-of-war-expanded.jpg
+product_url: http://drivethrurpg.com/product/177763/Path-of-War-Expanded
 section_15:
   - "Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc."
   - "System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
