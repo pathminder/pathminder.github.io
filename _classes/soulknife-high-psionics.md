@@ -381,7 +381,7 @@ class_features:
       | Greater energy (ranged only)           |           +4            |       12       |
       | Coup de grace                          |           +5            |       15       |
 
-  - name: Manifesting
+  - name: manifesting
     levels: [3]
     text: |
       At 3rd level, the soulknife gains the ability to manifest a small number of psionic powers, which are drawn from the soulknife power list.
@@ -400,7 +400,7 @@ class_features:
 
       A soulknife's ability to manifest powers is limited by the power points he has available. His base daily allotment of power points is given on Table: Soulknife. In addition, he receives bonus power points per day if he has a high Wisdom score. His race may also provide bonus power points per day, as may certain feats and items. If a soulknife has power points from a different class, those points are pooled together and usable to manifest powers from either class.
 
-  - name: Psychic Strike
+  - name: psychic strike
     type: Su
     levels: [3, 7, 11, 15, 19]
     levels_text:
@@ -420,11 +420,11 @@ class_features:
 
       At every four levels thereafter (7th, 11th, etc), the extra damage from a soulknife's psychic strike increases by 1d8.
 
-  - name: Quick Draw
+  - name: quick draw
     levels: [5]
     text: A 5th level soulknife may manifest his mind blade as a free action, though he may still only attempt to do so once per round (unless throwing the weapon multiple times using the Multiple Throw blade skill).
 
-  - name: Mind Blade Mastery
+  - name: mind blade mastery
     levels: [20]
     text: At 20th level, a soulknife reaches the pinnacle of his art and his connection to his blade is so strong it cannot be severed. She no longer requires a Will save to maintain his mind blade in a null psionics field, although it still loses any enhancement bonus and special abilities. In addition, he may change the configurations of his mind blade's special abilities at will as a full-round action, which also resets any penalties that may have accrued from the Fluid Form and Improved Fluid Form blade skills.
 ---
