@@ -28,10 +28,20 @@ layout: default
   <dd>{{ page.weapon_proficiencies | join: ", " }}</dd>
 
   <dt>Armor Proficiencies</dt>
-  <dd>{{ page.armor_proficiencies | join: ", " }}</dd>
+  <dd>
+    {{ page.armor_proficiencies | join: ", " }}
+    {% unless page.armor_proficiencies %}
+      &mdash;
+    {% endunless %}
+  </dd>
 
   <dt>Shield Proficiencies</dt>
-  <dd>{{ page.shield_proficiencies | join: ", " }}</dd>
+  <dd>
+    {{ page.shield_proficiencies | join: ", " }}
+    {% unless page.shield_proficiencies %}
+      &mdash;
+    {% endunless %}
+  </dd>
 </dl>
 
 <table class="table table-striped">
