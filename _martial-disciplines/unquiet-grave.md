@@ -1,5 +1,7 @@
 ---
 title: Unquiet Grave
+sources:
+  - Lords of the Night
 ---
 
 Practitioners of Unquiet Grave utilize the power of negative energy, enhancing their attacks with entropic power. Thought to have originated from ancient vampiric warlords, this necromantic discipline is used to scourge living opponents and infuse its practitioners with the powers of undeath. Though somewhat rare, Unquiet Grave remains popular amongst undead warriors, as well as assassins who specialize in living victims.

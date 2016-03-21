@@ -1,5 +1,7 @@
 ---
 title: "*bean nighe* attitude"
+sources:
+  - Lords of the Night
 discipline: Unquiet Grave
 type: Stance
 level: 1

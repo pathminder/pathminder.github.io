@@ -1,5 +1,7 @@
 ---
 title: thirsting axe strike
+sources:
+  - Lords of the Night
 discipline: Unquiet Grave
 type: Strike
 level: 1
