@@ -67,6 +67,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Pathfinder RPG Core Rulebook*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder RPG Bestiary*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder RPG GameMastery Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.
+- *Path of War*, Copyright 2014, Dreamscarred Press.
 - *Psionics Unleashed*, Copyright 2010, Dreamscarred Press. Psionic Bestiary, Copyright 2013, Dreamscarred Press. Psionics Augmented, Copyright 2013, Dreamscarred Press Ultimate Psionics, Copyright 2013, Dreamscarred Press
 - *Swords of Our Fathers*, Copyright 2003, The Game Mechanics.
 - *The Book of Experimental Might*, Copyright 2008, Monte J. Cook. All rights reserved.
