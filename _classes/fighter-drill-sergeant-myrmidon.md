@@ -137,10 +137,10 @@ class_features:
     type: Ex
     levels: [3, 7, 11, 15]
     levels_text:
-      3: 1
-      7: 2, full speed in heavy armor
-      11: 3
-      15: 4
+      3: "+1"
+      7: "+2, full speed in heavy armor"
+      11: "+3"
+      15: "+4"
     text: |
       Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum --4 reduction of the armor check penalty and a +4 increase of the maximum Dexterity bonus allowed.
 
@@ -150,10 +150,10 @@ class_features:
     type: Ex
     levels: [5, 9, 13, 17]
     levels_text:
-      5: +1
-      9: +2
-      13: +3
-      17: +4
+      5: "+1"
+      9: "+2"
+      13: "+3"
+      17: "+4"
     text: |
       At 5th level, a fighter can select one group of weapons from the list below. Whenever he attacks with a weapon from this group, he gains a +1 bonus on attack and damage rolls. Every four levels thereafter (9th, 13th, and 17th), the bonuses granted by the selected weapon group increases by +1.
 
