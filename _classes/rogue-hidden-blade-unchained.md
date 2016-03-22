@@ -1,7 +1,7 @@
 ---
 title: Rogue (Hidden Blade, Unchained)
 sources:
-  - "Pathfinder Roleplaying Game Core Rulebook"
+  - Pathfinder Roleplaying Game Core Rulebook
   - "Path of War: Expanded"
 
 max_level: 20

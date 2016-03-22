@@ -19,7 +19,7 @@ section_15:
   - "*Hyperconscious: Explorations in Psionics*, Copyright 2004, Bruce R Cordell. All rights reserved."
   - "*If Thoughts Could Kill*, Copyright 2001–2004, Bruce R. Cordell. All rights reserved."
   - "*Mindscapes*, Copyright 2003–2004, Bruce R. Cordell. All rights reserved."
-  - "*Unearthed Arcana*, Copyright 2004, Wizards of the Coast; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman"
+  - "*Unearthed Arcana*, Copyright 2004, Wizards of the Coast, Inc.; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman"
   - "*Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing."
   - "*Swords of Our Fathers*, Copyright 2003, The Game Mechanics."
   - "Modern System Reference Document, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker"
