@@ -24,16 +24,10 @@ class_skills:
   - Use Magical Device
 skill_ranks_per_level: 4
 
-bab_multiplier: 0.75
-
-fort_adder: 1
-fort_multiplier: 0.333
-
-ref_adder: 1
-ref_multiplier: 0.3333
-
-will_adder: 4
-will_multiplier: 0.5
+bab_progression: mid
+fort_progression: poor
+ref_progression: poor
+will_progression: good
 
 initiating_progression: mystic
 

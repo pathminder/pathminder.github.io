@@ -21,16 +21,10 @@ class_skills:
   - Swim
 skill_ranks_per_level: 4
 
-bab_multiplier: 1
-
-fort_adder: 1
-fort_multiplier: 0.333
-
-ref_adder: 4
-ref_multiplier: 0.5
-
-will_adder: 4
-will_multiplier: 0.5
+bab_progression: full
+fort_progression: poor
+ref_progression: good
+will_progression: good
 
 manifesting_progression: soulknife
 

@@ -27,28 +27,20 @@ class_skills:
    - Swim
 skill_ranks_per_level: 4
 
-bab_multiplier: 1
-
-fort_adder: 4
-fort_multiplier: 0.5
-
-ref_adder: 1
-ref_multiplier: 0.333
-
-will_adder: 1
-will_multiplier: 0.333
+bab_progression: full
+fort_progression: good
+ref_progression: poor
+will_progression: poor
 
 initiating_progression: partial
 
 weapon_proficiencies:
   - Simple
   - Martial
-
 armor_proficiencies:
   - Light
   - Medium
   - Heavy
-
 shield_proficiencies:
   - Shields
   - Tower Shields

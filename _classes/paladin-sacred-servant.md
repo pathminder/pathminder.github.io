@@ -20,7 +20,7 @@ class_skills:
    - Sense Motive
    - Spellcraft
 
-bab_multiplier: 1
+bab_progression: full
 
 fort_adder: 4
 fort_multiplier: 0.5

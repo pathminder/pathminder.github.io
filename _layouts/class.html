@@ -92,10 +92,31 @@ layout: default
     {% for level in (1..page.max_level) %}
       <tr>
         <td class="text-xs-center">{{ level }}</td>
-        <td class="text-xs-center">{{ level | times: page.bab_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-xs-center">{{ level | plus: page.fort_adder | times: page.fort_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-xs-center">{{ level | plus: page.ref_adder | times: page.ref_multiplier | floor | prepend: '+' }}</td>
-        <td class="text-xs-center">{{ level | plus: page.will_adder | times: page.will_multiplier | floor | prepend: '+' }}</td>
+        <td class="text-xs-center">
+          {% case page.bab_progression %}
+            {% when 'full' %} +{{ level | times: 1 | floor}}
+            {% when 'mid' %}  +{{ level | times: 0.75 | floor}}
+            {% when 'half' %} +{{ level | times: 0.5 | floor}}
+          {% endcase %}
+        </td>
+        <td class="text-xs-center">
+          {% case page.fort_progression %}
+            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+          {% endcase %}
+        </td>
+        <td class="text-xs-center">
+          {% case page.ref_progression %}
+            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+          {% endcase %}
+        </td>
+        <td class="text-xs-center">
+          {% case page.will_progression %}
+            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+          {% endcase %}
+        </td>
         <td>
           {% assign level_features = "" | split:"|" %}
           {% for feature in page.class_features %}

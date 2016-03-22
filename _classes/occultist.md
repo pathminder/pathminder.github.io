@@ -27,27 +27,19 @@ class_skills:
   - Use Magic Device
 skill_ranks_per_level: 4
 
-bab_multiplier: 0.75
-
-fort_adder: 4
-fort_multiplier: 0.5
-
-ref_adder: 1
-ref_multiplier: 0.3333
-
-will_adder: 4
-will_multiplier: 0.5
+bab_progression: mid
+fort_progression: good
+ref_progression: poor
+will_progression: good
 
 spells_per_day: occultist
 
 weapon_proficiencies:
   - Simple
   - Martial
-
 armor_proficiencies:
   - Light
   - Medium
-
 shield_proficiencies:
   - Shields
 

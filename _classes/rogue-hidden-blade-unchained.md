@@ -32,16 +32,10 @@ class_skills:
   - Use Magic Device
 skill_ranks_per_level: 8
 
-bab_multiplier: 0.75
-
-fort_adder: 1
-fort_multiplier: 0.333
-
-ref_adder: 4
-ref_multiplier: 0.5
-
-will_adder: 1
-will_multiplier: 0.333
+bab_progression: mid
+fort_progression: poor
+ref_progression: good
+will_progression: poor
 
 initiating_progression: partial
 
@@ -52,9 +46,9 @@ weapon_proficiencies:
   - sap
   - short sword
   - shortbow
-
 armor_proficiencies:
   - Light
+shield_proficiencies:
 
 class_features:
 
