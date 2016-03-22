@@ -1,0 +1,12 @@
+---
+title: Traits
+---
+
+<ul>
+{% for trait in site.traits %}
+  <li>
+    <a href="{{ trait.url }}">{{ trait.title }}</a>
+    {% if trait.typey %}({{ trait.type }}){% endif %}
+  </li>
+{% endfor %}
+</ul>

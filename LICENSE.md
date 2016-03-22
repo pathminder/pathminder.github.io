@@ -69,6 +69,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing.
 - *Path of the Magi*, Copyright 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.
 - *Path of War*, Copyright 2014, Dreamscarred Press.
+- *Pathfinder Companion: Adventurer’s Armory*, Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Champions of Balance*, Copyright 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz
 - *Pathfinder Player Companion: Melee Tactics Toolbox*, Copyright 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz.
@@ -78,6 +79,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Pathfinder Roleplaying Game Core Rulebook*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder Roleplaying Game Core Rulebook*, Copyright 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder Roleplaying Game Occult Adventures*, Copyright 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.
+- *Pathfinder Roleplaying Game Ultimate Campaign*, Copyright 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.
 - *Pathfinder Roleplaying Game Ultimate Combat*, Copyright 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.
 - *Pathfinder Roleplaying Game Ultimate Magic*, Copyright 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.
 - *Pathfinder RPG Bestiary*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.

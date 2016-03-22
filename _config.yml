@@ -49,6 +49,16 @@ defaults:
       type: martial-disciplines
     values:
       layout: martial-discipline
+  - scope:
+      path: ""
+      type: trait-types
+    values:
+      layout: trait-type
+  - scope:
+      path: ""
+      type: traits
+    values:
+      layout: trait
 
 collections:
   classes:
@@ -69,3 +79,9 @@ collections:
   sources:
     permalink: /:collection/:title/
     output: false
+  trait-types:
+    permalink: /:collection/:title/
+    output: true
+  traits:
+    permalink: /:collection/:title/
+    output: true
