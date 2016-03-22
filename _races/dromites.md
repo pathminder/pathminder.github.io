@@ -11,6 +11,22 @@ type: humanoid
 subtypes:
   - insectoid
 size: Small
+
+ages:
+  adulthood: 13
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 30
+  old: 55
+  venerable: 75
+  maximum: +2d20
+
+height_and_weight:
+  base_height: 2'8"
+  height_modifier: +2d4
+  base_weight: 30 lb.
+  weight_modifier: ×1
 ---
 
 Small and insectoid in appearance, dromites stand out in most crowds of humanoids. Their antennae, faceted eyes, carapace, and small stature make them visibly different from most. Hailing from a hivemind-like history, dromites have come to love and appreciate individuality while still continuing to live in a hive and collective environment. This individuality, together with a strong liberal view on life, means that while different, dromites rarely have a problem making friends or finding a place to live or work.

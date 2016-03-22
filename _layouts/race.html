@@ -32,3 +32,93 @@ layout: default
 {% endif %}
 
 {{ content }}
+
+<h2>Background</h2>
+
+{% assign measurement_rows = '' | split: '|' %}
+{% assign measurement_rows = (measurement_rows | push: 'base_height' | push: 'height_modifier' | push: 'base_weight' | push: 'weight_modifier') %}
+<table class="table table-striped m-t-1">
+  <caption>Random Heights and Weights</caption>
+  <thead>
+    <tr>
+      {% if page.height_and_weight.genders %}
+        <th>Gender</th>
+      {% endif %}
+      <th>Base Height</th>
+      <th>Height Modifier</th>
+      <th>Base Weight</th>
+      <th>Weight Modifier</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for gender in page.height_and_weight.genders %}
+      <tr>
+        <td>
+          {{ gender.name }}
+        </td>
+        {% for i in measurement_rows %}
+          <td>
+            {% if gender[i] %}
+              {{ gender[i] }}
+            {% else %}
+              {{ page.height_and_weight[i] }}
+            {% endif %}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+    {% unless page.height_and_weight.genders %}
+      <tr>
+        <td>{{ page.height_and_weight.base_height }}</td>
+        <td>{{ page.height_and_weight.height_modifier }}</td>
+        <td>{{ page.height_and_weight.base_weight }}</td>
+        <td>{{ page.height_and_weight.weight_modifier }}</td>
+      </tr>
+    {% endunless %}
+  </tbody>
+</table>
+
+{% assign starting_age_rows = '' | split: '|' %}
+{% assign starting_age_rows = (starting_age_rows | push: 'adulthood' | push: 'intuitive' | push: 'self-taught' | push: 'trained') %}
+<table class="table table-striped m-t-1">
+  <caption>Random Starting Ages</caption>
+  <thead>
+      <th>Adulthood</th>
+      <th>Intuitive</th>
+      <th>Self-Taught</th>
+      <th>Trained</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {% for i in starting_age_rows %}
+        <td>
+          {{ page.ages[i] }} years
+        </td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>
+
+{% assign aging_effects_rows = '' | split: '|' %}
+{% assign aging_effects_rows = (aging_effects_rows | push: 'middle_age' | push: 'old' | push: 'venerable' | push: 'maximum') %}
+<table class="table table-striped m-t-1">
+  <caption>Aging Effects</caption>
+  <thead>
+      <th>Middle Age</th>
+      <th>Old</th>
+      <th>Venerable</th>
+      <th>Maximum Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {% for i in aging_effects_rows %}
+        <td>
+          {{ page.ages[i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% if page.ages[i] != '---' %}years{% endif %}
+        </td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>

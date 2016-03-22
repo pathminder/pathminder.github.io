@@ -11,6 +11,26 @@ type: humanoid
 subtypes:
   - goblinoid
 size: Small
+
+ages:
+  adulthood: 12
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 25
+  old: 50
+  venerable: 70
+  maximum: +2d10
+
+height_and_weight:
+  base_height: 2'10"
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_weight: 40 lb.
+    - name: female
+      base_weight: 35 lb.
 ---
 
 Once thought to be a subrace of the goblins, blues are related to goblins, being a goblinoid race, but are actually defined as their own race. Able to interbreed with goblins, similar to humans interbreeding with elves, blues often infiltrate goblin tribes to procreate with the females of the tribe, having a limited population of blue females to choose from. Many blues with strong psionic ability learn to control their physical form using psionics to assume the look of a normal goblin, thereby allowing easier integration into a goblin tribe. The blood of blues runs stronger than goblins, and therefore a tribe that knowingly or unknowingly allows blues to breed with them will over a matter of a few generations be composed completely of blues. Because of this, the blues were once hunted into near extinction by their goblin kin, prompting their stealthier and cautious ways. The blue elders will often breed and then leave a tribe, looking for a new place to spread their blood before it is destroyed.

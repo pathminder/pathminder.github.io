@@ -11,6 +11,27 @@ type: humanoid
 subtypes:
   - reptilian
 size: Medium
+
+ages:
+  adulthood: 18
+  intuitive: +1d4
+  self-taught: +2d4
+  trained: +2d6
+  middle_age: 40
+  old: 75
+  venerable: 100
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×(2d4)
+  genders:
+    - name: male
+      base_height: 5'1"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'7"
+      base_weight: 85 lb.
 ---
 
 Confused with lizardfolk by the ignorant, ophiduans stand out among the other civilized nations in a fashion similar to the dromites, having a more monstrous and distinct appearance than most humanoids. Where other races share soft skin, flat teeth, protruding ears, and a tendency to be partially or fully covered in hair, ophiduans are distinct and very proud of it. Organized and expansionistic in nature, ophiduans view talent and skill, especially with psionics, as the key component for social station, rather than wealth, heritage, or influence.

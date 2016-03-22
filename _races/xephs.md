@@ -11,6 +11,27 @@ type: humanoid
 subtypes:
   - xeph
 size: Medium
+
+ages:
+  adulthood: 18
+  intuitive: +1d4
+  self-taught: +2d4
+  trained: +2d6
+  middle_age: 45
+  old: 85
+  venerable: 120
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×(2d4)
+  genders:
+    - name: male
+      base_height: 4'8"
+      base_weight: 100 lb.
+    - name: female
+      base_height: 4'4"
+      base_weight: 75 lb.
 ---
 
 Known for their fleetness of foot and natural agility, xephs have a quick wit and the ability to find humor in nearly anything. This disposition can result in others viewing them as carefree or whimsical, but in truth, there is a deep philosophy behind their world view. To a xeph, the world is what you perceive, and their preference is to perceive it in a fun or humorous way, rather than as a morose place. Xephs are known for creating pieces of art of subtle beauty, and their racial homeland is said to be a great rift in the ground, where forests grow and the xephs thrive, using their ability to generate intense bursts of speed to travel the world.

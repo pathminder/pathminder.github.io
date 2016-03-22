@@ -11,6 +11,28 @@ type: humanoid
 subtypes:
   - noral
 size: Medium
+
+ages:
+  adulthood: 25
+  intuitive: +1d6
+  self-taught: +2d6
+  trained: +3d6
+  middle_age: 65
+  old: 100
+  venerable: 150
+  maximum: +4d20
+
+height_and_weight:
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      height_modifier: +2d10
+      base_weight: 150 lb.
+    - name: female
+      base_height: 4'5"
+      height_modifier: +2d20
+      base_weight: 110 lb.
 ---
 
 The norals are a race of humanoids with a symbiotic bond with the erliss, a small psionic creature also referred to as a dreamscar. Norals that have bonded with an erliss no longer dream, giving the creature its nickname, as well as giving the bonded norals the nickname of the dreamscarred. The symbiotic joining process has left the noral race open to the benefit of other creatures on their society, making them more likely to seek out information on other cultures and talented at social interactions.

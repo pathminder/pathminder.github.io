@@ -12,6 +12,27 @@ subtypes:
   - human
   - giant
 size: Medium
+
+ages:
+  adulthood: 30
+  intuitive: +2d6
+  self-taught: +3d6
+  trained: +4d6
+  middle_age: 60
+  old: 80
+  venerable: 120
+  maximum: +4d100
+
+height_and_weight:
+  height_modifier: +2d12
+  weight_modifier: ×(2d6)
+  genders:
+    - name: male
+      base_height: 6'4"
+      base_weight: 220 lb.
+    - name: female
+      base_height: 6'1"
+      base_weight: 180 lb.
 ---
 
 Far back in their history, half-giants were slaves. While the stories vary from tribe to tribe, their former status as slaves is one common thread of every half-giant tribe's lore. As slaves, they fought their oppressors and earned their freedom, so nothing is more important to half-giants than their liberty. They will fight and even kill to stay free, and few things are capable of breaking a half-giant's will to live like slavery. Indeed, most half-giants would prefer to commit suicide rather than face incarceration or enslavement. For these reasons, most half-giants tend to be law-abiding and respectful, but they can have a tendency to solve problems by resorting to violence rather than risk being apprehended. Some myths claim that they were spawned from fire giants, while others say that they worked in volcanic forges. Regardless of the truth, half-giants are more resilient to heat, a trait that serves them well in the present, as they have a tendency to dwell in arid lands and deserts.

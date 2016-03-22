@@ -11,6 +11,27 @@ type: humanoid
 subtypes:
   - aberrant
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +2d4
+  self-taught: +2d6
+  trained: +3d6
+  middle_age: 25
+  old: 200
+  venerable: 400
+  maximum: ---
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×(2d4)
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 Born not of a mother or father, but created, elans were once mortal beings. Built by a shadowy council to live as psionically awakened superior life forms, elans are capable of sustaining themselves with nothing but the power of the mind. Elans are no longer true mortals, having been unfettered by a secret ritual that created this new race and reborn anew, with but wisps and fragments of memories of their previous lives. Incapable of breeding, elans expand their numbers by choosing members of other races, most often humans, and transforming them into new elans. This would pose a problem for the continuation of the race, except elans do not die of old age. The secrets of the transformation ritual are typically limited to the elite members of the elan secret society and they take these secrets to the grave before sharing them with lesser beings.

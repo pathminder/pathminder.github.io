@@ -12,6 +12,27 @@ subtypes:
   - forgeborn
   - half-construct
 size: Medium
+
+ages:
+  adulthood: 5
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 50
+  old: 75
+  venerable: 100
+  maximum: +4d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×7
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 170 lb.
+    - name: female
+      base_height: 5'0"
+      base_weight: 130 lb.
 ---
 
 Believed to have been created centuries ago during a great war between psionic nations, the race of creatures referred to as the forgeborn were left to their own devices within the barren wasteland the war left behind. A hybridization of flesh and minerals, the forgeborn are varied in appearance and form, but were all created by merging psionically-empowered materials with the body of a humanoid to fashion a new creature.

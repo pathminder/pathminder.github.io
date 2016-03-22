@@ -9,6 +9,27 @@ tags:
 ability_scores: +2 to any
 type: humanoid
 size: Medium
+
+ages:
+  adulthood: 40
+  intuitive: +1d6
+  self-taught: +4d6
+  trained: +6d6
+  middle_age: 90
+  old: 150
+  venerable: 220
+  maximum: +2d100
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×(2d4)
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 150 lb.
+    - name: female
+      base_height: 5'3"
+      base_weight: 120 lb.
 ---
 
 A primarily sea-faring race, maenads are a dichotomy. To outsiders, they appear to be extremely reserved, yet they are rumored to be exceptionally emotional. Both sides are actually true. As a race, maenads must maintain control over their internal emotional turmoil, except when they unleash these bottled-up emotions in powerful displays. Born with raging emotions that threaten to tear their psyche apart unless properly controlled, maenads do not know why they have these powerful emotions warring within them. Their legends speak of being wronged by an ancient deity that the maenads revolted against and overthrew, resulting in the emotional curse they maintain to date. Maenads have a proclivity to martial studies, as it gives an outlet for their bottled emotions.
