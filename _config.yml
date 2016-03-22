@@ -51,6 +51,11 @@ defaults:
       layout: martial-discipline
   - scope:
       path: ""
+      type: races
+    values:
+      layout: race
+  - scope:
+      path: ""
       type: trait-types
     values:
       layout: trait-type
@@ -74,6 +79,9 @@ collections:
     permalink: /:collection/:title/
     output: true
   martial-disciplines:
+    permalink: /:collection/:title/
+    output: true
+  races:
     permalink: /:collection/:title/
     output: true
   sources:

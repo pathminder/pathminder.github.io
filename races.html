@@ -1,0 +1,26 @@
+---
+title: Races
+---
+
+{% assign sorted_races = site.races | sort: 'title' %}
+
+{% assign tags = '' | split: '|' %}
+{% for race in sorted_races %}
+  {% for tag in race.tags %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% for tag in tags %}
+  <h2>{{ tag | capitalize }}</h2>
+
+  <ul>
+    {% for race in sorted_races %}
+      {% if race.tags contains tag %}
+        <li><a href="{{ race.url }}">{{ race.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
