@@ -57,7 +57,7 @@ class_features:
       16: 5 feats
       20: 6 feats
     text: |
-      At 1st level and every four levels thereafter, a fighter gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as Combat Feats, sometimes also called "fighter bonus feats."
+      At 1st level, 4th level, and every four levels thereafter, a fighter gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as Combat Feats, sometimes also called "fighter bonus feats."
 
       Upon reaching 4th level, and every four levels thereafter (8th, 12th, and so on), a fighter can choose to learn a new bonus feat in place of a bonus feat he has already learned. In effect, the fighter loses the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability. A fighter can only change one feat at any given level and must choose whether or not to swap the feat at the time he gains a new bonus feat for the level.
 
@@ -86,7 +86,7 @@ class_features:
     type: Ex
     levels: [1]
     text: |
-      At 1st level, the myrmidon makes his mark upon the world with nerves of steel and superior training. Through determination, verve, or otherwise dumb luck, the myrmidon is capable of forcing incredible feats of daring and skill through their own tenacity. In game terms, grit is a fluctuating measure of a myrmidon's ability to perform incredible actions in combat. At the start of each day, a myrmidon gains a number of grit points equal to his myrmidon initiation modifier (minimum 1). His grit goes up or down throughout the day, but usually cannot go higher than his myrmidon initiation modifier (minimum 1), though some feats and magic items may affect this maximum. A myrmidon spends grit to accomplish deeds (see below), and regains grit in the following ways.
+      At 1st level, the myrmidon makes his mark upon the world with nerves of steel and superior training. Through determination, verve, or otherwise dumb luck, the myrmidon is capable of forcing incredible feats of daring and skill through their own tenacity. In game terms, grit is a fluctuating measure of a myrmidon's ability to perform incredible actions in combat. At the start of each day, a myrmidon gains a number of grit points equal to his myrmidon initiation modifier (minimum 1). His grit goes up or down throughout the day, but usually cannot go higher than his myrmidon initiation modifier (minimum 1), though some feats and magic items may affect this maximum. A myrmidon spends grit to accomplish [deeds](#deeds), and regains grit in the following ways.
 
       - *Critical Hit:* Each time the myrmidon confirms a critical hit while in the heat of combat with a weapon with which he has Weapon Focus or is in a weapon group associated with a discipline he has Discipline Focus for, he regains one grit point. Confirming a critical hit on a helpless or unaware creature or on a creature that has fewer Hit Dice than half the myrmidon's character level does not restore grit.
       - *Killing Blow with a Maneuver:* When the myrmidon reduces a creature to 0 or fewer hit points with a maneuver or with a weapon he has Weapon Focus with, he regains 1 grit point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half the myrmidon's character level to 0 or fewer hit points does not restore any grit.
