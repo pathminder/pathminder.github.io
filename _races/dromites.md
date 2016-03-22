@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Cha, +2 Dex, --2 Str
 type: humanoid
 subtypes:
   - insectoid
+size: Small
 ---
 
 Small and insectoid in appearance, dromites stand out in most crowds of humanoids. Their antennae, faceted eyes, carapace, and small stature make them visibly different from most. Hailing from a hivemind-like history, dromites have come to love and appreciate individuality while still continuing to live in a hive and collective environment. This individuality, together with a strong liberal view on life, means that while different, dromites rarely have a problem making friends or finding a place to live or work.

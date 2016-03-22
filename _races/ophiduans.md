@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Dex, +2 Wis, --2 Cha
 type: humanoid
 subtypes:
   - reptilian
+size: Medium
 ---
 
 Confused with lizardfolk by the ignorant, ophiduans stand out among the other civilized nations in a fashion similar to the dromites, having a more monstrous and distinct appearance than most humanoids. Where other races share soft skin, flat teeth, protruding ears, and a tendency to be partially or fully covered in hair, ophiduans are distinct and very proud of it. Organized and expansionistic in nature, ophiduans view talent and skill, especially with psionics, as the key component for social station, rather than wealth, heritage, or influence.

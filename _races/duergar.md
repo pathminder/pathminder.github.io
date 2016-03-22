@@ -6,17 +6,20 @@ sources:
 
 tags:
   - psionic
+  - uncommon
 
+ability_scores: +2 Con, +2 Wis, --4 Cha
 type: humanoid
 subtypes:
   - dwarf
+size: Medium
 ---
 
 Duergar dwell in subterranean caverns far from the touch of light. They detest all races living beneath the sun, but that hatred pales beside their loathing of their surface-dwarf cousins. Dwarves and duergar once were one race, but the dwarves left the deeps for their mountain strongholds. Duergar still consider themselves the only true dwarves, and the rightful heirs of all beneath the world's surface. In appearance, duergar resemble gray-skinned dwarves, bearded but bald, with cold, lightless eyes. They favor taking captives in battle over wanton slaughter, save for surface dwarves, who are slain without hesitation. Duergar view life as ceaseless toil ended only by death. Though few can be described as anything other than vile and cruel, duergar still value honor and rarely break their word.
 
 ## Racial Traits
 
-- Duergar are hearty and observant, but also belligerent. They gain +2 Constitution, +2 Wisdom, and –4 Charisma.
+- Duergar are hearty and observant, but also belligerent. They gain +2 Constitution, +2 Wisdom, and --4 Charisma.
 - **Dwarf:** Duergar are humanoids with the dwarf subtype.
 - **Medium:** Duergar are Medium creatures and thus have no bonuses or penalties due to their size.
 - **Slow and Steady:** Duergar have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.
@@ -45,15 +48,15 @@ What returned from that unknown place where logic no longer made sense, where th
 **Adventurers:** Duergars only become adventurers because their unique brand of insanity plagues them with visions and whispers of the peace that others have in their heads. Driven by a need to fulfill these visions and quiet the voices within, duergars often seem obsessed with what they are doing. While capable companions, many are scared to adventure with duergars, for their tendency to whisper in their sleep and their skin's unusual undulations can be unnerving.
 
 **A Note On Names:** Duergars abstain from traditional naming conventions, often viewing names as a pointless exercise in a doomed world. When young, they are
-‘child,' and then become ‘woman' and ‘man'. Amongst the other races, they often take on a name because their companions ask them to; this name is often matter-of- fact and describes their perceived role in the world.
+‘child,' and then become ‘woman' and ‘man'. Amongst the other races, they often take on a name because their companions ask them to; this name is often matter-of-fact and describes their perceived role in the world.
 
 **Names:** Hammer, Smith, War, Hunter, Tailor, Shieldbearer, Slayer, Hatemonger.
 
 ### Psionic Duergar Racial Traits
 
-- Psionic duergars have -2 Charisma instead of -4 Charisma.
+- Psionic duergars have --2 Charisma instead of --4 Charisma.
 - **Darkvision:** Psionic duergars can see in the dark up to 60 feet. This replaces superior darkvision.
-- **Poison Resistance:** Instead of being immune to poison, psionic duergar get a +2 racial bonus on saving throws against poison.
-- **Duergar Psionics:** Duergars gain the following psi-like abilities: 1/day—expansion and cloud mind. These abilities affect only the duergar and his gear. The mani- fester level for these effects is equal to the duergar's level (minimum 3rd). The DC for cloud mind is equal to 10 + the power's level + the duergar's Charisma modi- fier. This replaces enlarge person and invisibility.
+- **Poison Resistance:** Instead of being immune to poison, psionic duergars get a +2 racial bonus on saving throws against poison.
+- **Duergar Psionics:** Psionic duergars gain the following psi-like abilities: 1/day---*expansion* and *cloud mind*. These abilities affect only the duergar and his gear. The manifester level for these effects is equal to the duergar's level (minimum 3rd). The DC for cloud mind is equal to 10 + the power's level + the duergar's Charisma modifier. This replaces enlarge person and invisibility.
 - **Naturally Psionic**: Psionic duergars gain the Wild Talent feat as a bonus feat at 1st level. If a duergar takes levels in a psionic class, he instead gains the Psionic Talent feat.
 - **Psionic Aptitude:** When a psionic duergar takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.

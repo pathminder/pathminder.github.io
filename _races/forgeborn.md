@@ -6,10 +6,12 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Str, +2 Int, --4 Cha
 type: humanoid
 subtypes:
   - forgeborn
   - half-construct
+size: Medium
 ---
 
 Believed to have been created centuries ago during a great war between psionic nations, the race of creatures referred to as the forgeborn were left to their own devices within the barren wasteland the war left behind. A hybridization of flesh and minerals, the forgeborn are varied in appearance and form, but were all created by merging psionically-empowered materials with the body of a humanoid to fashion a new creature.
@@ -33,13 +35,13 @@ Forgeborn benefit from longer lifespans than the human bodies that most of them 
 
 ## Forgeborn Racial Traits
 
-- +2 Strength, +2 Intelligence, --4 Charisma: Forge- born are strong and have quick minds, but are monstrous in appearance and have difficulty relating to other races.
+- +2 Strength, +2 Intelligence, --4 Charisma: Forgeborn are strong and have quick minds, but are monstrous in appearance and have difficulty relating to other races.
 - **Medium:** Forgeborn are Medium creatures and have no bonuses or penalties due to their size.
 - **Half-Construct:** Forgeborn are of the humanoid type, with the half-construct and forgeborn subtypes.
 - **Slow and Steady:** Forgeborn have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.
 - **Fearless:** Forgeborn gain a +2 bonus against fear effects.
 - **Natural Armor:** Forgeborn are sturdier than other races and gain a +1 natural armor bonus to their AC.
-- **Source Crystal:** Unlike most half-constructs, forge- born can be raised and resurrected.
+- **Source Crystal:** Unlike most half-constructs, forgeborn can be raised and resurrected.
 - **Naturally Psionic:** Forgeborn gain the Wild Talent feat as a bonus feat at 1st level. If a forgeborn takes levels in a psionic class, he instead gains the Psionic Talent feat.
 - **Psionic Aptitude:** When a forgeborn takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.
 - **Languages:** Forgeborn begin play speaking Common and Forgeborn. Forgeborn with high Intelligence scores can choose from the following: Dwarven, Elven, Maenad, Ophiduan, Xeph.

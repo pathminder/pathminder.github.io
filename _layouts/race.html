@@ -2,13 +2,31 @@
 layout: default
 ---
 
+{% assign stats = '' | split: '|' %}
+
+{% if page.ability_scores %}
+  {% assign ability_scores = page.ability_scores | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+  {% assign stats = stats | push: ability_scores %}
+{% endif %}
+
 {% if page.type or page.subtypes %}
-  <div class="card card-group">
+  {% assign typetext = page.type %}
+  {% if page.subtypes %}
+    {% assign subtypetext = page.subtypes | sort | join: ', ' %}
+    {% assign typetext = typetext | append: ' (' | append: subtypetext | append: ')' | lstrip %}
+  {% endif %}
+
+  {% assign stats = stats | push: typetext %}
+{% endif %}
+
+{% if page.size %}
+  {% assign stats = stats | push: page.size %}
+{% endif %}
+
+{% if page.type or page.subtypes %}
+  <div class="card card-block" style="z-index: -1;">
     <p class="card-text">
-      {{ page.type }}
-      {% if page.subtypes %}
-        ({% page.subtypes | sort | join: ', ' %})
-      {% endif %}
+      {{ stats | join: '; ' }}
     </p>
   </div>
 {% endif %}

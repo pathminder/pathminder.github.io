@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Con, +2 Wis, --2Dex
 type: humanoid
 subtypes:
-  - xeph
+  - noral
+size: Medium
 ---
 
 The norals are a race of humanoids with a symbiotic bond with the erliss, a small psionic creature also referred to as a dreamscar. Norals that have bonded with an erliss no longer dream, giving the creature its nickname, as well as giving the bonded norals the nickname of the dreamscarred. The symbiotic joining process has left the noral race open to the benefit of other creatures on their society, making them more likely to seek out information on other cultures and talented at social interactions.

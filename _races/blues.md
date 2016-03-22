@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Int, +2 Dex, --2 Str
 type: humanoid
 subtypes:
   - goblinoid
+size: Small
 ---
 
 Once thought to be a subrace of the goblins, blues are related to goblins, being a goblinoid race, but are actually defined as their own race. Able to interbreed with goblins, similar to humans interbreeding with elves, blues often infiltrate goblin tribes to procreate with the females of the tribe, having a limited population of blue females to choose from. Many blues with strong psionic ability learn to control their physical form using psionics to assume the look of a normal goblin, thereby allowing easier integration into a goblin tribe. The blood of blues runs stronger than goblins, and therefore a tribe that knowingly or unknowingly allows blues to breed with them will over a matter of a few generations be composed completely of blues. Because of this, the blues were once hunted into near extinction by their goblin kin, prompting their stealthier and cautious ways. The blue elders will often breed and then leave a tribe, looking for a new place to spread their blood before it is destroyed.
@@ -27,7 +29,7 @@ Once thought to be a subrace of the goblins, blues are related to goblins, being
 
 ## Blue Racial Trait
 
-- +2 Intelligence, +2 Dexterity, –2 Strength. Blues are smart and quick, but their small size makes them weak.
+- +2 Intelligence, +2 Dexterity, --2 Strength. Blues are smart and quick, but their small size makes them weak.
 - **Goblinoid:** Blues are of the humanoid (goblinoid) subtype.
 - **Small:** Blues are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.
 - **Normal Speed:** Blues are fast for their size, and have a base speed of 30 feet.

@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 Dex, +2 Cha, --2 Str
 type: humanoid
 subtypes:
   - xeph
+size: Medium
 ---
 
 Known for their fleetness of foot and natural agility, xephs have a quick wit and the ability to find humor in nearly anything. This disposition can result in others viewing them as carefree or whimsical, but in truth, there is a deep philosophy behind their world view. To a xeph, the world is what you perceive, and their preference is to perceive it in a fun or humorous way, rather than as a morose place. Xephs are known for creating pieces of art of subtle beauty, and their racial homeland is said to be a great rift in the ground, where forests grow and the xephs thrive, using their ability to generate intense bursts of speed to travel the world.

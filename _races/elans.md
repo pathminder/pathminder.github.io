@@ -6,9 +6,11 @@ sources:
 tags:
   - psionic
 
+ability_scores: +2 to any
 type: humanoid
 subtypes:
   - aberrant
+size: Medium
 ---
 
 Born not of a mother or father, but created, elans were once mortal beings. Built by a shadowy council to live as psionically awakened superior life forms, elans are capable of sustaining themselves with nothing but the power of the mind. Elans are no longer true mortals, having been unfettered by a secret ritual that created this new race and reborn anew, with but wisps and fragments of memories of their previous lives. Incapable of breeding, elans expand their numbers by choosing members of other races, most often humans, and transforming them into new elans. This would pose a problem for the continuation of the race, except elans do not die of old age. The secrets of the transformation ritual are typically limited to the elite members of the elan secret society and they take these secrets to the grave before sharing them with lesser beings.
