@@ -47,21 +47,24 @@ layout: default
 <table class="table table-striped">
   <thead>
     <tr>
-      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>Level</th>
-      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>Level</th>
+      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
         <abbr title="Base Attack Bonus">BAB</abbr>
       </th>
-      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
         <abbr title="Fortitude Save">Fort</abbr></th>
-      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
         <abbr title="Reflex Save">Ref</abbr>
       </th>
-      <th class="text-xs-center" {% if page.spells_per_day %}rowspan="2"{% endif %}>
+      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
         <abbr title="Will Save">Will</abbr>
       </th>
-      <th {% if page.spells_per_day %}rowspan="2"{% endif %}>Special</th>
+      <th {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>Special</th>
       {% if page.spells_per_day %}
-        <th class="text-xs-center" colspan="6">Spells per Day</th>
+        <th class="text-xs-center" colspan="{{ site.data.spells-per-day[page.spells_per_day].spell_levels }}">Spells per Day</th>
+      {% endif %}
+      {% if page.extract_progression %}
+        <th class="text-xs-center" colspan="{{ site.data.spells-per-day[page.extract_progression].spell_levels }}">Extracts per Day</th>
       {% endif %}
       {% if page.manifesting_progression %}
         <th class="text-xs-center"><abbr title="Power Points">PP</abbr>/Day</th>
@@ -79,9 +82,12 @@ layout: default
         {% endif %}
       {% endif %}
     </tr>
-    {% if page.spells_per_day %}
+    {% if page.spells_per_day  or page.extract_progression%}
       <tr>
         {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
+          <th class="text-xs-center">{{ spell_level }}</th>
+        {% endfor %}
+        {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
           <th class="text-xs-center">{{ spell_level }}</th>
         {% endfor %}
       </tr>
@@ -136,8 +142,16 @@ layout: default
         {% if page.spells_per_day %}
           {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
             {% assign spell_level_minus_one = spell_level | minus: 1 %}
-            <td>
+            <td class="text-xs-center">
               {{ site.data.spells-per-day[page.spells_per_day][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+            </td>
+          {% endfor %}
+        {% endif %}
+        {% if page.extract_progression %}
+          {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
+            {% assign spell_level_minus_one = spell_level | minus: 1 %}
+            <td class="text-xs-center">
+              {{ site.data.spells-per-day[page.extract_progression][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
           {% endfor %}
         {% endif %}
@@ -177,8 +191,20 @@ layout: default
   {% assign level_features = level_features | sort: "name" %}
 
   {% for feature in level_features %}
-    <h3 id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
+    <h3 class="h4" id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
 
     {{ feature.text | markdownify }}
   {% endfor %}
 {% endfor %}
+
+{% if page.favored_class_bonuses %}
+  <h2>Favored Class Bonuses</h2>
+
+  <dl>
+    {% assign favored_class_bonuses = page.favored_class_bonuses | sort: 'race' %}
+    {% for favored_class_bonus in favored_class_bonuses %}
+      <dt>{{ favored_class_bonus.race | markdownify | remove: '<p>' | remove: '</p>' }}</dt>
+      <dd>{{ favored_class_bonus.bonus | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+    {% endfor %}
+  </dl>
+{% endif %}

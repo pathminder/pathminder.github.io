@@ -32,7 +32,7 @@ fort_progression: good
 ref_progression: poor
 will_progression: good
 
-spells_per_day: occultist
+spells_per_day: mid
 
 weapon_proficiencies:
   - Simple

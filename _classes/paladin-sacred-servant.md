@@ -28,7 +28,7 @@ fort_progression: good
 ref_progression: poor
 will_progression: good
 
-spells_per_day: paladin
+spells_per_day: half
 
 weapon_proficiencies:
   - Simple
