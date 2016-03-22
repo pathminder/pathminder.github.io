@@ -53,7 +53,7 @@ section_15:
   - "*Mindscapes*, Copyright 2003–2004, Bruce R. Cordell. All rights reserved."
   - "*Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing."
   - "*Swords of Our Fathers*, Copyright 2003, The Game Mechanics."
-  - "*Modern System Reference Document*, Copyright 2002, Wizards of the Coast, Inc; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker"
+  - "*Modern System Reference Document*, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker"
   - "The Grand OGL Wiki, http://grandwiki.wikidot.com, Copyright 2008-2011 Purple Duck Games; Authors: Mark Gedak, Alex Schroeder, Joel Arellano, George Fields, Yair Rezek, Mike Whalen, Shane O'Connor, Mike Rickard, John Whamond, Bill Browne, Eric Williamson, Slatz Grubnik, Charles R. Wenzler Jr, John Fraser, Jonathon Thompson, Thomas Boxall."
   - "*Legendary VI: Legendary Armor*, Copyright 2012, Purple Duck Games; Author: Marc Radle."
   - "*The Genius Guide To: Feats of Psionic Might*, Copyright 2011, Super Genius Games. Author: Owen K.C. Stephens"

@@ -63,13 +63,14 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *If Thoughts Could Kill*, Copyright 2001–2004, Bruce R. Cordell. All rights reserved.
 - *Legendary VI: Legendary Armor*, Copyright 2012, Purple Duck Games; Author: Marc Radle.
 - *Mindscapes*, Copyright 2003–2004, Bruce R. Cordell. All rights reserved.
-- *Modern System Reference Document*, Copyright 2002, Wizards of the Coast, Inc; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
+- *Modern System Reference Document*, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
 - *Monte Cook's Arcana Unearthed*, Copyright 2003, Monte J. Cook.
 - *Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing.
 - *Path of the Magi*, Copyright 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.
 - *Path of War*, Copyright 2014, Dreamscarred Press.
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Champions of Balance*, Copyright 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz
+- *Pathfinder Player Companion: Melee Tactics Toolbox*, Copyright 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz.
 - *Pathfinder Roleplaying Game Advanced Class Guide*, Copyright 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn. Jim Groves, Tim Hitchcock, Tracey Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.
 - *Pathfinder Roleplaying Game Advanced Race Guide*, Copyright 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.
 - *Pathfinder Roleplaying Game Bestiary*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.

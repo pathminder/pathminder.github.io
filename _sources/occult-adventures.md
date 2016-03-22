@@ -2,7 +2,7 @@
 title: Pathfinder Roleplaying Game Occult Adventures
 section_15:
   - "Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc."
-  - "System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
+  - "System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
   - "*Pathfinder Roleplaying Game Core Rulebook*, Copyright 2009, Paizo Inc.; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
   - "Demon, Shadow from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White."
   - "Poltergeist from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lewis Pulsipher."
