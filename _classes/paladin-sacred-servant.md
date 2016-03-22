@@ -3,11 +3,13 @@ title: Paladin (Sacred Servant)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Advanced Player's Guide
+  -
 max_level: 20
 hit_die: 10
 prerequisites:
   - Lawful Good
 starting_wealth: 5d6 × 10 gp (average 175 gp)
+
 class_skills:
    - Craft
    - Diplomacy
@@ -19,6 +21,7 @@ class_skills:
    - Ride
    - Sense Motive
    - Spellcraft
+skill_ranks_per_level: 2
 
 bab_progression: full
 fort_progression: good
