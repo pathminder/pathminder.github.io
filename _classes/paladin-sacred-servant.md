@@ -21,15 +21,9 @@ class_skills:
    - Spellcraft
 
 bab_progression: full
-
-fort_adder: 4
-fort_multiplier: 0.5
-
-ref_adder: 1
-ref_multiplier: 0.3333
-
-will_adder: 4
-will_multiplier: 0.5
+fort_progression: good
+ref_progression: poor
+will_progression: good
 
 spells_per_day: paladin
 
