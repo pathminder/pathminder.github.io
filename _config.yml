@@ -26,6 +26,11 @@ defaults:
       layout: default
   - scope:
       path: ""
+      type: blade-skills
+    values:
+      layout: blade-skill
+  - scope:
+      path: ""
       type: classes
     values:
       layout: class
@@ -66,6 +71,9 @@ defaults:
       layout: trait
 
 collections:
+  blade-skills:
+    permalink: /:collection/:title/
+    output: true
   classes:
     permalink: /:collection/:title/
     output: true
