@@ -27,6 +27,8 @@ class_skills:
    - Swim
 skill_ranks_per_level: 4
 
+bab_multiplier: 1
+
 fort_adder: 4
 fort_multiplier: 0.5
 
