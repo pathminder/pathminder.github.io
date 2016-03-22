@@ -14,4 +14,4 @@ duration: Instantaneous
 summary: Make a melee attack, deal an additional 3d4 Intelligence, Wisdom, and Charisma damage.
 ---
 
-You channel the all-consuming void through your axe, brutally rending your victim’s soul. Make a melee attack. If it hits, it deals weapon damage as normal, plus an additional 3d4 points of Intelligence, Wisdom, and Charisma damage. A successful Will save halves this damage.
+You channel the all-consuming void through your axe, brutally rending your victim's soul. Make a melee attack. If it hits, it deals weapon damage as normal, plus an additional 3d4 points of Intelligence, Wisdom, and Charisma damage. A successful Will save halves this damage.

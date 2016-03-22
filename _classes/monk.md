@@ -84,7 +84,7 @@ class_features:
       15: 2d6
       20: 2d8
     text: |
-      At 1st level, the monk of the silver fist becomes an expert in wielding gauntlets. He gains Improved Unarmed Strike and Weapon Focus (gauntlet) as bonus feats, even if he does not meet their prerequisites. A monk of the silver fist deals more damage with his gauntlet attacks than a normal person would, as shown below. For the purposes of the monk of the silver fist’s abilities and feats, a gauntlet is any weapon worn over the hands or fingers to aid in punching, including brass knuckles, normal gauntlets, rope gauntlets, and spiked gauntlets.
+      At 1st level, the monk of the silver fist becomes an expert in wielding gauntlets. He gains Improved Unarmed Strike and Weapon Focus (gauntlet) as bonus feats, even if he does not meet their prerequisites. A monk of the silver fist deals more damage with his gauntlet attacks than a normal person would, as shown below. For the purposes of the monk of the silver fist's abilities and feats, a gauntlet is any weapon worn over the hands or fingers to aid in punching, including brass knuckles, normal gauntlets, rope gauntlets, and spiked gauntlets.
 
       - *1st--4th:* small---1d4; medium---1d6; large---1d8.
       - *5th--9th:* small---1d6; medium---1d8; large---2d6.
@@ -97,11 +97,11 @@ class_features:
     text: |
       A monk of the silver fist begins his career with knowledge of three martial maneuvers. The disciplines available to him are Eternal Guardian, Iron Tortoise, and Mithral Current. A monk of the silver fist gains Bluff and Perform as class skills.
 
-      Once the monk of the silver fist knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by monk of the silver fist is considered an extraordinary ability unless otherwise noted in it or its discipline’s description. A monk of the silver fist’s maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one.
+      Once the monk of the silver fist knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by monk of the silver fist is considered an extraordinary ability unless otherwise noted in it or its discipline's description. A monk of the silver fist's maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one.
 
-      The monk of the silver fist learns additional maneuvers at higher levels, as indicated on Table: The Monk. The maximum level of maneuvers gained through monk of the silver fist levels is limited by those listed in that table as well, although this restriction does not apply to maneuvers added to his maneuvers known through other methods, such as prestige classes or the Advanced Study feat. A monk of the silver fist must meet a maneuver’s prerequisite to learn it. See the Systems and Use chapter in Path of War for more details on how maneuvers are used.
+      The monk of the silver fist learns additional maneuvers at higher levels, as indicated on Table: The Monk. The maximum level of maneuvers gained through monk of the silver fist levels is limited by those listed in that table as well, although this restriction does not apply to maneuvers added to his maneuvers known through other methods, such as prestige classes or the Advanced Study feat. A monk of the silver fist must meet a maneuver's prerequisite to learn it. See the Systems and Use chapter in Path of War for more details on how maneuvers are used.
 
-      Upon reaching 4th level, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the monk of the silver fist can choose to learn a new maneuver in place of one he already knows. In effect, he loses the old maneuver in exchange for the new one. He can choose a new maneuver of any level he likes, as long as he observes the restriction on the highest-level maneuvers he knows; the monk of the silver fist need not replace the old maneuver with a maneuver of the same level. He can swap only a single maneuver at any given level. A monk of the silver fist’s initiation modifier is Wisdom, and each monk of the silver fist level is counted as a full initiator level.
+      Upon reaching 4th level, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the monk of the silver fist can choose to learn a new maneuver in place of one he already knows. In effect, he loses the old maneuver in exchange for the new one. He can choose a new maneuver of any level he likes, as long as he observes the restriction on the highest-level maneuvers he knows; the monk of the silver fist need not replace the old maneuver with a maneuver of the same level. He can swap only a single maneuver at any given level. A monk of the silver fist's initiation modifier is Wisdom, and each monk of the silver fist level is counted as a full initiator level.
 
       *Maneuvers Readied:* A monk of the silver fist can ready all three of his maneuvers known at 1st level, and as he advances in level and learns more maneuvers, he is able to ready more, but must still choose which maneuvers to ready. A monk of the silver fist must always ready his maximum number of maneuvers readied. He readies his maneuvers by meditating or performing martial katas for ten minutes. The maneuvers he chooses remain readied until he decides to practice again and change them. The monk of the silver fist does not need to sleep or rest for any long period of time in order to ready his maneuvers; any time he spends ten minutes meditating, he can change his readied maneuvers.
 
@@ -199,7 +199,7 @@ class_features:
       4: 1 ally
       12: 2 allies
       16: 3 allies
-    text: Starting at 4th level, a monk of the silver fist is able to focus his protection on one ally to better guard them. The monk of the silver fist can spend 1 ki point as a swift action to apply a special mark to one ally (other than himself) within 30 feet. For a number of rounds equal to 1 + the monk of the silver fist’s initiation modifier, the marked ally gains a +4 circumstance bonus to their AC, and any enemy that attacks the marked ally provokes an attack of opportunity from the monk of the silver fist. A monk of the silver fist can only have one mark of the silver fist active at a time. At 12th level and again at 16th level, the number of allies a monk of the silver fist can have marked at a time increases by one.
+    text: Starting at 4th level, a monk of the silver fist is able to focus his protection on one ally to better guard them. The monk of the silver fist can spend 1 ki point as a swift action to apply a special mark to one ally (other than himself) within 30 feet. For a number of rounds equal to 1 + the monk of the silver fist's initiation modifier, the marked ally gains a +4 circumstance bonus to their AC, and any enemy that attacks the marked ally provokes an attack of opportunity from the monk of the silver fist. A monk of the silver fist can only have one mark of the silver fist active at a time. At 12th level and again at 16th level, the number of allies a monk of the silver fist can have marked at a time increases by one.
 
   - name: ki power
     levels: [4, 5, 7, 11, 13, 17, 19, 20]
@@ -215,15 +215,15 @@ class_features:
     text: |
       At the given levels on the table, the monk can select a ki power. (Note that the monk gains 2 ki powers at level 17.) Ki powers are divided into three categories: feats, monk abilities, and spells.
 
-      - *Feats:* These ki powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki power even if she doesn’t meet the prerequisites for selecting Spring Attack as a feat. Activating one of these ki powers is a free action on the monk’s turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also be activated as an immediate action; these powers are noted in the ki powers list.
+      - *Feats:* These ki powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these ki powers is a free action on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also be activated as an immediate action; these powers are noted in the ki powers list.
       - *Monk Abilities:* Some ki powers are standard monk abilities.
-      - *Spells:* These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk’s class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her concentration check bonus.
+      - *Spells:* These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her concentration check bonus.
 
       *Requirements:* All ki powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that ki power.
 
       *Activation:* Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power. Ki powers that cost 0 ki do not require the monk to have any ki points in her ki pool to use the ability.
 
-      The saving throw against a monk’s ki power, if any, is equal to 10 + 1/2 the monk’s level + the monk’s Wisdom bonus.
+      The saving throw against a monk's ki power, if any, is equal to 10 + 1/2 the monk's level + the monk's Wisdom bonus.
 
       **4th-Level Ki Powers:**
 
@@ -261,7 +261,7 @@ class_features:
 
       **8th-Level Ki Powers:**
 
-      - *dragon’s breath* (2 ki points)
+      - *dragon's breath* (2 ki points)
       - Gliding Steps (1 ki point, can be activated as an immediate action)
       - *neutralize poison* (3 ki points)
       - Poison (2 ki points)
@@ -351,6 +351,6 @@ class_features:
   - name: reach of the silver fist
     type: Ex
     levels: [15]
-    text: At 15th level, whenever the monk initiates a strike with a range of melee attack and a target of one creature, he can spend 1 ki point as a free action to also initiate the strike against a second target within close range (25 feet + 5 feet per 2 monk of the silver fist levels). This additional strike is treated as a melee attack, and uses the monk of the silver fist’s gauntlet damage as its base damage. A monk of the silver fist can only activate this ability once per strike.
+    text: At 15th level, whenever the monk initiates a strike with a range of melee attack and a target of one creature, he can spend 1 ki point as a free action to also initiate the strike against a second target within close range (25 feet + 5 feet per 2 monk of the silver fist levels). This additional strike is treated as a melee attack, and uses the monk of the silver fist's gauntlet damage as its base damage. A monk of the silver fist can only activate this ability once per strike.
 
 ---

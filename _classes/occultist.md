@@ -78,7 +78,7 @@ class_features:
       - **Evocation:** Burning hands, floating disk, shocking grasp.
       - **Illusion:** Alter musical instrument, blurred movement, decrepit disguise, disguise self, disguise weapon, illusion of calm, magic aura, mask dweomer, quintessence, shadow weapon, silent image, vanish.
       - **Necromancy:** Cause fear, decompose corpse, inflict light wounds, restore corpse, sculpt corpse.
-      - **Transmutation:** Alter winds, ant haul, break, charge object, crafter’s curse, crafter’s fortune, enlarge person, erase, expeditious retreat, feather fall, gravity bow, jury-rig, keen senses, lead blades, liberating command, longshot, magic weapon, mirror polish, negate aroma, pass without trace, reduce person, refine improvised weapon, reinforce armaments, sundering shards, vocal alteration, youthful appearance.
+      - **Transmutation:** Alter winds, ant haul, break, charge object, crafter's curse, crafter's fortune, enlarge person, erase, expeditious retreat, feather fall, gravity bow, jury-rig, keen senses, lead blades, liberating command, longshot, magic weapon, mirror polish, negate aroma, pass without trace, reduce person, refine improvised weapon, reinforce armaments, sundering shards, vocal alteration, youthful appearance.
 
       **2nd-Level Occultist Spells:**
 
@@ -89,7 +89,7 @@ class_features:
       - **Evocation:** Burning gaze, campfire wall, continual flame, darkness, defensive shock, flaming sphere, frost fall, ghost whip, gust of wind, pilfering hand, protective penumbra, shatter, sound burst.
       - **Illusion:** Blur, disguise other, ghostly disguise, implant false reading, instigate psychic duel, invisibility, magic mouth, mask dweomer (communal), minor image, mirror image, misdirection, phantom trap, symbol of mirroring.
       - **Necromancy:** Animate dead (lesser) , brow gasher, false life, inflict moderate wounds, object possession (lesser), pernicious poison, purge spirit, scare, skinsend, spectral hand.
-      - **Transmutation:** Accelerate poison, air step, ant haul (communal), badger’s ferocity, bowstaff, certain grip, chill metal, darkvision, disfiguring touch, effortless armor, enter image, feast of ashes, ghostbane dirge, glide, heat metal, knock, levitate, magic siege engine, make whole, masterwork transformation, mirror hideaway, perceive cues, reinforce armaments (communal), rope trick, silk to steel, spider climb, telekinetic assembly, unerring weapon, versatile weapon, warp wood, weapon of awe, wood shape.
+      - **Transmutation:** Accelerate poison, air step, ant haul (communal), badger's ferocity, bowstaff, certain grip, chill metal, darkvision, disfiguring touch, effortless armor, enter image, feast of ashes, ghostbane dirge, glide, heat metal, knock, levitate, magic siege engine, make whole, masterwork transformation, mirror hideaway, perceive cues, reinforce armaments (communal), rope trick, silk to steel, spider climb, telekinetic assembly, unerring weapon, versatile weapon, warp wood, weapon of awe, wood shape.
 
       **3rd-Level Occultist Spells:**
 
@@ -107,7 +107,7 @@ class_features:
       - **Abjuration:** Break enchantment, curse of magic negation, dimensional anchor, dismissal, enchantment foil, fire trap, freedom of movement, globe of invulnerability (lesser), life bubble, nondetection (communal), soothe construct, spell immunity, stoneskin, symbol of sealing, true form, unbreakable construct, wreath of blades.
       - **Conjuration:** Cure critical wounds, dimension door, major creation, phantom chariot, phantom steed (communal).
       - **Divination:** Arcane eye, contact other plane, detect scrying, locate creature, mind probe, scrying, symbol of scrying.
-      - **Enchantment:** Charm monster, confusion, curse of disgust, daze (mass), hold monster, mind swap, mindwipe, planeslayer’s call, symbol of persuasion, symbol of sleep.
+      - **Enchantment:** Charm monster, confusion, curse of disgust, daze (mass), hold monster, mind swap, mindwipe, planeslayer's call, symbol of persuasion, symbol of sleep.
       - **Evocation:** Ball lightning, contingent scroll, etheric shards, fire shield, flaming sphere (greater), ice storm, resilient sphere, river of wind, sending, shout, spirit-bound blade, unbearable brightness, wall of fire, wall of ice.
       - **Illusion:** Illusory wall, invisibility (greater), shocking image, symbol of striking, wandering star motes.
       - **Necromancy:** Death ward, false life (greater), fear, inflict critical wounds, object possession, poison, possession, summoner conduit, symbol of fear, symbol of pain.

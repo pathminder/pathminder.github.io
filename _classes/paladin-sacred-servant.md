@@ -174,7 +174,7 @@ class_features:
     text: |
       At 5th level, a sacred servant forms a bond with her holy symbol.
 
-      As a standard action, a sacred servant can bind a celestial spirit to her holy symbol for 1 minute per paladin level. When called, the spirit causes the sacred servant’s holy symbol to shed light like a torch.
+      As a standard action, a sacred servant can bind a celestial spirit to her holy symbol for 1 minute per paladin level. When called, the spirit causes the sacred servant's holy symbol to shed light like a torch.
 
       At 5th level, the spirit grants one bonus. For every three levels beyond 5th, the spirit grants one additional bonus. These bonuses can be spent in a number of ways to grant the paladin enhanced abilities to channel positive energy and to cast spells.
 
@@ -197,7 +197,7 @@ class_features:
       12: "*planar ally*"
       16: "*greater planar ally*"
     text: |
-      At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast lesser planar ally once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to planar ally and at 16th level, this improves to greater planar ally. The sacred servant’s caster level for this effect is equal to her paladin level.
+      At 8th level, a sacred servant can call upon her deity for aid, in the form of a powerful servant. This allows the sacred servant to cast lesser planar ally once per week as a spell-like ability without having to pay the material component cost or the servant (for reasonable tasks). At 12th level, this improves to planar ally and at 16th level, this improves to greater planar ally. The sacred servant's caster level for this effect is equal to her paladin level.
 
   - name: aura of justice
     type: Su

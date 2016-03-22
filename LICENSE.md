@@ -69,7 +69,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing.
 - *Path of the Magi*, Copyright 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.
 - *Path of War*, Copyright 2014, Dreamscarred Press.
-- *Pathfinder Companion: Adventurer’s Armory*, Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.
+- *Pathfinder Companion: Adventurer's Armory*, Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Champions of Balance*, Copyright 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz
 - *Pathfinder Player Companion: Melee Tactics Toolbox*, Copyright 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz.
