@@ -54,7 +54,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-9">
               <h1 class="display-4 m-t-3">
-                {% if page.title %}{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.github.project_title }}{% endif %}
+                {% if page.title %}{{ page.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ site.github.project_title }}{% endif %}
               </h1>
             </div>
             <div class="col-sm-12 col-md-3">
@@ -111,7 +111,7 @@
                 <p><strong>Sources:</strong></p>
                 <ul>
                   {% for source in page.sources %}
-                    <li>{{ source | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    <li>{{ source | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                   {% endfor %}
                 </ul>
 
@@ -131,7 +131,7 @@
 
                 <ul>
                   {% for section_15_entry in section_15_entries %}
-                    <li>{{ section_15_entry | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    <li>{{ section_15_entry | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                   {% endfor %}
                   <li>Pathminder, Copyright 2016, Drumanagh Wilpole.</li>
                 </ul>

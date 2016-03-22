@@ -122,7 +122,8 @@ layout: default
           {% for feature in page.class_features %}
             {% if feature.levels contains level %}
               {% assign slugified_name = feature.name | slugify %}
-              {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: feature.name | append: '</a>' %}
+              {% assign markdownified_name = feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+              {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: markdownified_name | append: '</a>' %}
               {% if feature.levels_text[level] %}
                 {% assign this_level_text = feature.levels_text[level] | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
                 {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
@@ -176,7 +177,7 @@ layout: default
   {% assign level_features = level_features | sort: "name" %}
 
   {% for feature in level_features %}
-    <h3 id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
+    <h3 id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
 
     {{ feature.text | markdownify }}
   {% endfor %}
