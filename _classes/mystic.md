@@ -3,7 +3,7 @@ title: Mystic
 sources:
   - "Path of War: Expanded"
 tags:
-  - initiator
+  - Initiator
 
 max_level: 20
 hit_die: 8

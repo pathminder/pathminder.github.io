@@ -3,7 +3,7 @@ title: Medium (Spirit Dancer)
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
 tags:
-  - psychic
+  - Psychic
 
 max_level: 20
 hit_die: 8

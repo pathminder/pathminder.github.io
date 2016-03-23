@@ -4,8 +4,8 @@ sources:
   - Ultimate Psionics
   - "Path of War: Expanded"
 tags:
-  - initiator
-  - psionic
+  - Initiator
+  - Psionic
 
 max_level: 20
 hit_die: 10

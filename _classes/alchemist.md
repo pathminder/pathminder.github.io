@@ -5,7 +5,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
   - Pathfinder Roleplaying Game Advanced Race Guide
 tags:
-  - alchemy
+  - Alchemy
 
 max_level: 20
 prerequisites:

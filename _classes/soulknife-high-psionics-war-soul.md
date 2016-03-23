@@ -4,8 +4,8 @@ sources:
   - Path of War
   - Ultimate Psionics
 tags:
-  - initiator
-  - psionic
+  - Initiator
+  - Psionic
 
 max_level: 20
 prerequisites:

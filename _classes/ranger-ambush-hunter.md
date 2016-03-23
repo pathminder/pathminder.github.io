@@ -6,7 +6,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
   - "Path of War: Expanded"
 tags:
-  - initiator
+  - Initiator
 
 max_level: 20
 hit_die: 8

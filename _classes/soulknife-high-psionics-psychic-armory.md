@@ -4,7 +4,7 @@ sources:
   - Ultimate Psionics
   - "Psionics Augmented: Soulknives"
 tags:
-  - psionic
+  - Psionic
 
 max_level: 20
 prerequisites:
