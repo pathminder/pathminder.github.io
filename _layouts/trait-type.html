@@ -6,13 +6,12 @@ layout: default
 
 <h2>Traits</h2>
 
-{% assign traits = site.traits | where: 'type', page.title | sort %}
-
 <ul style="list-unstyled">
-  {% for trait in traits %}
-    <li>
-      <a href="{{ trait.url }}">{{ trait.title }}</a>
-      {% if trait.type %}({{ trait.type }}){% endif %}
-    </li>
+  {% for trait in site.traits %}
+    {% if trait.tags contains page.title %}
+      <li>
+        <a href="{{ trait.url }}">{{ trait.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

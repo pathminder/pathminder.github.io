@@ -2,13 +2,8 @@
 layout: default
 ---
 
-<dl>
-  {% if page.type %}
-    <dt>Trait Type</dt>
-    <dd>
-      {{ page.type }}
-    </dd>
-  {% endif %}
-</dl>
+{% if page.tags|length > 0 %}
+  <p><strong>Trait Type(s)</strong> {{ page.tags|join: '; ' }}</p>
+{% endif %}
 
 {{ content }}
