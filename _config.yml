@@ -61,6 +61,16 @@ defaults:
       layout: race
   - scope:
       path: ""
+      type: rogue-talents
+    values:
+      layout: rogue-talent
+  - scope:
+      path: ""
+      type: rogue-advanced-talents
+    values:
+      layout: rogue-talent
+  - scope:
+      path: ""
       type: trait-types
     values:
       layout: trait-type
@@ -84,6 +94,10 @@ collections:
   martial-disciplines:
     output: true
   races:
+    output: true
+  rogue-talents:
+    output: true
+  rogue-advanced-talents:
     output: true
   sources:
   trait-types:

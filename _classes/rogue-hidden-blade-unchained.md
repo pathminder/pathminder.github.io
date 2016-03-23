@@ -2,6 +2,7 @@
 title: Rogue (Hidden Blade, Unchained)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - "Path of War: Expanded"
 tags:
   - initiator
@@ -163,9 +164,9 @@ class_features:
       2: 1 talent
       6: 2 talents
     text: |
-      As a rogue gains experience, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one unchained rogue talent. She gains an additional unchained rogue talent for every 4 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once.
+      As a rogue gains experience, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one unchained [rogue talent](/rogue-talents/). She gains an additional unchained rogue talent for every 4 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once.
 
-      Talents marked with an asterisk add effects to a rogue's sneak attack. Only one of these talents can be applied to an individual attack, and the decision must be made before the attack roll is made.
+      Only one of these talents that adds effects to the rogue's sneak attacks can be applied to an individual attack, and the decision must be made before the attack roll is made.
 
       A rogue cannot choose a ninja trick with the same name as a rogue talent.
 
@@ -229,7 +230,7 @@ class_features:
       14: 2 advanced talents
       18: 3 advanced talents
     text: |
-      At 10th level and every 4 levels thereafter, a rogue can choose an unchained rogue advanced talent.
+      At 10th level and every 4 levels thereafter, a rogue can choose an unchained [rogue advanced talent](/rogue-advanced-talents/).
 
   - name: master strike
     type: Ex

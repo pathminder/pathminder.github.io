@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign empty_array = '' | split: '|' %}
+
+{% assign tags = empty_array %}
+{% for item in site[page.listing_source] %}
+  {% for tag in item.tags %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign tags = tags | sort %}
+
+{% for tag in tags %}
+  <div class="card">
+    <div class="card-header">
+      <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ page.title }}</h2>
+    </div>
+
+    {% assign this_tag_items = empty_array %}
+    {% for item in site[page.listing_source] %}
+      {% if item.tags contains tag %}
+        {% assign this_tag_items = this_tag_items | push: item %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="card-block">
+      <ul class="card-text">
+        {% for item in this_tag_items %}
+          <li class="card-text">
+            <a href="{{ item.url }}">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
