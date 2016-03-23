@@ -1,5 +1,5 @@
 ---
-title: Monk (Qinggong, Silver Fist)
+title: Monk (Silver Fist, Qinggong)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Ultimate Magic
