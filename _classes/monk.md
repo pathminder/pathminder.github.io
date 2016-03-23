@@ -14,6 +14,7 @@ starting_wealth: 1d6 × 10 gp (average 35 gp)
 
 class_skills:
   - Acrobatics
+  - Bluff
   - Climb
   - Craft
   - Escape Artist
@@ -98,7 +99,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A monk of the silver fist begins his career with knowledge of three martial maneuvers. The disciplines available to him are Eternal Guardian, Iron Tortoise, and Mithral Current. A monk of the silver fist gains Bluff and Perform as class skills.
+      A monk of the silver fist begins his career with knowledge of three martial maneuvers. The disciplines available to him are Eternal Guardian, Iron Tortoise, and Mithral Current.
 
       Once the monk of the silver fist knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by monk of the silver fist is considered an extraordinary ability unless otherwise noted in it or its discipline's description. A monk of the silver fist's maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one.
 
