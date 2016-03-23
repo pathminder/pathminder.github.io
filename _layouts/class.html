@@ -44,143 +44,176 @@ layout: default
   </dd>
 </dl>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>Level</th>
-      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
-        <abbr title="Base Attack Bonus">BAB</abbr>
-      </th>
-      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
-        <abbr title="Fortitude Save">Fort</abbr></th>
-      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
-        <abbr title="Reflex Save">Ref</abbr>
-      </th>
-      <th class="text-xs-center" {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>
-        <abbr title="Will Save">Will</abbr>
-      </th>
-      <th {% if page.spells_per_day or page.extract_progression %}rowspan="2"{% endif %}>Special</th>
-      {% if page.spells_per_day %}
-        <th class="text-xs-center" colspan="{{ site.data.spells-per-day[page.spells_per_day].spell_levels }}">Spells per Day</th>
-      {% endif %}
-      {% if page.extract_progression %}
-        <th class="text-xs-center" colspan="{{ site.data.spells-per-day[page.extract_progression].spell_levels }}">Extracts per Day</th>
-      {% endif %}
-      {% if page.manifesting_progression %}
-        <th class="text-xs-center"><abbr title="Power Points">PP</abbr>/Day</th>
-        {% unless site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
-          <th class="text-xs-center">Powers Known</th>
-          <th class="text-xs-center">Maximum Power Level Known</th>
-        {% endunless %}
-      {% endif %}
-      {% if page.initiating_progression %}
-        <th class="text-xs-center">Maneuvers Known</th>
-        <th class="text-xs-center">Maneuvers Readied</th>
-        <th class="text-xs-center">Stances</th>
-        {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
-          <th class="text-xs-center">Max. Maneuver Level Known</th>
-        {% endif %}
-      {% endif %}
-    </tr>
-    {% if page.spells_per_day  or page.extract_progression%}
+{% if page.spells_per_day or page.extract_progression or page.manifesting_progression or page.initiating_progression %}
+  {% assign table_headers = true %}
+{% else %}
+  {% assign table_headers = false %}
+{% endif %}
+<small>
+  <table class="table table-striped table-sm">
+    <thead>
       <tr>
-        {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
-          <th class="text-xs-center">{{ spell_level }}</th>
-        {% endfor %}
-        {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
-          <th class="text-xs-center">{{ spell_level }}</th>
-        {% endfor %}
-      </tr>
-    {% endif %}
-  </thead>
-
-  <tbody>
-    {% for level in (1..page.max_level) %}
-      <tr>
-        <td class="text-xs-center">{{ level }}</td>
-        <td class="text-xs-center">
-          {% case page.bab_progression %}
-            {% when 'full' %} +{{ level | times: 1 | floor}}
-            {% when 'mid' %}  +{{ level | times: 0.75 | floor}}
-            {% when 'half' %} +{{ level | times: 0.5 | floor}}
-          {% endcase %}
-        </td>
-        <td class="text-xs-center">
-          {% case page.fort_progression %}
-            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
-          {% endcase %}
-        </td>
-        <td class="text-xs-center">
-          {% case page.ref_progression %}
-            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
-          {% endcase %}
-        </td>
-        <td class="text-xs-center">
-          {% case page.will_progression %}
-            {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-            {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
-          {% endcase %}
-        </td>
-        <td>
-          {% assign level_features = "" | split:"|" %}
-          {% for feature in page.class_features %}
-            {% if feature.levels contains level %}
-              {% assign slugified_name = feature.name | slugify %}
-              {% assign markdownified_name = feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
-              {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: markdownified_name | append: '</a>' %}
-              {% if feature.levels_text[level] %}
-                {% assign this_level_text = feature.levels_text[level] | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
-                {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
-              {% endif %}
-              {% assign level_features = level_features | push: feature_link %}
-            {% endif %}
-          {% endfor %}
-          {{ level_features | sort | join: ", " }}
-        </td>
+        <th class="text-xs-center" {% if table_headers %}rowspan="2"{% endif %}>Level</th>
+        <th class="text-xs-center" {% if table_headers %}rowspan="2"{% endif %}>
+          <abbr title="Base Attack Bonus">BAB</abbr>
+        </th>
+        <th class="text-xs-center" {% if table_headers %}rowspan="2"{% endif %}>
+          <abbr title="Fortitude Save">Fort</abbr></th>
+        <th class="text-xs-center" {% if table_headers %}rowspan="2"{% endif %}>
+          <abbr title="Reflex Save">Ref</abbr>
+        </th>
+        <th class="text-xs-center" {% if table_headers %}rowspan="2"{% endif %}>
+          <abbr title="Will Save">Will</abbr>
+        </th>
+        <th {% if table_headers %}rowspan="2"{% endif %}>Special</th>
         {% if page.spells_per_day %}
-          {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
-            {% assign spell_level_minus_one = spell_level | minus: 1 %}
-            <td class="text-xs-center">
-              {{ site.data.spells-per-day[page.spells_per_day][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-            </td>
-          {% endfor %}
+          <th class="text-xs-center"
+            style="border-left: 2px solid #eceeef;"
+            colspan="{{ site.data.spells-per-day[page.spells_per_day].spell_levels }}">Spells per Day</th>
         {% endif %}
         {% if page.extract_progression %}
-          {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
-            {% assign spell_level_minus_one = spell_level | minus: 1 %}
-            <td class="text-xs-center">
-              {{ site.data.spells-per-day[page.extract_progression][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-            </td>
-          {% endfor %}
+          <th class="text-xs-center"
+            style="border-left: 2px solid #eceeef;"
+            colspan="{{ site.data.spells-per-day[page.extract_progression].spell_levels }}">Extracts per Day</th>
         {% endif %}
         {% if page.manifesting_progression %}
-          {% assign cols = 2 %}
-          {% if site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
-            {% assign cols = 0 %}
-          {% endif %}
-          {% for i in (0..cols) %}
-            <td class="text-xs-center">
-              {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-            </td>
-          {% endfor %}
+          <th class="text-xs-center"
+            style="border-left: 2px solid #eceeef;"
+            {% unless site.data.manifesting-progressions[page.manifesting_progression].pp_only %}colspan="3"{% endunless %}>Powers</th>
         {% endif %}
         {% if page.initiating_progression %}
-          {% assign cols = 2 %}
-          {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
-            {% assign cols = 3 %}
-          {% endif %}
-          {% for i in (0..cols) %}
-            <td class="text-xs-center">
-              {{ site.data.initiating-progressions[page.initiating_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-            </td>
-          {% endfor %}
+          <th class="text-xs-center"
+            style="border-left: 2px solid #eceeef;"
+            {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
+              colspan="4"
+            {% else %}
+              colspan="3"
+            {% endif %}
+          >Maneuvers</th>
         {% endif %}
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
+      {% if table_headers %}
+        <tr>
+          {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
+            <th class="text-xs-center"
+              {% if spell_level == 1 %}style="border-left: 2px solid #eceeef;"{% endif %}>{{ spell_level }}</th>
+          {% endfor %}
+          {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
+            <th class="text-xs-center"
+              {% if spell_level == 1 %}style="border-left: 2px solid #eceeef;"{% endif %}>{{ spell_level }}</th>
+          {% endfor %}
+          {% if page.manifesting_progression %}
+            <th class="text-xs-center" style="border-left: 2px solid #eceeef;"><abbr title="Power Points">PP</abbr>/Day</th>
+            {% unless site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
+              <th class="text-xs-center">Known</th>
+              <th class="text-xs-center">Max. Level</th>
+            {% endunless %}
+          {% endif %}
+          {% if page.initiating_progression %}
+            <th class="text-xs-center" style="border-left: 2px solid #eceeef;">Known</th>
+            <th class="text-xs-center">Readied</th>
+            <th class="text-xs-center">Stances</th>
+            {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
+              <th class="text-xs-center">Max. Level</th>
+            {% endif %}
+          {% endif %}
+        </tr>
+      {% endif %}
+    </thead>
+
+    <tbody>
+      {% for level in (1..page.max_level) %}
+        <tr>
+          <td class="text-xs-center">{{ level }}</td>
+          <td class="text-xs-center">
+            {% case page.bab_progression %}
+              {% when 'full' %} +{{ level | times: 1 | floor}}
+              {% when 'mid' %}  +{{ level | times: 0.75 | floor}}
+              {% when 'half' %} +{{ level | times: 0.5 | floor}}
+            {% endcase %}
+          </td>
+          <td class="text-xs-center">
+            {% case page.fort_progression %}
+              {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+            {% endcase %}
+          </td>
+          <td class="text-xs-center">
+            {% case page.ref_progression %}
+              {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+            {% endcase %}
+          </td>
+          <td class="text-xs-center">
+            {% case page.will_progression %}
+              {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+            {% endcase %}
+          </td>
+          <td>
+            {% assign level_features = "" | split:"|" %}
+            {% for feature in page.class_features %}
+              {% if feature.levels contains level %}
+                {% assign slugified_name = feature.name | slugify %}
+                {% assign markdownified_name = feature.name | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+                {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: markdownified_name | append: '</a>' %}
+                {% if feature.levels_text[level] %}
+                  {% assign this_level_text = feature.levels_text[level] | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
+                  {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
+                {% endif %}
+                {% assign level_features = level_features | push: feature_link %}
+              {% endif %}
+            {% endfor %}
+            {{ level_features | sort | join: ", " }}
+          </td>
+          {% if page.spells_per_day %}
+            {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
+              {% assign spell_level_minus_one = spell_level | minus: 1 %}
+              <td class="text-xs-center"
+                {% if spell_level == 1 %}style="border-left: 2px solid #eceeef;"{% endif %}>
+                {{ site.data.spells-per-day[page.spells_per_day][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+              </td>
+            {% endfor %}
+          {% endif %}
+          {% if page.extract_progression %}
+            {% for spell_level in (1..site.data.spells-per-day[page.extract_progression].spell_levels) %}
+              {% assign spell_level_minus_one = spell_level | minus: 1 %}
+              <td class="text-xs-center"
+                {% if spell_level == 1 %}style="border-left: 2px solid #eceeef;"{% endif %}>
+                {{ site.data.spells-per-day[page.extract_progression][level][spell_level_minus_one] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+              </td>
+            {% endfor %}
+          {% endif %}
+          {% if page.manifesting_progression %}
+            {% assign cols = 2 %}
+            {% if site.data.manifesting-progressions[page.manifesting_progression].pp_only %}
+              {% assign cols = 0 %}
+            {% endif %}
+            {% for i in (0..cols) %}
+              <td class="text-xs-center"
+                {% if i == 0 %}style="border-left: 2px solid #eceeef;"{% endif %}>
+                {{ site.data.manifesting-progressions[page.manifesting_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+              </td>
+            {% endfor %}
+          {% endif %}
+          {% if page.initiating_progression %}
+            {% assign cols = 2 %}
+            {% if site.data.initiating-progressions[page.initiating_progression].max_maneuver_level %}
+              {% assign cols = 3 %}
+            {% endif %}
+            {% for i in (0..cols) %}
+              <td class="text-xs-center"
+                {% if i == 0 %}style="border-left: 2px solid #eceeef;"{% endif %}>
+                {{ site.data.initiating-progressions[page.initiating_progression][level][i] | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+              </td>
+            {% endfor %}
+          {% endif %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</small>
+
 {% for level in (1..page.max_level) %}
   {% assign level_features = "" | split:"|" %}
   {% for feature in page.class_features %}
