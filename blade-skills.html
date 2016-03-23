@@ -52,6 +52,10 @@ title: Blade Skills
               <li class="card-text">
                 <a href="{{ blade_skill.url }}">{{ blade_skill.title }}</a>
 
+                {% if blade_skill.type %}
+                  ({{ blade_skill.type }})
+                {% endif %}
+
                 {% for anti_tag in blade_skill.anti_tags %}
                   (non-{{ anti_tag }})
                 {% endfor %}

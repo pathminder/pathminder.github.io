@@ -3,6 +3,11 @@ layout: default
 ---
 
 <dl>
+  {% if page.type %}
+    <dt>Type</dt>
+    <dd>({{ page.type }})</dd>
+  {% endif %}
+
   {% if page.minimum_level %}
     <dt>Minimum Soulknife Level</dt>
     <dd>

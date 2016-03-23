@@ -1,8 +1,8 @@
 ---
-title: Soulknife (High Psionics)
+title: Soulknife (High Psionics, War Soul)
 sources:
+  - Path of War
   - Ultimate Psionics
-  - "Psionics Augmented: Soulknives"
 
 max_level: 20
 prerequisites:
@@ -17,6 +17,7 @@ class_skills:
   - Knowledge (psionics)
   - Perception
   - Profession
+  - Sense Motive
   - Stealth
   - Swim
 skill_ranks_per_level: 4
@@ -27,6 +28,7 @@ ref_progression: good
 will_progression: good
 
 manifesting_progression: soulknife
+initiating_progression: war_soul
 
 weapon_proficiencies:
   - Simple
@@ -42,6 +44,20 @@ class_features:
   - name: bonus feat
     levels: [1]
     text: The soulknife may choose Power Attack, Two-Weapon Fighting, or Weapon Focus (mind blade) as a bonus feat at 1st level.
+
+  - name: maneuvers
+    levels: [1]
+    text: |
+      A war soul begins his career with knowledge of three martial maneuvers. The disciplines available to him are Broken Blade, Solar Wind, Thrashing Dragon, and Veiled Moon. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by a war soul is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table: Soulknife. The war soul must meet a maneuver’s prerequisite to learn it.
+
+      Upon reaching 4th level, and at every even numbered war soul level after that, he can choose to learn a new maneuver in place of one he already knows. In effect, the war soul loses the old maneuver in exchange for the new one. The war soul need not replace the old maneuver with a maneuver of the same level. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The war soul can swap only a single maneuver at any given level. A war soul’s primary initiator attribute is Wisdom, and each war soul level is counted as a full initiator level.
+
+      *Maneuvers Readied:* A war soul can ready all three of his three starting maneuvers, but as he advances in level and learns more maneuvers, he must choose which maneuvers to ready. He readies his maneuvers by meditating over his mind blade for 10 minutes. The maneuvers he chooses remain readied until he decides to repeat this again and change them. War souls do not need to sleep or be well rested to ready their maneuvers; any time he spends 10 minutes in meditation, he can change his readied maneuvers. He begins an encounter with all readied maneuvers unexpended, regardless of how many times he may have already used them since he chose them. When the war soul initiates a maneuver, he expends it for the current encounter, so each of his readied maneuvers can be used once per encounter (until they are recovered, see below).
+
+      War souls may recover their maneuvers in one of two ways. The war soul may concentrate on his mind blade to recover an expended maneuver from its psychic projection as a standard action and recover one maneuver. Alternately, he may flood his psychic being with martial knowledge by expending his psionic focus to recover a number of expended maneuvers equal to his Wisdom modifier (minimum of two) as a full round action. While recovering maneuvers, the war soul’s mental state makes him react violently to those who would attack him. When attacked, he may make an immediate counter-attack against his attacker at his full base attack bonus; he may only make one counter-attack against a given enemy per round, and he may make no more counter- attacks then his 1 + his Wisdom modifier per round.
+
+      *Stances Known:* War souls begin play with knowledge of one 1st level stance from any discipline open to them. At the indicated levels (see class table), the war soul selects an additional new stance. Unlike maneuvers, stances are not expended and he does not have to ready them. All the stances he knows are available to him at all times, and he can change the stance he is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the war soul cannot learn a new stance at higher levels in place of one he already knows.
+
 
   - name: form mind blade
     type: Su
@@ -83,9 +99,9 @@ class_features:
       The soulknife gains Wild Talent as a bonus feat at 1st level. This provides his with the psionic power necessary to manifest his mind blade. A character who is already psionic instead gains the Psionic Talent feat.
 
   - name: blade skills
-    levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    levels: [2, 6, 8, 12, 14, 16, 18, 20]
     text: |
-      Beginning at 2nd level and every even soulknife level thereafter, a soulknife may choose a [blade skill](/blade-skills/) to add to his repertoire. Some blade skills have prerequisites that must be met before they can be chosen. All blade skills may only be chosen once and require the soulknife to be using his mind blade unless otherwise stated in the skill's description.
+      At 2nd level, 6th level, 8th level, 12th level, and every even soulknife level thereafter, a soulknife may choose a [blade skill](/blade-skills/) to add to his repertoire. Some blade skills have prerequisites that must be met before they can be chosen. All blade skills may only be chosen once and require the soulknife to be using his mind blade unless otherwise stated in the skill's description.
 
   - name: enhanced mind blade
     levels: [3, 5, 7, 9, 11, 13, 15, 17, 19]
@@ -171,25 +187,10 @@ class_features:
 
       A soulknife's ability to manifest powers is limited by the power points he has available. His base daily allotment of power points is given on Table: Soulknife. In addition, he receives bonus power points per day if he has a high Wisdom score. His race may also provide bonus power points per day, as may certain feats and items. If a soulknife has power points from a different class, those points are pooled together and usable to manifest powers from either class.
 
-  - name: psychic strike
+  - name: martial blade recovery
     type: Su
-    levels: [3, 7, 11, 15, 19]
-    levels_text:
-      3: +1d8
-      7: +2d8
-      11: +3d8
-      15: +4d8
-      19: +5d8
-    text: |
-      As a move action, a soulknife of 3rd level or higher can imbue his mind blade with until he chooses to use it, and the charge is not wasted if an attack misses. Mindless creatures are immune to this damage, although non-mindless creatures immune to mind-affecting effects are affected by this damage as normal. (Unlike the rogue's sneak attack, the psychic strike is not precision damage and can affect creatures otherwise immune to extra damage from critical hits or more than 30 feet away.)
-
-      A mind blade deals this extra damage only once when this ability is called upon, but a soulknife can imbue his mind blade with psychic energy again by taking another move action. Additionally, he may recharge it as a swift action by expending his psionic focus.
-
-      Once a soulknife has prepared his blade for a psychic strike, it holds the extra energy until it is used (whether the attack is successful or not). Even if the soulknife drops the mind blade (or it otherwise dissipates, such as when it is thrown), it is still imbued with psychic energy when the soulknife next materializes it.
-
-      If the soulknife forms his mind blade into two weapons, he may imbue each mind blade with psychic strike as normal. If he reshapes his mind blade into a single weapon form, the additional psychic strike imbued into the additional weapon is lost.
-
-      At every four levels thereafter (7th, 11th, etc), the extra damage from a soulknife's psychic strike increases by 1d8.
+    levels: [4]
+    text: At 4th level, psionic channels established during manifestation of a mind blade may allow reclamation of bursts of foreign psychic energy caused by the defeat of an opponent. These bursts of energy can be used to invigorate the mind of the war soul and restore his resolve and skill. If the war soul reduces a living opponent (possessing 1⁄2 HD or more and an Intelligence score of 3 or higher) to 0 hit points or less, as a swift action the character may recover either a single expended maneuver or his psionic focus. The war soul must be using a mind blade to recover maneuvers in this fashion.
 
   - name: quick draw
     levels: [5]
