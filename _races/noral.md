@@ -4,7 +4,7 @@ sources:
   - Ultimate Psionics
 
 tags:
-  - psionic
+  - Psionic
 
 ability_scores: +2 Con, +2 Wis, --2Dex
 type: humanoid

@@ -4,7 +4,7 @@ sources:
   - Ultimate Psionics
 
 tags:
-  - psionic
+  - Psionic
 
 ability_scores: +2 to any
 type: humanoid

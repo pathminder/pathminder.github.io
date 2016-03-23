@@ -4,7 +4,7 @@ sources:
   - Ultimate Psionics
 
 tags:
-  - psionic
+  - Psionic
 
 ability_scores: +2 Str, +2 Int, --4 Cha
 type: humanoid

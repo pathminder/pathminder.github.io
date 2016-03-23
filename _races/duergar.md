@@ -5,8 +5,8 @@ sources:
   - Ultimate Psionics
 
 tags:
-  - psionic
-  - uncommon
+  - Psionic
+  - Uncommon
 
 ability_scores: +2 Con, +2 Wis, --4 Cha
 type: humanoid
