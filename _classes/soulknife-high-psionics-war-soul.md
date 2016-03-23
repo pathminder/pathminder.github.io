@@ -3,6 +3,9 @@ title: Soulknife (High Psionics, War Soul)
 sources:
   - Path of War
   - Ultimate Psionics
+tags:
+  - initiator
+  - psionic
 
 max_level: 20
 prerequisites:

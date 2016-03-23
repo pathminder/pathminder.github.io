@@ -2,6 +2,8 @@
 title: Harbinger
 sources:
   - "Path of War: Expanded"
+tags:
+  - initiator
 
 max_level: 20
 starting_age: Intuitive

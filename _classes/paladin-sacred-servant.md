@@ -3,7 +3,9 @@ title: Paladin (Sacred Servant)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Advanced Player's Guide
-  -
+tags:
+  - divine
+
 max_level: 20
 hit_die: 10
 prerequisites:

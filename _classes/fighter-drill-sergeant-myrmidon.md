@@ -4,6 +4,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Pathfinder Player Companion: Melee Tactics Toolbox"
   - "Path of War: Expanded"
+tags:
+  - initiator
 
 max_level: 20
 hit_die: 10

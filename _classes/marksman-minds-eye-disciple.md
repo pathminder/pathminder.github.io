@@ -3,6 +3,9 @@ title: Marksman (Mind's Eye Disciple)
 sources:
   - Ultimate Psionics
   - "Path of War: Expanded"
+tags:
+  - initiator
+  - psionic
 
 max_level: 20
 hit_die: 10

@@ -2,8 +2,10 @@
 title: Occultist
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
-max_level: 20
+tags:
+  - psychic
 
+max_level: 20
 hit_die: 8
 starting_wealth: 4d6 × 10 gp (average 140 gp)
 class_skills:

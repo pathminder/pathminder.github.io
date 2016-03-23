@@ -3,6 +3,8 @@ title: Soulknife (High Psionics, Psychic Armory)
 sources:
   - Ultimate Psionics
   - "Psionics Augmented: Soulknives"
+tags:
+  - psionic
 
 max_level: 20
 prerequisites:

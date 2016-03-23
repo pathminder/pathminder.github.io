@@ -3,6 +3,8 @@ title: Paladin (Knight Disciple)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Path of War: Expanded"
+tags:
+  - initiator
 
 max_level: 20
 hit_die: 10

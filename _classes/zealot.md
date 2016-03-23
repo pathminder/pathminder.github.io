@@ -2,6 +2,9 @@
 title: Zealot
 sources:
   - "Path of War: Expanded"
+tags:
+  - initiator
+  - psionic
 
 max_level: 20
 starting_age: Self-Taught

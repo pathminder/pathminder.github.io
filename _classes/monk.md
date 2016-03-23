@@ -4,6 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Ultimate Magic
   - "Path of War: Expanded"
+tags:
+  - initiator
+  - ki
 
 max_level: 20
 hit_die: 8
