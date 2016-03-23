@@ -72,32 +72,21 @@ defaults:
 
 collections:
   blade-skills:
-    permalink: /:collection/:title/
     output: true
   classes:
-    permalink: /:collection/:title/
     output: true
   feats:
-    permalink: /:collection/:title/
     output: true
   feat-types:
-    permalink: /:collection/:title/
     output: true
   maneuvers:
-    permalink: /:collection/:title/
     output: true
   martial-disciplines:
-    permalink: /:collection/:title/
     output: true
   races:
-    permalink: /:collection/:title/
     output: true
   sources:
-    permalink: /:collection/:title/
-    output: false
   trait-types:
-    permalink: /:collection/:title/
     output: true
   traits:
-    permalink: /:collection/:title/
     output: true
