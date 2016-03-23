@@ -86,6 +86,17 @@ class_features:
 
   - name: blade skills
     levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    levels_text:
+      2: 1 blade skill
+      4: 2 blade skills
+      6: 3 blade skills
+      8: 4 blade skills
+      10: 5 blade skills
+      12: 6 blade skills
+      14: 7 blade skills
+      16: 8 blade skills
+      18: 9 blade skills
+      20: 10 blade skills
     text: |
       Beginning at 2nd level and every even soulknife level thereafter, a soulknife may choose a [blade skill](/blade-skills/) to add to his repertoire. Some blade skills have prerequisites that must be met before they can be chosen. All blade skills may only be chosen once and require the soulknife to be using his mind blade unless otherwise stated in the skill's description.
 

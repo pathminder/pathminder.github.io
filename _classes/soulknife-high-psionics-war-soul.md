@@ -61,7 +61,6 @@ class_features:
 
       *Stances Known:* War souls begin play with knowledge of one 1st level stance from any discipline open to them. At the indicated levels (see class table), the war soul selects an additional new stance. Unlike maneuvers, stances are not expended and he does not have to ready them. All the stances he knows are available to him at all times, and he can change the stance he is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the war soul cannot learn a new stance at higher levels in place of one he already knows.
 
-
   - name: form mind blade
     type: Su
     levels: [1]
@@ -103,6 +102,15 @@ class_features:
 
   - name: blade skills
     levels: [2, 6, 8, 12, 14, 16, 18, 20]
+    levels_text:
+      2:  1 blade skill
+      6:  2 blade skills
+      8:  3 blade skills
+      12: 4 blade skills
+      14: 5 blade skills
+      16: 6 blade skills
+      18: 7 blade skills
+      20: 8 blade skills
     text: |
       At 2nd level, 6th level, 8th level, 12th level, and every even soulknife level thereafter, a soulknife may choose a [blade skill](/blade-skills/) to add to his repertoire. Some blade skills have prerequisites that must be met before they can be chosen. All blade skills may only be chosen once and require the soulknife to be using his mind blade unless otherwise stated in the skill's description.
 
