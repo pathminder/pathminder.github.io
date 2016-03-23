@@ -2,7 +2,7 @@
 title: Sanguine Sorcery
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your magical heritage has bestowed limited magical power upon you.
 prerequisites:

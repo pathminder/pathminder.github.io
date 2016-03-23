@@ -2,7 +2,7 @@
 title: Vestigial Wings
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You were either born with or developed a pair of weak wings.
 prerequisites:

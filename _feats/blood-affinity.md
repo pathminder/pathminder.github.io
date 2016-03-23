@@ -2,7 +2,7 @@
 title: Blood Affinity
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your nature enhances spells for which you have an affinity.
 benefit: |

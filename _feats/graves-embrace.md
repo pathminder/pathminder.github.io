@@ -2,7 +2,7 @@
 title: Grave's Embrace
 sources:
   - Lords of the Night
-types:
+tags:
   - Heritage
 flavor_text: You enhance your deathly nature, granting you some measure of control.
 prerequisites:

@@ -2,7 +2,7 @@
 title: Spark of Divinity
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your ancestral connection to divine energies permits you to cast certain spells.
 prerequisites:

@@ -2,7 +2,7 @@
 title: Ancestor's Breath
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You can tap into your ancestor's elemental energy to breath that same energy upon your enemies.
 prerequisites:

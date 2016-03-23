@@ -2,7 +2,7 @@
 title: Mighty Frame
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You are extraordinarily strong for your size.
 prerequisites:

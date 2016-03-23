@@ -83,24 +83,35 @@ defaults:
 collections:
   blade-skills:
     output: true
+    title: Blade Skills
   classes:
     output: true
+    title: Classes
   feats:
     output: true
+    title: Feats
   feat-types:
     output: true
+    title: Feat Types
   maneuvers:
     output: true
+    title: Maneuvers
   martial-disciplines:
     output: true
+    title: Martial Disciplines
   races:
     output: true
+    title: Races
   rogue-talents:
     output: true
+    title: Rogue Talents
   rogue-advanced-talents:
     output: true
+    title: Rogue Advanced Talents
   sources:
   trait-types:
     output: true
+    title: Trait Types
   traits:
     output: true
+    title: Traits

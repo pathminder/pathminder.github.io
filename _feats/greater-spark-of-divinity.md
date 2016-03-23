@@ -2,7 +2,7 @@
 title: Greater Spark of Divinity
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your divine blood reaches its peak of concentration and power.
 prerequisites:

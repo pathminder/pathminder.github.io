@@ -2,7 +2,7 @@
 title: Aerial Wings
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your wings have strengthened to the point of allowing flight.
 prerequisites:

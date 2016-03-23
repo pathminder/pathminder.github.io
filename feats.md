@@ -1,7 +1,5 @@
 ---
+title: Feats
 layout: listing-by-tag
 listing_source: feats
-limit_by_page_title_as_tag: true
 ---
-
-{{ content }}

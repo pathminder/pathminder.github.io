@@ -6,28 +6,59 @@ layout: default
 
 {% assign empty_array = '' | split: '|' %}
 
-{% assign tags = empty_array %}
-{% for item in site[page.listing_source] %}
-  {% for tag in item.tags %}
-    {% unless tags contains tag %}
-      {% assign tags = tags | push: tag %}
-    {% endunless %}
+{% if page.listing_source %}
+  {% assign listing_source = page.listing_source %}
+{% else %}
+  {% assign listing_source = layout.listing_source %}
+{% endif %}
+{% assign source_collection = site.collections|where: 'label', listing_source %}
+{% assign source_collection = source_collection[0] %}
+
+{% if page.limit_by_page_title_as_tag %}
+  {% assign limit_by_page_title_as_tag = page.limit_by_page_title_as_tag %}
+{% else %}
+  {% assign limit_by_page_title_as_tag = layout.limit_by_page_title_as_tag %}
+{% endif %}
+
+{% if limit_by_page_title_as_tag %}
+  {% assign tags = empty_array | push: page.title %}
+{% else %}
+  {% if page.include_general %}
+    {% assign tags = empty_array | push: 'General' %}
+  {% else %}
+    {% assign tags = empty_array %}
+  {% endif %}
+
+  {% assign general_items = empty_array %}
+  {% for item in site[listing_source] %}
+    {% for tag in item.tags %}
+      {% unless tags contains tag %}
+        {% assign tags = tags | push: tag %}
+      {% endunless %}
+    {% endfor %}
+    {% if item.tags|length == 0 %}
+      {% assign general_items = general_items | push: item %}
+    {% endif %}
   {% endfor %}
-{% endfor %}
-{% assign tags = tags | sort %}
+  {% assign tags = tags | sort %}
+{% endif %}
 
 {% for tag in tags %}
   <div class="card">
     <div class="card-header">
-      <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ page.title }}</h2>
+      <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ source_collection.title }}</h2>
     </div>
 
-    {% assign this_tag_items = empty_array %}
-    {% for item in site[page.listing_source] %}
-      {% if item.tags contains tag %}
-        {% assign this_tag_items = this_tag_items | push: item %}
-      {% endif %}
-    {% endfor %}
+    {% if tag == 'General' %}
+      {% assign this_tag_items = general_items %}
+    {% else %}
+      {% assign this_tag_items = empty_array %}
+      {% for item in site[listing_source] %}
+        {% if item.tags contains tag %}
+          {% assign this_tag_items = this_tag_items | push: item %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
     <div class="card-block">
       <ul class="card-text">

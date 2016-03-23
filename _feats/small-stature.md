@@ -2,7 +2,7 @@
 title: Small Stature
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Unusually small and nimble for your race, you can squeeze into tight places.
 prerequisites:

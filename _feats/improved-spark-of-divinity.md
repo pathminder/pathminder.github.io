@@ -2,7 +2,7 @@
 title: Improved Spark of Divinity
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You hone your divine connection further, gaining additional capabilities.
 prerequisites:

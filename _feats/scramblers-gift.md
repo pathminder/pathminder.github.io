@@ -2,7 +2,7 @@
 title: Scrambler's Gift
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You know how to climb exceptionally well.
 prerequisites:

@@ -1,6 +1,6 @@
 ---
 title: Feral Fighter
-types:
+tags:
   - Combat
   - Heritage
 sources:

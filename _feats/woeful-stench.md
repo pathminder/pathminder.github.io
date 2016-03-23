@@ -2,7 +2,7 @@
 title: Woeful Stench
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your enemies recoil in disgust when they strike you.
 prerequisites:

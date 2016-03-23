@@ -2,7 +2,7 @@
 title: Improved Sanguine Sorcery
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your blood-born sorcery intensifies, offering greater capabilities.
 prerequisites:

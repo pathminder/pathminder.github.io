@@ -2,7 +2,7 @@
 title: Altered Life
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your unusual nature affects your vitality, bolstering you in ways different from other mortals.
 prerequisites:

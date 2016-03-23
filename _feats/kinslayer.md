@@ -2,7 +2,7 @@
 title: Kinslayer
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You have a talent for harming those like yourself.
 benefit: |

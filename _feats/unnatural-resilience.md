@@ -2,7 +2,7 @@
 title: Unnatural Resilience
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your unnatural nature infuses your body, letting you resist assaults against it in unusual ways.
 prerequisites:

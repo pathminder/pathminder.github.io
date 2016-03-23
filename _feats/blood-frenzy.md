@@ -2,7 +2,7 @@
 title: Blood Frenzy
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: The deaths of your enemies impel you to ever-greater acts of violence.
 prerequisites:

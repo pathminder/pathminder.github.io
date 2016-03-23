@@ -2,7 +2,7 @@
 title: Bloodsong Adept
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: With the aid of subtle blood magics, you inspire your fellows more easily.
 prerequisites:

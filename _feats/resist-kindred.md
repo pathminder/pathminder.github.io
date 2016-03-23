@@ -2,7 +2,7 @@
 title: Resist Kindred
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You know how to defend against those like yourself.
 benefit: |

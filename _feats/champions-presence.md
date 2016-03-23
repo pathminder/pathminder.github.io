@@ -2,7 +2,7 @@
 title: Champion's Presence
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You bolster those who share beliefs similar to your nature.
 prerequisites:

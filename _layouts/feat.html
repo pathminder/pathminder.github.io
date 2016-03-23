@@ -7,10 +7,10 @@ layout: default
 {% endif %}
 
 <dl>
-  {% if page.types %}
+  {% if page.tags %}
     {% assign types = "" | split:"|" %}
     {% for type in site.feat-types %}
-      {% if page.types contains type.title %}
+      {% if page.tags contains type.title %}
         {% assign type_link = '<a href="' | append: type.url | append: '">' | append: type.title | append: '</a>' %}
         {% assign types = types | push: type_link %}
       {% endif %}

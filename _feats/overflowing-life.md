@@ -2,7 +2,7 @@
 title: Overflowing Life
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You have developed unusual amounts of life force in your body.
 prerequisites:

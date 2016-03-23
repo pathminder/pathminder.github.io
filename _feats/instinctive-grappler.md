@@ -2,7 +2,7 @@
 title: Instinctive Grappler
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: Your instincts are to grab an enemy and crush and tear at them while they struggle against you.
 prerequisites:

@@ -2,7 +2,7 @@
 title: Greater Sanguine Sorcery
 sources:
   - Bloodforge
-types:
+tags:
   - Heritage
 flavor_text: You have honed the magic of your heritage to its peak.
 prerequisites:

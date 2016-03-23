@@ -3,7 +3,7 @@ title: Mixed Blood
 sources:
   - Bloodforge
   - Lords of the Night
-types:
+tags:
   - Heritage
 flavor_text: You come from a family with diverse heritage.
 benefit: |

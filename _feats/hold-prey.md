@@ -2,7 +2,7 @@
 title: Hold Prey
 sources:
   - Bloodforge
-types:
+tags:
   - Monster
 flavor_text: You pull your prey in and don't let go.
 prerequisites:
