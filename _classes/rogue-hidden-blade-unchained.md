@@ -95,12 +95,12 @@ class_features:
     type: Ex
     levels: [1, 4, 8, 12, 16, 20]
     levels_text:
-      1: 2
-      4: 3
-      8: 4
-      12: 5
-      16: 6
-      20: 7
+      1: 2 gambits
+      4: 3 gambits
+      8: 4 gambits
+      12: 5 gambits
+      16: 6 gambits
+      20: 7 gambits
     text: |
       A hidden blade is a cunning warrior who seizes opportunities as they present themselves to put his enemies in untenable positions. At 1st level, a hidden blade selects two gambits from the gambits available to warlords (see the warlord base class in Path of War) or the hidden blade gambits listed below. At 4th level and every four levels thereafter, a hidden blade selects an additional gambit to learn. Any gambit that would normally use the hidden blade's Charisma modifier to determine its effects instead uses her hidden blade initiation modifier. These gambits allow the hidden blade to recover maneuvers. Due to their reliance on the stresses of combat to bring out the best of the hidden blade, gambits cannot be used outside combat.
 
@@ -174,12 +174,12 @@ class_features:
     type: Ex
     levels: [3, 6, 9, 12, 15, 18]
     levels_text:
-      3: +1
-      6: +2
-      9: +3
-      12: +4
-      15: +5
-      18: +6
+      3:  "+1"
+      6:  "+2"
+      9:  "+3"
+      12: "+4"
+      15: "+5"
+      18: "+6"
     text: At 3rd level, a rogue gains a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps. In addition, she gains a +1 bonus on Perception checks to avoid being surprised by a foe. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 at 18th level). This ability counts as trap sense for the purpose of any feat or class prerequisite, and can be replaced by any archetype class feature that replaces trap sense. The bonuses gained from this ability stack with those gained from trap sense (from another class).
 
   - name: debilitating injury
@@ -230,7 +230,7 @@ class_features:
       14: 2 advanced talents
       18: 3 advanced talents
     text: |
-      At 10th level and every 4 levels thereafter, a rogue can choose an unchained [rogue advanced talent](/rogue-advanced-talents/).
+      At 10th level and every 4 levels thereafter, a rogue can choose an unchained [rogue advanced talent](/rogue-advanced-talents/) in place of a rogue talent.
 
   - name: master strike
     type: Ex
