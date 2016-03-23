@@ -90,11 +90,13 @@ class_features:
     text: |
       At 1st level, the monk of the silver fist becomes an expert in wielding gauntlets. He gains Improved Unarmed Strike and Weapon Focus (gauntlet) as bonus feats, even if he does not meet their prerequisites. A monk of the silver fist deals more damage with his gauntlet attacks than a normal person would, as shown below. For the purposes of the monk of the silver fist's abilities and feats, a gauntlet is any weapon worn over the hands or fingers to aid in punching, including brass knuckles, normal gauntlets, rope gauntlets, and spiked gauntlets.
 
-      - *1st--4th:* small---1d4; medium---1d6; large---1d8.
-      - *5th--9th:* small---1d6; medium---1d8; large---2d6.
-      - *10th--14th:* small---1d8; medium---1d10; large---2d8.
-      - *15th--19th:* small---1d10; medium---2d6; large---3d6.
-      - *20th:* small---2d6; medium---2d8; large---3d8.
+      |   Level    | Damage (Small) | Damage (Medium) | Damage (Large) |
+      |:----------:|:--------------:|:---------------:|:--------------:|
+      |  1st--4th  |      1d4       |       1d6       |      1d8       |
+      |  5th--9th  |      1d6       |       1d8       |      2d6       |
+      | 10th--14th |      1d8       |      1d10       |      2d8       |
+      | 15th--19th |      1d10      |       2d6       |      3d6       |
+      |    20th    |      2d6       |       2d8       |      3d8       |
 
   - name: maneuvers
     levels: [1]
@@ -356,5 +358,10 @@ class_features:
     type: Ex
     levels: [15]
     text: At 15th level, whenever the monk initiates a strike with a range of melee attack and a target of one creature, he can spend 1 ki point as a free action to also initiate the strike against a second target within close range (25 feet + 5 feet per 2 monk of the silver fist levels). This additional strike is treated as a melee attack, and uses the monk of the silver fist's gauntlet damage as its base damage. A monk of the silver fist can only activate this ability once per strike.
-
 ---
+
+For the truly exemplary, martial skill transcends the battlefield—it is a lifestyle, a doctrine, a state of mind. These warrior-artists search out methods of battle beyond swords and shields, finding weapons within themselves just as capable of crippling or killing as any blade. These monks (so called since they adhere to ancient philosophies and strict martial disciplines) elevate their bodies to become weapons of war, from battle-minded ascetics to self-taught brawlers. Monks tread the path of discipline, and those with the will to endure that path discover within themselves not what they are, but what they are meant to be.
+
+The Monks of the Silver Fist are an order of martial artists that have perfected the way of the bodyguard. Their unique use of gauntlets and greaves protects their hands and adds weight to the attacks they make in defense of their charges.
+
+**Role:** Monks excel at overcoming even the most daunting perils, striking where it's least expected, and taking advantage of enemy vulnerabilities. Fleet of foot and skilled in combat, monks can navigate any battlefield with ease, aiding allies wherever they are needed most.
