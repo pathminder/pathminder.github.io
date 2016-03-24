@@ -1,9 +1,12 @@
 ---
-title: Mystic
+title: Mystic (Knight-Chandler)
 sources:
   - "Path of War: Expanded"
 tags:
   - Initiator
+
+prerequisites:
+  - Non-Evil
 
 max_level: 20
 hit_die: 8
@@ -45,6 +48,10 @@ shield_proficiencies:
 
 class_features:
 
+  - name: ex-knight-chandlers
+    levels: [1]
+    text: A knight-chandler who becomes of evil alignment finds themselves deprived of the hopeful, valorous worldview that shapes their unique power. Such characters may not advance further as knight-chandlers until such a time as they cease being of evil alignment, though they do not lose access to their class features. Even an evil knight-chandler remembers her former loyalty and compassion, and by focusing on these memories, she can still summon a candle and use her candle magic.
+
   - name: maneuvers
     levels: [1]
     text: |
@@ -74,30 +81,39 @@ class_features:
 
       Unlike with maneuvers, a mystic cannot learn a new stance at higher levels in place of one she already knows.
 
-  - name: animus
+  - name: soul candle
     type: Su
     levels: [1]
     text: |
-      A mystic's martial prowess is in part fueled by a reservoir of roiling, turbulent energy within her soul, and the passion and danger of combat causes this arcane energy to overflow outwards. This power, called animus, waxes and wanes with a mystic's use of her maneuvers in battle. Outside combat, a mystic has no animus to spend, but her inner power can still be used for more subtle arcane arts. Her levels in mystic count as arcane spellcaster levels for the purposes of qualifying for prerequisites (such as those of item creation feats or the Arcane Strike feat), and if a mystic ever develops arcane spellcasting from another class, she may add her mystic level to her levels in that class to determine her overall caster level for the purposes of item creation feats.
+      At 1st level, a knight-chandler creates a flickering ball of energy formed from a combination of arcane power and her own soulstuff, known as her candle. The knight-chandler’s candle is a fist-sized mote of light that normally hovers in the knight-chandler’s space, and has the following properties:
 
-      When a mystic enters combat, she gains an animus pool equal to 1 + her mystic initiation modifier (minimum 1) at the start of her first turn, and adds one point of animus to her animus pool at the start of each of her turns thereafter. Her animus pool persists for one minute after the last enemy combatant is defeated or the encounter otherwise ends. At the end of any round in which the mystic initiates a maneuver (a strike, boost, or counter), she adds an additional point of animus to her pool. Certain abilities, such as some class features, maneuvers, and feats, require the mystic to expend points of animus to use.
+      - The candle is not a creature or an object and is not subject to attacks of any kind.
+      - The candle sheds bright illumination out to a distance of 5 feet per point of illumination the knight-chandler has in her illumination pool (see below), and shadowy illumination for an equal distance beyond that.
+      - Once per round as a free action, the knight-chandler can will her candle to move up to her speed. The candle’s movement is not inhibited in any way by difficult terrain or environmental conditions, although it cannot move through solid objects. The candle remains within one mile of its creator at all times; the knight-chandler may not move the candle beyond that radius, and if she attempts to move further than one mile from her candle, it floats along gently at the limit of its range. If the knight- chandler moves outside this range faster than the candle can follow (for example, by teleportation), the candle appears one round later in a random space precisely one mile from the knight-chandler.
+      - If the candle is in the knight-chandler’s space, she can instruct it to move with her; it moves when she does, remaining in her space until directed elsewhere. In addition, the knight-chandler may include her candle in teleportation effects that affect her. If she does so, it arrives in the same space she does.
+      - As a swift action, the knight-chandler may summon her candle to her space from wherever it is.
+      - Allies within 15 feet of the candle gain resistance to the knight-chandler’s active element’s associated energy type equal to the number of points in the knight-chandler’s illumination pool, up to a maximum of the knight-chandler’s class level plus her knight-chandler initiation modifier.
 
-      The primal power of animus can be used in several ways---the foremost of which is the augmentation of maneuvers. A mystic can spend points of animus to augment her maneuvers in the following ways, depending on her class level. If the mystic has the ability to augment her maneuvers in other ways, such as from another class feature or the maneuver itself, this cannot be combined with the augments granted by her animus class feature; she must choose which augmentation type to use when initiating the maneuver.
+      Unlike other supernatural abilities, a knight-chandler’s candle is not completely suppressed when it or the knight-chandler is within an *antimagic field* or similar effect. If the knight-chandler or her candle enters the area of such an effect, the candle immediately dims, shedding shadowy illumination with a radius of 5 feet, rather than its normal light. It loses all other abilities (including those gained through other class features) except for the knight-chandler’s ability to direct it to move once per round as a free action. The candle regains its full power once both it and the knight-chandler remove themselves from the area of effect suppressing the ability.
 
-      Starting at 1st level, a mystic can spend a single point of animus to augment a maneuver as part of that maneuver's initiation action to apply one of the following effects to it (if applicable):
+  - name: illumination
+    type: Su
+    levels: [1, 4, 9, 17]
+    levels_text:
+      4: damage
+      9: healing
+      17: perception
+    text: |
+      A knight-chandler tempers her inner animus into an energy called illumination, fueling her candle and its effects. Outside combat, a knight-chandler has one point of illumination in her illumination pool; she may not gain additional points of illumination outside of combat. When a knight-chandler enters combat, she adds one point of illumination to her illumination pool at the start of her first turn, and one more point of illumination to her illumination pool at the start of each turn thereafter. In addition, a knight-chandler gains one point of illumination whenever she initiates a boost, and she can focus her power as a swift action to add two points of illumination to her pool. A knight-chandler’s illumination pool persists for one minute after the last enemy combatant is defeated or the encounter otherwise ends, after which it drops back down to one point.
 
-      - *Enhance Maneuver:* For each point of animus spent, the mystic adds a cumulative +2 insight bonus to all d20 rolls made (including attack rolls, combat maneuver checks, and skill checks) when initiating that maneuver (maximum of three animus may be spent on this augmentation); if the maneuver allows the user to make multiple attacks, then this bonus only applies to the first attack.
-      - *Increase DC:* For each point of animus spent, the save DC of that maneuver increases by 1.
+      In addition, the knight-chandler gains [Tap Animus](/feats/tap-animus/) as a bonus feat, even if she does not meet the prerequisites. Her levels in knight-chandler count as arcane spellcaster levels for the purposes of qualifying for prerequisites (such as those of item creation feats or the Arcane Strike feat), and if a knight-chandler ever develops arcane spellcasting from another class, she may add her knight-chandler level to her levels in that class to determine her overall caster level for the purposes of item creation feats.
 
-        When the mystic reaches 4th level, she can spend up to two points of animus on maneuver augmentations, rather than one, and she gains access to the following additional augmentations:
-      - *Anima Burn:* The mystic adds 1/2 her class level to damage rolls made during that maneuver. This augment costs two points of animus, and can only be applied once to a given maneuver.
-      - *Increase Potency:* For each point of animus spent, the mystic may ignore 10 points of energy resistance or 5 points of damage reduction.
+      A knight-chandler’s inner illumination manifests in both her candle and a powerful enhancement of her body and soul:
 
-        When the mystic reaches 9th level, she may now spend up to three points of animus on maneuver augmentations, and gains access to the following additional augmentation:
-      - *Animus Rush*: The mystic make move up to her base movement speed as part of the initiation action for the maneuver before initiating the strike. This is a teleportation effect and the mystic must clearly see her destination. This augmentation costs three points of animus.
-      - *Increase Range:* The mystic may target a creature within 30 feet with a strike that normally uses a melee attack. Resolve the strike normally, as if the targeted creature was within the mystic's melee reach. This augmentation costs two points of animus.
-
-      At 13th level, a mystic can spend up to four points of animus on maneuver augmentation, and at 19th level, she can spend up to five points of animus per augmentation.
+      - Starting at 1st level, a knight-chandler can empower her attacks with a brilliant luminescence. Whenever the knight-chandler hits a creature with an attack, she can choose to have her target become outlined as if by a faerie fire spell, with a caster level equal to the knight-chandler’s initiator level. Successive uses of this ability against the same creature do not stack; instead, they extend the duration.
+      - Starting at 4th level, a knight-chandler deals additional damage equal to her initiator level on any attack she makes as part of a strike against an opponent that threatens one of her allies other than herself.
+      - Starting at 9th level, when a knight-chandler hits a creature outlined by her illumination with an attack, she can choose to snuff out the light affecting that creature to heal herself for a number of hit points equal to 1/2 the damage dealt by her attack. Activating this ability is a free action that can be taken even if it isn’t the knight-chandler’s turn, although it can only be used once per round. The knight-chandler cannot heal more damage than her target’s maximum hit points with this ability.
+      - Starting at 17th level, the knight-chandler can perceive the surroundings of her candle as if she herself were there. She can treat the candle’s space as her own for the purposes of determining line of sight, making Perception checks, or the range of any special senses she possesses (such as blindsense). In addition, once per encounter, the knight-chandler can teleport to her candle as a standard action. The knight-chandler does not require line of effect to use this ability, although if her candle’s space is occupied by another creature, she is shunted to the nearest unoccupied space. This is a teleportation effect.
 
   - name: elemental attunement
     type: Su
@@ -132,65 +148,40 @@ class_features:
       20: "+5"
     text: Starting at 2nd level, the sorcerous power within her body makes her resilient to the supernatural. These energies defend her from magical and psionic powers, granting her a +1 insight bonus to her AC and saving throws against psionic powers, psi-like abilities, spells, and spell-like abilities. This bonus increases by +1 at 6th level, and again at 11th level, 16th level, and 20th level.
 
-  - name: elemental glyph
+  - name: candle magic
     type: Su
-    levels: [3, 8, 13, 19]
+    levels: [3, 8, 15]
     levels_text:
-      3: I
-      8: II
-      13: III
-      19: IV
+      3: votive
+      8: lantern
+      15: bonfire
     text: |
-      Starting at 3rd level, a mystic learns to aid her friends with the arcane power of the elements. Although at first this surging energy was raw and unformed, she has begun to master this ability, and can use it to empower her allies, granting them benefits in combat. As a move action, the mystic can spend one point of animus to apply an elemental glyph to a number of allies equal to her mystic initiation modifier modifier within her sight. The effect of this glyph depends on the element it is associated with, but all glyphs last for a number of rounds equal to 1 + the mystic's initiation modifier. A mystic is not limited to casting glyphs of her active element (as darkness, illumination, and metal have no elemental type). Allies may only be affected by one of her glyphs at a time, with new glyphs ending the current glyph in effect and replacing it on the affected ally. The benefits of these glyphs are cumulative (for example, an 8th level mystic grants both the 3rd level and 8th level benefits to her allies). Different glyphs from different mystics may apply to the same target. Glyphs are supernatural abilities and not subject to spells or effects like dispel magic but do not function within an antimagic field or similar effect.
+      The bright energy that the knight- chandler’s candle releases is more than mere light; it is her raw power, infused with her loyalty and devotion. As her illumination builds, the knight-chandler can shape this energy into various effects.
 
-      *Air:* The glyph of air fills the mystic's allies with energy and speed.
+      At 3rd level, the knight-chandler can project a votive effect from her candle. At 8th level, she can also project a lantern effect from her candle. Finally, at 15th level, the knight-chandler can also project a bonfire effect from her candle.
 
-      - At 3rd level, all movement speeds possessed by each ally under the effect of the glyph gain a +10-foot enhancement bonus to speed. In addition allies may choose to make one turn of up to 90 degrees while making charge attacks.
-      - At 8th level, this enhancement bonus to movement speed increases to 30 feet, and they may make Acrobatics checks to jump as if they had a running start.
-      - At 13th level, allies affected by the glyph of air gain the ability to move up to 30 feet as a swift action. This movement provokes attacks of opportunity as normal.
-      - At 19th level, whenever one of the mystic's allies uses the glyph of air's swift action movement ability, they can make a single attack with a weapon they are wielding at their highest base attack bonus at any point during this movement.
+      The knight-chandler may change which effects her candle projects as a swift action, though she can never project more than one effect of the same type at a time. All allies within 15 feet of the knight-chandler’s candle gain the benefits of the projected effect.
 
-      *Darkness:* Though darkness often connotates evil, for the mystic its shroud offers both protection and insight, allowing the mystic's allies tactical avenues that they would otherwise be unable to access.
+      *Votive Effects:*
 
-      - At 3rd level, allies affected by the glyph of darkness gain concealment (20% miss chance).
-      - At 8th level, affected allies gain darkvision and the effects of a see invisibility spell out to a range of 60 feet.
-      - At 13th level, affected allies are shrouded in a pitch- black veil, gaining total concealment (50% miss chance).
-      - At 19th level, affected allies gain the blindsight trait with a range of 30 feet.
+      - Affected allies gain a morale bonus to saving throws against mind-affecting abilities equal to the knight-chandler’s illumination, up to a maximum bonus equal to her knight-chandler initiation modifier.
+      - Affected allies add energy damage of the knight-chandler’s active element’s associated energy type equal to the knight-chandler’s illumination to their melee and ranged attacks, up to a maximum amount equal to her class level.
+      - Affected allies gain the ability to a take 5-foot step as a swift action, even if they’ve already moved or taken a 5-foot step during their turn.
+      - Affected allies gain the ability to tap into the candle’s energy as a swift action, gaining temporary hit points equal to the knight-chandler’s illumination, up to a maximum number of temporary hit points equal to her class level. These temporary hit points do not stack with themselves, and last for up to 1 minute.
 
-      *Earth:* The dour, steadfast nature of earth allows the mystic's allies to better stand their ground and weather assaults.
+      *Lantern Effects:*
 
-      - At 3rd level, this glyph makes allies more difficult to move against their will. Affected allies gain a bonus to their CMD equal to the mystic's Wisdom modifier.
-      - At 8th level, affected allies gain DR/adamantine equal to the mystic's Wisdom modifier.
-      - At 13th level, affected allies gain resistance to all energy types equal to the mystic's class level.
-      - At 19th level, the first time during the encounter that an affected ally is reduced to 0 or fewer hit points, they are instead reduced to 0 hit points and automatically stabilize. Their hit points cannot be reduced below 0 for the rest of the round. Once this effect triggers on an ally, that ally cannot gain its effect again until the end of the encounter. In addition, affected are allies are immune to bleed damage.
+      - Affected allies gain the ability to teleport to an unoccupied space adjacent to the knight-chandler as a move action. If there is no such space available, the ally does not spend their move action and does not teleport, instead getting a sense of being impeded. The knight-chandler cannot benefit from this effect when it is projected from her own candle.
+      - Affected allies gain immunity to death effects, and gain a bonus on saving throws against psi-like abilities, psionic powers, spell-like abilities, spells, and supernatural abilities of undead creatures equal to the knight-chandler’s illumination, to a maximum bonus equal to the knight-chandler’s initiation modifier.
+      - Affected allies gain a bonus on caster level checks, manifester level checks, and skill checks equal to the knight-chandler’s illumination, up to a maximum bonus equal to her knight-chandler initiation modifier.
+      - Affected allies gain a deflection bonus to their AC equal to the knight-chandler’s illumination, to a maximum bonus equal to her knight-chandler initiation modifier.
 
-      *Fire:* The unquenchable flames of passion drive the mystic's allies to feats of glory.
+      *Bonfire Effects:*
 
-      - At 3rd level, affected allies gain a circumstance bonus to attack rolls equal to 1/4 the mystic's class level (minimum +1).
-      - At 8th level, affected allies add 1/2 the mystic's class level as fire damage to attacks they make.
-      - At 13th level, affected allies' attacks ignore a number of points of energy resistance equal to the mystic's class level.
-      - At 19th level, whenever an affected ally is targeted by a melee attack, the attacker takes fire damage equal to the mystic's class level, regardless of whether or not the attack hits.
-
-      *Illumination:* The light of the universe reveals truth wherever it hides.
-
-      - At 3rd level, affected allies' attacks ignore the miss chance from concealment granted to targets by anything less than total concealment.
-      - At 8th level, affected allies gain a circumstance bonus to Will saving throws against illusion spells and effects equal to the mystic's Wisdom modifier.
-      - At 13th level, affected allies gain the effects of a true seeing spell out to a range of 30 feet.
-      - At 19th level, affected allies are protected from any falsehood, gaining the effects of a mind blank spell.
-
-      *Metal:* Sturdy and unyielding like the forged iron from which it takes its name, the glyph of metal imparts resolute strength to the mystic's allies.
-
-      - At 3rd level, affected allies increase their natural armor bonus to AC equal to 1⁄4 the mystic's class level (minimum +1).
-      - At 8th level, affected allies gain a circumstance bonus to Fortitude saves equal to 1⁄4 the mystic's class level (minimum +1).
-      - At 13th level, affected allies' attacks ignore a number of points of damage reduction and hardness equal to the mystic's Wisdom modifier.
-      - At 19th level, affected allies gain damage reduction/– equal to the mystic's Wisdom modifier and gain spell resistance equal to 15 + the mystic's class level.
-
-      *Water:* Fluid and changeable, the glyph of water grants allies flexibility in both their movement and their thinking.
-
-      - At 3rd level, affected allies gain a circumstance bonus to their CMB and to Swim checks equal to the mystic's Wisdom modifier.
-      - At 8th level, affected allies ignore difficult terrain when they move.
-      - At 13th level, affected allies gain the effects of a freedom of movement spell.
-      - At 19th level, affected allies gain fast healing of 10 while under the effects of this glyph.
+      - Affected allies gain fast healing equal to the knight- chandler’s illumination, to a maximum amount equal to her class level.
+      - Whenever an affected ally recovers one or more maneuvers, that ally heals up to 2 points of ability damage to a single ability score of their choice. If an ally does not have maneuvers or does not wish to recover maneuvers, they can activate this ability as a standard action.
+      - Affected allies gain the ability to move up to twice their speed as a swift action without provoking attacks of opportunity.
+      - If an affected ally would be reduced to 0 or fewer hit points, that ally can trigger the candle’s power as an immediate action. If they do, that ally is immediately restored to 1/2 their maximum hit point total, and all of the following adverse conditions affecting that ally (if any) immediately end: ability damage, blinded, confused, dazed, dazzled, deafened, diseased, exhausted, fatigued, feebleminded, insanity, nauseated, poisoned, sickened, and stunned. The damage that would have reduced the ally to 0 or fewer hit points is negated. Triggering the candle’s power in this fashion is draining to the knight-chandler; doing so reduces the knight-chandler’s illumination pool to one point (even if her minimum is normally higher) and renders her incapable of projecting bonfire effects for the remainder of the encounter.
 
   - name: mystic artifice
     type: Su
@@ -215,29 +206,31 @@ class_features:
       18: 4/day
     text: Starting at 6th level, a mystic is capable of drawing deep on her training to channel the untapped energies within her, granting her an infinitesimal moment perfect clarity. Once per day as a free action, the mystic may expend one granted maneuver and instantly replace it with another maneuver she knows. This maneuver is added to her currently granted maneuvers and readied for use, replacing the previous maneuver. At 10th level and every four levels thereafter, the mystic can use this ability one additional time per day.
 
-  - name: quell magic
+  - name: share the light
     type: Su
     levels: [9]
-    text: Starting at 9th level, a mystic can channel her animus to act as a sort of null-magic energy, smothering active magical effects with its flow. In order to use this ability, the mystic must have identified an ongoing spell or power through a Spellcraft check or other method. As a standard action, she can spend a number of points of animus equal to that spell or power's level to suppress (as if by an antimagic field spell) that spell or power for a number of rounds equal to her Wisdom modifier. Time spent suppressed counts against the suppressed spell or power's duration. This ability can only be used on effects within 30 feet, although the mystic does not need to identify the effect while it is within that range, and it remains suppressed even if it leaves that range.
+    text: Starting at 9th level, the knight-chandler can share the fierce light that wells up from deep within her soul, bestowing it upon her allies. As a swift action, she can select an ally within 15 feet. That ally chooses a single boost or counter that the knight-chandler has readied and unexpended. Until the beginning of the knight-chandler’s next turn, that ally can initiate that maneuver as if they had readied it normally, using the knight-chandler’s initiator level or their own, whichever is higher. If the ally chooses to initiate the maneuver, the knight-chandler expends that boost or counter (even if it isn’t currently granted to her; if it wasn’t granted to her, treat it as though it had been granted, then expended).
 
   - name: font of animus
     type: Su
     levels: [15]
     text: At 15th level, a mystic gains the ability to draw in energy from the world around her, converting it into animus to fuel her own primal power. As a move action, the mystic can add a number of points of animus to her animus pool equal to 1d6 + her Wisdom modifier. Unlike other animus abilities, this may be used outside of combat to generate a small pool of animus that persists for one minute outside of combat. A mystic cannot use this ability multiple times to accumulate animus, additional attempts simply reset the amount of animus from the previous use of this ability. The mystic may use this a number of times per day equal to her Wisdom modifier + 1 (minimum of 1).
 
-  - name: glyph mastery
+  - name: eternal candle
     type: Su
     levels: [20]
-    text: At 20th level, a mystic's control over her elemental powers are strong enough that she can manifest two elemental glyphs at the same time. As a move action, the mystic may spend two points of animus and manifest an elemental glyph of any two elements, regardless of her active element.
+    text: At 20th level, the knight-chandler transcends to something more than mortal, her fierce soul transforms her body with its overflowing light. Her type changes to Outsider, and she gains the Native and Good subtypes. In addition, she ceases aging, and her minimum illumination becomes equal to her knight-chandler initiation modifier; increasing as normal during combat and resetting to her new minimum after spending one minute outside combat. Finally, the knight-chandler gains the ability to initiate two boosts with the same swift action, expending each as normal.
 ---
 
 Born with an untamed magical power buried deep within his soul, the mystic is a warrior who, much like a sorcerer, is filled with untapped energies. This power however, is too primal and unstable, and is difficult to be formed effectively into a spell. By following a martial medium to tame this energy, the mystic is able to shape his wild power into martial maneuvers and this allows him to discover the deeper mysteries of his own inborn power.
+
+Like all mystics, those who become knight-chandlers are warriors who utilize discipline and enlightenment to shape powerful and unstable magical energies within them. What sets these warriors apart from other mystics, however, is the fierce hope that burns within their souls. Knight-chandlers are marked by indomitable hope, intense loyalty, deep compassion, and a concern for others that shapes their worldview and actions. They transform the arcane energies within themselves into something that illuminates the world with their unrelenting passion and hope. The light they wield shelters those they call friends and family—and burns those that would threaten the ones they love.
 
 **Adventures:** Most mystics adventure to stretch the limits of their powers, learning to master the mysteries within their souls. Some do it to express their power in ways that suit their ethics, for good or for ill, and others travel to find others like themselves, to study and train with and hope to eventually learn more about why they are the way they are.
 
 **Characteristics:** Mystics tend to be a very introspective lot, wielding a power so foreign to most with an intuitive sense of understanding. Many mystics follow ascetic lifestyles, hoping that the order and abstaining of life's vices will help them control their power. Others embrace their wild energies and move with the moment, pausing to reflect at the end of the day as to what drives their motivations.
 
-**Alignment:** Any. Mystics do not follow any ethical or moral path, and choose their own destiny. Some cling to lawful alignments to master their powers, and others embrace chaotic alignments to freely express their talents.
+**Alignment:** Any non-evil. Knight-chandlers are defined by their concern for others, passionate friendship, and unquenchable hope.
 
 **Religion:** Mystics who follow religion often find their faith with gods of battle, nature, magic, or freedom.
 
