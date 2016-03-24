@@ -93,6 +93,8 @@ class_features:
     text: |
       At 4th level and every 4 levels thereafter, the eldritch scoundrel gains a chained [rogue talent](/rogue-talents/) or ninja talent for which she meets the prerequisites (treating her rogue level as her ninja level). If a talent requires her to expend points from her ki pool, she can instead expend a spell slot with a spell level equal to the number of ki points she would normally expend. If a talent functions only if she has ki in her ki pool, it functions as long as she still has a spell of 1st level or higher prepared.
 
+      Only one of these talents that adds effects to the rogue's sneak attacks can be applied to an individual attack, and the decision must be made before the attack roll is made.
+
   - name: alarm sense
     type: Su
     levels: [3]
