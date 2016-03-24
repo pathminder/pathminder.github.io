@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 tags:
   - Divine
+  - Sneak Attack
 
 max_level: 20
 hit_die: 8

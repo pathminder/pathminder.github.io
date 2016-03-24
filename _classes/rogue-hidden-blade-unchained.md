@@ -6,6 +6,7 @@ sources:
   - "Path of War: Expanded"
 tags:
   - Initiator
+  - Sneak Attack
 
 max_level: 20
 hit_die: 8

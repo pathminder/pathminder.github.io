@@ -5,6 +5,7 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 tags:
   - Arcane
+  - Sneak Attack
 
 max_level: 20
 hit_die: 8
