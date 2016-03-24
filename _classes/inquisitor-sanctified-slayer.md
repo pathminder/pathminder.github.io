@@ -1,5 +1,5 @@
 ---
-title: Inquisitor
+title: Inquisitor (Sanctified Slayer)
 sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 tags:
@@ -85,42 +85,6 @@ class_features:
 
       Instead of a domain, an inquisitor may choose an inquisition, which are similar to domains but do not include domain spells.
 
-  - name: judgment
-    type: Su
-    levels: [1, 4, 7, 10, 13, 16, 19]
-    levels_text:
-      1: 1/day
-      4: 2/day
-      7: 3/day
-      10: 4/day
-      13: 5/day
-      16: 6/day
-      19: 7/day
-    text: |
-      Starting at 1st level, an inquisitor can pronounce judgment upon her foes as a swift action. Starting when the judgment is made, the inquisitor receives a bonus or special ability based on the type of judgment made.
-
-      At 1st level, an inquisitor can use this ability once per day. At 4th level and every three levels thereafter, the inquisitor can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. The inquisitor must participate in the combat to gain these bonuses. If she is frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until she can participate in the combat again.
-
-      When the inquisitor uses this ability, she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.
-
-      *Destruction:* The inquisitor is filled with divine wrath, gaining a +1 sacred bonus on all weapon damage rolls. This bonus increases by +1 for every three inquisitor levels she possesses.
-
-      *Healing:* The inquisitor is surrounded by a healing light, gaining fast healing 1. This causes the inquisitor to heal 1 point of damage each round as long as the inquisitor is alive and the judgment lasts. The amount of healing increases by 1 point for every three inquisitor levels she possesses.
-
-      *Justice:* This judgment spurs the inquisitor to seek justice, granting a +1 sacred bonus on all attack rolls. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, this bonus is doubled on all attack rolls made to confirm critical hits.
-
-      *Piercing:* This judgment gives the inquisitor great focus and makes her spells more potent. This benefit grants a +1 sacred bonus on concentration checks and caster level checks made to overcome a target's spell resistance. This bonus increases by +1 for every three inquisitor levels she possesses.
-
-      *Protection:* The inquisitor is surrounded by a protective aura, granting a +1 sacred bonus to Armor Class. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, this bonus is doubled against attack rolls made to confirm critical hits against the inquisitor.
-
-      *Purity:* The inquisitor is protected from the vile taint of her foes, gaining a +1 sacred bonus on all saving throws. This bonus increases by +1 for every five inquisitor levels she possesses. At 10th level, the bonus is doubled against curses, diseases, and poisons.
-
-      *Resiliency:* This judgment makes the inquisitor resistant to harm, granting DR 1/magic. This DR increases by 1 for every five levels she possesses. At 10th level, this DR changes from magic to an alignment (chaotic, evil, good, or lawful) that is opposite the inquisitor's. If she is neutral, the inquisitor does not receive this increase.
-
-      *Resistance:* The inquisitor is shielded by a flickering aura, gaining 2 points of energy resistance against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared. The protection increases by 2 for every three inquisitor levels she possesses.
-
-      *Smiting:* This judgment bathes the inquisitor's weapons in a divine light. The inquisitor's weapons count as magic for the purposes of bypassing damage reduction. At 6th level, the inquisitor's weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of the inquisitor's alignments. If the inquisitor is neutral, she does not receive this bonus. At 10th level, the inquisitor's weapons also count as adamantine for the purpose of overcoming damage reduction (but not for reducing hardness).
-
   - name: monster lore
     type: Ex
     levels: [1]
@@ -146,6 +110,25 @@ class_features:
       18: "+9"
       20: "+10"
     text: Inquisitors are skilled at sensing deception and intimidating their foes. An inquisitor receives a morale bonus on all Intimidate and Sense Motive checks equal to 1/2 her inquisitor level (minimum +1).
+
+  - name: studied target
+    type: Ex
+    levels: [1, 5, 7, 10, 15, 20]
+    levels_text:
+      1: "+1"
+      5: "+2"
+      7: move or swift action
+      10: "+3"
+      15: "+4"
+      20: "+5"
+    text: |
+      A sanctified slayer can study an opponent he can see as a move action. The sanctified slayer then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a +1 bonus on weapon attack and damage rolls against it. The DCs of sanctified slayer class abilities against that opponent increase by 1. A sanctified slayer can only maintain these bonuses against one opponent at a time; these bonuses remain in effect until either the opponent is dead or the sanctified slayer studies a new target.
+
+      If a sanctified slayer deals sneak attack damage to a target, he can study that target as an immediate action, allowing him to apply his studied target bonuses against that target (including to the normal weapon damage roll).
+
+      At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill checks and to sanctified slayer DCs against a studied target increase by 1. In addition, at each such interval, the sanctified slayer is able to maintain these bonuses against an additional studied target at the same time. The sanctified slayer may discard this connection to a studied target as a free action, allowing him to study another target in its place.
+
+      At 7th level, a sanctified slayer can study an opponent as a move or swift action
 
   - name: cunning initiative
     type: Ex
@@ -191,6 +174,21 @@ class_features:
 
       As a standard action, the inquisitor can choose to learn a new bonus teamwork feat in place of the most recent bonus teamwork feat she has already learned. In effect, the inquisitor loses the bonus feat in exchange for the new one. She can only change the most recent teamwork feat gained. Whenever she gains a new teamwork feat, the previous teamwork feat becomes set and cannot be changed again. An inquisitor can change her most recent teamwork feat a number of times per day equal to her Wisdom modifier.
 
+  - name: sneak attack
+    type: Ex
+    levels: [4, 7, 10, 13, 16, 19]
+    levels_text:
+      4: +1d6
+      7: +2d6
+      10: +3d6
+      13: +4d6
+      16: +5d6
+      19: +6d6
+    text: |
+      At 4th level, if a sanctified slayer catches an opponent unable to defend itself effectively from her attack, she can strike a vital spot to deal extra damage. The sanctified slayer's attack deals additional damage anytime her target would be denied a Dexterity bonus to AC (whether or not the target actually has a Dexterity bonus), or when the sanctified slayer flanks her target. This additional damage is 1d6 at 4th level, and increases by 1d6 every 3 levels thereafter. Should a sanctified slayer score a critical hit with the sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet. With a weapon that deals nonlethal damage (such as a sap, whip, or an unarmed strike), a sanctified slayer can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, even with the usual --4 penalty.
+
+      A sanctified slayer must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A sanctified slayer cannot use sneak attack while striking a creature with concealment.
+
   - name: bane
     type: Su
     levels: [5]
@@ -200,11 +198,6 @@ class_features:
     type: Sp
     levels: [5]
     text: At 5th level, an inquisitor can discern lies, as per the spell, for a number of rounds per day equal to her inquisitor level. These rounds do not need to be consecutive. Activating this ability is an immediate action.
-
-  - name: second judgment
-    type: Ex
-    levels: [8]
-    text: At 8th level, whenever an inquisitor uses her judgment ability, she selects two different judgments, instead of one. This only consumes one use of her judgment ability. As a swift action, she can change one of these judgments to another type.
 
   - name: stalwart
     type: Ex
@@ -221,24 +214,21 @@ class_features:
     levels: [14]
     text: At 14th level, the inquisitor learns to take advantage of any opportunity that presents itself. Whenever the inquisitor scores a critical hit, she ignores any damage reduction the target might have. In addition, if the target has regeneration, the creature loses regeneration on the round following the critical hit and can die normally during that round. Creatures whose regeneration always functions are immune to this ability. Finally, if the inquisitor deals energy damage to a creature with vulnerability to that energy type, she deals +1 point of damage per die rolled.
 
-  - name: third judgment
+  - name: talented slayer
     type: Ex
-    levels: [16]
-    text: At 16th level, whenever an inquisitor uses her judgment ability, she selects three different judgments, instead of just two. This only consumes one use of her judgment ability. As a swift action, the inquisitor can change one of these judgments to another type.
-
-  - name: slayer
-    type: Ex
-    levels: [17]
-    text: At 17th level, an inquisitor learns to focus her judgment. Whenever an inquisitor uses her judgment ability, she must select one type of judgment. She is treated as if she were 5 levels higher for the purposes of determining the bonus granted by this judgment. Unlike other types of judgment, the one enhanced by this ability cannot be changed for the remainder of the judgment.
-
-  - name: true judgment
-    type: Su
-    levels: [20]
-    text: At 20th level, an inquisitor can call true judgment down upon a foe during combat. Whenever an inquisitor uses her judgment ability, the inquisitor can invoke true judgment on a foe as a swift action. Once declared, the inquisitor can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, it deals damage normally and the target must make a Fortitude save or die. The DC of this save is equal to 10 + 1/2 the inquisitor's level + the inquisitor's Wisdom modifier. Regardless of whether or not the save is made, the target creature is immune to the inquisitor's true judgment ability for 24 hours. Once this ability has been used, it cannot be used again for 1d4 rounds.
+    levels: [8, 16, 17, 20]
+    levels_text:
+      8: 1 talent
+      16: 2 talents
+      17: 3 talents
+      20: 4 talents
+    text: At 8th, 16th, 17th, and 20th levels, a sanctified slayer can gain a single slayer talent, including those from the list of [rogue talents](/rogue-talents/) that a slayer can take, but not an advanced slayer talent.
 
 ---
 
 Grim and determined, the inquisitor roots out enemies of the faith, using trickery and guile when righteousness and purity is not enough. Although inquisitors are dedicated to a deity, they are above many of the normal rules and conventions of the church. They answer to their deity and their own sense of justice alone, and are willing to take extreme measures to meet their goals.
+
+While all inquisitors root out enemies of the faith, in many orders and churches there's a select group of these religious hunters devoted to one goal, and one goal alone---to terminate the enemies of the faith wherever they can be found. Sometimes these sanctified slayers are given special dispensation to commit ruthless murders for the faith's greater good. Other times, they're simply willing to take the initiative to revel in the zeal of such grisly work.
 
 **Role:** Inquisitors tend to move from place to place, chasing down enemies and researching emerging threats. As a result, they often travel with others, if for no other reason than to mask their presence. Inquisitors work with members of their faith whenever possible, but even such allies are not above suspicion.
 
