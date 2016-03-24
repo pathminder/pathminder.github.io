@@ -1,9 +1,11 @@
 ---
 title: trap spotter
 sources:
+  - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Pathfinder Unchained
 type: Ex
 tags:
+  - Chained
   - Unchained
 ---
 

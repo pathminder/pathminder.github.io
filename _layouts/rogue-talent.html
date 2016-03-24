@@ -9,8 +9,9 @@ layout: default
   {% assign type_text = '<strong>Type</strong> ' | append: page.type %}
   {% assign stat_items = stat_items | push: type_text %}
 {% endif %}
-{% if page.tags contains 'Sneak Attack' %}
-  {% assign stat_items = stat_items | push: '<strong>Sneak Attack Talent</strong>' %}
+{% if page.tags %}
+  {% assign tag_text = page.tags | join: ', ' | prepend: '<strong>Tags</strong> ' %}
+  {% assign stat_items = stat_items | push: tag_text %}
 {% endif %}
 
 {% if stat_items|size > 0 %}
