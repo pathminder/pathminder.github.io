@@ -3,6 +3,9 @@ title: whisper of undeath
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Counter
 type: Counter
 level: 1
 prerequisites:

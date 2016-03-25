@@ -3,6 +3,9 @@ title: rattling skeleton parry
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Counter
 level: 2
 type: Counter
 prerequisites:

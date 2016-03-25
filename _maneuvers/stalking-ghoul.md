@@ -3,6 +3,9 @@ title: stalking ghoul
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Boost
 level: 2
 type: Boost
 prerequisites:

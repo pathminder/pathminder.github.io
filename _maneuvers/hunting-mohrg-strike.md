@@ -3,6 +3,9 @@ title: hunting mohrg strike
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Strike
 level: 4
 type: Strike
 prerequisites:

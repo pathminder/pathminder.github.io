@@ -3,6 +3,9 @@ title: pitiless axe of the executioner
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Strike
 level: 9
 type: Strike
 prerequisites:

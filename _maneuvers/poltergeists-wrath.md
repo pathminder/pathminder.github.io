@@ -3,6 +3,9 @@ title: poltergeist's wrath
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Strike
 level: 7
 type: Strike
 prerequisites:

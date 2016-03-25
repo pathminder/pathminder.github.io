@@ -3,6 +3,9 @@ title: chilling mist sidestep
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Counter
 level: 8
 type: Counter
 prerequisites:

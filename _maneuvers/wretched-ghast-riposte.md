@@ -3,6 +3,9 @@ title: wretched ghast riposte
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Counter
 level: 4
 type: Counter
 prerequisites:

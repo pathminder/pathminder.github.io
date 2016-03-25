@@ -3,6 +3,9 @@ title: howling banshee strike
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Strike
 level: 5
 type: Strike
 prerequisites:

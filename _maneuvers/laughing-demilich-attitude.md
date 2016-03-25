@@ -3,6 +3,9 @@ title: laughing demilich attitude
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Stance
 level: 8
 type: Stance
 prerequisites:

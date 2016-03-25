@@ -3,6 +3,9 @@ title: avenging revenant's advance
 sources:
   - Lords of the Night
 discipline: Unquiet Grave
+tags:
+  - Unquiet Grave
+  - Stance
 level: 3
 type: Stance
 prerequisites:
