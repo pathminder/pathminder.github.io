@@ -31,7 +31,7 @@ ref_progression: poor
 will_progression: poor
 
 manifesting_progression: mid
-initiating_progression: mid
+initiating_progression: half
 
 weapon_proficiencies:
   - Simple
