@@ -1,6 +1,8 @@
 ---
 title: knife to the soul
 minimum_level: 12
+sources:
+  - "Ultimate Psionics"
 ---
 
 The soulknife gains the knife to the soul ability. When a soulknife with knife to the soul executes a psychic strike, he can choose to substitute Intelligence, Wisdom, or Charisma damage (her choice) for extra dice of damage. For each die of extra damage he gives up, he deals 1 point of damage to the ability score he chooses. A soulknife can combine extra dice of damage and ability damage in any combination, so long as no more than half of the soulknife's extra dice of damage are converted to ability damage. Knife to the soul may only be used once per round.

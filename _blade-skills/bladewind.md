@@ -1,6 +1,10 @@
 ---
 title: bladewind
 minimum_level: 8
+anti_tags:
+  - Augmented Blade
+sources:
+  - "Ultimate Psionics"
 ---
 
 The soulknife gains the ability to momentarily fragment his mind blade into numerous identical blades, each of which strikes at a nearby opponent.

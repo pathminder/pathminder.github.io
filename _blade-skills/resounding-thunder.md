@@ -1,5 +1,7 @@
 ---
 title: resounding thunder
+sources:
+  - "Ultimate Psionics"
 ---
 
 When the soulknife expends his psionic focus to stagger an enemy via the Thunder Blade blade skill, he gains an additional benefit. If the target ends its next turn adjacent to the soulknife, it takes 2d6+2 sonic damage.

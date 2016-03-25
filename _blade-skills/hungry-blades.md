@@ -2,6 +2,8 @@
 title: hungry blades
 tags:
   - Psychic Armory
+sources:
+  - "Psionics Augmented: Soulknives"
 ---
 
 The psychic armory's panoply of blades threatened area increases. Her blades may now threaten squares up to an additional +5 feet away.
