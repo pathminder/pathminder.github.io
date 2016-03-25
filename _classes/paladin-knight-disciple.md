@@ -32,7 +32,7 @@ fort_progression: good
 ref_progression: poor
 will_progression: good
 
-initiating_progression: partial
+initiating_progression: mid
 
 weapon_proficiencies:
   - Simple

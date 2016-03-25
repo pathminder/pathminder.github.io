@@ -37,7 +37,7 @@ fort_progression: good
 ref_progression: poor
 will_progression: poor
 
-initiating_progression: partial
+initiating_progression: mid
 
 class_features:
 

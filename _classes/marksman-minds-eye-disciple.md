@@ -34,7 +34,7 @@ ref_progression: good
 will_progression: good
 
 manifesting_progression: half
-initiating_progression: partial
+initiating_progression: mid
 
 weapon_proficiencies:
   - Simple

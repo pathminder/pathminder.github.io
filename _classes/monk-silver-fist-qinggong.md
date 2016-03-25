@@ -35,7 +35,7 @@ fort_progression: good
 ref_progression: good
 will_progression: good
 
-initiating_progression: partial
+initiating_progression: mid
 
 weapon_proficiencies:
   - brass knuckles
