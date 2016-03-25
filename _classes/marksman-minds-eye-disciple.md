@@ -33,7 +33,7 @@ fort_progression: poor
 ref_progression: good
 will_progression: good
 
-manifesting_progression: marksman
+manifesting_progression: half
 initiating_progression: partial
 
 weapon_proficiencies:
