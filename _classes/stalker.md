@@ -2,6 +2,7 @@
 title: Stalker
 sources:
   - Path of War
+  - "Path of War: Expanded"
 tags:
   - Initiator
   - Ki
@@ -52,7 +53,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by stalkers is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The stalker must meet a maneuver's prerequisite to learn it.
+      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon. He also adds either Riven Hourglass or Tempest Gale to his list of available disciplines. If he does not have that discipline's associated skill as a class skill, he gains it as a class skill. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by stalkers is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The stalker must meet a maneuver's prerequisite to learn it.
 
       Upon reaching 4th level, and at every even numbered stalker level after that, he can choose to learn a new maneuver in place of one he already knows. In effect, the stalker loses the old maneuver in exchange for the new one. The stalker need not replace the old maneuver with a maneuver of the same level. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The stalker can swap only a single maneuver at any given level. A stalker's initiator modifier is Wisdom.
 
@@ -150,6 +151,8 @@ class_features:
 
       *Alacrity (Ex):* A stalker's land speed is faster than the norm for his race, gaining a +10-ft. enhancement bonus to his base speed and he may add his Wisdom modifier to Acrobatics checks, due to his nimble and finely honed body. The stalker enjoys this benefit only when he is wearing no armor or light armor, not using a shield, and not carrying a medium or heavy load. As a swift action, the character may spend a point of ki to pour extra speed to his step to increase this bonus from 10-ft. to an additional 30-ft. for one minute, but he is fatigued afterward for 1d4 minutes as he catches his breath.
 
+      *Bloodseeker (Ex):* The stalker gains the scent special ability.
+
       *Combat Art:* A stalker that selects this art gains a bonus combat feat. The stalker must meet the prerequisites for selecting this feat. This art may be selected more than once.
 
       *Combat Precognition (Su):* The stalker designates his combat senses towards his opponents and gains momentary flashes of insight into how to defend himself against them. Spending one point of *ki* as an immediate action forces opponents who attack the stalker to roll their attack rolls twice and take the worse of the two results due to the stalker's precognitive abilities. This art has a duration of 1 + the stalker's Wisdom modifier in rounds.
@@ -168,7 +171,13 @@ class_features:
 
       *Evasion (Ex):* A stalker can avoid damage from many area-effect attacks by channeling his ki into his reflexes. If a stalker makes a successful Reflex saving throw against an attack that normally deals half damage on a successful Reflex save he instead takes no damage. Evasion can be used only if a stalker is wearing light armor or no armor. A helpless stalker does not gain the benefit of evasion.
 
+      *Fear Monger (Ex):* The stalker gains Cornugon Smash and Dazzling Display as bonus feats. The stalker must meet the prerequisites of these feats to select this stalker art.
+
       *Ki Vampirism (Su):* The stalker's *ki* gains a hungry quality that expresses itself through the martial prowess of a disciple of the Path of War. If the stalker reduces a living foe to 0 or less hit points with a martial strike or scores a successful critical hit, then he may regain 1 point of *ki* as an immediate action. He may not use his *ki* vampirism more times per day than 3 + his Wisdom modifier. This ability does not function against constructs, undead, or creatures with under 1⁄2 HD. Minimum stalker level 11th.
+
+      *Killer's Implements (Ex):* The stalker chooses a melee weapon he is proficient with, and gains the benefits of the Weapon Finesse and Deadly feats when using that weapon, even if that weapon could not normally be used with those feats. At 6th level and every five levels thereafter, the stalker chooses an additional melee weapon to gain the benefits of this ability with. The stalker can change one of these weapon choices by practicing with a new weapon for ten minutes. This stalker art counts as both Weapon Finesse and Deadly Agility for the purposes of meeting prerequisites.
+
+      *Lord of War (Ex):* The stalker adds Scarlet Throne or Piercing Thunder his list of available disciplines. If he does not have that discipline's associated skill as a class skill, he gains it as a class skill. In addition, he gains a +2 competence bonus on checks with that skill. A stalker may select this stalker art once for each discipline.
 
       *Mind Bending (Su):* The stalker's inner sense learns the workings of another being's mind, granting him the ability to impose his own will over those weak enough to succumb to this art. As a standard action, the character spends one ki point and must make eye contact with the target creature and begin speaking to them, using his ki to influence his target's thoughts. The target then must make a Will save (DC 13 + the stalker's Wisdom modifier) or be subject to a charm monster spell. Minimum stalker level 5th.
 
@@ -183,6 +192,8 @@ class_features:
       *Precocious Step (Su):* By relying on his combat insight to steer him effortlessly through a dangerous spot, the stalker may spend one point of *ki* as a swift action and move without provoking attacks of opportunity for a number rounds equal to his Wisdom modifier (minimum 1).
 
       *Rogue Talent:* Some stalkers have learned techniques that are similar to those of the rogue, and may select chained [rogue talents](/rogue-talents/) instead of stalker arts. Stalkers may not learn advanced talents, nor can they gain the *Ki* Pool or Underhanded rogue talents. Talents that apply to a rogue's sneak attack apply to a stalker's deadly strike ability.
+
+      *Sniper's Tools (Ex):* The stalker chooses a ranged weapon he is proficient with, and gains the benefits of the Point Blank Shot and Precise Shot feats when using that weapon. At 6th level and every five levels thereafter, the stalker chooses an additional ranged weapon to gain the benefits of this ability with. The stalker can change one of these weapon choices by practicing with a new weapon for ten minutes. This stalker art counts as both Point Blank Shot and Precise Shot for the purposes of meeting prerequisites.
 
   - name: blending
     type: Su

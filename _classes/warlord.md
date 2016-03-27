@@ -50,7 +50,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it.
+      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon. He also adds either Piercing Thunder or Tempest Gale to his list of available disciplines. If he does not have that discipline's associated skill as a class skill, he gains it as a class skill. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it.
 
       Upon reaching 4th level, and at every even numbered warlord level after that, he can choose to learn a new maneuver in place of one he already knows. In effect, the warlord loses the old maneuver in exchange for the new one. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The warlord need not replace the old maneuver with a maneuver of the same level. The warlord can swap only a single maneuver at any given level. A warlord's initiation modifier is Charisma.
 
@@ -81,9 +81,13 @@ class_features:
 
       **Acrobatic Gambit:** *Risk:* The warlord attempts an Acrobatics check to move through an opponent's threatened area. *Reward:* The warlord's brash move allows attacks against the opponent or opponents that the warlord evaded this round to inflict an additional 1d6 + his Charisma modifier points of damage upon a successful hit. This damage is not multiplied on a critical hit.
 
+      **Battering Ram Gambit:** *Risk:* The warlord attempts an overrun combat maneuver against an opponent. *Reward:* Other allies adjacent to the overran opponent may make an attack of opportunity against that creature.
+
       **Brave Gambit:** *Risk:* The warlord attempts to make a successful charge attack against an opponent (if the character has the ability to make multiple attacks at the end of a charge, the initial first attack must be successful for this gambit's success). *Reward:* The warlord's actions embolden his allies and sets his spirit alight with courage; the warlord and his allies gain a morale bonus to damage equal to the warlord's Charisma modifier on the next attack they make or until the warlord's next turn.
 
       **Cavalry Gambit:** *Risk:* The warlord attempts a successful mounted charge attack or mounted overrun maneuver against a target creature. *Reward:* The warlord's opponent's defense is unbalanced; the warlord and his allies gain a morale bonus equal to his Charisma modifier on attacks of opportunity against that foe until the warlord's next turn.
+
+      **Chessmaster's Gambit:** *Risk:* The warlord attempts a reposition combat maneuver against an opponent. *Reward:* The warlord is able to move the opponent into an undesirable position, and that opponent takes to their AC equal to the warlord's initiation modifier until the start of the warlord's next turn.
 
       **Dastardly Gambit:** *Risk:* The warlord attempts a successful dirty trick maneuver against an opponent. *Reward:* The warlord and his allies are filled with malicious glee to attack the warlord's foe, and gain his Charisma modifier as a morale bonus to damage rolls to a single attack against this target until the warlord's next turn.
 
@@ -91,11 +95,15 @@ class_features:
 
       **Duelist's Gambit:** *Risk:* The warlord attempts to successfully use the disarm maneuver against an opponent. *Reward:* The warlord's opponent is disarmed of a weapon and then the warlord may make an immediate attack of opportunity against his foe and gains a morale bonus to damage equal to his Charisma modifier if the attack is successful.
 
+      **Flanker's Gambit:** *Risk:* The warlord attacks an opponent adjacent to one of the warlord's other allies. *Reward:* The warlord is considered to be flanking that opponent until the end of her next turn, even if the warlord is not in a position that would allow him to flank them.
+
       **Gatecrasher Gambit:** *Risk:* The warlord attempts a successful bull rush maneuver against an opponent. *Reward:* The opponent is so rattled by the warlord's deft bull rush, that he suffers a penalty equal to the warlord's Charisma modifier for one round on all d20 checks.
 
       **Grappler Gambit:** *Risk:* The warlord attempts a successful grapple maneuver against an opponent. *Reward:* When the warlord has his enemy pinned and he chooses to inflict damage upon him, the warlord adds a morale bonus to damage equal to his Charisma modifier until the foe successfully escapes the grapple.
 
       **Outrider's Gambit:** *Risk:* The warlord attempts a successful ranged attack while on a moving mount. The mount must move 10 feet or more to use this gambit. *Reward:* The warlord success allows his allies to reap the benefits of his skill; allies who make ranged attacks against this target opponent add the warlord's Charisma modifier as a morale bonus to their next attack roll.
+
+      **Oxen's Gambit:** *Risk:* The warlord attempts a drag combat maneuver against an opponent. *Reward:* The warlord boldly grabs his target and drags them around while inspiring his allies to action; for every 5 feet the warlord drags the opponent, his allies (other than himself himself) may move 5 feet without provoking attacks of opportunity as a free action, even if it isn't their turns.
 
       **Pinhole Gambit:** *Risk:* The warlord attempts to successfully use a ranged attack against an opponent engaged in melee with an ally. *Reward:* The successful and surprising attack against the foe shakes the enemy's confidence and harms its ability to defend itself; the warlord's Charisma modifier is applied as a penalty to its Armor Class until the warlord's next turn.
 
@@ -104,6 +112,8 @@ class_features:
       **Ravager's Gambit:** *Risk:* The warlord attempts a successful sunder maneuver against an opponent. *Reward:* The warlord's sundering attack ignores a portion of his foe's weapon's hardness equal to his Charisma modifier.
 
       **Sweeping Gambit:** *Risk:* The warlord attempts a successful trip maneuver against an opponent. *Reward:* The warlord trips his foe and may make an immediate attack of opportunity against that foe, adding his Charisma modifier as a morale bonus to the damage he inflicts if successful.
+
+      **Thieving Gambit:** *Risk:* The warlord attempts a steal combat maneuver against an opponent. *Reward:* By successfully stealing an opponent's item, the warlord infuriates them to the point of heedless anger. That opponent takes a penalty to their AC equal to the warlord's initiation modifier, but gains a +2 bonus on damage rolls against the warlord. Both the penalty and bonus last until the start of the warlord's next turn.
 
       **Unbreakable Gambit:** *Risk:* The warlord attempts to succeed on a Fortitude or Will save against an extraordinary ability, maneuver, power, spell, or spell-like or supernatural ability. The effect in question must not be a harmless effect on a failed saving throw. Unlike other gambits, this one can be attempted as an immediate action instead of a swift action. *Reward:* The warlord is emboldened by his ability to resist his opponent's attack, and regains a number of hit points equal to three times his Charisma modifier.
 
@@ -123,16 +133,26 @@ class_features:
     type: Ex
     levels: [2, 7, 9]
     levels_text:
+      2: 1 presence
+      5: 2 presences
       7: free action
-      9: victorious
+      9: 3 presences
     text: |
       At 2nd level, the warlord's innate charisma allows his very presence to aid and assist not only himself but his allies as well, just by his being around. Adopting a presence is a move-equivalent action, and only one presence may be maintained at any given time. At 7th level, the warlord is capable of adopting a presence as a free action.
 
-      *Indomitable Presence:* At 2nd level, the warlord shines as a beacon to his allies on the field of battle, inspiring them to fight with him to their last breath. All allies within 30-ft. of his position gain the benefits of the Die Hard feat, and may add the warlord's Charisma modifier to Fortitude saves versus death effects, fatigue or exhaustion effects, or poison effects as a morale bonus.
+      The warlord gains one tactical presence from the following list at 2nd level, a second at 5th level, and a third at 9th level.
 
-      *Rallying Presence:* The sight of a warlord on the battlefield is enough to strengthen the hearts and wills of those who fight beside him in battle. At 5th level, the warlord may add his Charisma modifier as a morale bonus to Will saves versus fear, death effect, or compulsion effects to all allies within 30-ft. of his position. If the warlord maintaining this presence becomes cowed, frightened, panicked or falls prey to a hostile mind-affecting ability (such as one that would stun or daze him), compulsion or death effect, this presence immediately ends.
+      *Gladiator's Presence:* The warlord has seen some scraps in his day, and he knows how to inspire his allies through some tough moments too. Allies within 30 feet of the warlord gain a morale bonus on combat maneuver checks and to their CMD equal to the warlord's initiation modifier. In addition, those allies do not provoke attacks of opportunity when making combat maneuver attempts. A warlord must be at least 9th level to select this presence.
 
-      *Victorious Presence:* The preternatural skill at arms that a warlord of at this level possesses is enough to win any battle. At 9th level, any foe that the warlord brings to 0 or fewer hit points in battle immediately fuels his hunger for the win, granting him and his allies within 30-ft. of his position the character's class level plus Charisma modifier in temporary hit points. These hit points endure until they are lost or until the end of the encounter, whichever occurs first. Damage inflicted on the warlord is deducted from his temporary hit points first before being deducted from his normal hit point total.
+      *Indomitable Presence:* The warlord shines as a beacon to his allies on the field of battle, inspiring them to fight with him to their last breath. All allies within 30 feet of his position gain the benefits of the Die Hard feat, and may add the warlord's Charisma modifier to Fortitude saves versus death effects, fatigue or exhaustion effects, or poison effects as a morale bonus. A warlord must be at least 2nd level to select this presence.
+
+      *Rallying Presence:* The sight of a warlord on the battlefield is enough to strengthen the hearts and wills of those who fight beside him in battle. The warlord may add his Charisma modifier as a morale bonus to Will saves versus fear, death effect, or compulsion effects to all allies within 30 feet of his position. If the warlord maintaining this presence becomes cowed, frightened, panicked or falls prey to a hostile mind-affecting ability (such as one that would stun or daze him), compulsion or death effect, this presence immediately ends. A warlord must be at least 5th level to select this presence.
+
+      *Taskmaster's Presence:* The warlord is a driving master, be it cruelly with a whip or kindly with encouragement. Allies within 30 feet of the warlord gain the benefits of the Endurance feat and gain a morale bonus on saving throws against fatigue, disease, compulsion effects, and sleep effects equal to the warlord's initiation modifier. If the warlord is participating in a Craft or Profession check made by one of his allies, he can add his warlord initiation modifier as a morale bonus on that check. A warlord must be at least 5th level to select this presence.
+
+      *Victorious Presence:* The preternatural skill at arms that a warlord of at this level possesses is enough to win any battle. Any foe that the warlord brings to 0 or fewer hit points in battle immediately fuels his hunger for the win, granting him and his allies within 30 feet of his position the character's class level plus Charisma modifier in temporary hit points. These hit points endure until they are lost or until the end of the encounter, whichever occurs first. Damage inflicted on the warlord is deducted from his temporary hit points first before being deducted from his normal hit point total. A warlord must be at least 9th level to select this presence.
+
+      *Warning Presence:* The instructions given by the wary warlord help his allies defend themselves against sudden surprises. Allies within 30 feet of the warlord gain a bonus equal to the warlord's initiation modifier on Reflex saves against traps and to their AC during a surprise round. In addition, the warlord can designate one of his allies to act in a surprise round, even if they normally would not be able to. A warlord must be at least 2nd level to select this presence.
 
   - name: warleader
     levels: [3]
