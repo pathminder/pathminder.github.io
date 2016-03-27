@@ -50,7 +50,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A harbinger begins her career with knowledge of five martial maneuvers. The disciplines available to her are Cursed Razor, Riven Hourglass, Scarlet Throne, Shattered Mirror, and Veiled Moon.
+      A harbinger begins her career with knowledge of five martial maneuvers. The disciplines available to her are Cursed Razor, Riven Hourglass, Scarlet Throne, Shattered Mirror, and Veiled Moon. The harbinger may also exchange access to one of her martial disciplines for the Unquiet Grave discipline. She gains the associated skill of each of her disciplines as a class skill.
 
       Once the harbinger knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by harbingers is considered an extraordinary ability unless otherwise noted in it or its discipline's description. A harbinger's maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one.
 

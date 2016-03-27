@@ -48,7 +48,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A mystic begins her career with knowledge of seven martial maneuvers. The disciplines available to her are Elemental Flux, Mithral Current, Riven Hourglass, Shattered Mirror, Solar Wind, and Veiled Moon.
+      A mystic begins her career with knowledge of seven martial maneuvers. The disciplines available to her are Elemental Flux, Mithral Current, Riven Hourglass, Shattered Mirror, Solar Wind, and Veiled Moon. The mystic may also exchange access to one of her martial disciplines for the Unquiet Grave discipline. She gains the associated skill of each of her disciplines as a class skill.
 
       Once the mystic knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by mystics is considered an extraordinary ability unless otherwise noted in it or its discipline's description. A mystic's maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one.
 
