@@ -2,6 +2,7 @@
 title: Warder
 sources:
   - Path of War
+  - "Path of War: Expanded"
 tags:
   - Initiator
 

@@ -2,6 +2,7 @@
 title: Warlord
 sources:
   - Path of War
+  - "Path of War: Expanded"
 tags:
   - Initiator
 
