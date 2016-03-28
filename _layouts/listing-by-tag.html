@@ -36,9 +36,6 @@ layout: default
         {% assign tags = tags | push: tag %}
       {% endunless %}
     {% endfor %}
-    {% if item.tags|length == 0 %}
-      {% assign general_items = general_items | push: item %}
-    {% endif %}
   {% endfor %}
   {% assign tags = tags | sort %}
 {% endif %}
@@ -49,22 +46,25 @@ layout: default
       <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ source_collection.title }}</h2>
     </div>
 
-    {% if tag == 'General' %}
-      {% assign this_tag_items = general_items %}
-    {% else %}
-      {% assign this_tag_items = empty_array %}
-      {% for item in site[listing_source] %}
-        {% if item.tags contains tag %}
+    {% assign this_tag_items = empty_array %}
+    {% for item in site[listing_source] %}
+      {% if item.tags contains tag %}
+        {% assign this_tag_items = this_tag_items | push: item %}
+      {% endif %}
+
+      {% if tag == 'General' %}
+        {% assign item_tags_size = item.tags|size %}
+        {% if item_tags_size == 0 %}
           {% assign this_tag_items = this_tag_items | push: item %}
         {% endif %}
-      {% endfor %}
-    {% endif %}
+      {% endif %}
+    {% endfor %}
 
     <div class="card-block">
       <ul class="card-text">
         {% for item in this_tag_items %}
           <li class="card-text">
-            <a href="{{ item.url }}">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+            <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
           </li>
         {% endfor %}
       </ul>

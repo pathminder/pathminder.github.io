@@ -19,6 +19,11 @@ layout: default
     <dt>Feat Type(s)</dt>
     <dd>
       {{ types | join: ', ' }}
+
+      {% assign types_size = types|size %}
+      {% if types_size == 0 %}
+        <a href="/feat-types/general/">General</a>
+      {% endif %}
     </dd>
   {% endif %}
 

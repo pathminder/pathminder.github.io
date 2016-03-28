@@ -67,6 +67,7 @@
             </div>
             <div class="col-sm-12 col-md-3">
               <div class="hidden-sm-down m-t-3"></div>
+
               <div class="row">
                 <div class="col-xs-6 col-md-12">
                   <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" class="btn btn-secondary btn-sm btn-block" target="_new">
@@ -82,6 +83,13 @@
             </div>
           </div>
           <hr class="m-b-2">
+
+          {% if page.pi_title_changed %}
+            <div class="alert alert-warning">Because of PI requirements, proper names used in the name of this entry have been changed.</div>
+          {% endif %}
+          {% if page.pi_text_changed %}
+            <div class="alert alert-info">Because of PI requirements, proper names used in the text of this entry have been changed.</div>
+          {% endif %}
 
           {% if page.sources %}
             <div class="pull-md-right col-xs-6 col-md-4 col-lg-3">
