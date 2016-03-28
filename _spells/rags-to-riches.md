@@ -1,0 +1,30 @@
+---
+title: "*rags to riches*"
+sources:
+  - "Pathfinder Player Companion: Arcane Anthology"
+school: transmutation
+spell_lists:
+  - spell_list: alchemist
+    level: 3
+  - spell_list: bard
+    level: 3
+  - spell_list: cleric
+    level: 4
+  - spell_list: medium
+    level: 3
+  - spell_list: occultist
+    level: 3
+  - spell_list: sorcerer/wizard
+    level: 4
+  - spell_list: witch
+    level: 4
+casting_time: 1 standard action
+components: [V, S, M (a bit of burlap wrapped over a copper coin)]
+range: touch
+target: 1 weapon, suit or armor, shield, tool, or skill kit touched/5 levels
+duration: 10 minutes/level
+saving_throw: Fortitude negates (object)
+spell_resistance: no
+---
+
+The target object is enhanced to function as a masterwork item. In addition to any bonuses for the masterwork quality, the object gains other bonuses. Skill kits and other equipment add an additional +1 insight bonus for every 4 caster levels you possess to skill checks made with them that already receive a bonus from the skill kit. Armor and weapons gain temporary hit points equal to your caster level. If the object already has an enhancement bonus, this bonus increases by 1. If the object of the spell has hardness, that hardness increases by 5.

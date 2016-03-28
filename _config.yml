@@ -71,6 +71,11 @@ defaults:
       layout: rogue-talent
   - scope:
       path: ""
+      type: spells
+    values:
+      layout: spell
+  - scope:
+      path: ""
       type: trait-types
     values:
       layout: trait-type
@@ -109,6 +114,9 @@ collections:
     output: true
     title: Rogue Advanced Talents
   sources:
+  spells:
+    output: true
+    title: Spells
   trait-types:
     output: true
     title: Trait Types

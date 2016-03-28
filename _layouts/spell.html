@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% assign empty_array = '' | split: '|' %}
+
+<dl>
+  {% if page.school %}
+    <dt>School</dt>
+    <dd>{{ page.school }}</dd>
+  {% endif %}
+
+  {% if page.subschool %}
+    <dt>Subchool</dt>
+    <dd>{{ page.subschool }}</dd>
+  {% endif %}
+
+  {% if page.descriptors %}
+    <dt>Descriptors</dt>
+    <dd>{{ page.descriptors | join: ', ' }}</dd>
+  {% endif %}
+
+  {% if page.spell_lists %}
+    {% assign spell_lists_array = empty_array %}
+
+    {% for spell_list in page.spell_lists %}
+      {% assign spell_list_text = spell_list.spell_list | append: ' ' | append: spell_list.level %}
+      {% assign spell_lists_array = spell_lists_array | push: spell_list_text %}
+    {% endfor %}
+
+    <dt>Spell Lists</dt>
+    <dd>
+      {{ spell_lists_array | join: ', ' }}
+    </dd>
+  {% endif %}
+
+  {% if page.casting_time %}
+    <dt>Casting Time</dt>
+    <dd>{{ page.casting_time }}</dd>
+  {% endif %}
+
+  {% if page.components %}
+    <dt>Components</dt>
+    <dd>{{ page.components | join: ', ' }}</dd>
+  {% endif %}
+
+  {% if page.range %}
+    <dt>Range</dt>
+    <dd>
+      {{ page.range }}
+      {% if page.range == 'close' %}(25 ft. + 5 ft./2 levels){% endif %}
+      {% if page.range == 'medium' %}(100 ft. + 10 ft./level){% endif %}
+      {% if page.range == 'long' %}(400 ft. + 40 ft./level){% endif %}
+    </dd>
+  {% endif %}
+
+  {% if page.target %}
+    <dt>Target(s)</dt>
+    <dd>{{ page.target }}</dd>
+  {% endif %}
+
+  {% if page.area %}
+    <dt>Area</dt>
+    <dd>{{ page.area }}</dd>
+  {% endif %}
+
+  {% if page.effect %}
+    <dt>Effect(s)</dt>
+    <dd>{{ page.effect }}</dd>
+  {% endif %}
+
+  {% if page.duration %}
+    <dt>Duration</dt>
+    <dd>{{ page.duration }}</dd>
+  {% endif %}
+
+  {% if page.saving_throw %}
+    <dt>Saving Throw</dt>
+    <dd>{{ page.saving_throw }}</dd>
+  {% endif %}
+
+  {% if page.spell_resistance %}
+    <dt>Spell Resistance</dt>
+    <dd>{{ page.spell_resistance }}</dd>
+  {% endif %}
+</dl>
+
+{{ content }}
