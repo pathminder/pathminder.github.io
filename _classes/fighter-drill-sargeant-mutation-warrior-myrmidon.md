@@ -1,10 +1,11 @@
 ---
-title: Fighter (Drill Sergeant, Myrmidon)
+title: Fighter (Drill Sargeant, Mutation Warrior, Myrmidon)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Pathfinder Player Companion: Melee Tactics Toolbox"
   - "Path of War: Expanded"
 tags:
+  - Alchemy
   - Initiator
 
 max_level: 20
@@ -137,18 +138,10 @@ class_features:
       20: 5/day
     text: At 2nd level, the fighter receives a teamwork feat as a bonus feat. He must meet the prerequisites for this feat. As a standard action, the fighter can grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every two levels the fighter possesses. Allies do not need to meet the prerequisites of these bonus feats. The fighter can use this ability once per day at 2nd level, plus one additional time per day at 5th level and for every 5 levels thereafter.
 
-  - name: armor training
-    type: Ex
-    levels: [3, 7, 11, 15]
-    levels_text:
-      3: "+1"
-      7: "+2, full speed in heavy armor"
-      11: "+3"
-      15: "+4"
-    text: |
-      Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum --4 reduction of the armor check penalty and a +4 increase of the maximum Dexterity bonus allowed.
-
-      In addition, a fighter can also move at his normal speed while wearing medium armor. At 7th level, a fighter can move at his normal speed while wearing heavy armor.
+  - name: mutagen
+    type: Su
+    levels: [3]
+    text: At 3rd level, a mutation warrior discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality. This ability functions as the alchemist's mutagen ability, using his fighter level as his alchemist level.
 
   - name: weapon training
     type: Ex
@@ -180,6 +173,16 @@ class_features:
       - *Spears:* amentum, boar spear, chain spear, elven branched spear, javelin, harpoon, lance, longspear, orc skull ram, pilum, planson, shortspear, sibat, spear, tiger fork, trident, and weighted spear.
       - *Thrown:* aklys, amentum, atlatl, blowgun, bolas, boomerang, brutal bolas, chakram, club, dagger, dart, deer horn knife, halfling sling staff, harpoon, hunga munga, javelin, lasso, kestros, light hammer, net, poisoned sand tube, rope dart, shortspear, shuriken, sibat, sling, sling glove, spear, starknife, throwing axe, throwing shield, trident, and wushu dart.
 
+  - name: mutagen discovery
+    type: Su
+    levels: [7, 11, 15, 19]
+    levels_text:
+      7: 1 discovery
+      11: 2 discoveries
+      15: 3 discoveries
+      19: 4 discoveries
+    text: At 7th level and every 4 levels thereafter, the mutation warrior can choose one of the following alchemist discoveries to augment his abilities: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, nauseating flesh, preserve organs, rag doll mutagen, spontaneous healing, tentacle, vestigial arm, wings. The mutagen warrior uses his fighter level as his effective alchemist level for the purpose of these discoveries.
+
   - name: greater tactician
     type: Ex
     levels: [9]
@@ -189,11 +192,6 @@ class_features:
     type: Ex
     levels: [17]
     text: At 17th level, the fighter receives an additional teamwork feat as a bonus feat. He must meet the prerequisites for this feat. The fighter can grant this feat to his allies using the tactician ability. Whenever the fighter uses the tactician ability, he grants any two teamwork feats that he knows. He can select from any of his teamwork feats, not just his bonus feats.
-
-  - name: armor mastery
-    type: Ex
-    levels: [19]
-    text: At 19th level, a fighter gains Damage Reduction 5/— whenever he is wearing armor or using a shield.
 
   - name: weapon mastery
     type: Ex
