@@ -3,6 +3,7 @@ title: Mystic (Knight-Chandler)
 sources:
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
 
 prerequisites:

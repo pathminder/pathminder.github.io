@@ -3,6 +3,7 @@ title: Zealot
 sources:
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
   - Psionic
 

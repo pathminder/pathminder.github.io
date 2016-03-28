@@ -4,6 +4,7 @@ sources:
   - Ultimate Psionics
 
 tags:
+  - Base
   - Psionic
 
 max_level: 20

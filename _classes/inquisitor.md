@@ -3,6 +3,7 @@ title: Inquisitor
 sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 tags:
+  - Base
   - Divine
 
 max_level: 20

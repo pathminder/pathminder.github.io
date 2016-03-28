@@ -6,6 +6,7 @@ sources:
   - Ultimate Psionics
 
 tags:
+  - Base
   - Initiator
   - Psionic
 

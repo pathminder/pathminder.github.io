@@ -5,6 +5,7 @@ sources:
   - Pathfinder Roleplaying Game Pathfinder Unchained
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
   - Sneak Attack
 

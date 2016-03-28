@@ -3,6 +3,7 @@ title: Medium (Spirit Dancer)
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
 tags:
+  - Base
   - Psychic
 
 max_level: 20

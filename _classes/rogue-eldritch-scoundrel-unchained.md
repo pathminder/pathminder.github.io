@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Pathfinder Player Companion: Arcane Anthology"
 tags:
+  - Base
   - Arcane
   - Sneak Attack
 

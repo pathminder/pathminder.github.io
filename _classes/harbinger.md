@@ -3,6 +3,7 @@ title: Harbinger
 sources:
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
 
 max_level: 20

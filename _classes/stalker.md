@@ -4,6 +4,7 @@ sources:
   - Path of War
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
   - Ki
 

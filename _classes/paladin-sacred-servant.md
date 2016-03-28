@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Advanced Player's Guide
 tags:
+  - Base
   - Divine
 
 max_level: 20

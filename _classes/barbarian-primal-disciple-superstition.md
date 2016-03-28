@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
 
 max_level: 20

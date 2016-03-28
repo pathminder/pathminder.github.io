@@ -4,6 +4,7 @@ sources:
   - Ultimate Psionics
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
   - Psionic
 

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 
 tags:
+  - Base
   - Initiator
 
 max_level: 20

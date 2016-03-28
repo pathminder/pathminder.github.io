@@ -5,6 +5,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 
 tags:
+  - Base
   - Arcane
 
 max_level: 20

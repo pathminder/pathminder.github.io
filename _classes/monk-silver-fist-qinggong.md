@@ -5,6 +5,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
   - "Path of War: Expanded"
 tags:
+  - Base
   - Initiator
   - Ki
   - Unarmed

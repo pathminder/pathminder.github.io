@@ -5,6 +5,7 @@ sources:
   - "Pathfinder Player Companion: Melee Tactics Toolbox"
   - "Path of War: Expanded"
 tags:
+  - Base
   - Alchemy
   - Initiator
 

@@ -3,6 +3,7 @@ title: Inquisitor (Sanctified Slayer)
 sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 tags:
+  - Base
   - Divine
   - Sneak Attack
 

@@ -4,6 +4,7 @@ sources:
   - Ultimate Psionics
   - "Psionics Augmented: Soulknives"
 tags:
+  - Base
   - Psionic
 
 max_level: 20

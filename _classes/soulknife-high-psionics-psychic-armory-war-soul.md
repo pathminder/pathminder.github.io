@@ -5,6 +5,7 @@ sources:
   - Path of War
   - "Psionics Augmented: Soulknives"
 tags:
+  - Base
   - Initiator
   - Psionic
 
