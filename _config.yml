@@ -81,6 +81,11 @@ defaults:
       layout: rogue-talent
   - scope:
       path: ""
+      type: skills
+    values:
+      layout: skill
+  - scope:
+      path: ""
       type: spells
     values:
       layout: spell
@@ -145,6 +150,9 @@ collections:
     output: true
     title: Rogue Advanced Talents
   sources:
+  skills:
+    output: true
+    title: Skills
   spells:
     output: true
     title: Spells
