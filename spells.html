@@ -1,0 +1,31 @@
+---
+title: Spells
+layout: default
+---
+
+{% assign spells_by_school = site.spells | group_by: 'school' %}
+
+{% for school in spells_by_school %}
+  <div class="card">
+    <div class="card-header">
+      <h2 class="h4 card-title m-b-0 p-b-0">{{ school.name }}</h2>
+    </div>
+
+    <div class="card-block">
+      {% assign spells_by_subschool = school.items | group_by: 'subschool' %}
+      {% for subschool in spells_by_subschool %}
+        {% if subschool.name != '' %}
+          <h3 class="h5 card-title">{{ subschool.name }}</h3>
+        {% endif %}
+
+        <ul class="card-text">
+          {% for spell in subschool.items %}
+            <li class="card-text">
+              <a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
