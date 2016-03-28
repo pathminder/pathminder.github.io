@@ -1,5 +1,5 @@
 ---
-title: Warlord
+title: Warlord (Vanguard Commander)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -14,6 +14,7 @@ starting_wealth: ???
 
 class_skills:
   - Acrobatics
+  - Bluff
   - Climb
   - Craft
   - Diplomacy
@@ -22,7 +23,6 @@ class_skills:
   - Knowledge (engineering)
   - Knowledge (history)
   - Knowledge (martial)
-  - Perception
   - Profession
   - Ride
   - Sense Motive
@@ -43,6 +43,7 @@ weapon_proficiencies:
 armor_proficiencies:
   - Light
   - Medium
+  - Heavy
 shield_proficiencies:
   - Shields
 
@@ -51,7 +52,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon, and the choice of either Piercing Thunder or Tempest Gale. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
+      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Eternal Guardian, Golden Lion, Iron Tortoise, Primal Fury, Scarlet Throne, and Thrashing Dragon. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
 
       Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it.
 
@@ -74,7 +75,7 @@ class_features:
       16: 5 gambits
       20: 6 gambits
     text: |
-      At his core, the warlord is a warrior who relies on both skill and daring; without this he is but any other combatant. By setting himself to danger, does his true skill shine, or so the motto of the warlord goes. At 1st level, a warlord selects two [gambits](/warlord-gambits/) as methods by which the warlord can recover expended maneuvers.
+      At his core, the warlord is a warrior who relies on both skill and daring; without this he is but any other combatant. By setting himself to danger, does his true skill shine, or so the motto of the warlord goes. At 1st level, the vanguard  commander selects one [gambit](/warlord-gambits/) as a method by which the warlord can recover expended maneuvers, and also gains the [guardian's gambit](/warlord-gambits/guardians-gambit/) gambit. At 4th level and every four levels thereafter, the warlord selects an additional gambit.
 
       Each gambit possesses three aspects---a risk, a rake, and a reward.
 
@@ -86,15 +87,18 @@ class_features:
 
       Finally, gambits may not be initiated outside of combat due to their reliance upon the stresses of battle to bring out the best of the warlord.
 
+  - name: Improved Shield Bash
+    levels: [1]
+    text: The vanguard commander gains the Improved Shield Bash feat as a bonus feat at 1st level.
+
   - name: bonus feat
-    levels: [1, 6, 10, 14, 18]
+    levels: [6, 10, 14, 18]
     levels_text:
-      1: 1 feat
-      6: 2 feats
-      10: 3 feats
-      14: 4 feats
-      18: 5 feats
-    text: At 1st level and at 6th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it.
+      6:  1 feats
+      10: 2 feats
+      14: 3 feats
+      18: 4 feats
+    text: At 6th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it.
 
   - name: tactical presence
     type: Ex
@@ -116,38 +120,34 @@ class_features:
 
       As a standard action that the warlord performs, the warlord and allies within 30 feet of him can share teamwork feats that they possess with each other, acting as if they both possessed the teamwork feat that they are sharing. The warlord can only share one teamwork feat at a time, either one of his own (with all allies within 30-ft. of him) or an ally's (in which case only the warlord receives the ability to use the teamwork feat he does not possess). The warlord and allies retain the use of this feat for 3 + the warlord's Charisma modifier in rounds. The character may use this ability 1 + Charisma modifier times per day at 3rd level (minimum of 1), and one additional time per day for every four warlord levels the character possesses.
 
-  - name: force of personality
+  - name: daring defense
     type: Ex
     levels: [3]
-    text: At 3rd level, the warlord's forceful personality and bold, headstrong nature assist him in resisting the influence of others. Where others use personal serenity, awareness of the world around them, or plain old sensibility, the warlord gets by with endless nerve. The warlord may add his Charisma modifier in addition to his Wisdom modifier to determine his Will save bonus. If the character is ever able to add his Charisma modifier to his Will save through use of another ability (for example. the paladin's divine grace) he may only add his Charisma modifier once to his Will save.
+    text: The vanguard commander rushes the enemy lines, heedless of personal danger, with bold charges and bolder personality. This headstrong determination gives rise to vanguard commanders having an almost uncanny luck at avoiding dangers. At 3rd level, the vanguard commander may add his Charisma modifier to his Dexterity modifier to determine his Reflex save bonus. If the character is ever able to add his Charisma modifier to his Reflex save through use of another ability (for example. the paladin's divine grace) he may only add his Charisma modifier once to his Reflex save.
 
   - name: tactical flanker
     type: Ex
     levels: [4]
     text: At 4th level, the warlord is exceptionally gifted at working with his allies to bring down opponents and his skills assist any who ally with him. When flanking a target with an allied creature, both the warlord and the ally may use the warlord's Charisma modifier (min +2) for the bonus they receive on flanking their opponent.
 
-  - name: battle prowess
+  - name: defensive prowess
     type: Ex
     levels: [5, 12, 19]
     levels_text:
-      5:  "+1, 1 discipline"
-      12: "+2, 2 disciplines"
-      19: "+3, 3 disciplines"
-    text: The warlord is a skilled combatant, mixing traditional fighting skills with the skill of his martial discipline training. Choose a discipline, and when the warlord is in a martial stance from this chosen discipline, the character gets the listed bonus (+1 at 5th level, +2 at 12th level, +3 at 19th level) as a competence bonus to attack and damage rolls, CMB rolls, and to his CMD. He may select another discipline at 12th level, and third discipline at 19th level.
+      5:  "+1"
+      12: "+2"
+      19: "+3"
+    text: The vanguard commander lives to inspire his troops, and by training diligently to best defend himself in the midst of heavy combat he has developed techniques for higher survivability. At 5th level, while in a Golden Lion or Iron Tortoise stance, the vanguard commander reduces his armor check penalty by 1, gains a +1 competence bonus to his existing shield bonus to his Armor Class, and adds a +1 competence bonus to his CMD. This improves by +1 at 12th level, and again at 19th level.
 
-  - name: dual boost
+  - name: heightened defenses
     type: Ex
-    levels: [6, 12, 18]
-    levels_text:
-      6: 1/day
-      12: 2/day
-      18: 3/day
-    text: Knowledgeable in the ways of making the best of any situation through pluck and verve, the warlord is capable of applying multiple martial principles simultaneously. At 6th level, once per day the warlord may initiate two boost type maneuvers as part of the same swift action. He may use this an additional time per day at 12th level, and three times per day at 18th level.
+    levels: [6]
+    text: The vanguard commander is a capable warrior who can blend both defense and offense together with precision. At 6th level, the character gains an additional immediate action to be used for the purposes of initiating a counter on a round that he initiates a boost. He can use this additional immediate action a number of times per day equal to 1 + his Charisma modifier (minimum of 1).
 
-  - name: tactical assistance
+  - name: vanguard's shield
     type: Ex
     levels: [8]
-    text: At 8th level, the warlord's gift for helping his allies in combat improves. The character may use the Aid Another action for any single ally within 30 feet of his position as a move action, and he uses his Charisma modifier for the bonus he grants to his ally's action (minimum +2).
+    text: The vanguard commander is lightning fast with his shield for both defense and offense. At 8th level, whenever the vanguard initiates a melee strike or uses a counter to defend against an attack from an adjacent foe, he may make a shield bash attempt as free action at his full base attack bonus against that creature.
 
   - name: dual tactical presence
     type: Ex

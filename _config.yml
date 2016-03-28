@@ -76,6 +76,16 @@ defaults:
       layout: spell
   - scope:
       path: ""
+      type: stalker-arts
+    values:
+      layout: stalker-art
+  - scope:
+      path: ""
+      type: tactical-presences
+    values:
+      layout: tactical-presence
+  - scope:
+      path: ""
       type: trait-types
     values:
       layout: trait-type
@@ -84,6 +94,11 @@ defaults:
       type: traits
     values:
       layout: trait
+  - scope:
+      path: ""
+      type: warlord-gambits
+    values:
+      layout: warlord-gambit
 
 collections:
   blade-skills:
@@ -117,9 +132,18 @@ collections:
   spells:
     output: true
     title: Spells
+  stalker-arts:
+    output: true
+    title: Stalker Arts
+  tactical-presences:
+    output: true
+    title: Tactical Presences
   trait-types:
     output: true
     title: Trait Types
   traits:
     output: true
     title: Traits
+  warlord-gambits:
+    output: true
+    title: Warlord Gambits

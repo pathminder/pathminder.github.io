@@ -7,6 +7,7 @@ sources:
 tags:
   - Initiator
   - Ki
+  - Unarmed
 
 max_level: 20
 hit_die: 8

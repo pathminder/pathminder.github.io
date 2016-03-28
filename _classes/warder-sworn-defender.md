@@ -1,5 +1,5 @@
 ---
-title: Warder
+title: Warder (Sworn Defender)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -76,21 +76,30 @@ class_features:
 
       At 10th level, her defensive focus improves further, causing the ground within her melee reach to be treated as if it were difficult terrain, hampering her foes' movement around him. If a foe tries to move through a space within her reach, the movement through those squares costs double (x2). Additionally, while using her defensive focus to make an attack of opportunity, her movement does not provoke attacks of opportunity.
 
-  - name: aegis
+  - name: guardianship
     type: Ex
-    levels: [1, 5, 6, 9, 12, 13, 17]
-    levesl_text:
-      1:  "+1, 10 ft."
+    levels: [1, 5, 6, 8, 9, 12, 13, 15, 17]
+    levels_text:
+      1:  "+1, 1 ward, 10 ft."
       5:  "+2"
-      6:  "20 ft."
+      6:  20 ft.
+      8:  2 wards
       9:  "+3"
-      12: "30 ft."
+      12: 30 ft.
       13: "+4"
-      15: "+5"
+      15: 3 wards
+      17: "+5"
     text: |
-      At 1st level, the warder's defensive prowess extends to those who choose to stay near to him. Allies who are within 10 ft. of the warder's position gain a +1 morale bonus to Armor Class and to Will saves under the warder's defensive aegis, her presence bolstering and shepherding the defenses of her allies. This bonus improves to +2 at 5th level (+3 at 9th level, +4 at 13th level, and +5 at 17th level). The warder does not receive this bonus, but may receive the benefits of this ability from another warder. If the ally cannot see or hear the warder, then the ally does not gain the benefits of this ability (such as if the warder is concealed or invisible).
+      At 1st level, the sworn protector may select a ward, a person whom she must protect no matter what the cost. When in combat and the sworn protector’s ward is within 10ft of their ward’s position, the ward gains a +1 morale bonus to their AC and savings throws. This bonus increases by +1 at 5th level, and every four levels after that (9th, 13th, and 17th level). Additionally, the sworn protector may add her guardianship bonus to her attack and damage rolls as a morale bonus if the ward is within the sworn protector’s guardianship range.
 
-      At 6th level, her aegis' range increases its effective area, growing to a 20 ft. radius. At 12th level, this increases again to 30 ft.
+      This radius increases by 10ft at 6th and again at 12th level. A sworn protector may only have one ward at a time at 1st level; they may then select a second ward at 8th level and a 3rd ward at 15th level. To select a ward, the sworn protector must take ten minutes discussing tactics and practicing with his ward so that he may learn how best to protect him, and from there on he practices those tactics when he readies his maneuvers. A sworn protector may dismiss a creature as his ward at any time as a free action.
+
+      The sworn protector uses his guardianship bonus in place of an aegis bonus for any ability that would use the aegis class feature.
+
+  - name: defensive intercept
+    type: Ex
+    levesl: [1]
+    text: With swift speed and trained instincts, a sworn protector is capable of sudden bursts of speed in the defense of a chosen ward. A number of times per day equal to 1 + the sworn protector’s Intelligence bonus, she may leap to her ward’s defense with lightning speed. As an immediate action, the sworn protector moves up to her base speed to a space within 10 ft. of a ward who is being subjected to an attack or effect that would cause harm, to thereby grant her guardianship benefits. This movement is subject to attacks of opportunity. If the sworn protector is too distant to reach her ward, she cannot use this ability.
 
   - name: armiger's mark
     type: Ex
@@ -111,14 +120,18 @@ class_features:
 
       At 16th level, the armiger's mark improves to allow her to recover an expended maneuver whenever she reduces a marked opponent's hit points to 0 or less (this can only trigger once per marked opponent).
 
+  - name: shared counter
+    type: Ex
+    levels: [3]
+    text: At 3rd level, the warder’s ability to protect those around him expands to allow him to use readied counters with a range of personal to protect another as long as he is adjacent to their position. If the counter is unsuccessful, then the protected ally must rely on their own defenses. He may use this with no daily limit, but only as often as he has an immediate action to initiate a counter. Additionally, in the defense of a ward she may use her defensive intercept ability as part of the same immediate action to use a shared counter. This ability functions with the Extended Defense class feature.
+
   - name: bonus feat
-    levels: [3, 8, 13, 18]
+    levels: [8, 13, 18]
     levels_text:
-      3: 1 feat
-      8: 2 feats
-      13: 3 feats
-      18: 4 feats
-    text: At 3rd level and every 5th level thereafter, a warder receives a bonus combat or teamwork feat. She must meet all prerequisites for these feats.
+      8: 1 feats
+      13: 2 feats
+      18: 3 feats
+    text: At 8th level and every 5th level thereafter, a warder receives a bonus combat or teamwork feat. She must meet all prerequisites for these feats.
 
   - name: tactical acumen
     type: Ex
@@ -142,7 +155,7 @@ class_features:
     levels_text:
       6:  "+1"
       12: "+2"
-    text: Having improved her skill with her armor, the warder is a more capable combatant in it when protecting her allies or cause. The warder may subtract her aegis bonus from her total armor check penalty and increase the maximum Dexterity bonus on her armor by 1 at 6th level, and by 2 at 12th level.
+    text: Having improved her skill with her armor, the warder is a more capable combatant in it when protecting her allies or cause. The warder may subtract her guardianship bonus from her total armor check penalty and increase the maximum Dexterity bonus on her armor by 1 at 6th level, and by 2 at 12th level.
 
   - name: adaptive tactics
     type: Ex
@@ -167,10 +180,12 @@ class_features:
   - name: deathless defenses
     type: Ex
     levels: [20]
-    text: At 20th level, the warder can indefinitely hold a position to protect her allies, even if it may cost her her life. The warder must expend two uses of her armiger's mark ability as an immediate action to activate her deathless defenses. While this ability is active, the warder is capable of maintaining her defensive focus as a move action (but recovers no maneuvers unless she spends a full round to recover) but gains the full bonuses of her defensive focus. Additionally, she receives the benefits of her aegis ability as well. She is unable to die from hit point damage while this effect is in use. She may maintain the use of this ability each round at the cost of one use of her armiger's mark ability, or she may end it as a free action. Abilities or effects that don't inflict hit point damage, such as energy drain or ability damage, can still kill the warder. While this effect is in use, she is immune to mind-affecting abilities, as her focus prevents any from tampering with her mind. Once this ability ends, either voluntarily or if the character runs out uses of armiger's mark (assuming she is not dead), the warder is exhausted and must rest a full 8 hours to recover.
+    text: At 20th level, the warder can indefinitely hold a position to protect her allies, even if it may cost her her life. The warder must expend two uses of her armiger's mark ability as an immediate action to activate her deathless defenses. While this ability is active, the warder is capable of maintaining her defensive focus as a move action (but recovers no maneuvers unless she spends a full round to recover) but gains the full bonuses of her defensive focus. Additionally, she receives the benefits of her guardianship ability as well. She is unable to die from hit point damage while this effect is in use. She may maintain the use of this ability each round at the cost of one use of her armiger's mark ability, or she may end it as a free action. Abilities or effects that don't inflict hit point damage, such as energy drain or ability damage, can still kill the warder. While this effect is in use, she is immune to mind-affecting abilities, as her focus prevents any from tampering with her mind. Once this ability ends, either voluntarily or if the character runs out uses of armiger's mark (assuming she is not dead), the warder is exhausted and must rest a full 8 hours to recover.
 ---
 
 Protective and disciplined warriors, warders are fighting men and women who use their knowledge of warfare, tactics, and strategy combined with superior combat training to accomplish their goals in defending others. Their intellect guides them through battle, and their skill at arms achieves their success.
+
+Some warders take up the defense of a sole person, and protect them above all others. Be they hired, inspired, or simply forced into it, a sworn protector warder is known for devotion and service to their chosen ward. These sworn protectors are highly valued, as they are quite skilled and effective at deterring threats.
 
 **Adventures:** Warders adventure to further their employer's missions, to serve on battlefields as protectors and champions, or to protect those that they care about. Some warders adventure to forge kingdoms of their own, battle tyranny, fight others of their kind for honor, or to live simply and by their own code.
 

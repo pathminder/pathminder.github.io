@@ -1,5 +1,5 @@
 ---
-title: Warder
+title: Warder (Hawkguard)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -23,9 +23,10 @@ class_skills:
   - Knowledge (history)
   - Knowledge (martial)
   - Knowledge (nobility and royalty)
+  - Perception
   - Profession
   - Ride
-  - Survival
+  - Sleight of Hand
   - Swim
 skill_ranks_per_level: 4
 
@@ -42,17 +43,15 @@ weapon_proficiencies:
 armor_proficiencies:
   - Light
   - Medium
-  - Heavy
 shield_proficiencies:
-  - Shields
-  - Tower Shields
+  - buckler
 
 class_features:
 
   - name: maneuvers
     levels: [1]
     text: |
-      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Broken Blade, Golden Lion, Iron Tortoise, and Primal Fury, and the choice of either Eternal Guardian or Piercing Thunder. She gains the associated skill of each of her disciplines as a class skill.
+      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Broken Blade, Golden Lion, Iron Tortoise, Solar Wind, and Tempest Gale. She gains the associated skill of each of her disciplines as a class skill.
 
       Once she knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by warders is considered an extraordinary ability unless otherwise noted in its description. Her maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one. She learns additional maneuvers at higher levels, as shown on Table: The Warder. The warder must meet a maneuver's prerequisites to learn it.
 
@@ -60,21 +59,30 @@ class_features:
 
       *Maneuvers Readied:* A warder can ready three of her five starting maneuvers, but as she advances in level and learns more maneuvers, she must choose which maneuvers to ready. She readies her maneuvers by going over battle tactics, through weapon drills, or spending time meditating in prayer for 10 minutes. The maneuvers she chooses remain readied until she decides to repeat this again and change them. Any given maneuver may only be readied once. Warders do not need to sleep or be well rested to ready their maneuvers; any time they spend 10 minutes in practice or meditation, they can change their readied maneuvers. She begins an encounter with all readied maneuvers unexpended, regardless of how many times she may have already used them since she chose them. When the warder initiates a maneuver, she expends it for the current encounter, so each of her readied maneuver can be used once per encounter (until they are recovered, see below).
 
-      For a warder to recover expended maneuvers, she must take stock of her situation to plan for her next movement. By focusing entirely on a defensive position to prepare her next move, she is able to regain maneuvers expended to assist her to victory. By taking a full round action to plan her next move (activating her defensive focus class feature, see below), she recovers a number of expended maneuvers equal to her Intelligence modifier (minimum of 2). Alternately, she may take a brief pause in battle and recover a single maneuver of her choosing by spending a standard action on her turn.
+      For a warder to recover expended maneuvers, she must take stock of her situation to plan for her next movement. By focusing entirely on a defensive position to prepare her next move, she is able to regain maneuvers expended to assist her to victory. By taking a full round action to plan her next move (activating her ranged defensive focus class feature, see below), she recovers a number of expended maneuvers equal to her Intelligence modifier (minimum of 2). Alternately, she may take a brief pause in battle and recover a single maneuver of her choosing by spending a standard action on her turn.
 
       *Stances Known:* Warders begin play with knowledge of one stance from any discipline open to warders. At the indicated levels (see class table), the warder selects an additional new stance. Unlike maneuvers, stances are not expended, and she does not have to ready them. All the stances she knows are available to her at all times, and she can change the stance she is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the warder cannot learn a new stance at higher levels in place of one she already knows.
 
-  - name: defensive focus
+  - name: archer training
     type: Ex
-    levels: [1, 10]
-    levels_text:
-      10: improved
+    levels: [1]
+    text: |
+      With the exhaustive training that hawkguards undergo, the hawkguard becomes a skilled ranged combatant who specializes in the use of a branch of ranged weaponry. She may select one ranged weapon to be her favored weapon. When wielding this weapon, she does not suffer a penalty to hit for wearing a buckler, and retains her shield bonus to AC even when using that arm to attack with her chosen weapon.
+
+      The hawkguard also gains Point Blank Shot as a bonus feat.
+
+  - name: ranged defensive focus
+    type: Ex
+    levels: [1]
     text: |
       At 1st level, the defensive prowess of the warder is second to none, allowing her to focus her actions purely on defending himself and her allies in ways that cannot be replicated. The warder gains the Combat Reflexes feat as a bonus feat, using her Intelligence modifier in place of her Dexterity modifier to determine the number of additional attacks of opportunity she may make each round.
 
-      When recovering maneuvers as a full round action, the warder sets up a defensive perimeter around himself to defend her allies, increasing her threatened area by 5 ft. for every 5 initiator levels she possesses. Until the beginning of her next turn, she may make attacks of opportunity against any opponent in this threatened area that provokes attacks of opportunity. She may move as part of these attacks of opportunity, provided her total movement before her next turn does not exceed her speed (his movement provokes attacks of opportunity as normal). Additionally, while using defensive focus, the warder adds her Intelligence modifier plus her class level to her CMD for the purposes of defending against enemies trying to use the Acrobatics skill to prevent her from getting attacks of opportunity against them.
+      When recovering maneuvers as a full round action, the warder sets up a defensive perimeter around himself to defend her allies, threatening an area within 15 ft. of herself, except for adjacent squares, as long as she's wielding a ranged weapon. Until the beginning of her next turn, she may make attacks of opportunity using a ranged weapon against any opponent in this threatened area that provokes attacks of opportunity. She may move as part of these attacks of opportunity, provided her total movement before her next turn does not exceed her speed (his movement provokes attacks of opportunity as normal). Additionally, while using ranged defensive focus, the warder adds her Intelligence modifier plus her class level to her CMD for the purposes of defending against enemies trying to use the Acrobatics skill to prevent her from getting attacks of opportunity against them.
 
-      At 10th level, her defensive focus improves further, causing the ground within her melee reach to be treated as if it were difficult terrain, hampering her foes' movement around him. If a foe tries to move through a space within her reach, the movement through those squares costs double (x2). Additionally, while using her defensive focus to make an attack of opportunity, her movement does not provoke attacks of opportunity.
+  - name: close combat archery
+    type: Ex
+    levels: [3]
+    text: At 3rd level, the hawkguard no longer provokes attacks of opportunity when firing or reloading his favored weapon while threatened in melee combat. When using his ranged defensive focus ability, he may now attack foes in adjacent spaces to himself.
 
   - name: aegis
     type: Ex
@@ -125,7 +133,7 @@ class_features:
     levels: [4]
     text: At 4th level, the combat training that the warder has received hones her reflexes. Through her knowledge of tactics, training manuals, and lessons in the histories of war, her wits aid her when her agility may be impaired by her heavy armor. The warder may add her Intelligence modifier to her Reflex saves and to her initiative in place of her Dexterity modifier (using the higher of the two bonuses).
 
-  - name: extended defense
+  - name: defending the sky
     type: Ex
     levels: [5, 8, 11, 14, 17]
     levels_text:
@@ -134,7 +142,7 @@ class_features:
       11: 3/day
       14: 4/day
       17: 5/day
-    text: Upon reaching 5th level, the warder becomes ever more skilled at adapting to the flow of combat. Once per day, the warder may activate Extended Defense as an immediate action. When she does, the character chooses a counter she has readied; she may initiate that counter as a free action (even on another's turn) at will until the beginning of her next turn. At the beginning of her next turn, the chosen counter is expended. Every three levels beyond this (8th, 11th, 14th, and 17th levels), she may use this ability an additional time per day.
+    text: Upon reaching 5th level, the hawkguard becomes increasingly adept at protecting his allies from harm. Once per day he is capable of extending the use of his counters to react to multiple attacks. Any counter that the hawkguard possesses that has a duration of instant instead has a duration of 1 round. He may then use this counter against any attack targeting an allied creature that it could normally be used to repel. Every three levels beyond this (8th, 11th, 14th, and 17th levels) he may use this ability an additional time per day.
 
   - name: clad in steel
     type: Ex
@@ -144,10 +152,10 @@ class_features:
       12: "+2"
     text: Having improved her skill with her armor, the warder is a more capable combatant in it when protecting her allies or cause. The warder may subtract her aegis bonus from her total armor check penalty and increase the maximum Dexterity bonus on her armor by 1 at 6th level, and by 2 at 12th level.
 
-  - name: adaptive tactics
+  - name: evasive reflexes
     type: Ex
     levels: [7]
-    text: A warrior can attempt to plan for everything, but no plan stands against the heat of battle if there is no room for adaptation. At 7th level, the warder can expend one use of her armiger's mark ability as a full-round action to expend up to her Intelligence modifier in readied maneuvers, then instantly ready an equal amount of maneuvers. The warder may not replace expended maneuvers using this ability; any maneuver she is re-preparing with this ability must be unexpended to be exchanged. She may choose from any of her known maneuvers.
+    text: At 7th level, the hawkguard gains evasion, as per rogue class feature. As an immediate action, he may lose the benefits of the evasion ability for one round and grant it to an ally for one round.
 
   - name: stalwart
     type: Ex
@@ -167,10 +175,12 @@ class_features:
   - name: deathless defenses
     type: Ex
     levels: [20]
-    text: At 20th level, the warder can indefinitely hold a position to protect her allies, even if it may cost her her life. The warder must expend two uses of her armiger's mark ability as an immediate action to activate her deathless defenses. While this ability is active, the warder is capable of maintaining her defensive focus as a move action (but recovers no maneuvers unless she spends a full round to recover) but gains the full bonuses of her defensive focus. Additionally, she receives the benefits of her aegis ability as well. She is unable to die from hit point damage while this effect is in use. She may maintain the use of this ability each round at the cost of one use of her armiger's mark ability, or she may end it as a free action. Abilities or effects that don't inflict hit point damage, such as energy drain or ability damage, can still kill the warder. While this effect is in use, she is immune to mind-affecting abilities, as her focus prevents any from tampering with her mind. Once this ability ends, either voluntarily or if the character runs out uses of armiger's mark (assuming she is not dead), the warder is exhausted and must rest a full 8 hours to recover.
+    text: At 20th level, the warder can indefinitely hold a position to protect her allies, even if it may cost her her life. The warder must expend two uses of her armiger's mark ability as an immediate action to activate her deathless defenses. While this ability is active, the warder is capable of maintaining her ranged defensive focus as a move action (but recovers no maneuvers unless she spends a full round to recover) but gains the full bonuses of her ranged defensive focus. Additionally, she receives the benefits of her aegis ability as well. She is unable to die from hit point damage while this effect is in use. She may maintain the use of this ability each round at the cost of one use of her armiger's mark ability, or she may end it as a free action. Abilities or effects that don't inflict hit point damage, such as energy drain or ability damage, can still kill the warder. While this effect is in use, she is immune to mind-affecting abilities, as her focus prevents any from tampering with her mind. Once this ability ends, either voluntarily or if the character runs out uses of armiger's mark (assuming she is not dead), the warder is exhausted and must rest a full 8 hours to recover.
 ---
 
 Protective and disciplined warriors, warders are fighting men and women who use their knowledge of warfare, tactics, and strategy combined with superior combat training to accomplish their goals in defending others. Their intellect guides them through battle, and their skill at arms achieves their success.
+
+Not all warders are comfortable with a sword and shield, but take their role as a defender no less seriously. While not as robust in the realm of melee combat, the hawkguard takes his skills to a preternatural extreme, being able to defend as well as a stout shield with a bow and quiver, a trusty crossbow, or a bandolier of throwing weapons.
 
 **Adventures:** Warders adventure to further their employer's missions, to serve on battlefields as protectors and champions, or to protect those that they care about. Some warders adventure to forge kingdoms of their own, battle tyranny, fight others of their kind for honor, or to live simply and by their own code.
 

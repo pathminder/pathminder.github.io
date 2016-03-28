@@ -1,5 +1,5 @@
 ---
-title: Warder
+title: Warder (Dervish Defender)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -14,7 +14,6 @@ starting_wealth: ???
 
 class_skills:
   - Acrobatics
-  - Bluff
   - Climb
   - Craft
   - Diplomacy
@@ -39,20 +38,17 @@ initiating_progression: full
 weapon_proficiencies:
   - Simple
   - Martial
+  - double weapons
 armor_proficiencies:
   - Light
-  - Medium
-  - Heavy
 shield_proficiencies:
-  - Shields
-  - Tower Shields
 
 class_features:
 
   - name: maneuvers
     levels: [1]
     text: |
-      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Broken Blade, Golden Lion, Iron Tortoise, and Primal Fury, and the choice of either Eternal Guardian or Piercing Thunder. She gains the associated skill of each of her disciplines as a class skill.
+      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Broken Blade, Golden Lion, Primal Fury, and Thrashing Dragon, and the choice of either Eternal Guardian or Riven Hourglass. She gains the associated skill of each of her disciplines as a class skill.
 
       Once she knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by warders is considered an extraordinary ability unless otherwise noted in its description. Her maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one. She learns additional maneuvers at higher levels, as shown on Table: The Warder. The warder must meet a maneuver's prerequisites to learn it.
 
@@ -63,6 +59,15 @@ class_features:
       For a warder to recover expended maneuvers, she must take stock of her situation to plan for her next movement. By focusing entirely on a defensive position to prepare her next move, she is able to regain maneuvers expended to assist her to victory. By taking a full round action to plan her next move (activating her defensive focus class feature, see below), she recovers a number of expended maneuvers equal to her Intelligence modifier (minimum of 2). Alternately, she may take a brief pause in battle and recover a single maneuver of her choosing by spending a standard action on her turn.
 
       *Stances Known:* Warders begin play with knowledge of one stance from any discipline open to warders. At the indicated levels (see class table), the warder selects an additional new stance. Unlike maneuvers, stances are not expended, and she does not have to ready them. All the stances she knows are available to her at all times, and she can change the stance she is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the warder cannot learn a new stance at higher levels in place of one she already knows.
+
+  - name: Two-Weapon Fighting
+    levels: [1]
+    text: The dervish defender gains Two-Weapon Fighting as a bonus feat at 1st level.
+
+  - name: two-weapon defense
+    type: Ex
+    levels: [1]
+    text: While not all dervish defenders fight in the same manner, most do and all are extensively trained in these fighting philosophies. While wearing light armor or no armor, wielding a weapon in each hand (or using a double weapon), and not using a shield heavier than a buckler, the warder may add her Intelligence bonus (if any) to her Armor Class. She retains this bonus even against touch attacks or when flat-footed, but loses this bonus should she be rendered helpless by any means.
 
   - name: defensive focus
     type: Ex
@@ -120,10 +125,10 @@ class_features:
       18: 4 feats
     text: At 3rd level and every 5th level thereafter, a warder receives a bonus combat or teamwork feat. She must meet all prerequisites for these feats.
 
-  - name: tactical acumen
+  - name: dervish defense
     type: Ex
     levels: [4]
-    text: At 4th level, the combat training that the warder has received hones her reflexes. Through her knowledge of tactics, training manuals, and lessons in the histories of war, her wits aid her when her agility may be impaired by her heavy armor. The warder may add her Intelligence modifier to her Reflex saves and to her initiative in place of her Dexterity modifier (using the higher of the two bonuses).
+    text: A dervish defender is capable of an aggressive defense, attacking even as they defend. At 4th level, if the dervish defender successfully uses a counter against an enemy's attack, she may make an immediate attack of opportunity against that foe.
 
   - name: extended defense
     type: Ex
@@ -136,13 +141,10 @@ class_features:
       17: 5/day
     text: Upon reaching 5th level, the warder becomes ever more skilled at adapting to the flow of combat. Once per day, the warder may activate Extended Defense as an immediate action. When she does, the character chooses a counter she has readied; she may initiate that counter as a free action (even on another's turn) at will until the beginning of her next turn. At the beginning of her next turn, the chosen counter is expended. Every three levels beyond this (8th, 11th, 14th, and 17th levels), she may use this ability an additional time per day.
 
-  - name: clad in steel
+  - name: shield of blades
     type: Ex
-    levels: [6, 12]
-    levels_text:
-      6:  "+1"
-      12: "+2"
-    text: Having improved her skill with her armor, the warder is a more capable combatant in it when protecting her allies or cause. The warder may subtract her aegis bonus from her total armor check penalty and increase the maximum Dexterity bonus on her armor by 1 at 6th level, and by 2 at 12th level.
+    levels: [6]
+    text: HAt 6th level, when fighting unarmed or with a weapon from the light blades, double weapon or close weapon weapon group in each hand, the dervish defender improves her shield bonus to AC by an amount equal to her aegis bonus. As an immediate action, the dervish defender may lose her shield bonus to armor class until the beginning of her next turn and grant an adjacent creature an equivalent shield bonus to armor class until the beginning of the dervish defender’s next turn.
 
   - name: adaptive tactics
     type: Ex
@@ -154,15 +156,15 @@ class_features:
     levels: [12]
     text: At 12th level, a warder can use mental and physical resiliency to avoid certain attacks. If she makes a successful Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely. A helpless warder does not gain the benefit of the stalwart ability.
 
-  - name: steel defense
+  - name: grace of blades
     type: Ex
     levels: [15]
-    text: At 15th level, the warder is capable of turning an otherwise lethal blow and continue the fight. When an attack that inflicts hit point damage from a natural attack, melee weapon, or ranged weapon would reduce the warder to 0 or fewer hit points, she can make a Fortitude save (DC the attacker's attack roll) to deflect the attack to her armor or shield (light, heavy, or tower shields only), causing it to suffer the damage in her place (apply item hardness as normal). If this would break the character's armor, it gains the broken condition until it is repaired. The warder cannot use this ability with broken armor or a broken shield. The warder must be wearing armor or a shield to use this ability.
+    text: At 15th level, the dervish defender gains mastery over her two-weapon style. Whenever the dervish defender makes an attack with one weapon while holding two or more weapons or using a double weapon (such as during a full attack during which she is not two-weapon fighting, or using a strike that includes a melee attack), she increases that attack’s damage by an amount equal to one of her off-hand weapons’ damage (including any extraordinary and magical enhancements) plus one-half her Strength modifier. Whenever the dervish defender makes an attack with more than one weapon (such as when making a full attack while two-weapon fighting or a strike that includes an attack with two or more weapons) she increases the damage of her weapons (and their enhancements) by one die step (as if increasing in size).
 
-  - name: born of steel
+  - name: critical evasion
     type: Ex
     levels: [19]
-    text: At 19th level, the warder is so at home in her armor that it is like a second skin, protecting her with its familiar embrace. When wearing medium or heavy armor, the warder is more resistant to critical hits. When a critical threat is rolled against him, the warder may add her Intelligence modifier to her AC against the critical confirmation roll.
+    text: At 19th level, when wearing light armor or no armor, the warder is more resistant to critical hits. When a critical threat is rolled against her, the warder may add her Intelligence modifier to her AC against the critical confirmation roll.
 
   - name: deathless defenses
     type: Ex
@@ -171,6 +173,8 @@ class_features:
 ---
 
 Protective and disciplined warriors, warders are fighting men and women who use their knowledge of warfare, tactics, and strategy combined with superior combat training to accomplish their goals in defending others. Their intellect guides them through battle, and their skill at arms achieves their success.
+
+Not all warders find solace in a thick coat of steel on their body and a stout shield in hand. Some warders eschew this for the more mobile fighting styles enjoyed by those who practice the Thrashing Dragon discipline.
 
 **Adventures:** Warders adventure to further their employer's missions, to serve on battlefields as protectors and champions, or to protect those that they care about. Some warders adventure to forge kingdoms of their own, battle tyranny, fight others of their kind for honor, or to live simply and by their own code.
 

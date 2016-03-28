@@ -14,7 +14,6 @@ starting_wealth: ???
 
 class_skills:
   - Acrobatics
-  - Bluff
   - Climb
   - Craft
   - Diplomacy
@@ -25,6 +24,7 @@ class_skills:
   - Knowledge (nobility and royalty)
   - Profession
   - Ride
+  - Sense Motive
   - Survival
   - Swim
 skill_ranks_per_level: 4
@@ -44,15 +44,13 @@ armor_proficiencies:
   - Medium
   - Heavy
 shield_proficiencies:
-  - Shields
-  - Tower Shields
 
 class_features:
 
   - name: maneuvers
     levels: [1]
     text: |
-      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Broken Blade, Golden Lion, Iron Tortoise, and Primal Fury, and the choice of either Eternal Guardian or Piercing Thunder. She gains the associated skill of each of her disciplines as a class skill.
+      A warder begins her career with knowledge of five martial maneuvers. The disciplines available to her are Golden Lion, Iron Tortoise, Primal Fury, and Scarlet Throne, and the choice of either Eternal Guardian or Piercing Thunder. She gains the associated skill of each of her disciplines as a class skill.
 
       Once she knows a maneuver, she must ready it before she can use it (see Maneuvers Readied, below). A maneuver usable by warders is considered an extraordinary ability unless otherwise noted in its description. Her maneuvers are not affected by spell resistance, and she does not provoke attacks of opportunity when she initiates one. She learns additional maneuvers at higher levels, as shown on Table: The Warder. The warder must meet a maneuver's prerequisites to learn it.
 
@@ -80,17 +78,22 @@ class_features:
     type: Ex
     levels: [1, 5, 6, 9, 12, 13, 17]
     levesl_text:
-      1:  "+1, 10 ft."
+      1:  "+1"
       5:  "+2"
-      6:  "20 ft."
       9:  "+3"
-      12: "30 ft."
       13: "+4"
       15: "+5"
     text: |
       At 1st level, the warder's defensive prowess extends to those who choose to stay near to him. Allies who are within 10 ft. of the warder's position gain a +1 morale bonus to Armor Class and to Will saves under the warder's defensive aegis, her presence bolstering and shepherding the defenses of her allies. This bonus improves to +2 at 5th level (+3 at 9th level, +4 at 13th level, and +5 at 17th level). The warder does not receive this bonus, but may receive the benefits of this ability from another warder. If the ally cannot see or hear the warder, then the ally does not gain the benefits of this ability (such as if the warder is concealed or invisible).
 
-      At 6th level, her aegis' range increases its effective area, growing to a 20 ft. radius. At 12th level, this increases again to 30 ft.
+  - name: zweihander training
+    levels: [1]
+    text: At 1st level, when wielding a two-handed weapon or a one-handed weapon in both hands, the warder gains a shield bonus to his armor class equal to his aegis class feature bonus.
+
+  - name: armament shield
+    type: Ex
+    levels: [1]
+    text: When wielding a one-handed weapon in two hands or a two-handed weapon, the weapon is treated as a light shield for the purposes of performing a shield bash attack on an opponent. The warder smashes with the butt of a spear-haft, the pommel of a greatsword, or the broadside of her axe. All are essentially the same and are treated as light shields for the purposes of shield bash attacks or martial maneuvers to be used with a weapon of this type (such as Iron Tortoise maneuvers that require a shield to function).
 
   - name: armiger's mark
     type: Ex
@@ -144,10 +147,20 @@ class_features:
       12: "+2"
     text: Having improved her skill with her armor, the warder is a more capable combatant in it when protecting her allies or cause. The warder may subtract her aegis bonus from her total armor check penalty and increase the maximum Dexterity bonus on her armor by 1 at 6th level, and by 2 at 12th level.
 
+  - name: defensive reach
+    type: Ex
+    levels: [6]
+    text: At 6th level, the warder has supreme control over his environment and the use of his weapon to defend himself and his allies. When wielding a non-reach two-handed weapon, the warder increases his reach by five feet for use with attacks of opportunity and counters. When wielding a two-handed reach weapon the warder threatens adjacent enemies and may attack them as though he was not wielding a reach weapon.
+
   - name: adaptive tactics
     type: Ex
     levels: [7]
     text: A warrior can attempt to plan for everything, but no plan stands against the heat of battle if there is no room for adaptation. At 7th level, the warder can expend one use of her armiger's mark ability as a full-round action to expend up to her Intelligence modifier in readied maneuvers, then instantly ready an equal amount of maneuvers. The warder may not replace expended maneuvers using this ability; any maneuver she is re-preparing with this ability must be unexpended to be exchanged. She may choose from any of her known maneuvers.
+
+  - name: punishing defenses
+    type: Ex
+    levels: [12]
+    text: At 12th level, the warder has gained a great deal of skill in using offense as his best defense. When making an attack of opportunity or when making an attack against a foe as part of a counter, he inflicts an additional 2d6 points of damage. This damage is not multiplied if the character scores a successful critical hit.
 
   - name: stalwart
     type: Ex

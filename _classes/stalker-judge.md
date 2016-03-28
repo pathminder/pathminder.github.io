@@ -1,5 +1,5 @@
 ---
-title: Stalker
+title: Stalker (Judge)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -31,6 +31,7 @@ class_skills:
   - Perception
   - Profession
   - Sense Motive
+  - Spellcraft
   - Stealth
 skill_ranks_per_level: 6
 
@@ -53,7 +54,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon, and the choice of either Riven Hourglass or Tempest Gale. The stalker may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
+      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Shattered Mirror, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon. The stalker may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
 
       Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by stalkers is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The stalker must meet a maneuver's prerequisite to learn it.
 
@@ -63,46 +64,62 @@ class_features:
 
       Stalkers may recover their maneuvers in one of two ways. The stalker may either center his awareness of the combat momentarily as a standard action and recover a single expended maneuver of his choice.
 
-      Alternately, he may recover his Wisdom modifier in expended maneuvers (minimum 2) as a full round action that does not provoke attacks of opportunity, centering his spirit completely to re-align his perceptions of the battle and change his place in it. When recovering his maneuvers as a full round action, he may move up to his base speed and adds a +4 insight bonus to his Armor Class as his *ki* defends his form while he re-centers himself. The next attack or martial strike he attempts after recovering his maneuvers adds his deadly strike's damage to the attack if successful.
+      Alternately, he may recover his Wisdom modifier in expended maneuvers (minimum 2) as a full round action that does not provoke attacks of opportunity, centering his spirit completely to re-align his perceptions of the battle and change his place in it. When recovering his maneuvers as a full round action, he may move up to his base speed and adds a +4 insight bonus to his Armor Class as his *ki* defends his form while he re-centers himself.
 
       *Stances Known:* Stalkers begin play with knowledge of one stance from any discipline open to stalkers. At the indicated levels (see class table), the stalker selects an additional new stance. Unlike maneuvers, stances are not expended and he does not have to ready them. All the stances he knows are available to him at all times, and he can change the stance he is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the stalker cannot learn a new stance at higher levels in place of one he already knows.
+
+  - name: judgment
+    type: Su
+    levels: [1, 5, 9, 13, 17]
+    levels_text:
+      1: 1/day
+      5: 2/day
+      9: 3/day
+      13: 4/day
+      17: 5/day
+    text: |
+      Starting at 1st level, a judge can pronounce judgment upon his foes as a swift action. Starting when the judgment is made, the judge receives a bonus or special ability based on the type of judgment made.
+
+      At 1st level, a judge can use this ability once per day. At 5th level and every four levels thereafter, the judge can use this ability one additional time per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. The judge must participate in the combat to gain these bonuses. If he is frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until he can participate in the combat again.
+
+      When the judge uses this ability, he must select one type of judgment to make. As a swift action, he can change this judgment to another type.
+
+      *Avenging:* This judgment spurs the judge to seek justice, granting a +1 insight bonus on all attack rolls. This bonus increases by +1 for every five judge levels he possesses. At 10th level, this bonus is doubled on all attack rolls made to confirm critical hits.
+
+      *Bloody:* The judge inflicts horrible, bleeding wounds that gush with his deity's rage. After a successful attack upon the target who has been targeted by this judgment, the target suffers 1d6 points of bleed damage on its turn for a number of rounds equal to 1 + the judge's Wisdom modifier (minimum of 1 rounds). Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing.
+
+      *Destructive:* The judge is filled with divine wrath, gaining a +1 insight bonus on all weapon damage rolls. This bonus increases by +1 for every four judge levels he possesses.
+
+      *Enduring:* This judgment makes the judge resistant to harm, granting DR 1/magic. This DR increases by 1 for every five levels he possesses. At 10th level, this DR changes from magic to an alignment (chaotic, evil, good, or lawful) that is opposite the judge's. If he is neutral, the judge does not receive this increase.
+
+      *Guarded:* The judge's senses protect him from the vile taint of his foes, granting a +1 insight bonus on all saving throws. This bonus increases by +1 for every five judge levels he possesses. At 10th level, the bonus is doubled against curses, diseases, and poisons.
+
+      *Unbreakable:* The judge is shielded by a dark haze, gaining 2 points of energy resistance against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared. The protection increases by 2 for every four judge levels he possesses.
+
+      *Unyielding:* The judge is provided flashes of divine protective knowledge, granting a +1 insight bonus to Armor Class. This bonus increases by +1 for every five judge levels he possesses. At 10th level, this bonus is doubled against attack rolls made to confirm critical hits against the judge.
+
+      *Wrathful:* This judgment bathes the judge's weapons in a divine sheen of deific rage. The judge's weapons count as magic for the purposes of bypassing damage reduction. At 6th level, the judge's weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of the judge's alignments. If the judge is neutral, he does not receive this bonus. At 10th level, the judge's weapons also count as adamantine for the purpose of overcoming damage reduction (but not for reducing hardness).
 
   - name: "*ki* pool"
     type: Su
     levels: [1, 5]
     levesl_text:
-      1: sense
-      5: combat reading
+      1: truth
+      5: "*see alignment*"
       7: insight
       9: readiness
     text: |
       At 1st level, a stalker gains a pool of *ki* points, supernatural energy he can use to accomplish amazing feats. The number of points in the stalker's *ki* pool is equal to 1/2 her stalker level + his Wisdom modifier (minimum of 1).
 
-      At 1st level, the stalker may spend 1 point of *ki* to grant himself a +4 insight bonus to a single Perception or Sense Motive check as an immediate action, as he uses his *ki* to feel out the vibrations of others and their hidden motives.
+      At 1st level, the judge's *ki* attunes him to the vibrations of falsehood and truths that are uttered by those around him, gaining a +4 insight bonus to Bluff or Sense Motive checks.
 
-      At 5th level, the stalker may use his deadly strikes in conjunction with his combat insight to "read" his opponent's defenses and deliver devastating blows beyond his foe's guard. The stalker spends one point of *ki* as a swift action to read his target opponent, and may apply his deadly strike to all martial strikes initiated by the stalker for a number of rounds equal to his Wisdom modifier against this target. If the stalker scores a successful critical hit against the target while this ability is active, then he activates deadly strike as normal.
+      At 5th level, the judge may spend 1 point of *ki* and attune himself to morality of those around him, gaining the benefits of the *see alignment* spell for one round per two class levels.
 
       At 7th level, the stalker may spend 1 point from his *ki* pool to gain a +4 insight bonus on a saving throw as an immediate action.
 
       At 9th level, the stalker can delve into his subconscious in battle and remember key lessons from his training. The stalker envisions potential scenarios where martial abilities he has not readied come into play and gains a momentary burst of martial insight. A number of times per day equal to his Wisdom modifier, the stalker can spend one *ki* point as a swift action and trade one readied maneuver for another maneuver known of the same level or lower. The new maneuver is immediately readied and accessible for use. The character may initiate this maneuver and recover it as if he had prepared at the beginning of the day (or when ever the stalker readied his maneuvers last) until the end of the combat encounter.
 
       The *ki* pool is replenished each day after 8 hours of rest and meditation; these hours do not need to be consecutive. If the stalker possesses levels in another class that grants points to a *ki* pool, stalker levels stack with the levels of that class to determine the total number of *ki* points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is set. The stalker can now use *ki* points from this pool to power the abilities of every class he possesses that grants a *ki* pool.
-
-  - name: deadly strike
-    type: Ex
-    levels: [1, 5, 9, 13, 17]
-    levels_text:
-      1: +1d6
-      5: +2d6
-      9: +3d6
-      13: +4d6
-      17: +5d6
-    text: |
-      The stalker is capable of maximizing his deadliness whenever he lands a critical blow upon his opponent, opening his target up for future punishment as the stalker becomes attuned to his prey. The stalker's deadly strike activates whenever the stalker scores a successful critical hit against a target, and is active against that target for a number of rounds equal to his Wisdom modifier. Deadly strike inflicts extra damage, to only this target creature, on all of the stalker's attacks. This extra damage is 1d6 at 1st level, and increases by 1d6 for every four stalker levels thereafter. When the stalker scores a critical hit, this extra damage is not multiplied, it is simply added to the damage. If the stalker scores a successful critical hit during the time his deadly strike is active, the duration of this ability is extended by one round (no more than one extension can be made per round). Ranged attacks can count as deadly strikes only if the target is within 30 feet.
-
-      Deadly strike is more effective with weapons with higher critical multipliers, such as scythes and battle axes. Weapons with a x3 critical multiplier inflict damage with deadly strikes using d8s instead of d6s, and weapons with a critical multiplier of x4 or higher use d10s.
-
-      Deadly strike may not be used with weapons that inflict non-lethal damage. The stalker must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. Creatures immune to critical hits or precision damage cannot be targeted by a deadly strike. A stalker cannot deadly strike while attacking a creature who has concealment.
 
   - name: combat insight
     type: Su
@@ -137,24 +154,31 @@ class_features:
       18: "+5"
     text: The stalker's heightened perception of danger allows him to defend himself from attacks as they are made against him, anticipating the attacks as they come. A stalker gains a +1 dodge bonus to his Armor Class at 2nd level, which improves by an additional +1 every four stalker levels thereafter. When recovering maneuvers as a full round action, the character may add his Wisdom modifier to his AC as an additional dodge bonus; his defensive precognition being heightened by centering his *ki* through maneuver recovery.
 
-  - name: stalker arts
-    levels: [1, 3, 7, 11, 15, 19]
+  - name: judge arts
+    levels: [7, 11, 15, 19]
     levels_text:
-      1:  1 art
-      3:  2 arts
-      7:  3 arts
-      11: 4 arts
-      15: 5 arts
-      19: 6 arts
+      7:  1 arts
+      11: 2 arts
+      15: 3 arts
+      19: 4 arts
     text: |
-      As a stalker gains experience, he learns a number of arts that aid him and confound his foes. Starting at 1st level, a stalker gains one [stalker art](/stalker-arts/); he gains an additional art at 3rd level and new arts every four class levels attained after 3rd level. A stalker cannot select an individual art more than once (unless noted).
+      As a judge gains experience, he learns a number of arts that aid him and confound his foes. Starting at 7th level, a judge gains one [stalker art](/stalker-arts/); he gains an additional art for every four levels of judge attained after 7th level. A judge cannot select an individual art more than once (unless noted). The judge may not select the deadly ambush, deadly insight, or deadly recovery stalker arts.
 
-  - name: blending
-    type: Su
-    levels: [6, 16]
-    levels_text:
-      16: "*pass without trace*"
-    text: At 6th level the stalker's natural attunement to the flow of *ki* in other people grants him insight in reading others and avoiding their notice. The character gains a +2 insight bonus to Perception, Sense Motive and Stealth checks. At 16th level, the stalker's abilities improve further, and the character is permanently under the effects of a *pass without trace* spell.
+  - name: domain
+    levels: [3]
+    text: |
+      Like a cleric's deity, a judge's deity influences his alignment, what magic he can perform, and his values. Although not as tied to the tenets of the deity as a cleric, a judge must still hold such guidelines in high regard, despite that fact he can go against them if it serves the greater good of the faith. At 3rd level, a judge can select one domain from among those belonging to his deity. He can select an alignment domain only if his alignment matches that domain. With the GM's approval, a judge can be devoted to an ideal instead of a deity, selecting one domain to represent his personal inclination and abilities. The restriction on alignment domains still applies.
+
+      Judges also have access to inquisitions, which are similar to domains but do not include domain spells. If he so chooses, he may use an inquisition instead of a domain. Each domain grants a number of domain powers, depending on the level of the judge.
+
+      A judge does not gain the bonus spells listed for each domain, nor does he gain bonus spell slots. The judge uses his level as his effective cleric level when determining the power and effect of his domain powers.
+
+      If the judge has access to domains as a cleric or inquisitor, at least one of his domain selections must be the same domain selected as a judge; if he has an inquisition instead of a domain, he may choose two domains as normal. Levels of cleric and judge stack for the purpose of determining domain powers and abilities, but not for bonus spells or for inquisitions unless the inquisition is taken in the place of a domain for the non martial disciple class.
+
+  - name: "*truthseeker*"
+    type: Sp
+    levels: [6]
+    text: The judge must be able to make swift decisions in his line of work, and by using his *ki* to feel out disturbances caused by lies in a target's soul. At 6th level, by spending a point of *ki* as a standard action and clearly viewing a subject within close range, the judge gains the effects of a *discern lies* spell for a number of rounds equal to his Wisdom modifier. This ability works exactly as the spell in all other respects.
 
   - name: dual strike
     type: Ex
@@ -165,6 +189,11 @@ class_features:
       18: 3/day
     text: Once per day at 10th level, the stalker's deadly skill in combat improves, allowing him to initiate two martial strikes as a full round action. The strikes the stalker initiates must have an initiation action of one standard action, and he must have both strikes readied. Boosts may not be applied to a dual strike due to the need to concentrate on two separate martial movements. When a dual strike is used, the action must be declared beforehand and when used, both strikes are resolved separately and are expended. At 14th level the character may use dual strike twice per day, and three times per day at 18th level.
 
+  - name: divine abolishment
+    type: Su
+    levels: [16]
+    text: The strengths of an enemy wither in the face of the judge's divinely mandated execution of his deity's will. At 16th level, when initiating a martial strike while using a judgment, the judge may expend a point of *ki* from his *ki* pool to strip away the magical protections of his foe. This functions as a targeted *greater dispel magic* using his initiator level as his caster level, and this targets spells or spell-like abilities functioning on a target (with a duration of one round or longer), and may target a number of ongoing effects equal to his Wisdom modifier.
+
   - name: retributive *ki*
     type: Su
     levels: [20]
@@ -172,6 +201,8 @@ class_features:
 ---
 
 An effective warrior wielding both skill and stealth, the stalker is a martial disciple who battles in the deep shadows and the hidden underworld of night. Through rigorous training and deep, intuitive instincts, the stalker is a trained killer whose very art is considered illegal in some places. Part mystic, part warrior, and part assassin, the stalker's arts are varied, but always deadly.
+
+Some stalkers find themselves in the service of religious institutions, working side by side with inquisitors and clerics to root out heresy and combat those that oppose their benefactors or orders and do so in the most subtle of ways. By becoming a judge of their religious flock, the stalker takes on some attributes of the inquisitors he works beside.
 
 **Adventures:** Stalkers adventure for many reasons, but most do so either as part of a guild of fellow stalkers on a mission, for money and profit, or for deeper, often darker purposes of the heart. Some adventure for the test of their skill, but this is slightly rarer; whatever the reason, the path of the stalker is often a self-absorbed one.
 

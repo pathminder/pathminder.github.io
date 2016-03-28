@@ -1,5 +1,5 @@
 ---
-title: Stalker
+title: Stalker (Soul Hunter)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -31,6 +31,7 @@ class_skills:
   - Perception
   - Profession
   - Sense Motive
+  - Spellcraft
   - Stealth
 skill_ranks_per_level: 6
 
@@ -53,7 +54,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon, and the choice of either Riven Hourglass or Tempest Gale. The stalker may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
+      A stalker begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Cursed Razor, Solar Wind, Steel Serpent, Thrashing Dragon, and Veiled Moon. The stalker may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
 
       Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by stalkers is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The stalker must meet a maneuver's prerequisite to learn it.
 
@@ -61,9 +62,7 @@ class_features:
 
       *Maneuvers Readied:* A stalker can ready four of his six starting maneuvers, but as he advances in level and learns more maneuvers, he must choose which maneuvers to ready. He readies his maneuvers by meditating and focusing his *ki* for 10 minutes. The maneuvers he chooses remain readied until he decides to repeat this again and change them. Stalkers do not need to sleep or be well rested to ready their maneuvers; any time he spends 10 minutes in meditation, he can change his readied maneuvers. He may not ready any individual maneuver more than once. He begins an encounter with all readied maneuvers unexpended, regardless of how many times he may have already used them since he chose them. When the stalker initiates a maneuver, he expends it for the current encounter, so each of his readied maneuvers can be used once per encounter (until they are recovered, see below).
 
-      Stalkers may recover their maneuvers in one of two ways. The stalker may either center his awareness of the combat momentarily as a standard action and recover a single expended maneuver of his choice.
-
-      Alternately, he may recover his Wisdom modifier in expended maneuvers (minimum 2) as a full round action that does not provoke attacks of opportunity, centering his spirit completely to re-align his perceptions of the battle and change his place in it. When recovering his maneuvers as a full round action, he may move up to his base speed and adds a +4 insight bonus to his Armor Class as his *ki* defends his form while he re-centers himself. The next attack or martial strike he attempts after recovering his maneuvers adds his deadly strike's damage to the attack if successful.
+      Stalkers may recover their maneuvers in one of two ways. In order for a soul hunter to recover maneuvers, he must either focus on the hunt of his prey or on the memories of past kills as a standard action and recover one expended maneuver. Alternately, the soul hunter may tap into the escaping energy of a soul by using his Soul Claiming ability, and recover a number of expended maneuvers equal to his Wisdom modifier.
 
       *Stances Known:* Stalkers begin play with knowledge of one stance from any discipline open to stalkers. At the indicated levels (see class table), the stalker selects an additional new stance. Unlike maneuvers, stances are not expended and he does not have to ready them. All the stances he knows are available to him at all times, and he can change the stance he is currently using as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance description. Unlike with maneuvers, the stalker cannot learn a new stance at higher levels in place of one he already knows.
 
@@ -72,15 +71,15 @@ class_features:
     levels: [1, 5]
     levesl_text:
       1: sense
-      5: combat reading
+      5: soulburning
       7: insight
       9: readiness
     text: |
-      At 1st level, a stalker gains a pool of *ki* points, supernatural energy he can use to accomplish amazing feats. The number of points in the stalker's *ki* pool is equal to 1/2 her stalker level + his Wisdom modifier (minimum of 1).
+      At 1st level, a stalker gains a pool of *ki* points, supernatural energy he can use to accomplish amazing feats. The number of points in the stalker's *ki* pool is equal to 1/2 her stalker level + his Wisdom modifier (minimum of 1) + 2.
 
       At 1st level, the stalker may spend 1 point of *ki* to grant himself a +4 insight bonus to a single Perception or Sense Motive check as an immediate action, as he uses his *ki* to feel out the vibrations of others and their hidden motives.
 
-      At 5th level, the stalker may use his deadly strikes in conjunction with his combat insight to "read" his opponent's defenses and deliver devastating blows beyond his foe's guard. The stalker spends one point of *ki* as a swift action to read his target opponent, and may apply his deadly strike to all martial strikes initiated by the stalker for a number of rounds equal to his Wisdom modifier against this target. If the stalker scores a successful critical hit against the target while this ability is active, then he activates deadly strike as normal.
+      At 5th level, the soul hunter may use his soulburning class feature on Claimed targets within 30 ft. of his position. The stalker spends 1 point of *ki* as a move action and all Claimed targets suffer his soulburning damage.
 
       At 7th level, the stalker may spend 1 point from his *ki* pool to gain a +4 insight bonus on a saving throw as an immediate action.
 
@@ -88,41 +87,38 @@ class_features:
 
       The *ki* pool is replenished each day after 8 hours of rest and meditation; these hours do not need to be consecutive. If the stalker possesses levels in another class that grants points to a *ki* pool, stalker levels stack with the levels of that class to determine the total number of *ki* points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is set. The stalker can now use *ki* points from this pool to power the abilities of every class he possesses that grants a *ki* pool.
 
-  - name: deadly strike
-    type: Ex
-    levels: [1, 5, 9, 13, 17]
-    levels_text:
-      1: +1d6
-      5: +2d6
-      9: +3d6
-      13: +4d6
-      17: +5d6
+  - name: soul claiming
+    type: Su
+    levels: [1]
     text: |
-      The stalker is capable of maximizing his deadliness whenever he lands a critical blow upon his opponent, opening his target up for future punishment as the stalker becomes attuned to his prey. The stalker's deadly strike activates whenever the stalker scores a successful critical hit against a target, and is active against that target for a number of rounds equal to his Wisdom modifier. Deadly strike inflicts extra damage, to only this target creature, on all of the stalker's attacks. This extra damage is 1d6 at 1st level, and increases by 1d6 for every four stalker levels thereafter. When the stalker scores a critical hit, this extra damage is not multiplied, it is simply added to the damage. If the stalker scores a successful critical hit during the time his deadly strike is active, the duration of this ability is extended by one round (no more than one extension can be made per round). Ranged attacks can count as deadly strikes only if the target is within 30 feet.
+      A soul hunter is capable of attuning his own *ki* to a foe’s vital energies, making it difficult for quarry to elude or escape him. As a swift action, the soul hunter stalker may Claim a target creature that he has inflicted damage upon. A Claimed target’s position is known to the soul hunter, even if they have total concealment against him (though he still suffers the normal miss chance if his target is concealed, and is denied his Dexterity bonus if the Claimed target attacks him). Additionally, the target of his Claiming provokes attacks of opportunity from the soul hunter when using the withdraw action to escape him.
 
-      Deadly strike is more effective with weapons with higher critical multipliers, such as scythes and battle axes. Weapons with a x3 critical multiplier inflict damage with deadly strikes using d8s instead of d6s, and weapons with a critical multiplier of x4 or higher use d10s.
+      A soul hunter may not Claim more than his Wisdom modifier in creatures at any given time; a creature remains Claimed until the soul hunter withdraws his Claim (a free action) or until the target is slain. If the Claimed target is slain (reduced to 0 or fewer hit points) by the Claiming soul hunter, then he may recover his Wisdom modifier in expended maneuvers. A soul hunter may not Claim a target creature with fewer than 1⁄2 HD.
 
-      Deadly strike may not be used with weapons that inflict non-lethal damage. The stalker must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. Creatures immune to critical hits or precision damage cannot be targeted by a deadly strike. A stalker cannot deadly strike while attacking a creature who has concealment.
+  - name: soulburning
+    type: Su
+    text: |
+      When combating his target, the soul hunter can use his *ki* to cause disharmony within a Claimed creature’s very life energy, causing the foe’s own *ki* to erupt into life-destroying energy. Some describe the pain experienced as being the worst that any could endure, like something was inside their very spirit and devouring it whole. When making an attack or initiating a martial maneuver against his Claimed target, the soul hunter may force this subtle disharmony to become a geyser of agony, as the soul hunter’s *ki* causes the target’s life energies to ignite. This inflicts an additional 1d6 points of damage at 1st level upon a successful attack, and this damage increases by an additional 1d6 points of damage every four soul hunter levels.
+
+      Stalker arts that utilize deadly strikes use soulburning instead, and function as written with the following caveat: Soulburning cannot be used against targets that do not have vital forces. This includes constructs, oozes, and undead with an Intelligence score of 0.
 
   - name: combat insight
     type: Su
     levels: [2, 4, 8, 12, 18]
     levels_text:
-      2: defensive reflexes
+      2: scent
       4: uncanny dodge
       8: critical hits
-      12: critical recovery
+      12: Claimed recovery
       18: blindsight
     text: |
-      At 2nd level, the keen senses and awareness of the stalker delivers him a sort of sixth sense. This insight performs as an intuitive alarm, alerting him of danger. Through his rigorous practice and learning to trust his instincts and intuition to an unearthly level, the senses of the stalker are unusually sharp.
-
-      At 2nd level, the stalker's combat sense opens his third eye, granting him defensive reflexes that protect him in combat. The stalker may add his Wisdom modifier to his initiative score and to Reflex saving throws as an insight bonus.
+      At 2nd level, the soul hunter gains the scent special ability, and gains a +4 insight bonus to track targets that the he has Claimed.
 
       At 4th level, the heightened perceptions of the stalker allow him to know when his prey could get the jump on him, granting him the uncanny dodge class feature, as per the rogue class.
 
       At 8th level, the killer's instinct in the stalker is honed to a razor's fine edge, allowing him to add his Wisdom modifier as a competence bonus to confirm critical hits. This ability counts as if the character possessed the Critical Focus feat, and for the purposes of taking critical feats that the character qualifies for. The character may not select the Critical Focus feat once he has this ability, and should he have it before he gains this ability, he loses the Critical Focus feat and may select a critical feat in its place.
 
-      At 12th level, the stalker's insight allows him to funnel the *ki* of his foes into his form with his deadly attacks. The character can recover a single expended maneuver when he scores a successful critical hit against a living creature. This ability does not function against constructs, undead, or creatures with under 1⁄2 HD.
+      At 12th level, whenever the judge reduces a Claimed target to 0 hit points or less, he may recover an expended maneuver.
 
       At 18th level, the heightened precognitive abilities of the stalker manifest in his ability to sense things around him that others cannot, granting him blindsight with a range of 30 feet. This is a supernatural ability.
 
@@ -149,12 +145,16 @@ class_features:
     text: |
       As a stalker gains experience, he learns a number of arts that aid him and confound his foes. Starting at 1st level, a stalker gains one [stalker art](/stalker-arts/); he gains an additional art at 3rd level and new arts every four class levels attained after 3rd level. A stalker cannot select an individual art more than once (unless noted).
 
-  - name: blending
-    type: Su
+  - name: "*sight of the hunter*"
+    type: Sp
     levels: [6, 16]
     levels_text:
-      16: "*pass without trace*"
-    text: At 6th level the stalker's natural attunement to the flow of *ki* in other people grants him insight in reading others and avoiding their notice. The character gains a +2 insight bonus to Perception, Sense Motive and Stealth checks. At 16th level, the stalker's abilities improve further, and the character is permanently under the effects of a *pass without trace* spell.
+      6: "*clairaudience/clairvoyance*"
+      16: "*scrying* and *locate creature*"
+    text: |
+      The soul hunter learns ways to be able to hunt his prey with his extrasensory abilities. At 6th level, the soul hunter may spend 1 *ki* and use the spell *clairaudience/clairvoyance* (clairvoyance only) as a spell-like ability, using his stalker level as his caster level for the effect. He may spend an additional *ki* point to Claim a target seen in such a way.
+
+      At 16th level, he may spend a *ki* point to use *scrying* and *locate creature* as spell-like abilities, and Claim targets spied upon in such a manner. The soul hunter must have either visited the location first, or have a clear picture of the target within his mind to use these abilities (as per the spells' specific requirements).
 
   - name: dual strike
     type: Ex
@@ -172,6 +172,8 @@ class_features:
 ---
 
 An effective warrior wielding both skill and stealth, the stalker is a martial disciple who battles in the deep shadows and the hidden underworld of night. Through rigorous training and deep, intuitive instincts, the stalker is a trained killer whose very art is considered illegal in some places. Part mystic, part warrior, and part assassin, the stalker's arts are varied, but always deadly.
+
+Some stalkers learn that through the practice of more esoteric *ki* arts, that they are able to track the very essence of a foe, see through the fog of reality and hunt the soul of their targets. These stalkers, known as soul hunters, are well-versed in the methods of hunting and killing their intended targets. By honing their senses farther than any other stalker could, and emulating the hunting methods of hungry spirits and dragons, the soul hunter becomes a foe that is nigh- inescapable.
 
 **Adventures:** Stalkers adventure for many reasons, but most do so either as part of a guild of fellow stalkers on a mission, for money and profit, or for deeper, often darker purposes of the heart. Some adventure for the test of their skill, but this is slightly rarer; whatever the reason, the path of the stalker is often a self-absorbed one.
 

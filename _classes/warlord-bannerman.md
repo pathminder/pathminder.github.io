@@ -1,5 +1,5 @@
 ---
-title: Warlord
+title: Warlord (Bannerman)
 sources:
   - Path of War
   - "Path of War: Expanded"
@@ -51,7 +51,7 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon, and the choice of either Piercing Thunder or Tempest Gale. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
+      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Piercing Thunder, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
 
       Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it.
 
@@ -87,14 +87,13 @@ class_features:
       Finally, gambits may not be initiated outside of combat due to their reliance upon the stresses of battle to bring out the best of the warlord.
 
   - name: bonus feat
-    levels: [1, 6, 10, 14, 18]
+    levels: [6, 10, 14, 18]
     levels_text:
-      1: 1 feat
-      6: 2 feats
-      10: 3 feats
-      14: 4 feats
-      18: 5 feats
-    text: At 1st level and at 6th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it.
+      6: 1 feat
+      10: 2 feats
+      14: 3 feats
+      18: 4 feats
+    text: At 6th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it.
 
   - name: tactical presence
     type: Ex
@@ -126,23 +125,37 @@ class_features:
     levels: [4]
     text: At 4th level, the warlord is exceptionally gifted at working with his allies to bring down opponents and his skills assist any who ally with him. When flanking a target with an allied creature, both the warlord and the ally may use the warlord's Charisma modifier (min +2) for the bonus they receive on flanking their opponent.
 
-  - name: battle prowess
+  - name: courageous defense
+    type: Ex
+    levels: [4, 8, 12, 16, 20]
+    levels_text:
+      4:  "+1"
+      8:  "+2"
+      12: "+3"
+      16: "+4"
+      20: "+5"
+    text: The bannerman is a combatant of grace and skill, and his faith in both himself as a symbol as well as in his allies assists his defense. When fighting with a ranged weapon (such as with a bow or a crossbow), or with a one-handed or light weapon in one hand and nothing in the other (or with a buckler and/or an inspiring banner) and wearing medium or lighter armor, the bannerman gains a +1 dodge bonus to his Armor Class per four warlord levels.
+
+  - name: inspiring banner
     type: Ex
     levels: [5, 12, 19]
     levels_text:
-      5:  "+1, 1 discipline"
-      12: "+2, 2 disciplines"
-      19: "+3, 3 disciplines"
-    text: The warlord is a skilled combatant, mixing traditional fighting skills with the skill of his martial discipline training. Choose a discipline, and when the warlord is in a martial stance from this chosen discipline, the character gets the listed bonus (+1 at 5th level, +2 at 12th level, +3 at 19th level) as a competence bonus to attack and damage rolls, CMB rolls, and to his CMD. He may select another discipline at 12th level, and third discipline at 19th level.
+      5:  "+1"
+      12: "+2"
+      19: "+3"
+    text: |
+      At 5th level, a bannerman’s banner becomes a symbol of inspiration to his allies and companions. As long as the bannerman’s banner is clearly visible and he is in a Golden Lion stance, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and fatigue and a +2 morale bonus on attack and damage rolls. At 12th level, and at 19th level, these bonuses increase by +1. If the Golden Lion stance he is using grants a similarly typed bonus to attack, damage, or saving throws, then increase that bonus by the amount of the inspiring banner’s bonus.
 
-  - name: dual boost
+      The banner must be at least Small or larger and must be carried or displayed by the bannerman or his mount to function, and can be held while using a buckler. A bannerman’s banner is intended to be able to be placed on any manner of item so long as it is displayed. Some official ideas for how a bannerman may carry a banner: as heraldry on a shield, on a small pole mounted to either his mount’s saddle or to the back of his armor, a tabard that they wear prominently, or a standard that hangs from a polearm or spear. So long as that standard is carried upon his person where people can see it, he can inspire his allies.
+
+  - name: share boost
     type: Ex
     levels: [6, 12, 18]
     levels_text:
       6: 1/day
       12: 2/day
       18: 3/day
-    text: Knowledgeable in the ways of making the best of any situation through pluck and verve, the warlord is capable of applying multiple martial principles simultaneously. At 6th level, once per day the warlord may initiate two boost type maneuvers as part of the same swift action. He may use this an additional time per day at 12th level, and three times per day at 18th level.
+    text: At 6th level, the bannerman’s ability to inspire his troops allows him to share some of his martial prowess with an ally on occasion. Once per day he is able to initiate a boost as an immediate action to utilize a boost for an ally who is initiating a maneuver or making an attack that qualifies for the use of that boost. The boost shared uses the bannerman’s initiator level and saving throw DC (if applicable). He can use this ability one additional time per day at 12th level and again at 18th level.
 
   - name: tactical assistance
     type: Ex
@@ -174,6 +187,8 @@ class_features:
 ---
 
 Dynamos on the field of combat, warlords walk the line of victory and ruin through their determination to achieve glory. Where some may talk tactics, the warlord dives in. Where some may fight in strategic units, the warlord shines alone as an inspirational beacon on the field of combat; to be a warlord is to be a lord of war.
+
+Some warlords find their place in the theater of war when they find the method of combat that best expresses their nature and daring in combat. A bannerman finds his place with a sword in one hand and his company’s banner in the other, barking inspirational orders to his allies while slaying his foes between breaths.
 
 **Adventures:** Warlords adventure for many reasons, but one reason that will always be prominent is the desire to test their skill against the world's most dangerous opponents, to show their strength to themselves and to the world. Others may do this for profit, others for fun, others for revenge, but it is always certain that a warlord seeks the glory and honor only a battle well-fought can bring.
 

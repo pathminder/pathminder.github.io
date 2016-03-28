@@ -1,0 +1,69 @@
+---
+title: Tactical Presences
+---
+
+{% assign empty_array = '' | split: '|' %}
+
+{% assign tags = empty_array | push: 'General' %}
+{% for tactical_presence in site.tactical-presences %}
+  {% for tag in tactical_presence.tags %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign tags = tags | sort %}
+
+{% assign general_tactical_presences = empty_array %}
+{% for tactical_presence in site.tactical-presences %}
+  {% assign tag_blank = tactical_presence.tags | default: '' %}
+  {% if tag_blank == '' %}
+    {% assign general_tactical_presences = general_tactical_presences | push: tactical_presence %}
+  {% endif %}
+{% endfor %}
+
+{% for tag in tags %}
+  <div class="card">
+    <div class="card-header">
+      <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ page.title }}</h2>
+    </div>
+
+    {% if tag == 'General' %}
+      {% assign this_tag_tactical_presences = general_tactical_presences %}
+    {% else %}
+      {% assign this_tag_tactical_presences = empty_array %}
+      {% for tactical_presence in site.tactical-presences %}
+        {% if tactical_presence.tags contains tag %}
+          {% assign this_tag_tactical_presences = this_tag_tactical_presences | push: tactical_presence %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <div class="card-block">
+      {% for level in site.data.general.levels_including_blank %}
+        {% assign this_level_tactical_presences = this_tag_tactical_presences | where: 'minimum_level', level %}
+        {% if this_level_tactical_presences[0] %}
+          {% if level != '' %}
+            <h3 class="h5 card-title">Minimum Level {{ level }}</h3>
+          {% endif %}
+
+          <ul class="card-text">
+            {% for tactical_presence in this_level_tactical_presences %}
+              <li class="card-text">
+                <a href="{{ tactical_presence.url }}">{{ tactical_presence.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+
+                {% if tactical_presence.type %}
+                  ({{ tactical_presence.type }})
+                {% endif %}
+
+                {% for anti_tag in tactical_presence.anti_tags %}
+                  (non-{{ anti_tag }})
+                {% endfor %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

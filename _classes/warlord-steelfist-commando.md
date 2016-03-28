@@ -1,10 +1,11 @@
 ---
-title: Warlord
+title: Warlord (Steelfist Commando)
 sources:
   - Path of War
   - "Path of War: Expanded"
 tags:
   - Initiator
+  - Unarmed
 
 max_level: 20
 hit_die: 10
@@ -14,10 +15,13 @@ starting_wealth: ???
 
 class_skills:
   - Acrobatics
+  - Autohypnosis
+  - Bluff
   - Climb
   - Craft
   - Diplomacy
   - Handle Animal
+  - Heal
   - Intimidate
   - Knowledge (engineering)
   - Knowledge (history)
@@ -26,6 +30,7 @@ class_skills:
   - Profession
   - Ride
   - Sense Motive
+  - Stealth
   - Survival
   - Swim
 skill_ranks_per_level: 4
@@ -40,18 +45,17 @@ initiating_progression: full
 weapon_proficiencies:
   - Simple
   - Martial
+  - Monk Weapons
 armor_proficiencies:
   - Light
-  - Medium
 shield_proficiencies:
-  - Shields
 
 class_features:
 
   - name: maneuvers
     levels: [1]
     text: |
-      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Golden Lion, Primal Fury, Scarlet Throne, Solar Wind, and Thrashing Dragon, and the choice of either Piercing Thunder or Tempest Gale. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
+      A warlord begins his career with knowledge of six martial maneuvers. The disciplines available to him are Broken Blade, Golden Lion, Riven Hourglass Steel Serpent, Solar Wind, and Thrashing Dragon. The warlord may also exchange access to one of his martial disciplines for the Unquiet Grave discipline. He gains the associated skill of each of his disciplines as a class skill.
 
       Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by warlords is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he do not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown on Table 1-3: The Warlord. The warlord must meet a maneuver's prerequisite to learn it.
 
@@ -86,15 +90,29 @@ class_features:
 
       Finally, gambits may not be initiated outside of combat due to their reliance upon the stresses of battle to bring out the best of the warlord.
 
+  - name: unarmed combat
+    type: Ex
+    levels: [1]
+    text: At 1st level, the steelfist commando learns to use his body as the best weapon he can bring to any confrontation. He gains the Improved Unarmed Strike feat at 1st level, and he gains the Greater Unarmed Strike feat at 3rd level as bonus feats. Additionally, the unarmed strike of the Steelfist commando is considered both a natural weapon and a manufactured weapon for the purposes of feats, spells, and other effects.
+
   - name: bonus feat
-    levels: [1, 6, 10, 14, 18]
+    levels: [6, 14, 18]
     levels_text:
-      1: 1 feat
-      6: 2 feats
-      10: 3 feats
-      14: 4 feats
-      18: 5 feats
-    text: At 1st level and at 6th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it.
+      6:  1 feat
+      14: 2 feats
+      18: 3 feats
+    text: At 6th level, 14th level, and then every four levels after, the warlord gains a bonus combat feat or teamwork feat of his choosing. The warlord must qualify for the feat before selecting it. Alternately, starting at 6th level, he may instead choose to select a chained [rogue talent](/rogue-talents/) instead of a bonus feat. At 14th level, he may select chained [advanced rogue talents](/rogue-advanced-talents/).
+
+  - name: dodge bonus
+    type: Ex
+    levels: [2, 6, 10, 14, 18]
+    levels_text:
+      2:  "+1"
+      6:  "+2"
+      10: "+3"
+      14: "+4"
+      18: "+5"
+    text: At 2nd level, the steelfist commando is especially capable of avoiding attacks and gains a +1 dodge bonus to his Armor Class. This improves by +1 at 6th level and every four levels after (to a maximum of +5 at 18th level).
 
   - name: tactical presence
     type: Ex
@@ -126,14 +144,14 @@ class_features:
     levels: [4]
     text: At 4th level, the warlord is exceptionally gifted at working with his allies to bring down opponents and his skills assist any who ally with him. When flanking a target with an allied creature, both the warlord and the ally may use the warlord's Charisma modifier (min +2) for the bonus they receive on flanking their opponent.
 
-  - name: battle prowess
+  - name: commando prowess
     type: Ex
     levels: [5, 12, 19]
     levels_text:
-      5:  "+1, 1 discipline"
-      12: "+2, 2 disciplines"
-      19: "+3, 3 disciplines"
-    text: The warlord is a skilled combatant, mixing traditional fighting skills with the skill of his martial discipline training. Choose a discipline, and when the warlord is in a martial stance from this chosen discipline, the character gets the listed bonus (+1 at 5th level, +2 at 12th level, +3 at 19th level) as a competence bonus to attack and damage rolls, CMB rolls, and to his CMD. He may select another discipline at 12th level, and third discipline at 19th level.
+      5:  +1/+2
+      12: +2/+4
+      19: +3/+6
+    text: At 5th level, the prowess of the steelfist commando expresses itself in his mastery of the unarmed arts as well as in stealth. While in a martial stance, he adds a +1 competence bonus to attack and damage rolls, and +2 competence bonus to his CMB and CMD. This improves by +1 for attack and damage rolls and +2 to CMB and CMD at 12th level and again at 19th level. Additionally, while in a martial stance, he may add his Charisma modifier to Stealth rolls.
 
   - name: dual boost
     type: Ex
@@ -143,6 +161,11 @@ class_features:
       12: 2/day
       18: 3/day
     text: Knowledgeable in the ways of making the best of any situation through pluck and verve, the warlord is capable of applying multiple martial principles simultaneously. At 6th level, once per day the warlord may initiate two boost type maneuvers as part of the same swift action. He may use this an additional time per day at 12th level, and three times per day at 18th level.
+
+  - name: powerful pugilist
+    type: Ex
+    levels: [8]
+    text: At 8th level, the steelfist commando’s skill allows him to better utilize his unarmed strikes to their fullest potential. When using his unarmed strike, he is considered one size category larger when determining his unarmed strike damage and when determining his CMB and CMD. If his target is flat-footed, he inflicts an additional 2d6 points of damage against his foe; this is precision damage and if a target would be immune to sneak attack, they are immune to this effect.
 
   - name: tactical assistance
     type: Ex
@@ -174,6 +197,8 @@ class_features:
 ---
 
 Dynamos on the field of combat, warlords walk the line of victory and ruin through their determination to achieve glory. Where some may talk tactics, the warlord dives in. Where some may fight in strategic units, the warlord shines alone as an inspirational beacon on the field of combat; to be a warlord is to be a lord of war.
+
+Many warlords make their way on the battlefield with mighty massive blades or paired axes, but some find that their own bodies are weapon enough, and find themselves useful for missions of stealth and espionage. Through extensive training, these steelfist commandos are known to be leaders of tactical operative groups and capable of using their natural talents instead of relying on heavy or expensive weapons and armor. They are able to often slip in undetected past their foes.
 
 **Adventures:** Warlords adventure for many reasons, but one reason that will always be prominent is the desire to test their skill against the world's most dangerous opponents, to show their strength to themselves and to the world. Others may do this for profit, others for fun, others for revenge, but it is always certain that a warlord seeks the glory and honor only a battle well-fought can bring.
 
