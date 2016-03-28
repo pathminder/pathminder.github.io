@@ -1,11 +1,14 @@
 ---
-title: Alchemist
+title: Alchemist (Polymath, Vivisectionist)
 sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
   - Pathfinder Roleplaying Game Advanced Player's Guide
   - Pathfinder Roleplaying Game Advanced Race Guide
+  - Pathfinder Roleplaying Game Ultimate Magic
+  - "Path of War: Expanded"
 tags:
   - Alchemy
+  - Sneak Attack
 
 max_level: 20
 prerequisites:
@@ -33,16 +36,39 @@ fort_progression: good
 ref_progression: good
 will_progression: poor
 
-extract_progression: mid
+extract_progression: mid_minus_one
+
+initiating_progression: half
 
 weapon_proficiencies:
   - Simple
-  - bomb
+  - Martial
 armor_proficiencies:
   - Light
 shield_proficiencies:
 
 class_features:
+
+  - name: maneuvers
+    levels: [1]
+    text: |
+      A polymath begins his career with knowledge of three martial maneuvers. If the polymath does not have these discipline’s associated skills as class skills, he gains them as class skills. The disciplines available to him are Primal Fury, Solar Wind, and Steel Serpent.
+
+      Once the polymath knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by polymaths is considered an extraordinary ability unless otherwise noted in it or its discipline’s description. A polymath’s maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one.
+
+      The polymath learns additional maneuvers at higher levels, as indicated on the class table. The maximum level of maneuvers gained through polymath levels is limited by those listed in that table as well, although this restriction does not apply to maneuvers added to his maneuvers known through other methods, such as prestige classes or the Advanced Study feat. A polymath must meet a maneuver’s prerequisite to learn it. See the Systems and Use chapter in Path of War for more details on how maneuvers are used.
+
+      Upon reaching 4th level, and at every even numbered initiator level thereafter (6th, 8th, 10th, and so on), the polymath can choose to learn a new maneuver in place of one he already knows. In effect, he loses the old maneuver in exchange for the new one. He can choose a new maneuver of any level he likes, as long as he observes the restriction on the highest-level maneuvers he knows; the polymath need not replace the old maneuver with a maneuver of the same level. He can swap only a single maneuver at any given level. A polymath’s initiation modifier is Intelligence, and each polymath level is counted as a full initiator level.
+
+      *Maneuvers Readied:* A polymath can ready all three of his maneuvers known at 1st level, and as he advances in level and learns more maneuvers, he is able to ready more, but must still choose which maneuvers to ready. A polymath must always ready his maximum number of maneuvers readied. He readies his maneuvers by meditating or performing martial katas for ten minutes. The maneuvers he chooses remain readied until he decides to practice again and change them. The polymath does not need to sleep or rest for any long period of time in order to ready his maneuvers; any time he spends ten minutes study or meditation, he can change his readied maneuvers.
+
+      A polymath begins an encounter with all his readied maneuvers unexpended, regardless of how many times he might have already used them since he chose them. When he initiates a maneuver, he expends it for the current encounter, so each of his readied maneuvers can be used once per encounter (unless he recovers them, as described below).
+
+      In order for the polymath to recover maneuvers, he must re-evaluate his opponents and their abilities as a full-round action. When he does, he replaces a number of expended maneuvers equal to his polymath initiation modifier (minimum 2) with new readied polymath maneuvers he knows. If he wishes, he may replace these maneuvers with themselves, effectively recovering them. In addition, whenever the polymath recovers maneuvers in this way, he may drink one extract he has prepared as a swift action. Alternately, the polymath may take a brief moment to collect his thoughts to recover a single maneuver as a standard action.
+
+      *Stances Known:* A polymath begins his career with knowledge of one stance from any discipline open to polymaths. At 4th, 7th, 11th, and 13th levels, he can select an additional stance to learn. The maximum level of stances gained through polymath levels is limited by those listed in the class table. Unlike maneuvers, stances are not expended and the polymath does not have to ready them. All the stances he knows are available to his at all times, and he can change the stance he is currently maintaining as a swift action. A stance is an extraordinary ability unless otherwise stated in the stance or discipline description.
+
+      Unlike with maneuvers, a polymath cannot learn a new stance at higher levels in place of one he already knows.
 
   - name: alchemy
     type: Su
@@ -58,26 +84,21 @@ class_features:
 
       Although the alchemist doesn't actually cast spells, he does have a formulae list that determines what extracts he can create. An alchemist can utilize spell-trigger items if the spell appears on his formulae list, but not spell-completion items (unless he uses Use Magic Device to do so). An extract is “cast” by drinking it, as if imbibing a potion---the effects of an extract exactly duplicate the spell upon which its formula is based, save that the spell always affects only the drinking alchemist. The alchemist uses his level as the caster level to determine any effect based on caster level. Creating extracts consumes raw materials, but the cost of these materials is insignificant---comparable to the valueless material components of most spells. If a spell normally has a costly material component, that component is expended during the consumption of that particular extract. Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate divine spells never have a divine focus requirement). An alchemist can prepare an extract of any formula he knows. To learn or use an extract, an alchemist must have an Intelligence score equal to at least 10 + the extract's level. The Difficulty Class for a saving throw against an alchemist's extract is 10 + the extract level + the alchemist's Intelligence modifier. An alchemist may know any number of formulae. He stores his formulae in a special tome called a formula book. He must refer to this book whenever he prepares an extract but not when he consumes it. An alchemist begins play with two 1st level formulae of his choice, plus a number of additional forumlae equal to his Intelligence modifier. At each new alchemist level, he gains one new formula of any level that he can create. An alchemist can also add formulae to his book just like a wizard adds spells to his spellbook, using the same costs and time requirements. An alchemist can study a wizard's spellbook to learn any formula that is equivalent to a spell the spellbook contains. A wizard, however, cannot learn spells from a formula book. An alchemist does not need to decipher arcane writings before copying them.
 
-  - name: bomb
-    type: Su
+  - name: sneak attack
+    type: Ex
     levels: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
     levels_text:
-      1: 1d6
-      3: 2d6
-      5: 3d6
-      7: 4d6
-      9: 5d6
-      11: 6d6
-      13: 7d6
-      15: 8d6
-      17: 9d6
-      19: 10d6
-    text: |
-      In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. An alchemist can use a number of bombs each day equal to his class level + his Intelligence modifier. Bombs are unstable, and if not used in the round they are created, they degrade and become inert---their method of creation prevents large volumes of explosive material from being created and stored. In order to create a bomb, the alchemist must use a small vial containing an ounce of liquid catalyst---the alchemist can create this liquid catalyst from small amounts of chemicals from an alchemy lab, and these supplies can be readily refilled in the same manner as a spellcaster's component pouch. Most alchemists create a number of catalyst vials at the start of the day equal to the total number of bombs they can create in that day---once created, a catalyst vial remains usable by the alchemist for years.
-
-      Drawing the components of, creating, and throwing a bomb requires a standard action that provokes an attack of opportunity. Thrown bombs have a range of 20 feet and use the Throw Splash Weapon special attack. Bombs are considered weapons and can be selected using feats such as Point-Blank Shot and Weapon Focus. On a direct hit, an alchemist's bomb inflicts 1d6 points of fire damage + additional damage equal to the alchemist's Intelligence modifier. The damage of an alchemist's bomb increases by 1d6 points at every odd-numbered alchemist level (this bonus damage is not multiplied on a critical hit or by using feats such as Vital Strike). Splash damage from an alchemist bomb is always equal to the bomb's minimum damage (so if the bomb would deal 2d6+4 points of fire damage on a direct hit, its splash damage would be 6 points of fire damage). Those caught in the splash damage can attempt a Reflex save for half damage. The DC of this save is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.
-
-      Alchemists can learn new types of bombs as [discoveries](#discovery) as they level up. An alchemist's bomb, like an extract, becomes inert if used or carried by anyone else.
+      1:  +1d6
+      3:  +2d6
+      5:  +3d6
+      7:  +4d6
+      9:  +5d6
+      11: +6d6
+      13: +7d6
+      15: +8d6
+      17: +9d6
+      19: +10d6
+    text: At 1st level, a vivisectionist gains the sneak attack ability as a rogue of the same level. If a character already has sneak attack from another class, the levels from the classes that grant sneak attack stack to determine the effective rogue level for the sneak attack's extra damage dice (so an alchemist 1/rogue 1 has a +1d6 sneak attack like a 2nd-level rogue, an alchemist 2/rogue 1 has a +2d6 sneak attack like a 3rd-level rogue, and so on).
 
   - name: brew potion
     type: Ex
@@ -111,22 +132,18 @@ class_features:
       12: 6 discoveries
       14: 7 discoveries
       16: 8 discoveries
-    text: At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Discoveries that modify bombs that are marked with an asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.
+    text: |
+      At 2nd level, and then again every 2 levels thereafter (up to 18th level), an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Discoveries that modify bombs that are marked with an asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.
 
-  - name: poison resistance
-    type: Ex
-    levels: [2, 5, 8, 10]
-    levels_text:
-      2: +2
-      5: +4
-      8: +6
-      10: immunity
-    text: At 2nd level, an alchemist gains a +2 bonus on all saving throws against poison. This bonus increases to +4 at 5th level, and then again to +6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.
+      A vivisectionist may select the bleeding attack rogue talent in place of a discovery. At 10th level or later, a vivisectionist may select the crippling strike rogue talent in place of a discovery.
 
-  - name: poison use
-    type: Ex
+  - name: torturer's eye
     levels: [2]
-    text: Alchemists are trained in the use of poison and starting at 2nd level, cannot accidentally poison themselves when applying poison to a weapon.
+    text: At 2nd level, a vivisectionist adds *deathwatch* to his formula book as a 1st-level extract.
+
+  - name: cruel anatomist
+    levels: [3]
+    text: At 3rd level, a vivisectionist may use his Knowledge (nature) skill bonus in place of his Heal skill bonus.
 
   - name: swift alchemy
     type: Ex
@@ -137,6 +154,19 @@ class_features:
     type: Ex
     levels: [6]
     text: At 6th level, an alchemist can apply a dose of poison to a weapon as a swift action.
+
+  - name: tortorous transformation
+    levels: [7, 9, 15]
+    levels_text:
+      7: "*anthropomorphic animal*"
+      9: "*awaken*, *baleful polymorph*"
+      15: "*regenerate*"
+    text: |
+      At 7th level, a vivisectionist adds *anthropomorphic animal* to his formula book as a 2nd-level extract. When he uses this extract, he injects it into an animal as part of a 2-hour surgical procedure. By using multiple doses of this extract as part of the surgery, he multiplies the duration by the number of extracts used.
+
+      At 9th level, a vivisectionist adds *awaken* and *baleful polymorph* to his formula book as 3rd-level extracts. When he uses the awaken or baleful polymorph extract, he injects it into the target (not a plant) as part of a 24-hour surgical procedure. He can make *anthropomorphic animal* permanent on a creature by spending 7,500 gp.
+
+      At 15th level, a vivisectionist adds *regenerate* to his formula book as a 5th-level extract.
 
   - name: persistent mutagen
     type: Su
@@ -227,5 +257,7 @@ favored_class_bonuses:
 ---
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
+
+A vivisectionist studies bodies to better understand their function. Unlike a chirurgeon, a vivisectionist’s goals are not related to healing, but rather to experimentation and knowledge that most people would consider evil.
 
 **Role:** The alchemist's reputation is not softened by his exuberance (some would say dangerous recklessness) in perfecting his magical extracts and potion-like creations, infusing these substances with magic siphoned from his aura and using his own body as experimental stock. Nor is it mollified by the alchemist's almost gleeful passion for building explosive bombs and discovering strange new poisons and methods for their use. These traits, while making him a liability and risk for most civilized organizations and institutions of higher learning, seem to fit quite well with most adventuring groups.

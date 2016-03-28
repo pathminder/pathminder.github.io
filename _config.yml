@@ -36,6 +36,11 @@ defaults:
       layout: blade-skill
   - scope:
       path: ""
+      type: bushido
+    values:
+      layout: bushido
+  - scope:
+      path: ""
       type: feat-types
     values:
       layout: feat-type
@@ -112,6 +117,9 @@ collections:
   blade-skills:
     output: true
     title: Blade Skills
+  bushido:
+    output: true
+    title: Bushido
   feats:
     output: true
     title: Feats
