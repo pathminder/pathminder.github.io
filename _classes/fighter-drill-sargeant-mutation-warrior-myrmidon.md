@@ -181,7 +181,8 @@ class_features:
       11: 2 discoveries
       15: 3 discoveries
       19: 4 discoveries
-    text: At 7th level and every 4 levels thereafter, the mutation warrior can choose one of the following alchemist discoveries to augment his abilities: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, nauseating flesh, preserve organs, rag doll mutagen, spontaneous healing, tentacle, vestigial arm, wings. The mutagen warrior uses his fighter level as his effective alchemist level for the purpose of these discoveries.
+    text: |
+      At 7th level and every 4 levels thereafter, the mutation warrior can choose one of the following alchemist discoveries to augment his abilities: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, nauseating flesh, preserve organs, rag doll mutagen, spontaneous healing, tentacle, vestigial arm, wings. The mutagen warrior uses his fighter level as his effective alchemist level for the purpose of these discoveries.
 
   - name: greater tactician
     type: Ex
