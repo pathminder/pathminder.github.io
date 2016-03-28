@@ -1,5 +1,5 @@
 ---
-title: Warder
+title: Warder (Zweihander Sentinel)
 sources:
   - Path of War
   - "Path of War: Expanded"
