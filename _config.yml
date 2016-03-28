@@ -26,14 +26,14 @@ defaults:
       layout: default
   - scope:
       path: ""
+      type: base-classes
+    values:
+      layout: class
+  - scope:
+      path: ""
       type: blade-skills
     values:
       layout: blade-skill
-  - scope:
-      path: ""
-      type: classes
-    values:
-      layout: class
   - scope:
       path: ""
       type: feat-types
@@ -54,6 +54,11 @@ defaults:
       type: martial-disciplines
     values:
       layout: martial-discipline
+  - scope:
+      path: ""
+      type: prestige-classes
+    values:
+      layout: class
   - scope:
       path: ""
       type: races
@@ -101,12 +106,12 @@ defaults:
       layout: warlord-gambit
 
 collections:
+  base-classes:
+    output: true
+    title: Base Classes
   blade-skills:
     output: true
     title: Blade Skills
-  classes:
-    output: true
-    title: Classes
   feats:
     output: true
     title: Feats
@@ -119,6 +124,9 @@ collections:
   martial-disciplines:
     output: true
     title: Martial Disciplines
+  prestige-classes:
+    output: true
+    title: Prestige Classes
   races:
     output: true
     title: Races
