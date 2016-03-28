@@ -23,6 +23,13 @@ Knowledge checks don't take an action, and you can't retry a Knowledge check. Th
 
 You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.
 
+| Knowledge task            | Requires | Time | Retry |        DC         |
+|:--------------------------|:--------:|:----:|:-----:|:-----------------:|
+| Answer question           |   ---    | ---  |  No   |    10 or more     |
+| Identify common monster   |   ---    | ---  |  No   | 5 + monster's CR  |
+| Identify uncommon monster |   ---    | ---  |  No   | 10 + monster's CR |
+| Identify rare monster     |   ---    | ---  |  No   | 15 + monster's CR |
+
 **Answer Question:** Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).
 
 **Identify Monster:** You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster’s CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster’s CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster’s CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.

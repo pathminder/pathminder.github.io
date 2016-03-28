@@ -12,18 +12,18 @@ If you are riding bareback, you take a –5 penalty on Ride checks.
 
 Typical riding actions don’t require checks. You can saddle, mount, ride, and dismount from a mount without a problem. The following tasks do require checks.
 
-| Ride task                         |  Action   | DC  |
-|:----------------------------------|:---------:|:---:|
-| Mount or dismount                 |   Move    | --- |
-| Guide with knees                  |    ---    |  5  |
-| Stay in saddle                    |    ---    |  5  |
-| Fight with a combat-trained mount |   Free    | 10  |
-| Cover                             | Immediate | 15  |
-| Soft fall                         |    ---    | 15  |
-| Leap                              |    ---    | 15  |
-| Spur mount                        |   Move    | 15  |
-| Control mount in battle           |   Move    | 20  |
-| Fast mount or dismount            |   Free    | 20  |
+| Ride task                         | Requires |   Time    | Retry | DC  |
+|:----------------------------------|:--------:|:---------:|:-----:|:---:|
+| Mount or dismount                 |   ---    |   Move    |  Yes  | --- |
+| Guide with knees                  |   ---    |    ---    |  No   |  5  |
+| Stay in saddle                    |   ---    |    ---    |  No   |  5  |
+| Fight with a combat-trained mount |   ---    |   Free    |  No   | 10  |
+| Cover                             |   ---    | Immediate |  Yes  | 15  |
+| Soft fall                         |   ---    |    ---    |  No   | 15  |
+| Leap                              |   ---    |    ---    |  No   | 15  |
+| Spur mount                        |   ---    |   Move    |  Yes  | 15  |
+| Control mount in battle           |   ---    |   Move    |  Yes  | 20  |
+| Fast mount or dismount            |   ---    |   Free    |  No   | 20  |
 
 **Guide with Knees:** You can guide your mount with your knees so you can use both hands in combat. Make your Ride check at the start of your turn. If you fail, you can use only one hand this round because you need to use the other to control your mount.
 

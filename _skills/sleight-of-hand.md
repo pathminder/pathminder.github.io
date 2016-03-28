@@ -7,15 +7,20 @@ armor_check_penalty: true
 trained_only: true
 ---
 
-If you're trained in Sleight of Hand, you can pick pockets, draw hidden weapons, and take a variety of actions without being noticed.
+If you're trained in Sleight of Hand, you can pick pockets, draw hidden weapons, and take a variety of actions without being noticed. When you use this skill under close observation, your skill check is opposed by the observer’s Perception check. The observer’s success doesn’t prevent you from performing the action, just from doing it unnoticed.
+
+For a Sleight of Hand task that's a standard action, you may perform it as a move action by taking a --20 penalty on the check.
+
+After an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.
 
 If you're untrained in Sleight of Hand, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.
 
-When you use this skill under close observation, your skill check is opposed by the observer’s Perception check. The observer’s success doesn’t prevent you from performing the action, just from doing it unnoticed.
-
-Any Sleight of Hand check is normally a standard action. However, you may perform a Sleight of Hand check as a move action by taking a --20 penalty on the check.
-
-After an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.
+| Sleight of Hand task | Requires | Time            |     Retry     |              DC              |
+|:---------------------|:--------:|:----------------|:-------------:|:----------------------------:|
+| Perform legerdemain  |   ---    | Standard action | Yes, at --10  |              10              |
+| Hide object          |   ---    | Standard action | Yes, at --10  |    Opposed by Perception     |
+| Lift object          |   ---    | Standard action | Yes, at --10  | 20 and opposed by Perception |
+| Entertain audience   |   ---    | Varies          | Yes, at +2 DC |          10 or more          |
 
 **Perform Legerdemain:** A DC 10 Sleight of Hand check lets you palm a coin-sized, unattended object. Performing a minor feat of legerdemain, such as making a coin disappear, also has a DC of 10 unless an observer is determined to note where the item went.
 
@@ -25,4 +30,4 @@ Drawing a hidden weapon is a standard action and doesn’t provoke an attack of 
 
 **Lift Object:** If you try to take something from a creature, you must make a DC 20 Sleight of Hand check. The opponent makes a Perception check to detect the attempt, opposed by the Sleight of Hand check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence.
 
-**Entertain Audience:** You can use Sleight of Hand to entertain an audience as though you were using the Perform skill. In such a case, your "act" encompasses elements of legerdemain, juggling, and the like.
+**Entertain Audience:** You can use Sleight of Hand to entertain an audience as though you were using the [Perform](/skills/perform/) skill. In such a case, your "act" encompasses elements of legerdemain, juggling, and the like.

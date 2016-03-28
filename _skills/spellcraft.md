@@ -7,20 +7,20 @@ ability_score: Int
 trained_only: true
 ---
 
-If you're trained in this skill, you can perform tasks like identifying magic items, crafting magic items, and identifying spells as they are being cast. The table shows uses of Spellcraft, the time they take, and whether you can try again with them.
+If you're trained in this skill, you can perform tasks like identifying magic items, crafting magic items, and identifying spells as they are being cast.
 
-| Spellcraft Task                           | Time                   |    Retry     |               DC                |
-|:------------------------------------------|:-----------------------|:------------:|:-------------------------------:|
-| Identify spell or power                   | ---                    |      No      |    15 + spell or power level    |
-| Learn written spell                       | 1 hour per spell level | After 1 week |        15 + spell level         |
-| Prepare a spell from a borrowed spellbook | ---                    |   Next day   |        15 + spell level         |
-| Identify aura                             | ---                    |   Next day   | 15 + caster or manifester level |
-| Decipher written spell                    | Full-round action      |      No      |        20 + spell level         |
-| Address power stone                       | Full-round action      |      No      |        20 + power level         |
-| Identify psionic tattoo                   | 1 minute               |      No      |               25                |
-| Enhance *dimensional anchor*              | 10 minutes             |      No      |               20                |
-| Craft magic or psionic item               | ---                    |      No      |         Varies by item          |
-| Understand unique magic or psionic effect | Varies                 |      No      |           30 or more            |
+| Spellcraft task                           | Requires | Time                   |    Retry     |               DC                |
+|:------------------------------------------|:--------:|:-----------------------|:------------:|:-------------------------------:|
+| Identify spell or power                   |   ---    | ---                    |      No      |    15 + spell or power level    |
+| Learn written spell                       |   ---    | 1 hour per spell level | After 1 week |        15 + spell level         |
+| Prepare a spell from a borrowed spellbook |   ---    | ---                    |   Next day   |        15 + spell level         |
+| Identify aura                             |   ---    | ---                    |   Next day   | 15 + caster or manifester level |
+| Decipher written spell                    |   ---    | 1 round                |      No      |        20 + spell level         |
+| Address power stone                       |   ---    | 1 round                |      No      |        20 + power level         |
+| Identify psionic tattoo                   |   ---    | 1 minute               |      No      |               25                |
+| Enhance *dimensional anchor*              |   ---    | 10 minutes             |      No      |               20                |
+| Craft magic or psionic item               |   ---    | ---                    |      No      |         Varies by item          |
+| Understand unique magic or psionic effect |   ---    | Varies                 |      No      |           30 or more            |
 
 **Identify Spell or Power:** Identifying a spell or power as it is being cast or manifested requires no action, but you must be able to clearly see or sense the spell or power as it is being cast or manifested, and this incurs the same penalties as a Perception skill check due to distance, poor conditions, and other factors.
 

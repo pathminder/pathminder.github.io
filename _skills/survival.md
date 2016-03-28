@@ -2,6 +2,7 @@
 title: Survival
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Occult Adventures
 ability_score: Wis
 ---
 
@@ -11,19 +12,20 @@ If you are trained in Survival, you can automatically determine where true north
 
 A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.
 
-| Survival task         |   DC   |
-|:----------------------|:------:|
-| Get along in the wild |   10   |
-| Resist weather        |   15   |
-| Navigate              |   15   |
-| Predict weather       |   15   |
-| Follow tracks         | Varies |
+| Survival task                       |               Requires                |           Retry            |      Time       |      DC       |
+|:------------------------------------|:-------------------------------------:|:--------------------------:|:---------------:|:-------------:|
+| Get along in the wild, once per day |                  ---                  |             No             |       ---       |      10       |
+| Resist weather, once per day        |                  ---                  |             No             |       ---       |      15       |
+| Navigate                            |                  ---                  |             No             |       ---       |      15       |
+| Predict weather                     |                  ---                  |             No             |       ---       |      15       |
+| Follow tracks                       |                  ---                  | After 10 minutes or 1 hour | 1 round or more |    Varies     |
+| Dowsing, once per day               | Psychic spells or Psychic Sensitivity |          Next day          |   10 minutes    | 15, 20, or 25 |
 
 **Get Along in the Wild:** Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. You make a Survival check once every 24 hours. The result of that check applies until the next check is made.
 
 **Resist Weather:** Gain a +2 bonus on all Fortitude saves against severe weather while moving up to half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15. You make a Survival check once every 24 hours. The result of that check applies until the next check is made.
 
-**Navigate:** Keep from getting lost or avoid natural hazards, such as quicksand. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. You can't retry this check.
+**Navigate:** Keep from getting lost or avoid natural hazards, such as quicksand. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one.
 
 **Predict Weather:** Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance.
 
@@ -71,3 +73,17 @@ You move at half your normal speed while following tracks (or at your normal spe
 | Tracked party hides trail (and moves at half speed) |     +5      |
 
 For a group of mixed sizes, apply only the modifier for the largest size category. Apply only the largest poor visibility modifier.
+
+**Dowsing:** You must be trained in Survival and be capable of casting psychic spells or who have the Psychic Sensitivity feat to use this functionality of the skill. Once per day, you can follow a dowsing rod’s movements to locate a particular type of location. Each attempt requires 10 minutes of intense concentration, after which you attempt the Survival check with the DC listed on the table below. You can't take 10 on the check. The maximum range at which you can detect anything using dowsing is 400 feet + 40 feet per rank in Survival you possess. The rod’s directions persist for up to 10 minutes. You choose a particular target each time you dowse, and get the following information on a successful check.
+
+| Dowsing Target | DC |
+|:---------------|:--:|
+| Water          | 15 |
+| Grave          | 20 |
+| Mineral        | 25 |
+
+*Find Water:* The dowsing rod points toward the largest source of fresh water within range, including aquifers, lakes, ponds, and springs.
+
+*Grave Dowsing:* The dowsing rod points in the direction of the largest burial site, cairn, or tomb within range.
+
+*Locate Metal and Gems:* You concentrate on a specific metal or mineral. On a successful check, the dowsing rod points to the largest quantity of the selected mineral within range.

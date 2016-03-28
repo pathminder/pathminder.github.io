@@ -13,19 +13,17 @@ You can't take 10 with this skill. Nobody can use aid another on Use Magic Devic
 
 If you're emulating a requirement, you must consciously choose which one to emulate. That is, you must know what you are trying to emulate when you make a Use Magic Device check for that purpose.
 
-The DCs for various tasks involving Use Magic Device checks are summarized on the table below.
-
-| Use Magic Device task                         |               DC                |
-|:----------------------------------------------|:-------------------------------:|
-| Emulate ability score                         |       15 + ability score        |
-| Emulate class feature                         |               20                |
-| Emulate race                                  |               25                |
-| Emulate alignment                             |               30                |
-| Activate blindly                              |               25                |
-| Use spell trigger or power trigger item       |               20                |
-| Use spell completion or power completion Item | 20 + caster or manifester level |
-| Decipher written spell                        |        25 + spell level         |
-| Address power stone                           |        25 + power level         |
+| Use Magic Device task                         | Requires |     Time      | Retry |               DC                |
+|:----------------------------------------------|:--------:|:-------------:|:-----:|:-------------------------------:|
+| Emulate ability score                         |   ---    |      ---      |  Yes  |       15 + ability score        |
+| Emulate class feature                         |   ---    |      ---      |  Yes  |               20                |
+| Emulate race                                  |   ---    |      ---      |  Yes  |               25                |
+| Emulate alignment                             |   ---    |      ---      |  Yes  |               30                |
+| Activate blindly                              |   ---    | Item's action |  Yes  |               25                |
+| Use spell trigger or power trigger item       |   ---    | Item's action |  Yes  |               20                |
+| Use spell completion or power completion Item |   ---    | Item's action |  Yes  | 20 + caster or manifester level |
+| Decipher written spell                        |   ---    |    1 round    |  Yes  |        25 + spell level         |
+| Address power stone                           |   ---    |    1 round    |  Yes  |        25 + power level         |
 
 **Emulate Ability Score:** To cast a spell from a scroll or manifest a power from a power stone, you need a high ability score in the appropriate ability. Your effective ability score (appropriate to the class you're emulating) is your check result --15. If you already have a high enough score in the appropriate ability, you don't need to make this check.
 

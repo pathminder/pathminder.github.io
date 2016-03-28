@@ -19,7 +19,11 @@ Each of the nine categories of the Perform skill includes a variety of methods, 
 - Wind instruments (flute, pan pipes, recorder, trumpet)
 - Sing (ballad, chant, melody)
 
-**Entertain Audience:** You can impress audiences with your talent and skill in your chosen performance type. Trying to earn money by playing in public requires anywhere from an evening’s work to a full day’s performance. Retries are allowed, but they don’t negate previous failures, and an audience that has been unimpressed in the past is likely to be prejudiced against future performances. (Increase the DC by 2 for each previous failure.)
+| Perform task       | Requires |  Time  |     Retry     |     DC     |
+|:-------------------|:--------:|:------:|:-------------:|:----------:|
+| Entertain audience |   ---    | Varies | Yes, at +2 DC | 10 or more |
+
+**Entertain Audience:** You can impress audiences with your talent and skill in your chosen performance type. Trying to earn money by playing in public requires anywhere from an evening's work to a full day's performance. Retries are allowed, but they don't negate previous failures, and an audience that has been unimpressed in the past is likely to be prejudiced against future performances. (Increase the DC by 2 for each previous failure.)
 
 | Performance               | DC |
 |:--------------------------|:--:|

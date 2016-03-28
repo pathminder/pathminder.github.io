@@ -7,12 +7,12 @@ ability_score: Cha
 
 You can use Bluff to deceive others, to pass secret messages, and to create diversions and feints in combat. The table shows uses of Bluff, the time they take, and whether you can try again with them.
 
-| Bluff task          |          Time           | Retry |                                       DC                                       |
-|:--------------------|:-----------------------:|:-----:|:------------------------------------------------------------------------------:|
-| Deceive someone     |     1 round or more     |  Yes  |                 opposed by opponent's Sense Motive + modifiers                 |
-| Pass secret message | Double message duration |  Yes  |                                    15 or 20                                    |
-| Feint               |     Standard action     |  Yes  | 10 + opponent's BAB + opponent's Wisdom, or 10 + opponent's Sense Motive bonus |
-| Create diversion    |           ---           |  Yes  |                       opposed by opponent's Sense Motive                       |
+| Bluff task          | Requires |          Time           | Retry |                            DC                            |
+|:--------------------|:--------:|:-----------------------:|:-----:|:--------------------------------------------------------:|
+| Deceive someone     |   ---    |     1 round or more     |  Yes  |           Opposed by Sense Motive + modifiers            |
+| Pass secret message |   ---    | Double message duration |  Yes  |                         15 or 20                         |
+| Feint               |   ---    |     Standard action     |  Yes  | opposed by 10 + BAB + Wisdom, or 10 + Sense Motive bonus |
+| Create diversion    |   ---    |           ---           |  Yes  |                 Opposed by Sense Motive                  |
 
 **Deceive Someone:** Telling a lie is an opposed skill check against your opponent's Sense Motive skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion). Attempting to deceive someone takes at least 1 round, but can possibly take longer if the lie is elaborate (as determined by the GM on a case-by-case basis).
 

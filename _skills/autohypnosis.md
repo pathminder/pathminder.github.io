@@ -8,16 +8,16 @@ trained_only: true
 
 You have trained your mind to gain mastery over your body and the mind's own deepest capabilities.
 
-The DC of a check with this skill varies depending upon the task at hand. The table shows uses of Autohypnosis and whether you can try again with them. Making an Autohypnosis check usually doesn't require an action; it is either a free action (when attempted reactively) or part of another action (when attempted actively).
+The DC of a check with this skill varies depending upon the task at hand. The table shows uses of Autohypnosis and whether you can try again with them.
 
-| Autohypnosis Tasks                   | Retry |        DC        |
-|:-------------------------------------|:-----:|:----------------:|
-| Ignore caltrop wound                 |  No   |        18        |
-| Memorize (per page)                  |  Yes  |        15        |
-| Resist dying (per round or per hour) |  No   |        15        |
-| Resist fear                          |  No   | fear effect's DC |
-| Tolerate poison                      |  No   |   poison's DC    |
-| Willpower                            |  Yes  |        20        |
+| Autohypnosis task                    | Requires | Time | Retry |        DC        |
+|:-------------------------------------|:--------:|:----:|:-----:|:----------------:|
+| Ignore caltrop wound                 |   ---    | Free |  No   |        18        |
+| Memorize (per page)                  |   ---    | ---  |  Yes  |        15        |
+| Resist dying (per round or per hour) |   ---    | Free |  No   |        15        |
+| Resist fear                          |   ---    | Free |  No   | Fear effect's DC |
+| Tolerate poison                      |   ---    | ---  |  No   |   Poison's DC    |
+| Willpower                            |   ---    | ---  |  Yes  |        20        |
 
 **Ignore Caltrop Wound:** If you are wounded by stepping on a caltrop, your speed is reduced to one-half normal. A successful Autohypnosis check removes this movement penalty. The wound doesn't go away---it is just ignored through self-persuasion.
 

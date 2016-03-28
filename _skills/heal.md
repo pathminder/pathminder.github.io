@@ -2,20 +2,22 @@
 title: Heal
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Occult Adventures
 ability_score: Wis
 ---
 
 With Heal, you can tend to wounds and ailments. The table shows uses of Heal, the time they take, and whether you can try again with them.
 
-| Task                       |      Time       |          Retry           |        DC         |
-|:---------------------------|:---------------:|:------------------------:|:-----------------:|
-| First aid                  | Standard action |           Yes            |        15         |
-| Long-term care             |     8 hours     | If you see you've failed |        15         |
-| Treat wounds from caltrops | Standard action | If you see you've failed |        15         |
-| Treat wounds from spikes   |   10 minutes    | If you see you've failed |  Spell's save DC  |
-| Treat deadly wounds        |     1 hour      | If you see you've failed |        20         |
-| Treat poison               | Standard action | If you see you've failed | Poison’s save DC  |
-| Treat disease              |   10 minutes    | If you see you've failed | Disease’s save DC |
+| Task                        |               Requires                |       Time        |          Retry           |        DC         |
+|:----------------------------|:-------------------------------------:|:-----------------:|:------------------------:|:-----------------:|
+| First aid                   |                  ---                  |  Standard action  |           Yes            |        15         |
+| Long-term care              |                  ---                  |      8 hours      | If you see you've failed |        15         |
+| Treat wounds from caltrops  |                  ---                  |  Standard action  | If you see you've failed |        15         |
+| Treat wounds from spikes    |                  ---                  |    10 minutes     | If you see you've failed |  Spell's save DC  |
+| Treat deadly wounds         |                  ---                  |      1 hour       | If you see you've failed |        20         |
+| Treat poison                |                  ---                  |  Standard action  | If you see you've failed | Poison’s save DC  |
+| Treat disease               |                  ---                  |    10 minutes     | If you see you've failed | Disease’s save DC |
+| Faith healing, once per day | Psychic spells or Psychic Sensitivity | 1 hour or 8 hours |          Varies          |      Varies       |
 
 **First Aid:** You usually use first aid to save a dying character. If a character has negative hit points and is losing hit points (at the rate of 1 per round, 1 per hour, or 1 per day), you can make him stable. A stable character regains no hit points but stops losing them. First aid also stops a character from losing hit points due to effects that cause bleed.
 
@@ -32,3 +34,11 @@ You can tend to as many as six patients at a time. You need a few items and supp
 **Treat Poison:** To treat poison means to tend to a single character who has been poisoned and who is going to take more damage from the poison (or suffer some other effect). Every time the poisoned character makes a saving throw against the poison, you make a Heal check. If your Heal check exceeds the DC of the poison, the character receives a +4 competence bonus on his saving throw against the poison.
 
 **Treat Disease:** To treat a disease means to tend to a single diseased character. Every time the diseased character makes a saving throw against disease effects, you make a Heal check. If your Heal check exceeds the DC of the disease, the character receives a +4 competence bonus on his saving throw against the disease.
+
+**Faith Healing:** You must be trained in Heal and be capable of casting psychic spells or who have the Psychic Sensitivity feat to use this functionality of the skill. You can use faith healing once per day. The DC and effect of the Heal check depend on the task you attempt. You can’t use faith healing on yourself, and a creature can't be the subject of faith healing more than once per day.
+
+*Restore Vitality:* You suppress ability damage. You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.
+
+*Suspend Affliction:* You treat one curse, disease, or poison affecting a creature. You enter into a deep trance for 1 hour while you treat the subject, after which you attempt your Heal check. If the check is successful, you suspend the effects of the affliction by 1 hour, plus 1 hour for every 5 by which you exceed the DC. This time doesn’t count against the effect’s duration (if any). The affliction can still be cured by other means while it’s suspended.
+
+*Remove Affliction:* You can attempt to permanently remove an affliction in an 8-hour ceremony, after which you attempt a Heal check. If the result of the check is at least double the DC of the original affliction, the sufferer can attempt another saving throw using the original DC to permanently cast off the effect. You can't try to permanently remove an affliction again.

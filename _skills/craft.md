@@ -2,6 +2,7 @@
 title: Craft
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Untrained
 ability_score: Int
 ---
 
@@ -11,15 +12,13 @@ A Craft skill is specifically focused on creating something. If nothing is creat
 
 **Practice Trade:** You can practice your trade and make a decent living, earning half your check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the craft's daily tasks, how to supervise untrained helpers, and how to handle common problems. (Untrained laborers and assistants earn an average of 1 silver piece per day.)
 
-**Create Item:** The basic function of the Craft skill is to allow you to make an item of the appropriate type. The DC depends on the complexity of the item to be created. The DC, your check result, and the price of the item determine how long it takes to make a particular item. The item's finished price also determines the cost of raw materials.
+**Create Item:** The basic function of the Craft skill is to allow you to make an item of the appropriate type.
 
-In some cases, the *fabricate* spell can be used to achieve the results of a Craft check with no actual check involved. You must still make an appropriate Craft check when using the spell to make articles requiring a high degree of craftsmanship.
+When crafting items, you need tools and an appropriate workspace. If improvised tools are used, the check is made with a --2 penalty. On the other hand, masterwork artisan's tools provide a +2 circumstance bonus on the check. What constitutes an appropriate workspace is often situational. Repairing weapons or armor in the field requires only a relatively quiet and clear area, while crafting a suit of full plate requires a workshop and a forge. Typically, items of normal or greater complexity require a workshop of some sort, but under certain circumstances, the GM can rule that such items can be created in the field. Alchemical items and poisons are exceptions to these guidelines, as their compact nature makes them easier to craft in the field, especially with the help of an alchemist's lab.
 
-A successful Craft check related to woodworking in conjunction with the casting of the *ironwood* spell enables you to make wooden items that have the strength of steel.
+Large, well-stocked workspaces can also aid in the crafting of items, particularly when you use trained and untrained labor. These masterwork workspaces grant trained and untrained laborers a +2 circumstance bonus on checks to aid another when they aid your Craft check. Furthermore, if a trained or untrained laborer succeeds at the check to aid another by 5 or more, that laborer grants you a +3 bonus on your check instead of the normal +2. It typically costs 5 gp per day to rent a masterwork workspace for crafting relatively small items (such as most adventuring gear, alchemical items, armor, poisons, and weapons) and 20 gp per day to rent a masterwork workspace for creating larger items (such as siege engines and vehicles).
 
-When casting the spell *minor creation*, you must succeed on an appropriate Craft check to make a complex item.
-
-All crafts require artisan's tools to give the best chance of success. If improvised tools are used, the check is made with a --2 penalty. On the other hand, masterwork artisan's tools provide a +2 circumstance bonus on the check.
+The DC depends on the complexity of the item to be created. The DC, your check result, and the price of the item determine how long it takes to make a particular item. The item's finished price also determines the cost of raw materials.
 
 To determine how much time and money it takes to make an item, follow these steps.
 
@@ -53,8 +52,30 @@ You can make checks by the day instead of by the week. In this case your progres
 | High-quality item (bell)                                          |   Varies    |        15         |
 | Complex or superior item (lock)                                   |   Varies    |        20         |
 
+**Use Special Raw Materials:** Crafting items requires a certain ratio of raw materials to start. Typically, these raw materials are some sort of trade good that is required to make the item. But not all raw materials are the same---some raw materials are better suited for crafting. These are special raw materials.
+
+Unlike normal raw materials, special raw materials have both a cost and a crafting cost. The cost of the special raw material is the amount for which it can be purchased and sold. Special raw materials are trade goods, and like all trade goods, they can be bought and sold for the same price. The crafting cost is the amount of gold they are considered to be worth for the purposes of crafting. For example, flawless steel’s cost is 8 gp per pound, but its crafting cost per pound is 4 gp. It can be bought and sold for 8 gp per pound, but when used as the raw material for crafting items, it is considered to be worth only 4 gp per pound.
+
+While special raw materials can be bought and sold, they work best when handed out as treasure. As the GM, if one of the PCs in your group has invested in the Craft skill, consider giving out these special trade goods in place of coin treasure every so often.
+
+Special raw materials' crafting costs are always half their actual cost.
+
 **Create Alchemical Item:** To make an item using Craft (alchemy), you must have alchemical equipment. If you are working in a city, you can buy what you need as part of the raw materials cost to make the item, but alchemical equipment is difficult or impossible to come by in some places. Purchasing and maintaining an alchemist's lab grants a +2 circumstance bonus on Craft (alchemy) checks because you have the perfect tools for the job, but it does not affect the cost of any items made using the skill.
 
 **Create Masterwork Item:** You can make a masterwork item: a weapon, suit of armor, shield, or tool that conveys a bonus on its use through its exceptional craftsmanship. To create a masterwork item, you create the masterwork component as if it were a separate item in addition to the standard item. The masterwork component has its own price (300 gp for a weapon or 150 gp for a suit of armor or a shield, see Chapter 6 for the price of other masterwork tools) and a Craft DC of 20. Once both the standard component and the masterwork component are completed, the masterwork item is finished. The cost you pay for the masterwork component is one-third of the given amount, just as it is for the cost in raw materials.
 
 **Repair Item:** You can repair an item by making checks against the same DC that it took to make the item in the first place. The cost of repairing an item is one-fifth of the item's price.
+
+**Supervise Helpers:** Craft allows you to supervise untrained laborers. An untrained laborer has no ranks in Craft, but can attempt to aid in the process of creating items with the Craft skill. This is done by first paying the untrained laborer either 1 sp per day or 7 sp for a week’s worth of work. Each untrained worker you hire can attempt to aid another on your Craft check with a +0 bonus (assuming an Intelligence score of 10 or 11 and no ranks in the appropriate Craft skill). Typically, you can hire no more than two artisans to help you craft most small or relatively simple items (such as adventuring gear, alchemical items, armor, poisons, and weapons), but for large and complex items (such as siege engines and vehicles), you can hire as many as 10 untrained laborers to assist you.
+
+If your GM allows it, you can also hire and supervise trained laborers. These laborers have ranks in the appropriate Craft skill and have a greater chance to aid you in your crafting endeavors. The table below gives the details on such trained laborers, how much they cost, the number of ranks they have in the appropriate Craft check, the bonus on their Craft checks, and the typical size of the settlement in which they are found. You can hire only trained laborers who have fewer ranks in the appropriate Craft than you have; a trained laborer with more ranks than you will not deign to assist you.
+
+| Ranks in Craft | Craft Bonus | Cost to Hire per Day | Cost to Hire per Week | Settlement Size |
+|:--------------:|:-----------:|:--------------------:|:---------------------:|:----------------|
+|       1        |     +4      |         3 sp         |      2 gp, 1 sp       | Hamlet          |
+|       2        |     +5      |         4 sp         |      2 gp, 8 sp       | Village         |
+|       3        |     +6      |         6 sp         |      4 gp, 2 sp       | Small town      |
+|       4        |     +7      |         8 sp         |      5 gp, 6 sp       | Large town      |
+|       5        |     +8      |         1 gp         |         7 gp          | Small city      |
+|       6        |     +9      |      1 gp, 5 sp      |      10 gp, 5 sp      | Large city      |
+|       7        |     +10     |         2 gp         |         14 gp         | Metropolis      |

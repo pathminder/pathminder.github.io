@@ -12,15 +12,13 @@ You can use this skill on a creature with an Intelligence score of 1 or 2 that i
 
 If you have no ranks in Handle Animal, you can use a Charisma check to handle and push domestic animals, but you can't teach, rear, or train animals.
 
-The table shows uses of Handle Animal, the time they take, and whether you can try again with them.
-
-| Handle Animal task                    |       Time        | Retry |        DC         |
-|:--------------------------------------|:-----------------:|:-----:|:-----------------:|
-| Handle an animal                      |    Move action    |  Yes  |        10         |
-| "Push" an animal                      | Full-round action |  Yes  |        25         |
-| Teach an animal a trick               |      1 week       |  Yes  |     15 or 20      |
-| Train an animal for a general purpose |      Varies       |  Yes  |     15 or 20      |
-| Rear a wild animal                    |      Varies       |  No   | 15 + HD of animal |
+| Handle Animal task                    | Requires |       Time        | Retry |        DC         |
+|:--------------------------------------|:--------:|:-----------------:|:-----:|:-----------------:|
+| Handle an animal                      |   ---    |    Move action    |  Yes  |        10         |
+| "Push" an animal                      |   ---    | Full-round action |  Yes  |        25         |
+| Teach an animal a trick               |   ---    |      1 week       |  Yes  |     15 or 20      |
+| Train an animal for a general purpose |   ---    |      Varies       |  Yes  |     15 or 20      |
+| Rear a wild animal                    |   ---    |      Varies       |  No   | 15 + HD of animal |
 
 **Handle an Animal:** This task involves commanding an animal to perform a task or trick that it knows. If the animal is wounded or has taken any nonlethal damage or ability score damage, the DC increases by 2. If your check succeeds, the animal performs the task or trick on its next action.
 

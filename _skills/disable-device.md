@@ -9,6 +9,11 @@ trained_only: true
 
 If you're trained in this skill, you are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors.
 
+| Disable Device task  | Requires |      Time       | Retry |     DC     |
+|:---------------------|:--------:|:---------------:|:-----:|:----------:|
+| Disarm or rig device |   ---    | 1 round or more |  Yes  | 10 or more |
+| Open lock            |   ---    |     1 round     |  Yes  | 20 or more |
+
 **Disarm or Rig Device:** When disarming a trap or other device, the Disable Device check is made secretly, so that you don’t necessarily know whether you’ve succeeded.
 
 The DC depends on how tricky the device is. If the check succeeds, you disable the device. If it fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes wrong. If the device is a trap, you trigger it. If you’re attempting some sort of sabotage, you think the device is disabled, but it still works normally.

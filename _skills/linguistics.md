@@ -2,6 +2,7 @@
 title: Linguistics
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Occult Adventures
 ability_score: Int
 trained_only: true
 ---
@@ -10,28 +11,12 @@ If you're trained in this skill, you are skilled at working with language, in bo
 
 If you're untrained in this skill, you can still attempt to read archaic and strange forms of your own racial bonus languages, and can attempt to detect a forgery.
 
-**Decipher Writing:** You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. Deciphering a page of ordinary text takes 1 minute (10 consecutive rounds). The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
-
-Both the Linguistics check and (if necessary) the Wisdom check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.
-
-| Condition                                 | Check Modifier |
-|:------------------------------------------|:--------------:|
-| Type of document unknown to reader        |      --2       |
-| Type of document somewhat known to reader |       +0       |
-| Type of document well known to reader     |       +2       |
-| Handwriting not known to reader           |      --2       |
-| Handwriting somewhat known to reader      |       +0       |
-| Handwriting intimately known to reader    |       +2       |
-| Reader only casually reviews the document |      --2       |
-| Document contradicts orders or knowledge  |       +2       |
-
-**Create or Detect Forgeries:** Forgery requires writing materials appropriate to the document being forged. To forge a document on which the handwriting is not specific to a person, you need only to have seen a similar document before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person's handwriting is needed.
-
-Creating a forgery can take anywhere from 1 minute to 1d4 minutes per page. Detecting a forgery using Linguistics takes 1 round of examination per page.
-
-The Linguistics check is made secretly, so that you're not sure how good your forgery is. As with Disguise, you don't make a check until someone examines the work. Your Linguistics check is opposed by the Linguistics check of the person who examines the document to verify its authenticity.
-
-The examiner gains modifiers if any of the conditions are listed on the table found on the previous page.
+| Linguistics task                 |               Requires                |           Time            |   Retry   |           DC           |
+|:---------------------------------|:-------------------------------------:|:-------------------------:|:---------:|:----------------------:|
+| Decipher writing                 |                  ---                  |     1 minute per page     |           |       20 or more       |
+| Create forgery                   |                  ---                  | 1 to 1d4 minutes per page |           | opposed by Linguistics |
+| Detect forgery                   |                  ---                  |     1 round per page      |           | opposed by Linguistics |
+| Automatic writing, once per week | Psychic spells or Psychic Sensitivity |          1 hour           | Next week |        20 or 30        |
 
 **Learn a Language:** Whenever you put a rank into this skill, you learn to speak and read a new language. Common languages (and their typical speakers) include the following.
 
@@ -56,3 +41,28 @@ The examiner gains modifiers if any of the conditions are listed on the table fo
 - Sylvan (centaurs, fey creatures, plant creatures, unicorns)
 - Terran (earth-based creatures)
 - Undercommon (drow, duergar, morlocks, svirfneblin)
+
+**Decipher Writing:** You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. Deciphering a page of ordinary text takes 1 minute (10 consecutive rounds). The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
+
+Both the Linguistics check and (if necessary) the Wisdom check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.
+
+| Condition                                 | Check Modifier |
+|:------------------------------------------|:--------------:|
+| Type of document unknown to reader        |      --2       |
+| Type of document somewhat known to reader |       +0       |
+| Type of document well known to reader     |       +2       |
+| Handwriting not known to reader           |      --2       |
+| Handwriting somewhat known to reader      |       +0       |
+| Handwriting intimately known to reader    |       +2       |
+| Reader only casually reviews the document |      --2       |
+| Document contradicts orders or knowledge  |       +2       |
+
+**Create or Detect Forgeries:** Forgery requires writing materials appropriate to the document being forged. To forge a document on which the handwriting is not specific to a person, you need only to have seen a similar document before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person's handwriting is needed.
+
+Creating a forgery can take anywhere from 1 minute to 1d4 minutes per page. Detecting a forgery using Linguistics takes 1 round of examination per page.
+
+The Linguistics check is made secretly, so that you're not sure how good your forgery is. As with Disguise, you don't make a check until someone examines the work. Your Linguistics check is opposed by the Linguistics check of the person who examines the document to verify its authenticity.
+
+The examiner gains modifiers if any of the conditions are listed on the table.
+
+**Automatic Writing:** You must be trained in Linguistics and be capable of casting psychic spells or who have the Psychic Sensitivity feat to use this functionality of the skill. Once per week, you can spend 1 hour posing questions while your hand unconsciously scribbles messages of varying legibility and accuracy. At the end of this hour, you attempt a DC 20 Linguistics check to decipher the meanings of these messages. You can't take 10 on this check. If successful, you gain information as though you had used *augury*. If you have 10 or more ranks in Linguistics, you can attempt a DC 30 check to instead gain information as though you had used *divination*. The chance of successfully producing coherent or meaningful writing from any of these effects equals 60% plus 5% for every 1 by which your check result exceeds the DC (to a maximum of 90%). You must choose which DC you'll try to meet before attempting the check. The GM rolls the check and d% roll secretly, so that you can't tell whether the messages are accurate.
