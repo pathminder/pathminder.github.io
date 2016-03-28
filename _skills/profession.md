@@ -14,7 +14,7 @@ Untrained laborers and assistants (that is, characters without any ranks in Prof
 |:-----------------------|:--------:|:------:|:-----:|:----------:|
 | Practice trade         |   ---    | 1 week |  Yes  |    ---     |
 | Professional knowledge |   ---    |  ---   |  No   | 10 or more |
-w
+
 **Practice Trade:** You can earn half your Profession check result in gold pieces per week of dedicated work. You know how to use the tools of your trade, how to perform the profession’s daily tasks, how to supervise helpers, and how to handle common problems.
 
 **Professional Knowledge:** You can answer questions about your Profession. Basic questions are DC 10, while more complex questions are DC 15 or higher.

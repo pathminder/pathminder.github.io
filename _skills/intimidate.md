@@ -11,6 +11,8 @@ You get a +4 bonus on Intimidate checks if you are larger than your target and a
 
 If you Intimidate an opponent, you can attempt to Intimidate them again, but each additional check increases the DC by +5. This increase resets after 1 hour has passed.
 
+When you're attempting an Intimidate check against a giant, if your target believes that you're clearly controlling or have recently defeated a creature larger than yourself, you can use that creature's size in place of your own when determining your size bonus or penalty on the Intimidate check. Even if this is not true, you may be able to convince a creature you have such power with a successful Bluff check.
+
 | Intimidate task     | Requires |      Time       |     Retry     |                 DC                  |
 |:--------------------|:--------:|:---------------:|:-------------:|:-----------------------------------:|
 | Force friendliness  |   ---    |    1 minute     | Yes, at +5 DC | 10 + opponent's HD + opponent's Wis |
