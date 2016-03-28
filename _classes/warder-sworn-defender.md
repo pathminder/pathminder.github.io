@@ -90,7 +90,7 @@ class_features:
       15: 3 wards
       17: "+5"
     text: |
-      At 1st level, the sworn protector may select a ward, a person whom she must protect no matter what the cost. When in combat and the sworn protector’s ward is within 10ft of their ward’s position, the ward gains a +1 morale bonus to their AC and savings throws. This bonus increases by +1 at 5th level, and every four levels after that (9th, 13th, and 17th level). Additionally, the sworn protector may add her guardianship bonus to her attack and damage rolls as a morale bonus if the ward is within the sworn protector’s guardianship range.
+      At 1st level, the sworn protector may select a ward, a person whom she must protect no matter what the cost. When in combat and the sworn protector's ward is within 10ft of their ward's position, the ward gains a +1 morale bonus to their AC and savings throws. This bonus increases by +1 at 5th level, and every four levels after that (9th, 13th, and 17th level). Additionally, the sworn protector may add her guardianship bonus to her attack and damage rolls as a morale bonus if the ward is within the sworn protector's guardianship range.
 
       This radius increases by 10ft at 6th and again at 12th level. A sworn protector may only have one ward at a time at 1st level; they may then select a second ward at 8th level and a 3rd ward at 15th level. To select a ward, the sworn protector must take ten minutes discussing tactics and practicing with his ward so that he may learn how best to protect him, and from there on he practices those tactics when he readies his maneuvers. A sworn protector may dismiss a creature as his ward at any time as a free action.
 
@@ -99,7 +99,7 @@ class_features:
   - name: defensive intercept
     type: Ex
     levesl: [1]
-    text: With swift speed and trained instincts, a sworn protector is capable of sudden bursts of speed in the defense of a chosen ward. A number of times per day equal to 1 + the sworn protector’s Intelligence bonus, she may leap to her ward’s defense with lightning speed. As an immediate action, the sworn protector moves up to her base speed to a space within 10 ft. of a ward who is being subjected to an attack or effect that would cause harm, to thereby grant her guardianship benefits. This movement is subject to attacks of opportunity. If the sworn protector is too distant to reach her ward, she cannot use this ability.
+    text: With swift speed and trained instincts, a sworn protector is capable of sudden bursts of speed in the defense of a chosen ward. A number of times per day equal to 1 + the sworn protector's Intelligence bonus, she may leap to her ward's defense with lightning speed. As an immediate action, the sworn protector moves up to her base speed to a space within 10 ft. of a ward who is being subjected to an attack or effect that would cause harm, to thereby grant her guardianship benefits. This movement is subject to attacks of opportunity. If the sworn protector is too distant to reach her ward, she cannot use this ability.
 
   - name: armiger's mark
     type: Ex
@@ -123,7 +123,7 @@ class_features:
   - name: shared counter
     type: Ex
     levels: [3]
-    text: At 3rd level, the warder’s ability to protect those around him expands to allow him to use readied counters with a range of personal to protect another as long as he is adjacent to their position. If the counter is unsuccessful, then the protected ally must rely on their own defenses. He may use this with no daily limit, but only as often as he has an immediate action to initiate a counter. Additionally, in the defense of a ward she may use her defensive intercept ability as part of the same immediate action to use a shared counter. This ability functions with the Extended Defense class feature.
+    text: At 3rd level, the warder's ability to protect those around him expands to allow him to use readied counters with a range of personal to protect another as long as he is adjacent to their position. If the counter is unsuccessful, then the protected ally must rely on their own defenses. He may use this with no daily limit, but only as often as he has an immediate action to initiate a counter. Additionally, in the defense of a ward she may use her defensive intercept ability as part of the same immediate action to use a shared counter. This ability functions with the Extended Defense class feature.
 
   - name: bonus feat
     levels: [8, 13, 18]

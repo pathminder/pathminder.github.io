@@ -4,7 +4,7 @@ sources:
   - "Path of War: Expanded"
 tags:
   - Combat
-summary: Charge creatures in the air as if you could fly, and reduce the falling damage you’d take afterwards
+summary: Charge creatures in the air as if you could fly, and reduce the falling damage you'd take afterwards
 flavor_text: Not even the sky is safe from your wrath.
 prerequisites:
   - "[Primal Fury Style](/feats/primal-fury-style/)"

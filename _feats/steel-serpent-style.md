@@ -5,7 +5,7 @@ sources:
 tags:
   - Combat
   - Style
-summary: Steel Serpent maneuvers penalize the target’s AC and attacks
+summary: Steel Serpent maneuvers penalize the target's AC and attacks
 flavor_text: Your training lets you take advantage of weakened foes.
 prerequisites:
   - Heal 3 ranks

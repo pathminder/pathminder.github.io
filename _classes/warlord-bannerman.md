@@ -144,9 +144,9 @@ class_features:
       12: "+2"
       19: "+3"
     text: |
-      At 5th level, a bannerman’s banner becomes a symbol of inspiration to his allies and companions. As long as the bannerman’s banner is clearly visible and he is in a Golden Lion stance, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and fatigue and a +2 morale bonus on attack and damage rolls. At 12th level, and at 19th level, these bonuses increase by +1. If the Golden Lion stance he is using grants a similarly typed bonus to attack, damage, or saving throws, then increase that bonus by the amount of the inspiring banner’s bonus.
+      At 5th level, a bannerman's banner becomes a symbol of inspiration to his allies and companions. As long as the bannerman's banner is clearly visible and he is in a Golden Lion stance, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and fatigue and a +2 morale bonus on attack and damage rolls. At 12th level, and at 19th level, these bonuses increase by +1. If the Golden Lion stance he is using grants a similarly typed bonus to attack, damage, or saving throws, then increase that bonus by the amount of the inspiring banner's bonus.
 
-      The banner must be at least Small or larger and must be carried or displayed by the bannerman or his mount to function, and can be held while using a buckler. A bannerman’s banner is intended to be able to be placed on any manner of item so long as it is displayed. Some official ideas for how a bannerman may carry a banner: as heraldry on a shield, on a small pole mounted to either his mount’s saddle or to the back of his armor, a tabard that they wear prominently, or a standard that hangs from a polearm or spear. So long as that standard is carried upon his person where people can see it, he can inspire his allies.
+      The banner must be at least Small or larger and must be carried or displayed by the bannerman or his mount to function, and can be held while using a buckler. A bannerman's banner is intended to be able to be placed on any manner of item so long as it is displayed. Some official ideas for how a bannerman may carry a banner: as heraldry on a shield, on a small pole mounted to either his mount's saddle or to the back of his armor, a tabard that they wear prominently, or a standard that hangs from a polearm or spear. So long as that standard is carried upon his person where people can see it, he can inspire his allies.
 
   - name: share boost
     type: Ex
@@ -155,7 +155,7 @@ class_features:
       6: 1/day
       12: 2/day
       18: 3/day
-    text: At 6th level, the bannerman’s ability to inspire his troops allows him to share some of his martial prowess with an ally on occasion. Once per day he is able to initiate a boost as an immediate action to utilize a boost for an ally who is initiating a maneuver or making an attack that qualifies for the use of that boost. The boost shared uses the bannerman’s initiator level and saving throw DC (if applicable). He can use this ability one additional time per day at 12th level and again at 18th level.
+    text: At 6th level, the bannerman's ability to inspire his troops allows him to share some of his martial prowess with an ally on occasion. Once per day he is able to initiate a boost as an immediate action to utilize a boost for an ally who is initiating a maneuver or making an attack that qualifies for the use of that boost. The boost shared uses the bannerman's initiator level and saving throw DC (if applicable). He can use this ability one additional time per day at 12th level and again at 18th level.
 
   - name: tactical assistance
     type: Ex
@@ -188,7 +188,7 @@ class_features:
 
 Dynamos on the field of combat, warlords walk the line of victory and ruin through their determination to achieve glory. Where some may talk tactics, the warlord dives in. Where some may fight in strategic units, the warlord shines alone as an inspirational beacon on the field of combat; to be a warlord is to be a lord of war.
 
-Some warlords find their place in the theater of war when they find the method of combat that best expresses their nature and daring in combat. A bannerman finds his place with a sword in one hand and his company’s banner in the other, barking inspirational orders to his allies while slaying his foes between breaths.
+Some warlords find their place in the theater of war when they find the method of combat that best expresses their nature and daring in combat. A bannerman finds his place with a sword in one hand and his company's banner in the other, barking inspirational orders to his allies while slaying his foes between breaths.
 
 **Adventures:** Warlords adventure for many reasons, but one reason that will always be prominent is the desire to test their skill against the world's most dangerous opponents, to show their strength to themselves and to the world. Others may do this for profit, others for fun, others for revenge, but it is always certain that a warlord seeks the glory and honor only a battle well-fought can bring.
 

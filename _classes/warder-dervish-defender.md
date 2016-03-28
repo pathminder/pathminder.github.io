@@ -144,7 +144,7 @@ class_features:
   - name: shield of blades
     type: Ex
     levels: [6]
-    text: HAt 6th level, when fighting unarmed or with a weapon from the light blades, double weapon or close weapon weapon group in each hand, the dervish defender improves her shield bonus to AC by an amount equal to her aegis bonus. As an immediate action, the dervish defender may lose her shield bonus to armor class until the beginning of her next turn and grant an adjacent creature an equivalent shield bonus to armor class until the beginning of the dervish defender’s next turn.
+    text: HAt 6th level, when fighting unarmed or with a weapon from the light blades, double weapon or close weapon weapon group in each hand, the dervish defender improves her shield bonus to AC by an amount equal to her aegis bonus. As an immediate action, the dervish defender may lose her shield bonus to armor class until the beginning of her next turn and grant an adjacent creature an equivalent shield bonus to armor class until the beginning of the dervish defender's next turn.
 
   - name: adaptive tactics
     type: Ex
@@ -159,7 +159,7 @@ class_features:
   - name: grace of blades
     type: Ex
     levels: [15]
-    text: At 15th level, the dervish defender gains mastery over her two-weapon style. Whenever the dervish defender makes an attack with one weapon while holding two or more weapons or using a double weapon (such as during a full attack during which she is not two-weapon fighting, or using a strike that includes a melee attack), she increases that attack’s damage by an amount equal to one of her off-hand weapons’ damage (including any extraordinary and magical enhancements) plus one-half her Strength modifier. Whenever the dervish defender makes an attack with more than one weapon (such as when making a full attack while two-weapon fighting or a strike that includes an attack with two or more weapons) she increases the damage of her weapons (and their enhancements) by one die step (as if increasing in size).
+    text: At 15th level, the dervish defender gains mastery over her two-weapon style. Whenever the dervish defender makes an attack with one weapon while holding two or more weapons or using a double weapon (such as during a full attack during which she is not two-weapon fighting, or using a strike that includes a melee attack), she increases that attack's damage by an amount equal to one of her off-hand weapons' damage (including any extraordinary and magical enhancements) plus one-half her Strength modifier. Whenever the dervish defender makes an attack with more than one weapon (such as when making a full attack while two-weapon fighting or a strike that includes an attack with two or more weapons) she increases the damage of her weapons (and their enhancements) by one die step (as if increasing in size).
 
   - name: critical evasion
     type: Ex

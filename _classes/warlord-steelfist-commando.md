@@ -165,7 +165,7 @@ class_features:
   - name: powerful pugilist
     type: Ex
     levels: [8]
-    text: At 8th level, the steelfist commando’s skill allows him to better utilize his unarmed strikes to their fullest potential. When using his unarmed strike, he is considered one size category larger when determining his unarmed strike damage and when determining his CMB and CMD. If his target is flat-footed, he inflicts an additional 2d6 points of damage against his foe; this is precision damage and if a target would be immune to sneak attack, they are immune to this effect.
+    text: At 8th level, the steelfist commando's skill allows him to better utilize his unarmed strikes to their fullest potential. When using his unarmed strike, he is considered one size category larger when determining his unarmed strike damage and when determining his CMB and CMD. If his target is flat-footed, he inflicts an additional 2d6 points of damage against his foe; this is precision damage and if a target would be immune to sneak attack, they are immune to this effect.
 
   - name: tactical assistance
     type: Ex

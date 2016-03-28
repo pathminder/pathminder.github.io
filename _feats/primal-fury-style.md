@@ -5,7 +5,7 @@ sources:
 tags:
   - Combat
   - Style
-summary: Use Survival instead of Acrobatics to move through threatened squares, and you can charge through difficult terrain and opponents’ spaces
+summary: Use Survival instead of Acrobatics to move through threatened squares, and you can charge through difficult terrain and opponents' spaces
 flavor_text: Your fury drives you to close with your foes so that you can tear into them more easily.
 prerequisites:
   - Survival 3 ranks

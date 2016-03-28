@@ -48,9 +48,9 @@ class_features:
   - name: maneuvers
     levels: [1]
     text: |
-      A pathwalker begins his career with knowledge of three martial maneuvers. The pathwalker knows the Sleeping Goddess discipline and may select any two additional disciplines from the following list: Broken Blade, Iron Tortoise, Mithral Current, Piercing Thunder, Primal Fury, Scarlet Throne, Solar Wind, Tempest Gale, and Thrashing Dragon. The pathwalker's known disciplines will determine which warrior paths he may select as he makes his journey to martial perfection, selecting one to be his primary path and the second discipline path as his secondary at the appropriate level. He also gains the skill associated to that discipline as a class skill. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by a pathwalker is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The pathwalker must meet a maneuver’s prerequisite to learn it.
+      A pathwalker begins his career with knowledge of three martial maneuvers. The pathwalker knows the Sleeping Goddess discipline and may select any two additional disciplines from the following list: Broken Blade, Iron Tortoise, Mithral Current, Piercing Thunder, Primal Fury, Scarlet Throne, Solar Wind, Tempest Gale, and Thrashing Dragon. The pathwalker's known disciplines will determine which warrior paths he may select as he makes his journey to martial perfection, selecting one to be his primary path and the second discipline path as his secondary at the appropriate level. He also gains the skill associated to that discipline as a class skill. Once he knows a maneuver, he must ready it before he can use it (see Maneuvers Readied, below). A maneuver usable by a pathwalker is considered an extraordinary ability unless otherwise noted in its description. His maneuvers are not affected by spell resistance, and he does not provoke attacks of opportunity when he initiates one. He learns additional maneuvers at higher levels, as shown above. The pathwalker must meet a maneuver's prerequisite to learn it.
 
-      Upon reaching 4th level, and at every even numbered psychic warrior level after that, he can choose to learn a new maneuver in place of one he already knows. In effect, the pathwalker loses the old maneuver in exchange for the new one. The pathwalker need not replace the old maneuver with a maneuver of the same level. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The pathwalker can swap only a single maneuver at any given level. A pathwalker’s primary initiator attribute is Wisdom, and each pathwalker level is counted as a full initiator level.
+      Upon reaching 4th level, and at every even numbered psychic warrior level after that, he can choose to learn a new maneuver in place of one he already knows. In effect, the pathwalker loses the old maneuver in exchange for the new one. The pathwalker need not replace the old maneuver with a maneuver of the same level. He can choose a new maneuver of any level he likes, as long as he observes his restriction on the highest-level maneuvers he knows. The pathwalker can swap only a single maneuver at any given level. A pathwalker's primary initiator attribute is Wisdom, and each pathwalker level is counted as a full initiator level.
 
       *Maneuvers Readied:* A pathwalker can ready all three of his three starting maneuvers, but as he advances in level and learns more maneuvers, he must choose which maneuvers to ready. He readies his maneuvers by meditating or performing weapon drills for 10 minutes. The maneuvers he chooses remain readied until he decides to repeat this again and change them. Pathwalkers do not need to sleep or be well rested to ready their maneuvers; any time he spends 10 minutes in meditation, he can change his readied maneuvers. He begins an encounter with all readied maneuvers unexpended, regardless of how many times he may have already used them since he chose them. When the pathwalker initiates a maneuver, he expends it for the current encounter, so each of his readied maneuvers can be used once per encounter (until they are recovered, see below).
 
@@ -121,7 +121,7 @@ class_features:
 
       *Maneuver:* Beginning at 3rd level, as an immediate action, the psychic warrior can expend his psionic focus to gain a +2 bonus to CMB checks to use the dirty trick, grapple, or trip combat maneuvers. This bonus increases by 1 for every five psychic warrior levels possessed.
 
-      **Iron Tortoise Path:** A stout shield and defensive nature are hallmarks of psychic warriors who follow the path of the Iron Tortoise. The methods of these warriors is slow and steady like the discipline’s namesake, and enduring as stone. A mountain of martial power, the Iron Tortoise weathers all blows without animosity and retaliates in kind.
+      **Iron Tortoise Path:** A stout shield and defensive nature are hallmarks of psychic warriors who follow the path of the Iron Tortoise. The methods of these warriors is slow and steady like the discipline's namesake, and enduring as stone. A mountain of martial power, the Iron Tortoise weathers all blows without animosity and retaliates in kind.
 
       *Bonus Class Skill:* Bluff.
 
@@ -145,7 +145,7 @@ class_features:
 
       *Maneuver:* Starting at 3rd level, the pathwalker can expend his psionic focus as a swift action to make a feint attempt against an opponent he threatens, gaining a +2 bonus on his Bluff check. This bonus increases by +1 at 8th level and every five levels thereafter.
 
-      **Piercing Thunder Path:** The Piercing Thunder pathwalker is stalwart and strong, hefting mighty polearms and powerful spears in combat with ease. They are opportunistic in battle, wary of openings in their enemy’s defenses. They constantly watch for that opening to allow their potent weapons to end the combat in a single thrust.
+      **Piercing Thunder Path:** The Piercing Thunder pathwalker is stalwart and strong, hefting mighty polearms and powerful spears in combat with ease. They are opportunistic in battle, wary of openings in their enemy's defenses. They constantly watch for that opening to allow their potent weapons to end the combat in a single thrust.
 
       *Bonus Class Skill:* Acrobatics.
 
@@ -157,7 +157,7 @@ class_features:
 
       *Maneuver:* Starting at 3rd level, the pathwalker can expend his psionic focus as an immediate action the pathwalker to brace his weapon against a charge, as if he had readied an action. He gains a +1 bonus on his attack roll with this attack. This bonus increases by +1 at 7th level and every four levels thereafter.
 
-      **Primal Fury Path:** Psychic warriors who feel the call of Primal Fury’s power are rugged, individualistic hunters who feel the wildness of nature within their mind, body, and soul. They’re prone to passionate reaction, quick tempers granting great power and fierce offensive power.
+      **Primal Fury Path:** Psychic warriors who feel the call of Primal Fury's power are rugged, individualistic hunters who feel the wildness of nature within their mind, body, and soul. They're prone to passionate reaction, quick tempers granting great power and fierce offensive power.
 
       *Bonus Class Skill:* Survival.
 
@@ -189,9 +189,9 @@ class_features:
 
       *Skills:* Autohypnosis, Diplomacy, Sense Motive.
 
-      *Trance:* Starting at 3rd level, while while the pathwalker is psionically focused and maintaining a Sleeping Goddess Stance, he gains a +1 insight bonus on attack rolls made with weapons created by psionic powers (such as the call weaponry, claws of the beast, and bit of the wolf powers) or maneuvers (such as call the soul’s blade). This bonus increases by +1 at 7th level and every four levels thereafter.
+      *Trance:* Starting at 3rd level, while while the pathwalker is psionically focused and maintaining a Sleeping Goddess Stance, he gains a +1 insight bonus on attack rolls made with weapons created by psionic powers (such as the call weaponry, claws of the beast, and bit of the wolf powers) or maneuvers (such as call the soul's blade). This bonus increases by +1 at 7th level and every four levels thereafter.
 
-      *Maneuver:* Starting at 3rd level, the pathwalker can expend his psionic focus as a swift action to create a field of defensive psychic force through his skin and body, increasing the pathwalker’s natural armor bonus by +2. This bonus lasts for a number of rounds equal to 1/2 the pathwalker’s class level, and increases by +1 at 8th level and every five levels thereafter
+      *Maneuver:* Starting at 3rd level, the pathwalker can expend his psionic focus as a swift action to create a field of defensive psychic force through his skin and body, increasing the pathwalker's natural armor bonus by +2. This bonus lasts for a number of rounds equal to 1/2 the pathwalker's class level, and increases by +1 at 8th level and every five levels thereafter
 
       **Solar Wind Path:** Perceptive and keen of mind, Solar Wind adherents are often watchful and wary of danger. Their minds provide additional might towards their martial talents in the form of additional psychokinetic flames to their attacks. Skilled marksmen and talented game hunters, these psychic warriors blend their mental powers with martial skill to form their arts of war.
 
