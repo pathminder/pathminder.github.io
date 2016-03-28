@@ -9,7 +9,7 @@ layout: default
 <dl>
   {% if page.prerequisites %}
     <dt>Prerequisites</dt>
-    <dd>{{ page.prerequisites | join: ", " }}</dd>
+    <dd>{{ page.prerequisites | join: ", " | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
   {% endif %}
 
   <dt>Hit Die</dt>
@@ -21,27 +21,31 @@ layout: default
   <dt>Class Skills
   <dd>{{ page.class_skills | sort | join: ", " }}</dd>
 
-  <dt>Starting Wealth</dt>
-  <dd>{{ page.starting_wealth }}</dd>
+  {% if page.starting_wealth %}
+    <dt>Starting Wealth</dt>
+    <dd>{{ page.starting_wealth }}</dd>
+  {% endif %}
 
-  <dt>Weapon Proficiencies</dt>
-  <dd>{{ page.weapon_proficiencies | join: ", " }}</dd>
+  {% if page.weapon_proficiencies %}
+    <dt>Weapon Proficiencies</dt>
+    <dd>
+      {{ page.weapon_proficiencies | join: ", " }}
+    </dd>
+  {% endif %}
 
-  <dt>Armor Proficiencies</dt>
-  <dd>
-    {{ page.armor_proficiencies | join: ", " }}
-    {% unless page.armor_proficiencies %}
-      &mdash;
-    {% endunless %}
-  </dd>
+  {% if page.armor_proficiencies %}
+    <dt>Armor Proficiencies</dt>
+    <dd>
+      {{ page.armor_proficiencies | join: ", " }}
+    </dd>
+  {% endif %}
 
-  <dt>Shield Proficiencies</dt>
-  <dd>
-    {{ page.shield_proficiencies | join: ", " }}
-    {% unless page.shield_proficiencies %}
-      &mdash;
-    {% endunless %}
-  </dd>
+  {% if page.shield_proficiencies %}
+    <dt>Shield Proficiencies</dt>
+    <dd>
+      {{ page.shield_proficiencies | join: ", " }}
+    </dd>
+  {% endif %}
 </dl>
 
 {% if page.spells_per_day or page.extract_progression or page.manifesting_progression or page.initiating_progression %}
@@ -136,19 +140,25 @@ layout: default
           <td class="text-xs-center">
             {% case page.fort_progression %}
               {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.3333333333 | floor}}
+              {% when 'prestige_good' %} +{{ level | plus: 1 | times: 0.5 | floor }}
+              {% when 'prestige_poor' %} +{{ level | plus: 2 | times: 0.3333333333 | floor }}
             {% endcase %}
           </td>
           <td class="text-xs-center">
             {% case page.ref_progression %}
               {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.3333333333 | floor}}
+              {% when 'prestige_good' %} +{{ level | plus: 1 | times: 0.5 | floor }}
+              {% when 'prestige_poor' %} +{{ level | plus: 2 | times: 0.3333333333 | floor }}
             {% endcase %}
           </td>
           <td class="text-xs-center">
             {% case page.will_progression %}
               {% when 'good' %} +{{ level | plus: 4 | times: 0.5 | floor}}
-              {% when 'poor' %} +{{ level | plus: 1 | times: 0.333 | floor}}
+              {% when 'poor' %} +{{ level | plus: 1 | times: 0.3333333333 | floor}}
+              {% when 'prestige_good' %} +{{ level | plus: 1 | times: 0.5 | floor }}
+              {% when 'prestige_poor' %} +{{ level | plus: 2 | times: 0.3333333333 | floor }}
             {% endcase %}
           </td>
           <td>
