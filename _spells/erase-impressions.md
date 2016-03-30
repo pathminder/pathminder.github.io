@@ -1,0 +1,30 @@
+---
+title: "*erase impressions*"
+sources:
+  - Pathfinder Roleplaying Game Occult Adventures
+school: abjuration
+spell_lists:
+  - spell_list: medium
+    level: 3
+  - spell_list: mesmerist
+    level: 4
+  - spell_list: occultist
+    level: 3
+  - spell_list: psychic
+    level: 5
+  - spell_list: spiritualist
+    level: 4
+casting_time: 1 round
+components:
+  - V
+  - S
+range: touch
+target: object touched
+duration: instantaneous
+saving_throw: Will negates (object)
+spell_resistance: yes (object)
+---
+
+You banish psychic impressions from the object touched, rendering it devoid of recent history. You choose how much time to erase, up to a maximum of 1 day per caster level. You must *erase impressions* from the present time back; you cannot choose to leave recent events untouched. Impressions erased in this manner cannot be recovered via [*object reading*](/spells/object-reading/), *legend lore*, or similar measures.
+
+Casting *erase impressions* on a corpse removes recent psychic impressions from when the creature was alive as well, making those memories unavailable to speak with dead. For example, a 5th-level caster casting the spell on a 2-day-old corpse could erase the past 2 days of psychic impressions from the corpse and 3 additional days of information from just before the creature died.

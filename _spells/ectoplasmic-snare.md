@@ -1,0 +1,30 @@
+---
+title: "*ectoplasmic snare*"
+sources:
+  - Pathfinder Roleplaying Game Occult Adventures
+school: evocation
+spell_lists:
+  - spell_list: magus
+    level: 3
+  - spell_list: psychic
+    level: 3
+  - spell_list: shaman
+    level: 3
+  - spell_list: sorcerer/wizard
+    level: 3
+  - spell_list: spiritualist
+    level: 3
+casting_time: 1 standard action
+components:
+  - V
+  - S
+range: close (25 ft. + 5 ft./2 levels)
+effect: entangling web of ectoplasm
+duration: concentration, up to 1 round/level (D)
+saving_throw: Reflex partial; see text
+spell_resistance: yes
+---
+
+You unleash a writhing tendril of ectoplasm to grapple or entangle a target creature. You must make a ranged touch attack to strike a target. If you hit, the target can attempt a Reflex save. On a successful save, the target is entangled for the duration of the spell and suffers no other effects. If the target fails this saving throw, the tendril is more restrictive, making the target grappled and dealing it 1d6+4 points of bludgeoning damage. Each round when you concentrate to maintain the spell, the snare attempts a grapple combat maneuver check to maintain the grapple. As normal when grappling, the snare gains a +5 bonus on grapple combat maneuver checks against opponents it is already grappling. The snare's CMB is equal to 6 + your caster level, and its CMD is equal to 16 + your caster level. Since the ectoplasm passes between planes, this spell affects incorporeal and ethereal creatures normally.
+
+You remain tethered to the target for the duration of the spell. You can shrink or extend the snare, but if the distance between you and the target exceeds the spell's range, the snare disappears. The ectoplasmic tether has hardness 10 and a number of hit points equal to 10 + your caster level + your Constitution modifier, and the tether can be damaged or sundered anywhere along its length. You are not considered to have the grappled condition while tethered to the target. You can perform the move or damage action on a successfully grappled target, moving it up to half your speed or dealing an additional 1d6+4 points of bludgeoning damage to it on a successful grapple combat maneuver check. You can't pin your target.
