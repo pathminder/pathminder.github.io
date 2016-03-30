@@ -160,7 +160,7 @@ class_features:
     text: At 2nd level, a rogue can avoid even magical and unusual attacks with great agility. If she succeeds at a Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A helpless rogue does not gain the benefit of evasion.
 
   - name: rogue talents
-    levels: [2, 6, 10, 14, 18]
+    levels: [2, 6]
     levels_text:
       2: 1 talent
       6: 2 talents
