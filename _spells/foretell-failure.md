@@ -4,17 +4,17 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: divination
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: occultist
+  - name: occultist
     level: 5
-  - spell_list: oracle
+  - name: oracle
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 4
 casting_time: 1 swift action
 components: [V, S]

@@ -4,19 +4,19 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 3
-  - spell_list: bard
+  - name: bard
     level: 3
-  - spell_list: cleric
+  - name: cleric
     level: 4
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: occultist
+  - name: occultist
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
-  - spell_list: witch
+  - name: witch
     level: 4
 casting_time: 1 standard action
 components: [V, S, M (a bit of burlap wrapped over a copper coin)]

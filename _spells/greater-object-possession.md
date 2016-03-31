@@ -4,15 +4,15 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - spell_list: occultist
+  - name: occultist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: sorcerer/ wizard
+  - name: sorcerer/wizard
     level: 7
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 6
-  - spell_list: witch
+  - name: witch
     level: 7
 range: medium (100 ft. + 10 ft./level)
 target: unattended Gargantuan or smaller object (minimum Tiny) or construct

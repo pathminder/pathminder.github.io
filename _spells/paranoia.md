@@ -7,17 +7,17 @@ subschool: phantasm
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 2
-  - spell_list: medium
+  - name: medium
     level: 1
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 1
-  - spell_list: psychic
+  - name: psychic
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 2
-  - spell_list: witch
+  - name: witch
     level: 2
 casting_time: 1 standard action
 components:

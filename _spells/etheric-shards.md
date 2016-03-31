@@ -6,11 +6,11 @@ school: evocation
 descriptors:
   - force
 spell_lists:
-  - spell_list: occultist
+  - name: occultist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 5
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 4
 casting_time: 1 standard action
 components:

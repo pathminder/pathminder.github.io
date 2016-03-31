@@ -37,6 +37,7 @@ ref_progression: good
 will_progression: poor
 
 extract_progression: mid_minus_one
+spell_list: alchemist
 
 initiating_progression: half
 

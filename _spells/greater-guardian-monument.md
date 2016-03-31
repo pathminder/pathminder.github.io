@@ -4,17 +4,17 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: abjuration
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 5
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 5
-  - spell_list: occultist
+  - name: occultist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 5
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 5
 ---
 

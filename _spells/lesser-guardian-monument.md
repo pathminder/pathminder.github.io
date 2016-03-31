@@ -4,23 +4,23 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: abjuration
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 3
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: magus
+  - name: magus
     level: 3
-  - spell_list: occultist
+  - name: occultist
     level: 3
-  - spell_list: paladin
+  - name: paladin
     level: 3
-  - spell_list: psychic
+  - name: psychic
     level: 3
-  - spell_list: shaman
+  - name: shaman
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 3
 casting_time: 1 full round
 components: [V, S, F (an unattended, nonmagical object)]

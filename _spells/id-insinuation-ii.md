@@ -7,7 +7,7 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 3
 target: two creatures
 ---

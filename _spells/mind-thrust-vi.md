@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 6
 ---
 

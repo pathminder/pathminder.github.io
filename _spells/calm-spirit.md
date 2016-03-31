@@ -4,13 +4,13 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - spell_list: cleric
+  - name: cleric
     level: 2
-  - spell_list: medium
+  - name: medium
     level: 1
-  - spell_list: shaman
+  - name: shaman
     level: 2
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 2
 casting_time: 1 standard action
 components:

@@ -4,7 +4,7 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
 casting_time: 1 immediate action
 components: [V, S, F (a magical or masterwork melee weapon)]

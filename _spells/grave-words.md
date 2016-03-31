@@ -6,13 +6,13 @@ school: necromancy
 descriptors:
   - language-dependent
 spell_lists:
-  - spell_list: medium
+  - name: medium
     level: 0
-  - spell_list: occultist
+  - name: occultist
     level: 0
-  - spell_list: psychic
+  - name: psychic
     level: 0
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 0
 casting_time: 1 minute
 components:

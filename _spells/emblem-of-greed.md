@@ -5,17 +5,17 @@ sources:
 school: transmutation
 subschool: polymorph
 spell_lists:
-  - spell_list: cleric
+  - name: cleric
     level: 6
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 6
-  - spell_list: magus
+  - name: magus
     level: 6
-  - spell_list: medium
+  - name: medium
     level: 6
-  - spell_list: shaman
+  - name: shaman
     level: 7
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 6
 casting_time: 1 standard action
 components: [V, S, M (a masterwork or magical melee weapon)]

@@ -5,13 +5,13 @@ sources:
 pi_text_changed: true
 school: transmutation
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 6
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 6
-  - spell_list: summoner
+  - name: summoner
     level: 6
 range: close
 target: one creature/level, no two of which can be more than 30 ft. apart

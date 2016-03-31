@@ -41,6 +41,7 @@ ref_progression: good
 will_progression: poor
 
 spells_per_day: mid
+spell_list: sorcerer/wizard
 
 weapon_proficiencies:
   - Simple

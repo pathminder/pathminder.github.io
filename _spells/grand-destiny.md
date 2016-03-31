@@ -7,17 +7,17 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 5
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: medium
+  - name: medium
     level: 4
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: summoner
+  - name: summoner
     level: 5
 casting_time: 1 standard action
 components: [V, S]

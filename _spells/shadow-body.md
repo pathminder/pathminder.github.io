@@ -5,11 +5,11 @@ sources:
 school: transmutation
 subschool: polymorph
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 7
 casting_time: 1 standard action
 components:

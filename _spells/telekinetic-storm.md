@@ -6,7 +6,7 @@ school: evocation
 descriptors:
   - force
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 9
 casting_time: 1 standard action
 components:

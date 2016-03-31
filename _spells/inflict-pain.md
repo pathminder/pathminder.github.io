@@ -7,23 +7,23 @@ descriptors:
   - mind-affecting
   - pain UM
 spell_lists:
-  - spell_list: antipaladin
+  - name: antipaladin
     level: 2
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 2
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 2
-  - spell_list: occultist
+  - name: occultist
     level: 2
-  - spell_list: psychic
+  - name: psychic
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 2
-  - spell_list: witch
+  - name: witch
     level: 3
 casting_time: 1 standard action
 components:

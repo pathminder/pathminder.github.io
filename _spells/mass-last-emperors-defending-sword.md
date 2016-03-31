@@ -7,7 +7,7 @@ school: evocation
 descriptors:
   - force
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 9
 effect: up to one sword per 3 levels
 ---

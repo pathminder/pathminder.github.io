@@ -7,13 +7,13 @@ school: evocation
 descriptors:
   - force
 spell_lists:
-  - spell_list: magus
+  - name: magus
     level: 6
-  - spell_list: occultist
+  - name: occultist
     level: 6
-  - spell_list: psychic
+  - name: psychic
     level: 7
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 6
 casting_time: 1 standard action
 ---

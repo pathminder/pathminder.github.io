@@ -4,13 +4,13 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: shaman
+  - name: shaman
     level: 6
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 7
 casting_time: 1 standard action
 components:

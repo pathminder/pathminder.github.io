@@ -5,18 +5,22 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
-  - spell_list: druid
+  - name: druid
     level: 3
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 3
-  - spell_list: psychic
+  - name: psychic
     level: 3
-  - spell_list: ranger
+  - name: ranger
     level: 3
-  - spell_list: sorcerer/wizard
-    level: 3, summoner 3, witch 3
+  - name: sorcerer/wizard
+    level: 3
+  - name: summoner
+    level: 3
+  - name: witch
+    level: 3
 target: one touched animal of Tiny or smaller size
 saving_throw: Will negates
 spell_resistance: yes

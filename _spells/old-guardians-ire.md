@@ -8,9 +8,9 @@ school: transmutation
 descriptors:
   - good
 spell_lists:
-  - spell_list: druid
+  - name: druid
     level: 6
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 6
 area: 120-ft.-radius spread
 ---

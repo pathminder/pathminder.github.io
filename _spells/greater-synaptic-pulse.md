@@ -7,9 +7,9 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 5
 casting_time: 1 standard action
 components:

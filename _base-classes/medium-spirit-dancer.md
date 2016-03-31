@@ -35,6 +35,7 @@ will_progression: good
 
 spells_per_day: half
 spells_known: half
+spell_list: medium
 
 weapon_proficiencies:
   - Simple

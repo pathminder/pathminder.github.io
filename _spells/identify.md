@@ -4,17 +4,17 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 1
-  - spell_list: bard
+  - name: bard
     level: 1
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 1
-  - spell_list: summoner
+  - name: summoner
     level: 1
-  - spell_list: unchained summoner
+  - name: unchained summoner
     level: 1
-  - spell_list: witch
+  - name: witch
     level: 1
 casting_time: 1 standard action
 components:

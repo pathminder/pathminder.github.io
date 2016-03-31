@@ -4,17 +4,17 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: abjuration
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 4
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
-  - spell_list: witch
+  - name: witch
     level: 3
 casting_time: 1 standard action
 components: [V, S]

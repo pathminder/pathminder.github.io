@@ -6,15 +6,15 @@ school: transmutation
 descriptors:
   - curse
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 4
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 5
 casting_time: 1 standard action
 components: [V, S, M (a self-portrait on a thin sheet of paper)]

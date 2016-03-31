@@ -5,15 +5,15 @@ sources:
 pi_text_changed: true
 school: transmutation
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 2
-  - spell_list: bard
+  - name: bard
     level: 2
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: psychic
+  - name: psychic
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 2
 casting_time: 1 standard action
 components: [V, S, M (a human hair)]

@@ -8,7 +8,7 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 4
 ---
 

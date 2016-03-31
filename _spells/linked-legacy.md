@@ -4,21 +4,21 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: divination
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 1
-  - spell_list: medium
+  - name: medium
     level: 1
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 1
-  - spell_list: occultist
+  - name: occultist
     level: 1
-  - spell_list: psychic
+  - name: psychic
     level: 1
-  - spell_list: shaman
+  - name: shaman
     level: 1
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 1
-  - spell_list: witch
+  - name: witch
     level: 1
 casting_time: 1 round
 components: [V, S]

@@ -5,9 +5,9 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 8
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 9
 casting_time: 1 standard action
 components:

@@ -4,7 +4,7 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: druid
+  - name: druid
     level: 6
 components: [V, S, M, DF (oils worth 5,000 gp)]
 ---

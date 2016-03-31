@@ -5,17 +5,17 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: medium
+  - name: medium
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 4
 casting_time: 1 minute
 components: [V, S, M (diamonds worth price of arms to be created)]

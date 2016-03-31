@@ -4,9 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 3
 casting_time: 1 standard action
 components:

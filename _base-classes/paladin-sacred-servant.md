@@ -31,6 +31,7 @@ ref_progression: poor
 will_progression: good
 
 spells_per_day: half
+spell_list: paladin
 
 weapon_proficiencies:
   - Simple

@@ -5,9 +5,9 @@ sources:
 school: transmutation
 subschool: polymorph
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 6
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 9
 casting_time: 8 hours
 components: [V, S, M (powdered metals with a variable cost, see text)]

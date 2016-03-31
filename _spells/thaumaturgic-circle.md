@@ -4,17 +4,17 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
-  - spell_list: cleric
+  - name: cleric
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 4
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: occultist
+  - name: occultist
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
-  - spell_list: summoner
+  - name: summoner
     level: 4
 components:
   - V

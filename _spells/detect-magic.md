@@ -4,25 +4,25 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 0
-  - spell_list: cleric
+  - name: cleric
     level: 0
-  - spell_list: druid
+  - name: druid
     level: 0
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 0
-  - spell_list: magus
+  - name: magus
     level: 0
-  - spell_list: shaman
+  - name: shaman
     level: 0
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 0
-  - spell_list: summoner
+  - name: summoner
     level: 0
-  - spell_list: unchained summoner
+  - name: unchained summoner
     level: 0
-  - spell_list: witch
+  - name: witch
     level: 0
 casting_time: 1 standard action
 components:

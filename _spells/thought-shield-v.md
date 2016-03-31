@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 6
 duration: 1 round/level; see text
 ---

@@ -5,20 +5,26 @@ sources:
 school: enchantment
 descriptors:
   - mind-affecting
-  - pain UM
+  - pain
 spell_lists:
-  - spell_list: antipaladin
+  - name: antipaladin
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 5
-  - spell_list: medium
+  - name: medium
     level: 4
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: occultist
+  - name: occultist
     level: 5
-  - spell_list: psychic
-    level: 6, sorcerer/wizard 7, spiritualist 5, witch 7
+  - name: psychic
+    level: 6
+  - name: sorcerer/wizard
+    level: 7
+  - name: spiritualist
+    level: 5
+  - name: witch
+    level: 7
 target: one creature/level, no two of which can be more than 30 ft. apart.
 ---
 

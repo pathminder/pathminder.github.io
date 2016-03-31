@@ -4,17 +4,17 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: divination
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 5
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 4
-  - spell_list: magus
+  - name: magus
     level: 5
-  - spell_list: shaman
+  - name: shaman
     level: 5
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 5
 casting_time: 1 standard action
 components: [V, S, F (an eyeless mask), M (diamond dust worth 200 gp)]

@@ -5,17 +5,17 @@ sources:
 pi_title_changed: true
 school: transmutation
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 4
-  - spell_list: magus
+  - name: magus
     level: 3
-  - spell_list: occultist
+  - name: occultist
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 4
 casting_time: 1 round
 components: [V, S, F (a magic rod or staff)]

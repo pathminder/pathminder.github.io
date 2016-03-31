@@ -7,18 +7,22 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: occultist
+  - name: occultist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 5
-  - spell_list: sorcerer/ wizard
+  - name: sorcerer/wizard
     level: 6
-  - spell_list: spiritualist
-    level: 4, summoner 5, witch 6
+  - name: spiritualist
+    level: 4
+  - name: summoner
+    level: 5
+  - name: witch
+    level: 6
 casting_time: 1 round
 components:
   - V

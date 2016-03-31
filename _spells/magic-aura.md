@@ -5,9 +5,9 @@ sources:
 school: illusion
 subschool: glamer
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 1
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 1
 casting_time: 1 standard action
 components:

@@ -4,18 +4,20 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - spell_list: medium
+  - name: medium
     level: 4
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: occultist
+  - name: occultist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 5
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: spiritualist
-    level: 5, witch 5
+  - name: spiritualist
+    level: 5
+  - name: witch
+    level: 5
 range: close (25 ft. + 5 ft./2 levels)
 target: unattended Large or smaller object (minimum Tiny)
 duration: 10 minutes/level (D)

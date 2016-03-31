@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
-  - spell_list: occultist
+  - name: occultist
     level: 3
 casting_time: 10 minutes
 components:

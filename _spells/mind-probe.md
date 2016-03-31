@@ -6,15 +6,15 @@ school: divination
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 4
-  - spell_list: occultist
+  - name: occultist
     level: 4
-  - spell_list: psychic
+  - name: psychic
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
 casting_time: 1 minute
 components:

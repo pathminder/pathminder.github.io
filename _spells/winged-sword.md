@@ -4,17 +4,17 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 2
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: magus
+  - name: magus
     level: 2
-  - spell_list: occultist
+  - name: occultist
     level: 2
-  - spell_list: paladin
+  - name: paladin
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 2
 casting_time: 1 standard action
 components: [V, S]

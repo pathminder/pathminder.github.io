@@ -5,15 +5,15 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: summoner
+  - name: summoner
     level: 4
-  - spell_list: unchained summoner
+  - name: unchained summoner
     level: 5
-  - spell_list: magus
+  - name: magus
     level: 5
-  - spell_list: witch
+  - name: witch
     level: 5
 casting_time: 1 standard action
 components:

@@ -5,9 +5,9 @@ sources:
 pi_title_changed: true
 school: transmutation
 spell_lists:
-  - spell_list: shaman
+  - name: shaman
     level: 8
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
 casting_time: 1 standard action
 components: [V, S, DF]

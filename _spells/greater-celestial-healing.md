@@ -7,17 +7,17 @@ subschool: healing
 descriptors:
   - good
 spell_lists:
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 4
-  - spell_list: cleric
+  - name: cleric
     level: 4
-  - spell_list: magus
+  - name: magus
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
-  - spell_list: summoner
+  - name: summoner
     level: 4
-  - spell_list: witch
+  - name: witch
     level: 4
 ---
 

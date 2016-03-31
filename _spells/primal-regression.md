@@ -7,15 +7,15 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: druid
+  - name: druid
     level: 6
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: shaman
+  - name: shaman
     level: 6
-  - spell_list: witch
+  - name: witch
     level: 7
 casting_time: 1 standard action
 components:

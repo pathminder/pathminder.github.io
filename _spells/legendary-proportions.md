@@ -4,15 +4,15 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 6
-  - spell_list: druid
+  - name: druid
     level: 7
-  - spell_list: shaman
+  - name: shaman
     level: 7
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
-  - spell_list: witch
+  - name: witch
     level: 7
 casting_time: 1 standard action
 components: [V, S, M (a dinosaur bone and powdered amber worth at least 200 gp)]

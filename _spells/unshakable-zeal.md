@@ -8,13 +8,13 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 5
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 6
-  - spell_list: psychic
+  - name: psychic
     level: 7
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 6
 casting_time: 1 standard action
 components:

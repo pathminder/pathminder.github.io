@@ -7,15 +7,15 @@ subschool: phantasm
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 4
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 3
-  - spell_list: psychic
+  - name: psychic
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
 saving_throw: Will negates, Fortitude negates; see text
 spell_resistance: yes

@@ -4,29 +4,29 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: abjuration
 spell_lists:
-  - spell_list: antipaladin
+  - name: antipaladin
     level: 3
-  - spell_list: bard
+  - name: bard
     level: 3
-  - spell_list: cleric
+  - name: cleric
     level: 3
-  - spell_list: druid
+  - name: druid
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: magus
+  - name: magus
     level: 3
-  - spell_list: paladin
+  - name: paladin
     level: 3
-  - spell_list: shaman
+  - name: shaman
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: summoner
+  - name: summoner
     level: 3
-  - spell_list: unchained summoner
+  - name: unchained summoner
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 3
 casting_time: 1 standard action
 components:

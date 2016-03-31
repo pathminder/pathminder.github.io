@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 2
 casting_time: 1 immediate action
 components:

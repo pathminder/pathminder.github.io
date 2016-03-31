@@ -35,6 +35,7 @@ ref_progression: poor
 will_progression: good
 
 spells_per_day: mid
+spell_list: occultist
 
 weapon_proficiencies:
   - Simple

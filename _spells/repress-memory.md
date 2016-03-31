@@ -7,11 +7,11 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 5
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 6
 casting_time: 1 round
 components:

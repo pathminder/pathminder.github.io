@@ -7,9 +7,9 @@ subschool: teleportation
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 6
-  - spell_list: psychic
+  - name: psychic
     level: 6
 casting_time: 1 standard action
 components:

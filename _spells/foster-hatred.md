@@ -7,15 +7,15 @@ subschool: compulsion
 descriptors:
   - emotion
 spell_lists:
-  - spell_list: antipaladin
+  - name: antipaladin
     level: 4
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 5
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 5
 casting_time: 1 standard action
 components:

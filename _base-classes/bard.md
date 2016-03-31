@@ -38,6 +38,7 @@ will_progression: good
 
 spells_per_day: mid
 spells_known: mid
+spell_list: bard
 
 weapon_proficiencies:
   - Simple

@@ -6,18 +6,24 @@ school: abjuration
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 2
-  - spell_list: bard
+  - name: bard
     level: 2
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 2
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 2
-  - spell_list: psychic
-    level: 2, ranger 3, shaman 2, witch 2
+  - name: psychic
+    level: 2
+  - name: ranger
+    level: 3
+  - name: shaman
+    level: 2
+  - name: witch
+    level: 2
 casting_time: 1 standard action
 components:
   - V

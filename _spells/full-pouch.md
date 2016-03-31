@@ -4,19 +4,19 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 2
-  - spell_list: bard
+  - name: bard
     level: 2
-  - spell_list: druid
+  - name: druid
     level: 2
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: occultist
+  - name: occultist
     level: 3
-  - spell_list: ranger
+  - name: ranger
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 2
 casting_time: 1 swift action
 components: [V, S, M (alchemical reagents or herbs worth 1 gp)]

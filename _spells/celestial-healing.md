@@ -7,17 +7,17 @@ subschool: healing
 descriptors:
   - good
 spell_lists:
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 1
-  - spell_list: cleric
+  - name: cleric
     level: 1
-  - spell_list: magus
+  - name: magus
     level: 1
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 1
-  - spell_list: summoner
+  - name: summoner
     level: 1
-  - spell_list: witch
+  - name: witch
     level: 1
 casting_time: 1 round
 components: [V, S, M (1 drop of blood from a good outsider or 1 dose of holy water)]

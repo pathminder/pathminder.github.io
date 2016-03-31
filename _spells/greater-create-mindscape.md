@@ -7,11 +7,11 @@ subschool: phantasm
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 6
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
 target: one creature/level
 duration: 1 day/level

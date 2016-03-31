@@ -4,15 +4,15 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: transmutation
 spell_lists:
-  - spell_list: cleric
+  - name: cleric
     level: 7
-  - spell_list: occultist
+  - name: occultist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 6
-  - spell_list: shaman
+  - name: shaman
     level: 6
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
 casting_time: 24 hours
 components:

@@ -7,9 +7,9 @@ subschool: phantasm
 descriptors:
   - mind-affecting
 spell_lists:
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 5
-  - spell_list: psychic
+  - name: psychic
     level: 7
 range: medium (100 ft. + 10 ft./level)
 target: one or more living creatures, no two of which can be more than 30 ft. apart

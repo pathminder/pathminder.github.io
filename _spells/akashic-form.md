@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - spell_list: psychic
+  - name: psychic
     level: 9
 casting_time: 1 hour
 components:

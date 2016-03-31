@@ -4,13 +4,13 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: transmutation
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 4
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
-  - spell_list: spiritualist
+  - name: spiritualist
     level: 6
-  - spell_list: summoner
+  - name: summoner
     level: 6
 casting_time: 1 standard action
 components: [V, S, M (vial of alchemical reagents worth 50 gp)]

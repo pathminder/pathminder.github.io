@@ -6,19 +6,19 @@ pi_text_changed: true
 school: conjuration
 subschool: calling
 spell_lists:
-  - spell_list: cleric
+  - name: cleric
     level: 3
-  - spell_list: druid
+  - name: druid
     level: 3
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: shaman
+  - name: shaman
     level: 3
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: summoner
+  - name: summoner
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 3
 components: [V, S, M (offerings worth 100 gp per HD of creature called)]
 effect: one called outsider that answers questions

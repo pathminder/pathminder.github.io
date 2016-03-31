@@ -34,6 +34,7 @@ ref_progression: good
 will_progression: poor
 
 extract_progression: mid
+spell_list: alchemist
 
 weapon_proficiencies:
   - Simple

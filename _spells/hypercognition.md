@@ -4,15 +4,15 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
-  - spell_list: alchemist
+  - name: alchemist
     level: 3
-  - spell_list: bard
+  - name: bard
     level: 3
-  - spell_list: medium
+  - name: medium
     level: 2
-  - spell_list: psychic
+  - name: psychic
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 4
 casting_time: 1 standard action
 components:

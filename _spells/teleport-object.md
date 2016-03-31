@@ -5,9 +5,9 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 7
-  - spell_list: witch
+  - name: witch
     level: 7
 range: touch
 target: one touched object of up to 50 lbs./level and 3 cu. ft./level

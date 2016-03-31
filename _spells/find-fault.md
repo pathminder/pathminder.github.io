@@ -4,25 +4,25 @@ sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 school: divination
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 3
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 3
-  - spell_list: inquisitor
+  - name: inquisitor
     level: 3
-  - spell_list: magus
+  - name: magus
     level: 3
-  - spell_list: medium
+  - name: medium
     level: 3
-  - spell_list: oracle
+  - name: oracle
     level: 3
-  - spell_list: psychic
+  - name: psychic
     level: 3
-  - spell_list: shaman
+  - name: shaman
     level: 3
-  - spell_list: sorcerer/ wizard
+  - name: sorcerer/wizard
     level: 3
-  - spell_list: witch
+  - name: witch
     level: 3
 casting_time: 1 standard action
 components: [V, S]

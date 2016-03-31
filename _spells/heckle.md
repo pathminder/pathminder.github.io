@@ -8,17 +8,17 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
-  - spell_list: bard
+  - name: bard
     level: 2
-  - spell_list: bloodrager
+  - name: bloodrager
     level: 2
-  - spell_list: magus
+  - name: magus
     level: 3
-  - spell_list: mesmerist
+  - name: mesmerist
     level: 2
-  - spell_list: psychic
+  - name: psychic
     level: 2
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 2
 casting_time: 1 standard action
 components: [V, S, M (a tomato)]

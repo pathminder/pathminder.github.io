@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: evocation
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 6
 casting_time: at least 10 minutes; see text
 components:

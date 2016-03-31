@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: universal
 spell_lists:
-  - spell_list: sorcerer/wizard
+  - name: sorcerer/wizard
     level: 5
 casting_time: 2 rounds
 components:
