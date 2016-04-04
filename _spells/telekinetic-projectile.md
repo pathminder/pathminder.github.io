@@ -14,7 +14,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 duration: instantaneous
 saving_throw: no
 spell_resistance: no

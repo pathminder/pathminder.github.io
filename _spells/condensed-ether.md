@@ -15,7 +15,7 @@ components:
   - V
   - S
   - M (crushed amber)
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: 20-ft.-radius spread
 duration: 1 minute/level
 saving_throw: none

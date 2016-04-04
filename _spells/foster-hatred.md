@@ -21,7 +21,7 @@ casting_time: 1 standard action
 components:
   - S
   - DF
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: any number of living creatures, no two of which can be more than 30 ft. apart
 duration: 1 hour/level (D)
 saving_throw: Will negates

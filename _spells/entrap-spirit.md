@@ -17,7 +17,7 @@ components:
   - V
   - S
   - F (a small silver mirror)
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: incorporeal creature or haunt
 duration: 1 hour/level (D)
 saving_throw: Will negates

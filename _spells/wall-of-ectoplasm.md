@@ -17,7 +17,7 @@ components:
   - V
   - S
   - M (small bit of gauze)
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 effect: opaque sheet of ectoplasm up to 10 ft. square/level or a sphere or hemisphere with a radius of up to 1 ft./level
 duration: 1 minute/level
 saving_throw: none, and Will negates; see text

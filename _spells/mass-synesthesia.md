@@ -11,7 +11,7 @@ spell_lists:
     level: 5
   - name: psychic
     level: 7
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: one or more living creatures, no two of which can be more than 30 ft. apart
 ---
 

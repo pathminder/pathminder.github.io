@@ -32,6 +32,7 @@ will_progression: good
 
 spells_per_day: half
 spell_list: paladin
+spell_list_levels: 4
 
 weapon_proficiencies:
   - Simple

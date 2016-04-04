@@ -4,85 +4,73 @@ layout: default
 
 {% assign empty_array = '' | split: '|' %}
 
-<dl>
-  {% if page.school %}
-    <dt>School</dt>
-    <dd>{{ page.school }}</dd>
-  {% endif %}
+<ul class="list-unstyled">
+  {% if page.school or page.subschool or page.descriptors %}
+    <li>
+      <strong>School</strong> {{ page.school }}
 
-  {% if page.subschool %}
-    <dt>Subchool</dt>
-    <dd>{{ page.subschool }}</dd>
-  {% endif %}
+      {% if page.subschool %}
+        ({{ page.subschool }})
+      {% endif %}
 
-  {% if page.descriptors %}
-    <dt>Descriptors</dt>
-    <dd>{{ page.descriptors | join: ', ' }}</dd>
+      {% if page.descriptors %}
+        [{{ page.descriptors | join: ', ' }}]
+      {% endif %}
+    </li>
   {% endif %}
 
   {% if page.spell_lists %}
     {% assign spell_lists_array = empty_array %}
 
     {% for spell_list in page.spell_lists %}
-      {% assign spell_list_text = spell_list.spell_list | append: ' ' | append: spell_list.level %}
+      {% assign spell_list_text = spell_list.name | append: ' ' | append: spell_list.level %}
       {% assign spell_lists_array = spell_lists_array | push: spell_list_text %}
     {% endfor %}
 
-    <dt>Spell Lists</dt>
-    <dd>
-      {{ spell_lists_array | join: ', ' }}
-    </dd>
+    <li><strong>Spell Lists</strong> {{ spell_lists_array | join: ', ' }}</li>
   {% endif %}
 
   {% if page.casting_time %}
-    <dt>Casting Time</dt>
-    <dd>{{ page.casting_time }}</dd>
+    <li><strong>Casting Time</strong> {{ page.casting_time }}</li>
   {% endif %}
 
   {% if page.components %}
-    <dt>Components</dt>
-    <dd>{{ page.components | join: ', ' }}</dd>
+    <li><strong>Components</strong> {{ page.components | join: ', ' }}</li>
   {% endif %}
 
   {% if page.range %}
-    <dt>Range</dt>
-    <dd>
+    <li>
+      <strong>Range</strong>
       {{ page.range }}
       {% if page.range == 'close' %}(25 ft. + 5 ft./2 levels){% endif %}
       {% if page.range == 'medium' %}(100 ft. + 10 ft./level){% endif %}
       {% if page.range == 'long' %}(400 ft. + 40 ft./level){% endif %}
-    </dd>
+    </li>
   {% endif %}
 
   {% if page.target %}
-    <dt>Target(s)</dt>
-    <dd>{{ page.target }}</dd>
+    <li><strong>Target(s)</strong> {{ page.target }}</li>
   {% endif %}
 
   {% if page.area %}
-    <dt>Area</dt>
-    <dd>{{ page.area }}</dd>
+    <li><strong>Area</strong> {{ page.area }}</li>
   {% endif %}
 
   {% if page.effect %}
-    <dt>Effect(s)</dt>
-    <dd>{{ page.effect }}</dd>
+    <li><strong>Effect(s)</strong> {{ page.effect }}</li>
   {% endif %}
 
   {% if page.duration %}
-    <dt>Duration</dt>
-    <dd>{{ page.duration }}</dd>
+    <li><strong>Duration</strong> {{ page.duration }}</li>
   {% endif %}
 
   {% if page.saving_throw %}
-    <dt>Saving Throw</dt>
-    <dd>{{ page.saving_throw }}</dd>
+    <li><strong>Saving Throw</strong> {{ page.saving_throw }}</li>
   {% endif %}
 
   {% if page.spell_resistance %}
-    <dt>Spell Resistance</dt>
-    <dd>{{ page.spell_resistance }}</dd>
+    <li><strong>Spell Resistance</strong> {{ page.spell_resistance }}</li>
   {% endif %}
-</dl>
+</ul>
 
 {{ content }}

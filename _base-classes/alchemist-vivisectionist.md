@@ -37,6 +37,7 @@ will_progression: poor
 
 extract_progression: mid
 spell_list: alchemist
+spell_list_levels: 6
 
 weapon_proficiencies:
   - Simple

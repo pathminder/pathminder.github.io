@@ -18,7 +18,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: one creature
 duration: 1 minute/level
 saving_throw: Will negates (see text)

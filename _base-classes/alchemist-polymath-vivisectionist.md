@@ -38,6 +38,7 @@ will_progression: poor
 
 extract_progression: mid_minus_one
 spell_list: alchemist
+spell_list_levels: 6
 
 initiating_progression: half
 

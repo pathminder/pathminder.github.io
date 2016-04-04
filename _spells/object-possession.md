@@ -18,7 +18,7 @@ spell_lists:
     level: 5
   - name: witch
     level: 5
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: unattended Large or smaller object (minimum Tiny)
 duration: 10 minutes/level (D)
 ---

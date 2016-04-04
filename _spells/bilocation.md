@@ -12,7 +12,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - V
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 effect: one duplicate
 duration: 1 round/level (D)
 saving_throw: none

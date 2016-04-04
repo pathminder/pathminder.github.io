@@ -36,6 +36,7 @@ will_progression: good
 
 spells_per_day: mid
 spell_list: occultist
+spell_list_levels: 6
 
 weapon_proficiencies:
   - Simple

@@ -27,7 +27,7 @@ casting_time: 1 round
 components:
   - V
   - S
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: one creature
 duration: 1 hour/level (D)
 saving_throw: Will negates

@@ -20,7 +20,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: one creature or haunt
 duration: instantaneous
 saving_throw: Will partial

@@ -12,7 +12,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: long (400 ft. + 40 ft./level)
+range: long
 target: see text
 duration: concentration (up to 1 round/level) or instantaneous; see text
 saving_throw: Will negates (object) or none; see text

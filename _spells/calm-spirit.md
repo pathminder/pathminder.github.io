@@ -16,7 +16,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: one incorporeal undead creature or haunt
 duration: 1 minute or 1 round/level; see text
 saving_throw: Will negates or none; see text

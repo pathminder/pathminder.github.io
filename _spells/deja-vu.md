@@ -18,7 +18,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - V
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: one creature
 duration: 2 rounds
 saving_throw: none

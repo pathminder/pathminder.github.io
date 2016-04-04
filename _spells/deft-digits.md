@@ -20,7 +20,7 @@ spell_lists:
     level: 3
 casting_time: 1 standard action
 components: [V, S]
-range: Medium (100 ft. + 10 ft./level)
+range: medium
 target: 1 unattended gauntlet or glove
 duration: 10 minutes/level
 saving_throw: None (harmless, object)

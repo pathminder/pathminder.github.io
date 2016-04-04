@@ -14,7 +14,7 @@ spell_lists:
     level: 6
   - name: witch
     level: 7
-range: medium (100 ft. + 10 ft./level)
+range: medium
 target: unattended Gargantuan or smaller object (minimum Tiny) or construct
 duration: 10 minutes/level (D)
 ---

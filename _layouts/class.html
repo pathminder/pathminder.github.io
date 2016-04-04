@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign empty_array = "" | split:"|" %}
+
 {{ content }}
 
 <h2>Class Features</h2>
@@ -162,7 +164,7 @@ layout: default
             {% endcase %}
           </td>
           <td>
-            {% assign level_features = "" | split:"|" %}
+            {% assign level_features = empty_array %}
             {% for feature in page.class_features %}
               {% if feature.levels contains level %}
                 {% assign slugified_name = feature.name | slugify %}
@@ -260,7 +262,7 @@ layout: default
 {% endif %}
 
 {% for level in (1..page.max_level) %}
-  {% assign level_features = "" | split:"|" %}
+  {% assign level_features = empty_array %}
   {% for feature in page.class_features %}
     {% if feature.levels[0] == level %}
       {% assign level_features = level_features | push: feature %}
@@ -285,4 +287,88 @@ layout: default
       <dd>{{ favored_class_bonus.bonus | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}</dd>
     {% endfor %}
   </dl>
+{% endif %}
+
+{% if page.spell_list %}
+  {% assign level_0_spells = empty_array %}
+  {% assign level_1_spells = empty_array %}
+  {% assign level_2_spells = empty_array %}
+  {% assign level_3_spells = empty_array %}
+  {% assign level_4_spells = empty_array %}
+  {% assign level_5_spells = empty_array %}
+  {% assign level_6_spells = empty_array %}
+  {% assign level_7_spells = empty_array %}
+  {% assign level_8_spells = empty_array %}
+  {% assign level_9_spells = empty_array %}
+
+  {% if page.spell_list_levels %}
+    {% assign spell_list_levels = page.spell_list_levels %}
+  {% else %}
+    {% assign spell_list_levels = 9 %}
+  {% endif %}
+
+  {% for spell in site.spells %}
+    {% for spell_list in spell.spell_lists %}
+      {% if spell_list.name == page.spell_list %}
+        {% case spell_list.level %}
+          {% when 0 %} {% assign level_0_spells = level_0_spells | push: spell %}
+          {% when 1 %} {% assign level_1_spells = level_1_spells | push: spell %}
+          {% when 2 %} {% assign level_2_spells = level_2_spells | push: spell %}
+          {% when 3 %} {% assign level_3_spells = level_3_spells | push: spell %}
+          {% when 4 %} {% assign level_4_spells = level_4_spells | push: spell %}
+          {% when 5 %} {% assign level_5_spells = level_5_spells | push: spell %}
+          {% when 6 %} {% assign level_6_spells = level_6_spells | push: spell %}
+          {% when 7 %} {% assign level_7_spells = level_7_spells | push: spell %}
+          {% when 8 %} {% assign level_8_spells = level_8_spells | push: spell %}
+          {% when 9 %} {% assign level_9_spells = level_9_spells | push: spell %}
+        {% endcase %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  <h2>Spell List</h2>
+
+  {% for spell_level in (0..spell_list_levels) %}
+    <h3>Level {{ spell_level }} Spells</h3>
+
+    {% case spell_level %}
+      {% when 0 %} {% assign this_level_spells = level_0_spells | sort: 'title' %}
+      {% when 1 %} {% assign this_level_spells = level_1_spells | sort: 'title' %}
+      {% when 2 %} {% assign this_level_spells = level_2_spells | sort: 'title' %}
+      {% when 3 %} {% assign this_level_spells = level_3_spells | sort: 'title' %}
+      {% when 4 %} {% assign this_level_spells = level_4_spells | sort: 'title' %}
+      {% when 5 %} {% assign this_level_spells = level_5_spells | sort: 'title' %}
+      {% when 6 %} {% assign this_level_spells = level_6_spells | sort: 'title' %}
+      {% when 7 %} {% assign this_level_spells = level_7_spells | sort: 'title' %}
+      {% when 8 %} {% assign this_level_spells = level_8_spells | sort: 'title' %}
+      {% when 9 %} {% assign this_level_spells = level_9_spells | sort: 'title' %}
+    {% endcase %}
+
+    <table>
+      <thead>
+        <tr>
+          <th>Spell</th>
+          <th>School</th>
+          <th>Casting Time</th>
+          <th>Range</th>
+          <th>Duration</th>
+          <th>Save</th>
+          <th>SR</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for spell in this_level_spells %}
+          <tr>
+            <td><a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
+            <td>{{ spell.school | default: '&mdash;' }}</td>
+            <td>{{ spell.casting_time | default: '&mdash;' }}</td>
+            <td>{{ spell.range | default: '&mdash;' }}</td>
+            <td>{{ spell.duration | default: '&mdash;' }}</td>
+            <td>{{ spell.saving_throw | default: '&mdash;' }}</td>
+            <td>{{ spell.spell_resistance | default: '&mdash;' }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
 {% endif %}

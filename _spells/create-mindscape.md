@@ -19,7 +19,7 @@ casting_time: 1 round
 components:
   - V
   - S
-range: long (400 ft. + 40 ft./level)
+range: long
 target: one creature
 duration: 10 minutes/level
 saving_throw: Will disbelief; see text

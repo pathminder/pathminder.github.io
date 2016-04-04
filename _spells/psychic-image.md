@@ -10,7 +10,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - V
-range: long (400 ft. + 40 ft./level)
+range: long
 effect: one shadow duplicate
 duration: 1 round/level (D)
 saving_throw: Will disbelief (if interacted with)

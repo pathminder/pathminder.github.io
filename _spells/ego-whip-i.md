@@ -13,7 +13,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - S
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: one creature
 duration: 1 round/level
 saving_throw: Will partial

@@ -20,7 +20,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - S
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: one creature/2 levels, no two of which can be more than 30 feet apart
 duration: 1 minute/level
 saving_throw: Will negates

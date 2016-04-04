@@ -12,7 +12,7 @@ casting_time: 1 standard action
 components:
   - V
   - S
-range: medium (100 ft. + 10 ft./level)
+range: medium
 area: 30-ft.-radius burst
 duration: 1 round/level
 saving_throw: Reflex half and Will partial; see text

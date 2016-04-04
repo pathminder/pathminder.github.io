@@ -16,7 +16,7 @@ casting_time: 1 standard action
 components:
   - S
   - M (broken glass)
-range: medium (100 ft. + 10 ft./level)
+range: medium
 area: one 10-ft. cube/level
 duration: 1 hour/level (D)
 saving_throw: Reflex partial or Reflex negates (see text)

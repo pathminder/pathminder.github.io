@@ -14,7 +14,7 @@ casting_time: 1 standard action
 components:
   - S
   - M (blank parchment or magic scroll; see text)
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: one creature
 duration: instantaneous
 saving_throw: Reflex half; see text

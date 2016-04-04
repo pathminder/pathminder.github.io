@@ -20,7 +20,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - V
-range: close (25 ft. + 5 ft./level)
+range: close
 target: one object of no more than 10 cu. ft./level
 duration: 1 day/level
 saving_throw: none (object) or Will disbelief (if interacted with)

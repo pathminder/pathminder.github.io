@@ -42,6 +42,7 @@ will_progression: good
 spells_per_day: mid
 spells_known: mid
 spell_list: inquisitor
+spell_list_levels: 6
 
 weapon_proficiencies:
   - Simple

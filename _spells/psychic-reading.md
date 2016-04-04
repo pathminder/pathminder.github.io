@@ -23,7 +23,7 @@ spell_lists:
 casting_time: 1 standard action
 components:
   - V
-range: close (25 ft. + 5 ft./2 levels)
+range: close
 target: one humanoid creature
 duration: 1 round
 saving_throw: none
