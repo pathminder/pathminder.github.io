@@ -64,7 +64,6 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *If Thoughts Could Kill*, Copyright 2001–2004, Bruce R. Cordell. All rights reserved.
 - *Legendary VI: Legendary Armor*, Copyright 2012, Purple Duck Games; Author: Marc Radle.
 - *Mindscapes*, Copyright 2003–2004, Bruce R. Cordell. All rights reserved.
-- *Modern System Reference Document*, Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker,Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
 - *Monte Cook's Arcana Unearthed*, Copyright 2003, Monte J. Cook.
 - *Mutants & Masterminds*, Copyright 2002, Green Ronin Publishing.
 - *Path of the Magi*, Copyright 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.
@@ -83,6 +82,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Pathfinder Roleplaying Game Core Rulebook*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder Roleplaying Game Core Rulebook*, Copyright 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 - *Pathfinder Roleplaying Game Occult Adventures*, Copyright 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.
+- *Pathfinder Roleplaying Game Mythic Adventures*, Copyright 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.
 - *Pathfinder Roleplaying Game Pathfinder Unchained*, Copyright 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Beyers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.
 - *Pathfinder Roleplaying Game Ultimate Campaign*, Copyright 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.
 - *Pathfinder Roleplaying Game Ultimate Combat*, Copyright 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.
@@ -122,14 +122,17 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - Daemon, Piscodaemon from the *Tome of Horrors, Revised*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.
 - Dark Creeper from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.
 - Dark Stalker from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.
+- Demodand, Slime from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
 - Demon, Shadow from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.
 - Dracolisk from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
 - Ear Seeker from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.
+- Forlarren from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian Livingstone.
 - Froghemoth from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.
 - Genie, Marid from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
 - Giant, Wood from the *Tome of Horrors Complete*, 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene, based on original material by Wizards of the Coast.
 - Giant Slug from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
 - Grippli from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax. Nereid from the Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+- Hangman Tree from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
 - Ice Golem from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene.
 - Iron Cobra from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Philip Masters.
 - Marid from the *Tome of Horrors III*, Copyright 2005, Necromancer Games, Inc.; Author: Scott Greene.
@@ -143,6 +146,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - Pathminder, Copyright 2016, Drumanagh Wilpole.
 - Poltergeist from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lewis Pulsipher.
 - Rot Grub from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+- Rot Grub from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
 - Sandman from the *Tome of Horrors, Revised*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.
 - Scarecrow from the *Tome of Horrors, Revised*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.
 - Shadow Demon from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Neville White.
@@ -152,6 +156,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - Troll, Rock from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
 - Wood Golem from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene and Patrick Lawinger.
 - Yellow Musk Creeper from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.
+- Yellow Musk Creeper from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore
 - Yeti from the *Tome of Horrors*, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
 
 END OF LICENSE
