@@ -2,34 +2,65 @@
 title: Bluff
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Ultimate Intrigue
   - "Pathfinder Player Companion: Giant Hunter's Handbook"
 ability_score: Cha
 ---
 
-You can use Bluff to deceive others, to pass secret messages, and to create diversions and feints in combat. The table shows uses of Bluff, the time they take, and whether you can try again with them.
+You can use Bluff to deceive others, to pass secret messages, and to create diversions and feints in combat. The Bluff skill is an extremely versatile, though sometimes misunderstood, social skill. Unlike [Diplomacy](/skills/diplomacy/) and [Intimidate](/skills/intimidate/), which can directly push their target toward a course of action, Bluff feeds the target misinformation. A skilled user of the Bluff skill needs to understand how the target’s mind works, in order to deliver just the right misinformation to achieve the desired results. The disadvantage is that such manipulation is less predictable and more difficult to pull off, but the advantage is that the target is not aware that he is being manipulated, whereas even the most successful Diplomacy or Intimidate attempt leaves the target realizing who has convinced him to take action.
 
-| Bluff task          | Requires |          Time           | Retry |                            DC                            |
-|:--------------------|:--------:|:-----------------------:|:-----:|:--------------------------------------------------------:|
-| Deceive someone     |   ---    |     1 round or more     |  Yes  |           Opposed by Sense Motive + modifiers            |
-| Feign harmlessness  |   ---    |     1 round or more     |  Yes  |           Opposed by Sense Motive + modifiers            |
-| Plant notion        |   ---    |        1 minute         |  Yes  |           Opposed by Sense Motive + modifiers            |
-| Pass secret message |   ---    | Double message duration |  Yes  |                         15 or 20                         |
-| Feint               |   ---    |     Standard action     |  Yes  | opposed by 10 + BAB + Wisdom, or 10 + Sense Motive bonus |
-| Create diversion    |   ---    |           ---           |  Yes  |                 Opposed by Sense Motive                  |
+| Bluff task               | Requires |          Time           | Retry |                      DC                       |
+|:-------------------------|:--------:|:-----------------------:|:-----:|:---------------------------------------------:|
+| Deceive someone          |   ---    |     1 round or more     |  Yes  |      Opposed by Sense Motive + modifiers      |
+| Feign harmlessness       |   ---    |     1 round or more     |  Yes  |      Opposed by Sense Motive + modifiers      |
+| Plant notion             |   ---    |        1 minute         |  Yes  |      Opposed by Sense Motive + modifiers      |
+| Pass secret message      |   ---    | Double message duration |  Yes  |                   15 or 20                    |
+| Feint                    |   ---    |     Standard action     |  Yes  | 10 + BAB + Wisdom, or 10 + Sense Motive bonus |
+| Create a diversion       |   ---    |     Standard action     |  Yes  |            Opposed by Sense Motive            |
+| Trick someone            |   ---    |           ---           |  Yes  |            Opposed by Sense Motive            |
+| Surprise in conversation |   ---    |           ---           |  No   |            Opposed by Sense Motive            |
 
 **Deceive Someone:** Telling a lie is an opposed skill check against your opponent's Sense Motive skill. If you use Bluff to fool someone, with a successful check you convince your opponent that what you are saying is true. Bluff checks are modified depending upon the believability of the lie. The following modifiers are applied to the roll of the creature attempting to tell the lie. Note that some lies are so improbable that it is impossible to convince anyone that they are true (subject to GM discretion). Attempting to deceive someone takes at least 1 round, but can possibly take longer if the lie is elaborate (as determined by the GM on a case-by-case basis).
 
 If you fail to deceive someone, further attempts to deceive them are at a --10 penalty and may be impossible (GM discretion).
 
-| Circumstances                   | Bluff Modifier |
-|:--------------------------------|:--------------:|
-| The target wants to believe you |       +5       |
-| The lie is believable           |       +0       |
-| The lie is unlikely             |      --5       |
-| The lie is far-fetched          |      --10      |
-| The lie is impossible           |      --20      |
-| The target is drunk or impaired |       +5       |
-| You possess convincing proof    |   up to +10    |
+| Circumstances                                                      | Bluff Modifier |
+|:-------------------------------------------------------------------|:--------------:|
+| The target wants to believe you                                    |       +5       |
+| The target doesn't want to believe you                             |      --5       |
+| The target thinks the lie might be true                            |   +2 or more   |
+| The target is hostile                                              |   -2 or more   |
+| The target is helpful                                              |   +2 or more   |
+| The lie is believable                                              |       +0       |
+| The lie is unlikely                                                |      --5       |
+| The lie is far-fetched                                             |      --10      |
+| The lie is particularly implausible                                |      --20      |
+| The target is drunk or impaired                                    |       +5       |
+| You possess convincing proof                                       |   up to +10    |
+| You have a reputation as a compulsive liar                         |  --5 or more   |
+| You have a reputation as being honorable (such as being a paladin) |   +5 or more   |
+
+For an example of the difference between an implausible lie and a lie that's so implausible that it's impossible to convince someone of it, an older human woman telling a very similar-looking human girl that she is herself from the future might take the --20 penalty, whereas a 10-year-old half-elf telling a 40-year-old orc the same lie would automatically fail the Bluff check.
+
+Even the most successful lie told using Bluff doesn't determine the course of action the deceived person takes---it just primes the target with misinformation. This means attempts to trick a creature into a course of action might need to also include Diplomacy or Intimidate after the Bluff check. For example, suppose there was a guard with the following orders from the guard captain: "Don't let anyone into the restricted area without clearance papers, even if it seems to be me or someone of higher rank." After this, a sneaky rogue attempts the following ruse: "I am the king's general on a mission of utmost importance for national security. I need you to let me in now, or you're fired!" Assuming the rogue succeeds at her Bluff check, the guard now believes her to be the general, but this doesn't mean he will let her through. His orders still require him to keep everyone out without papers. The last part of the rogue's demand is an attempt to Intimidate the guard, and the successful Bluff check was a necessary prerequisite to even attempt the Intimidate check.
+
+*Frequency of Bluff Checks:* When a PC is attempting to con someone for an extended period of time rather than telling just one lie, how often should the GM call for new Bluff checks? This is important, since every new Bluff check is an opportunity for the opposition to attempt new Sense Motive checks and uncover the lie. The frequency of checks can be highly variable, and the GM is the ultimate arbiter, but some guidelines can be helpful. Requiring a new check for every individual statement that is a lie would bog down the game. In general, one Bluff check per new topic makes sense. If a new statement has different circumstances (particularly if it is less believable than the previous ones), it calls for a new Bluff check.
+
+For example, a character might claim to have been to an ancient dungeon. If his Bluff check succeeds, the opposition takes it for granted that the character went there, and basic details such as when the character went or how she got there don't require a new check. However, if she says she found a famous, long-lost artifact within the dungeon or traveled to the dungeon on the back of a roc, she will need to make a new check for the new topic or greater exaggeration. Maintaining a facade once a lie has been established usually doesn't require a new check. If a character is pretending to be a tax inspector and has succeeded at the initial attempt to Bluff, it isn't necessary to make him roll a Bluff check every time he says anything that is true for a tax inspector but a lie for the real character.
+
+*You're Not Lying, You're Just Wrong:* Sometimes a character is a convincing enough liar that targets can't tell the character is lying, even when the targets possess incontrovertible proof that what the character is saying isn't true, or the lie is otherwise too unbelievable to be possible. In this case, one way to resolve the situation is for the bluffing character to take a --20 penalty on the skill check, and if she beats the target's Sense Motive, then the target believes that the bluffing character isn't lying, but is simply mistaken. This could also be the result of other situations in which the target of the Bluff attempt has strong reasons to believe that the falsehood, despite being plausible, isn't factually correct. Even this result can be useful to the bluffing character, as it doesn't mark her as a liar, and it allows her to gather information about what her target knows and expects.
+
+*Conspirators and the Spokesperson:* Sometimes, a group of individuals has a single spokesperson tell a convincing lie while the others just pray that the target doesn't notice them chuckling in the background with their inability to pull off a successful bluff. Though this tactic might succeed against a complacent target, a competent target cognizant of the possibility of being deceived should attempt a Sense Motive check opposed by the Bluff check of at least a few of the other individuals, perhaps directing specific follow-up questions their way, or even just try to get a hunch about the others.
+
+*True Lies and Implausible Truths:* Bluff is the skill that convinces someone that something is true. However, there are a few potential cases when the situation isn't as straightforward as a bluffing character telling a lie to a target. For instance, suppose that the bluffing character makes up a believable lie to tell the target, and the lie turns out to be true, unbeknown to the bluffing character. If the Bluff check succeeded, the target is convinced, and might later verify the truth and trust the bluffing character more. However, what if the bluffing character fails? In this case, the target can tell that the bluffing character is lying, but that doesn't necessarily mean that the target is forced to conclude that the information is false. For instance, suppose a popular king has fallen into a magical, unbreakable sleep. A charlatan, noticing the king's lack of public appearances, makes up a story about the king being placed under a sleeping curse and spreads it around the tavern, but his Bluff check is terrible, and everyone can tell he's making it up. If one of the king's advisors is present in the tavern, this doesn't mean that the advisor now thinks the king isn't in a coma; it just means that she can tell the charlatan doesn't believe his own story.
+
+The reverse side of true lies is implausible truths. These are situations in which someone is telling the truth (either saying something that is actually true, or spreading a lie that they believe to be true), but that truth is extremely implausible to the listener. Though the bluffing character isn't lying, the same skill set that makes an excellent and convincing liar could potentially help characters attempting to spread an implausible truth. In these cases, even if the target succeeds at the Sense Motive check, he can tell that the bluffing character truly believes what she is saying, and he might simply conclude that she isn't lying, but simply mistaken. The target might later be swayed if presented with evidence or through a verbal duel. If a bluffing character successfully convinces a target of a lie and the target attempts to spread that information, this leads to a classic example of an implausible truth.
+
+*Aftermath:* Though true masters of deception might be able to pull off a bluff such that no one is ever the wiser, in the case of most successful bluffs, the targets eventually discover new information that allows them to realize the truth of the matter. In this case, their attitude toward the bluffing character generally decreases by one step (or simply becomes unfriendly), depending on the previous attitude and the severity of the bluff's consequences. Furthermore, if the bluffing character attempts to lie to such a target again, her Bluff check takes a similar penalty as if she had failed to deceive the target (either a --10 penalty, or the skill check might be impossible, at the GM's discretion).
+
+*Lies upon Lies:* The aftermath of a Bluff becomes even more complicated if someone else attempts to make a contradictory lie, either in the same scene as the original prevarication or afterwards. If the bluffing characters are present together, it might be a good time to have them enter a verbal duel, with the target as the audience. However, this isn't possible when the second Bluff attempt happens after the first deceiving character is gone but before the target discovers the ruse. In this case, the second bluffing character has an advantage. She might be able to show proof that the first character was lying in order to build up the credibility of her own lie. If the second bluffing character beats the target's Sense Motive, but does not debunk the original lie or beat the first bluffing character's original Bluff check, then the target will likely be confused and unlikely to act on either piece of information. Or, the target might conclude that the second bluffer believes what she said but is misinformed.
+
+*Maintaining a Disguise:* When maintaining a disguise, the Bluff skill isn't necessary to correctly portray things such as mannerisms or facial expressions, but it will almost certainly come up when the disguised character makes statements in his assumed persona as he talks about events he didn't actually experience. Of course, a well-prepared character has thoroughly researched his disguise, so he is unlikely to take any penalties to his Bluff attempts.
 
 **Feign Harmlessness:** Rather than explicitly stating that you are harmless, you convince your target by exuding harmlessness through your actions and posture. This works like the deceive someone use of Bluff, except that if you are at least one size category smaller than your target and have taken no effective offensive actions that your target has seen, you gain a +5 circumstance bonus on this check, as the target is convinced of its own unassailable superiority.
 
@@ -43,6 +74,12 @@ You first attempt a Bluff check to convince the target that your request was act
 
 **Pass Secret Message:** You can use Bluff to pass hidden messages along to another character without others understanding your true meaning by using innuendo to cloak your actual message. The DC of this check is 15 for simple messages and 20 for complex messages. If you are successful, the target automatically understands you, assuming you are communicating in a language that it understands. If your check fails by 5 or more, you deliver the wrong message. Other creatures that receive the message can decipher it by succeeding at an opposed Sense Motive check against your Bluff result. Using Bluff to deliver a secret message takes twice as long as the message would otherwise take to relay.
 
+Don't underestimate the benefit of using Bluff to send messages through innuendo. Since the DC to send a message is static (15 or 20 depending on the message's complexity), you can quickly reach the point that the message itself is reliable, and thus the only risk is being intercepted, which would have happened anyway if you didn't make the attempt.
+
 **Feint:** You can use Bluff to feint in combat, causing your opponent to be denied his Dexterity bonus to his AC against your next attack. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. Feinting in combat is a standard action.
 
-**Create Diversion:** You can use Bluff to allow you to use Stealth. A successful Bluff check opposed by the viewer's Sense Motive can give you the momentary diversion you need to attempt a Stealth check while people are aware of you.
+**Create a Diversion:** You can use Bluff to allow you to use Stealth, even with a misdirection as simple as saying, "What's that behind you?" A successful Bluff check opposed by the viewer's Sense Motive can give you the momentary diversion you need to attempt a Stealth check while people are aware of you.
+
+**Trick Someone:** Bluff can be used to cleverly trip a target up and get him to reveal something or make a mistake. In these cases, he realizes his mistake soon after, but by then it is too late, and the falsehood has done its damage. This is similar to using Bluff to feint or create a diversion, but has broader applications in social situations. For instance, suppose a swashbuckler suspected that an assassin works for the queen. The swashbuckler might be able to trick the assassin into revealing more information by pretending to be a fellow agent of the queen in an attempt to gauge the assassin's response. Of course, if the assassin doesn't work for the queen and sees through the ruse, he might attempt his own Bluff check to pretend that he works for the queen and fell for the trick, thus causing the swashbuckler to investigate the innocent queen.
+
+**Surprise in Conversation:** Not every surprise round begins with an ambush from unseen assailants. If a character or several characters unexpectedly attack in the midst of a conversation or other normal activity, their victims might be surprised. To determine if a victim is surprised, he should attempt a Sense Motive check opposed by the assailant's Bluff check rather than a Perception opposed by the assailant's Stealth check. This is also a good way to adjudicate several abilities, including several vigilante talents that trigger when the target thinks the vigilante is an ally.

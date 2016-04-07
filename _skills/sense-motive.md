@@ -3,25 +3,28 @@ title: Sense Motive
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Occult Adventures
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 ability_score: Wis
 ---
 
-You are skilled at detecting falsehoods and true intentions.
+The Sense Motive skill allows a character to analyze the way another character is acting and figure out if something is off.
 
-A successful check lets you avoid being bluffed (see the Bluff skill). You can also use this skill to determine when “something is up” (that is, something odd is going on) or to assess someone's trustworthiness.
+A successful check lets you avoid being bluffed (see the [Bluff](/skills/bluff/) skill). You can also use this skill to determine when "something is up" (that is, something odd is going on) or to assess someone's trustworthiness. Most uses of Sense Motive are active and require a character to spend a minute or more interacting with someone with the intent of using Sense Motive for a particular purpose. The only time that Sense Motive happens automatically is when it opposes Bluff.
+
+Though Sense Motive can help ferret out lies and gain hunches about odd situations, it doesn't let a character read opponents' minds and know exactly what they're thinking or planning. It is a verification tool that works well in conjunction with other skills, rather than a skill that allows a character to ascertain information.
 
 You usually can't retry a Sense Motive check, though you may make a Sense Motive check for each Bluff check made against you.
 
-| Sense Motive task             |               Requires                |    Time    |  Retry   |    DC    |
-|:------------------------------|:-------------------------------------:|:----------:|:--------:|:--------:|
-| Hunch                         |                  ---                  |  1 minute  |    No    |    20    |
-| Sense enchantment             |                  ---                  |  1 minute  |    No    | 25 or 15 |
-| Discern secret message        |                  ---                  |  1 minute  |    No    |  Varies  |
-| Prognostication, once per day | Psychic spells or Psychic Sensitivity | 10 minutes | Next day |  Varies  |
+| Sense Motive task             |               Requires                |    Time    |  Retry   |           DC           |
+|:------------------------------|:-------------------------------------:|:----------:|:--------:|:----------------------:|
+| Hunch                         |                  ---                  |  1 minute  |    No    | 20 or opposed by Bluff |
+| Sense enchantment             |                  ---                  |  1 minute  |    No    |        25 or 15        |
+| Discern secret message        |                  ---                  |  1 minute  |    No    |         Varies         |
+| Prognostication, once per day | Psychic spells or Psychic Sensitivity | 10 minutes | Next day |         Varies         |
 
-**Hunch:** This use of the skill involves making a gut assessment of the social situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy.
+**Hunch:** This use of the skill involves making a gut assessment of the social situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy. This doesn't mean to say that anyone who can succeed at a DC 20 Sense Motive check can automatically find an impostor with high Bluff and Disguise modifiers. The DC 20 check assumes that the other character is not opposing the Sense Motive check with Bluff. This is particularly useful in situations with a group of impostors, one of whom is silver-tongued and does all the talking while the others aren't saying anything but aren't skilled at Bluff. For instance, a hunch might help against a group of quiet assassins dressed as servants and trickling into the grand hall. The information gained from a hunch is general, not specific, and usually results in an ambiguous inkling. You can get a vague feeling that something is wrong or that someone seems trustworthy, but no more specific information than that. In the example above, a character who received a hunch wouldn't know that the servants are specifically assassins, but would get a sense that something was off about the servants.
 
-**Sense Enchantment:** You can tell that someone's behavior is being influenced by an enchantment effect even if that person isn't aware of it. The usual DC is 25, but if the target is dominated (see *dominate person*), the DC is only 15 because of the limited range of the target's activities.
+**Sense Enchantment:** You can tell that someone's behavior is being influenced by an enchantment effect even if that person isn't aware of it. As an active check, this takes at least 1 minute of interaction and the intention to sense enchantments. This doesn't notice enchantments that aren't actually causing a difference in behavior at the time. For instance, if a creature is under [*charm person*](/spells/charm-person/) but the caster isn't around and doesn't come up in conversation, a Sense Motive check won't reveal the enchantment. The usual DC is 25, but if the target is dominated (see *dominate person*), the DC is only 15 because of the limited range of the target's activities.
 
 **Discern Secret Message:** You may use Sense Motive to detect that a hidden message is being transmitted via the Bluff skill. In this case, your Sense Motive check is opposed by the Bluff check of the character transmitting the message. For each piece of information relating to the message that you are missing, you take a --2 penalty on your Sense Motive check. If you succeed by 4 or less, you know that something hidden is being communicated, but you can't learn anything specific about its content. If you beat the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information.
 
