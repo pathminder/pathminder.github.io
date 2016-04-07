@@ -1,0 +1,21 @@
+---
+title: Pathfinder Roleplaying Game Ultimate Intrigue
+section_15:
+  - "Open Game License v 1.0a, Copyright 2000, Wizards of the Coast, Inc."
+  - "System Reference Document, Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson."
+  - "*Pathfinder Roleplaying Game Core Rulebook*, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+  - "Brownie from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax."
+  - "Daemon, Guardian from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall."
+  - "Demon, Shadow from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White."
+  - "Dragon Horse from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax."
+  - "Flumph from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith."
+  - "Giant, Wood from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene, based on original material by Wizards of the Coast."
+  - "Hippocampus from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Gary Gygax."
+  - "Huecuva from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle."
+  - "Kech from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax."
+  - "Muckdweller from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax."
+  - "Quickling from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax."
+  - "Skulk from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth."
+  - "Spriggan from the *Tome of Horrors Complete*, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax."
+  - "*Pathfinder Roleplaying Game Ultimate Intrigue*, Copyright 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+---
