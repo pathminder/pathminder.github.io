@@ -6,6 +6,7 @@ school: divination
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 4}
   - name: medium
     level: 4
   - name: mesmerist
@@ -14,8 +15,6 @@ spell_lists:
     level: 4
   - name: sorcerer/wizard
     level: 5
-  - name: spiritualist
-    level: 4
 casting_time: 1 standard action
 components:
   - V

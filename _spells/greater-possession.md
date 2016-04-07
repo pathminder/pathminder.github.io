@@ -5,12 +5,11 @@ sources:
 school: necromancy
 spell_lists:
   - {name: occultist, level: 6}
+  - {name: spiritualist, level: 6}
   - name: psychic
     level: 8
   - name: sorcerer/wizard
     level: 8
-  - name: spiritualist
-    level: 6
   - name: witch
     level: 8
 casting_time: 1 standard action

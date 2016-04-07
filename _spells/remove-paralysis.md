@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: healing
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: cleric, level: 2}
   - {name: paladin, level: 2}
 casting_time: 1 standard action

@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
   - {name: druid, level: 1}
   - {name: sorcerer/wizard, level: 1}

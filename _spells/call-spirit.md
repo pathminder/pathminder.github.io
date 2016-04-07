@@ -5,13 +5,12 @@ sources:
 school: conjuration
 subschool: calling
 spell_lists:
+  - {name: spiritualist, level: 5}
   - name: cleric
     level: 5
   - name: medium
     level: 3
   - name: shaman
-    level: 5
-  - name: spiritualist
     level: 5
 casting_time: 10 minutes
 components:

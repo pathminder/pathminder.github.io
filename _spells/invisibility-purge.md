@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: evocation
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: occultist, level: 3}
   - {name: cleric, level: 3}
 casting_time: 1 standard action

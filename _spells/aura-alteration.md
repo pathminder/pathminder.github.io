@@ -4,14 +4,13 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: illusion
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: occultist, level: 3}
   - name: medium
     level: 3
   - name: mesmerist
     level: 3
   - name: psychic
-    level: 4
-  - name: spiritualist
     level: 4
 casting_time: 1 standard action
 components:

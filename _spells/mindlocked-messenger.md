@@ -8,6 +8,7 @@ descriptors:
   - language-dependent
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: bard, level: 2}
   - {name: shaman, level: 3}
   - {name: sorcerer/wizard, level: 3}

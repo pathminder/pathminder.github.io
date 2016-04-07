@@ -5,6 +5,7 @@ sources:
 school: divination
 subschool: scrying
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: occultist, level: 4}
   - {name: bard, level: 3}
   - {name: cleric, level: 5}

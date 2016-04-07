@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
   - {name: medium, level: 1}
 casting_time: 1 standard action

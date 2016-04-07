@@ -9,6 +9,7 @@ descriptors:
   - fear
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
 casting_time: 1 standard action
 components:

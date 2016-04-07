@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: druid, level: 3}
   - {name: ranger, level: 3}
 range: close

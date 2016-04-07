@@ -7,6 +7,7 @@ subschool: phantasm
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: bard, level: 5}
   - {name: sorcerer/wizard, level: 5}
   - {name: medium, level: 3}

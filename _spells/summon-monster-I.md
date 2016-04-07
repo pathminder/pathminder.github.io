@@ -7,6 +7,7 @@ subschool: summoning
 descriptors:
   - see text
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: bard, level: 1}
   - {name: cleric, level: 1}
   - {name: sorcerer/wizard, level: 1}

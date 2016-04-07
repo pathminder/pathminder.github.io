@@ -7,6 +7,7 @@ descriptors:
   - mind-affecting
   - pain
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: occultist, level: 2}
   - name: antipaladin
     level: 2
@@ -20,8 +21,6 @@ spell_lists:
     level: 2
   - name: sorcerer/wizard
     level: 3
-  - name: spiritualist
-    level: 2
   - name: witch
     level: 3
 casting_time: 1 standard action

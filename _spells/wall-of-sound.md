@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - sonic
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: bard, level: 4}
   - {name: magus, level: 4}
   - {name: sorcerer/wizard, level: 5}

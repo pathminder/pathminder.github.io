@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: bard, level: 2}
   - {name: cleric, level: 4}
   - {name: sorcerer/wizard, level: 3}

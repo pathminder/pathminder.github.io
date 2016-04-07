@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: spiritualist, level: 0}
   - {name: cleric, level: 0}
   - {name: druid, level: 0}
   - {name: paladin, level: 1}

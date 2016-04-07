@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - evil
 spell_lists:
+  - {name: spiritualist, level: 6}
   - {name: cleric, level: 6}
   - {name: sorcerer/wizard, level: 6}
 casting_time: 1 hour

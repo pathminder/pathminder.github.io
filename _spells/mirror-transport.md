@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: transmutation
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: occultist, level: 4}
   - {name: sorcerer/wizard, level: 4}
   - {name: witch, level: 4}

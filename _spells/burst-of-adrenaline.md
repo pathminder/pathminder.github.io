@@ -4,11 +4,10 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: transmutation
 spell_lists:
+  - {name: spiritualist, level: 1}
   - name: mesmerist
     level: 1
   - name: psychic
-    level: 1
-  - name: spiritualist
     level: 1
 casting_time: 1 immediate action
 components:

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: occultist, level: 4}
   - {name: alchemist, level: 4}
   - {name: sorcerer/wizard, level: 4}

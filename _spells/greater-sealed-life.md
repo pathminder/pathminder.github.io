@@ -4,8 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
-  - name: spiritualist
-    level: 6
+  - {name: spiritualist, level: 6}
 duration: 1 minute/level
 ---
 

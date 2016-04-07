@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: healing
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: cleric, level: 4}
   - {name: paladin, level: 4}
 casting_time: 3 rounds

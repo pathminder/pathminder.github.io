@@ -7,6 +7,7 @@ school: necromancy
 descriptors:
   - curse
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: bard, level: 2}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 2}

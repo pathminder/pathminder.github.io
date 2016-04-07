@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - death
 spell_lists:
+  - {name: spiritualist, level: 6}
   - {name: sorcerer/wizard, level: 6}
 casting_time: 1 standard action
 components:

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: divination
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: alchemist, level: 3}
   - {name: cleric, level: 3}
   - {name: inquisitor, level: 4}

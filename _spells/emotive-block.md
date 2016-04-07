@@ -8,12 +8,11 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 2}
   - name: mesmerist
     level: 2
   - name: psychic
     level: 3
-  - name: spiritualist
-    level: 2
 casting_time: 1 standard action
 components:
   - S

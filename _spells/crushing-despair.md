@@ -9,6 +9,7 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 1 standard action

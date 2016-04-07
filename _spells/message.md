@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - language-dependent
 spell_lists:
+  - {name: spiritualist, level: 0}
   - {name: occultist, level: 0}
   - {name: bard, level: 0}
   - {name: sorcerer/wizard, level: 0}

@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - light
 spell_lists:
+  - {name: spiritualist, level: 0}
   - {name: occultist, level: 0}
   - {name: bard, level: 0}
   - {name: cleric, level: 0}

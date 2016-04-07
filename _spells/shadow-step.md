@@ -7,6 +7,7 @@ subschool: shadow
 descriptors:
   - shadow
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 4}
   - {name: witch, level: 4}

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: abjuration
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
   - {name: druid, level: 1}
   - {name: paladin, level: 1}

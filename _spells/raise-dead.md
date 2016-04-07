@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: healing
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: cleric, level: 5}
 casting_time: 1 minute
 components:

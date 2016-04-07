@@ -4,14 +4,13 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: occultist, level: 2}
   - name: medium
     level: 2
   - name: mesmerist
     level: 3
   - name: psychic
-    level: 3
-  - name: spiritualist
     level: 3
 casting_time: 1 standard action
 components:

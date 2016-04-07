@@ -8,6 +8,7 @@ descriptors:
   - fear
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: bard, level: 4}
   - {name: shaman, level: 5}
   - {name: sorcerer/wizard, level: 5}

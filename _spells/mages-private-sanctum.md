@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: abjuration
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: sorcerer/wizard, level: 5}
   - {name: medium, level: 4}
 casting_time: 10 minutes

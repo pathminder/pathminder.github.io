@@ -5,10 +5,9 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
+  - {name: spiritualist, level: 4}
   - name: psychic
     level: 5
-  - name: spiritualist
-    level: 4
 casting_time: 1 standard action
 components:
   - S

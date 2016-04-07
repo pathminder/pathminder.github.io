@@ -5,10 +5,9 @@ sources:
 school: transmutation
 subschool: polymorph
 spell_lists:
+  - {name: spiritualist, level: 5}
   - name: sorcerer/wizard
     level: 7
-  - name: spiritualist
-    level: 5
   - name: witch
     level: 7
 casting_time: 1 standard action

@@ -4,13 +4,12 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: occultist, level: 4}
   - name: medium
     level: 4
   - name: shaman
     level: 4
-  - name: spiritualist
-    level: 3
 casting_time: 1 standard action
 components:
   - S

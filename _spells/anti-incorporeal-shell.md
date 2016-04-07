@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: abjuration
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: cleric, level: 4}
   - {name: shaman, level: 4}
   - {name: witch, level: 4}

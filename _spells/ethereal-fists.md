@@ -4,10 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: transmutation
 spell_lists:
+  - {name: spiritualist, level: 3}
   - name: magus
     level: 4
-  - name: spiritualist
-    level: 3
 casting_time: 1 standard action
 components:
   - S

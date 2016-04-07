@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - death
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: inquisitor, level: 2}
   - {name: shaman, level: 3}
   - {name: sorcerer/wizard, level: 2}

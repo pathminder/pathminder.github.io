@@ -6,6 +6,7 @@ school: divination
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: occultist, level: 1}
   - name: medium
     level: 1
@@ -16,8 +17,6 @@ spell_lists:
   - name: shaman
     level: 1
   - name: sorcerer/wizard
-    level: 1
-  - name: spiritualist
     level: 1
 casting_time: 1 standard action
 components:

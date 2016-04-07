@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: summoning
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: bard, level: 3}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 3}

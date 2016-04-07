@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
+  - {name: spiritualist, level: 6}
   - {name: occultist, level: 6}
   - {name: bard, level: 6}
   - {name: sorcerer/wizard, level: 6}

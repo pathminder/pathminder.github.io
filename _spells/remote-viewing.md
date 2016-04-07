@@ -5,12 +5,11 @@ sources:
 school: divination
 subschool: scrying
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: occultist, level: 5}
   - name: medium
     level: 4
   - name: psychic
-    level: 5
-  - name: spiritualist
     level: 5
 casting_time: 1 hour
 components:

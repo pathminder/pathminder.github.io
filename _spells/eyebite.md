@@ -8,6 +8,7 @@ descriptors:
   - emotion
   - pain
 spell_lists:
+  - {name: spiritualist, level: 6}
   - {name: bard, level: 6}
   - {name: sorcerer/wizard, level: 6}
 casting_time: 1 standard action

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: occultist, level: 3}
   - name: medium
     level: 3
@@ -11,8 +12,6 @@ spell_lists:
     level: 4
   - name: psychic
     level: 5
-  - name: spiritualist
-    level: 4
 casting_time: 1 round
 components:
   - V

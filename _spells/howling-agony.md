@@ -7,6 +7,7 @@ descriptors:
   - death
   - pain
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: inquisitor, level: 2}
   - {name: sorcerer/wizard, level: 3}
   - {name: witch, level: 3}

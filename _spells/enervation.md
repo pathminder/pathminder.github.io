@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 1 standard action
 components:

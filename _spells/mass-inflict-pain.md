@@ -7,6 +7,7 @@ descriptors:
   - mind-affecting
   - pain
 spell_lists:
+  - {name: spiritualist, level: 5}
   - {name: occultist, level: 5}
   - name: antipaladin
     level: 4
@@ -20,8 +21,6 @@ spell_lists:
     level: 6
   - name: sorcerer/wizard
     level: 7
-  - name: spiritualist
-    level: 5
   - name: witch
     level: 7
 target: one creature/level, no two of which can be more than 30 ft. apart.

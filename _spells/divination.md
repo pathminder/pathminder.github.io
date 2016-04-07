@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: cleric, level: 4}
   - {name: medium, level: 3}
 casting_time: 10 minutes

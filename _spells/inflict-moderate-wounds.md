@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: occultist, level: 2}
   - {name: cleric, level: 2}
 ---

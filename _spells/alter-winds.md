@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - air
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: occultist, level: 1}
   - {name: druid, level: 1}
   - {name: sorcerer/wizard, level: 1}

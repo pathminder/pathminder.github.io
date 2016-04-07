@@ -7,6 +7,7 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 6}
   - {name: bard, level: 5}
   - {name: sorcerer/wizard, level: 6}
 duration: 1 min./level

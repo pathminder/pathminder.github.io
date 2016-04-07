@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: healing
 spell_lists:
+  - {name: spiritualist, level: 0}
   - {name: occultist, level: 0}
   - {name: cleric, level: 0}
   - {name: druid, level: 0}

@@ -8,6 +8,7 @@ descriptors:
   - darkness
   - shadow
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: witch, level: 2}
 casting_time: 1 standard action

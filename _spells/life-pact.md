@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: cleric, level: 2}
   - {name: shaman, level: 2}
   - {name: sorcerer/wizard, level: 2}

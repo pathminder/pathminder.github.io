@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
 casting_time: 1 standard action Component V, S, DF
 range: 60 ft.

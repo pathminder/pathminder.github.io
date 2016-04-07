@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - force
 spell_lists:
+  - {name: spiritualist, level: 3}
   - {name: magus, level: 3}
   - {name: sorcerer/wizard, level: 3}
 casting_time: 1 standard action

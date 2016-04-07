@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
+  - {name: spiritualist, level: 2}
   - {name: occultist, level: 2}
   - name: cleric
     level: 2
@@ -14,8 +15,6 @@ spell_lists:
   - name: psychic
     level: 2
   - name: sorcerer/wizard
-    level: 2
-  - name: spiritualist
     level: 2
   - name: witch
     level: 2

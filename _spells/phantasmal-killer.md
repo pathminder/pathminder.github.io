@@ -10,6 +10,7 @@ descriptors:
   - fear
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: sorcerer/wizard, level: 4}
   - {name: medium, level: 3}
 duration: instantaneous

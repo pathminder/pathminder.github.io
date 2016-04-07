@@ -6,10 +6,9 @@ school: evocation
 descriptors:
   - force
 spell_lists:
+  - {name: spiritualist, level: 5}
   - name: psychic
     level: 6
-  - name: spiritualist
-    level: 5
 casting_time: 1 standard action
 components:
   - V

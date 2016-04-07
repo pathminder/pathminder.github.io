@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - good
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: cleric, level: 1}
   - {name: inquisitor, level: 1}
   - {name: paladin, level: 1}

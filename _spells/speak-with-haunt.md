@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - language-dependent
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: cleric, level: 4}
   - {name: shaman, level: 3}
   - {name: witch, level: 4}

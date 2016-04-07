@@ -4,10 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
+  - {name: spiritualist, level: 6}
   - name: psychic
     level: 7
-  - name: spiritualist
-    level: 6
 casting_time: 1 standard action
 components:
   - V

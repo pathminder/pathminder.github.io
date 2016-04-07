@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: necromancy
 spell_lists:
+  - {name: spiritualist, level: 1}
   - {name: alchemist, level: 1}
   - {name: bloodrager, level: 1}
   - {name: magus, level: 1}

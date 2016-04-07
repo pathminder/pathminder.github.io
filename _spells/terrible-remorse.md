@@ -8,6 +8,7 @@ descriptors:
   - emotion
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: bard, level: 3}
   - {name: cleric, level: 4}
   - {name: inquisitor, level: 3}

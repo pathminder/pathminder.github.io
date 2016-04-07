@@ -7,6 +7,7 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: spiritualist, level: 4}
   - {name: cleric, level: 4}
   - {name: witch, level: 4}
 casting_time: 1 standard action
