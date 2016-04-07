@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - curse
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
   - {name: sorcerer/wizard, level: 6}
   - {name: witch, level: 5}

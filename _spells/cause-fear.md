@@ -9,6 +9,7 @@ descriptors:
   - fear
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: bard, level: 1}
   - {name: cleric, level: 1}
   - {name: sorcerer/wizard, level: 1}

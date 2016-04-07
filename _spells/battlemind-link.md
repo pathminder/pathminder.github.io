@@ -6,6 +6,7 @@ school: divination
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: inquisitor, level: 4}
   - {name: sorcerer/wizard, level: 6}
   - {name: medium, level: 4}

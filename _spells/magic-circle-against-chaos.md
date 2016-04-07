@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - lawful
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: cleric, level: 3}
   - {name: paladin, level: 3}
   - {name: sorcerer/wizard, level: 3}

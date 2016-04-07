@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: alchemist, level: 2}
   - {name: inquisitor, level: 2}
   - {name: ranger, level: 2}

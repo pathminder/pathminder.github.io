@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - earth
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: druid, level: 5}
   - {name: sorcerer/wizard, level: 5}
 casting_time: 1 standard action

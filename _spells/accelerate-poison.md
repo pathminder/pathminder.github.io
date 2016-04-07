@@ -7,6 +7,7 @@ school: transmutation
 descriptors:
   - poison
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: druid, level: 2}
   - {name: ranger, level: 2}
   - {name: sorcerer/wizard, level: 2}

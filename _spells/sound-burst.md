@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - sonic
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 2}
   - {name: cleric, level: 2}
 casting_time: 1 standard action

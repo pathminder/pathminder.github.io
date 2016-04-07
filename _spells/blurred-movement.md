@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: glamer
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: alchemist, level: 1}
   - {name: bard, level: 1}
   - {name: bloodrager, level: 1}

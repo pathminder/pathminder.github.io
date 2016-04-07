@@ -7,6 +7,7 @@ subschool: charm
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 4}
 target: one living creature

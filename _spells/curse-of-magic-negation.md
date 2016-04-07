@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - curse
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 5}
   - {name: inquisitor, level: 4}
   - {name: sorcerer/wizard, level: 4}

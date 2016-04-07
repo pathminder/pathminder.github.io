@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - cold
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: druid, level: 2}
 casting_time: 1 standard action
 components:

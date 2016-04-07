@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - force
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 2}
   - {name: cleric, level: 2}
   - {name: magus, level: 2}

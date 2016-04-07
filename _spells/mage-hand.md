@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 0}
   - {name: bard, level: 0}
   - {name: sorcerer/wizard, level: 0}
   - {name: medium, level: 0}

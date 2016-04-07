@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: sorcerer/wizard, level: 7}
 casting_time: 1 standard action
 components:

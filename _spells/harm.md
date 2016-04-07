@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 6}
 casting_time: 1 standard action
 components:

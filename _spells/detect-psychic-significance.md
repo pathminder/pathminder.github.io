@@ -4,11 +4,10 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
+  - {name: occultist, level: 0}
   - name: medium
     level: 0
   - name: mesmerist
-    level: 0
-  - name: occultist
     level: 0
   - name: psychic
     level: 0

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: magus, level: 2}
   - {name: sorcerer/wizard, level: 2}
 casting_time: 1 minute

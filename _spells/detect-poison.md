@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: occultist, level: 0}
   - {name: cleric, level: 0}
   - {name: druid, level: 0}
   - {name: paladin, level: 1}

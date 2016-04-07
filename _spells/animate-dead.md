@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - evil
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 1 standard action

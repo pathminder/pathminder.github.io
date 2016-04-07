@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: sorcerer/wizard, level: 5}
 casting_time: 10 minutes
 range: close

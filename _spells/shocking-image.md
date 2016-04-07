@@ -7,6 +7,7 @@ subschool: figment
 descriptors:
   - electricity
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 1 standard action

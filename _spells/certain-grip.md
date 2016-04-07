@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: alchemist, level: 2}
   - {name: druid, level: 2}
   - {name: sorcerer/wizard, level: 2}

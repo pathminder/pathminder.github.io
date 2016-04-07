@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 7}
   - {name: sorcerer/wizard, level: 7}
 components:

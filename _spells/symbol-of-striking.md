@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: shadow
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 5}
   - {name: magus, level: 5}
   - {name: sorcerer/wizard, level: 5}

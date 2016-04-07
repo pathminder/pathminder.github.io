@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: glamer
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: alchemist, level: 3}
   - {name: antipaladin, level: 3}
   - {name: bard, level: 3}

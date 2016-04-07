@@ -1,6 +1,7 @@
 ---
 title: "*communal mask dweomer*"
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: witch, level: 2}
 target: creatures or objects touched
 ---

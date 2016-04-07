@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
+  - {name: occultist, level: 1}
   - name: bard
     level: 2
   - name: inquisitor
@@ -11,8 +12,6 @@ spell_lists:
   - name: medium
     level: 1
   - name: mesmerist
-    level: 1
-  - name: occultist
     level: 1
   - name: psychic
     level: 1

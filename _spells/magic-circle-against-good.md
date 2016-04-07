@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - evil
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 3}
   - {name: medium, level: 3}

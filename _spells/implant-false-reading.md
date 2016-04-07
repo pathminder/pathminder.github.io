@@ -5,9 +5,8 @@ sources:
 school: illusion
 subschool: glamer
 spell_lists:
+  - {name: occultist, level: 2}
   - name: mesmerist
-    level: 2
-  - name: occultist
     level: 2
   - name: psychic
     level: 2

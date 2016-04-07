@@ -4,9 +4,8 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
+  - {name: occultist, level: 4}
   - name: medium
-    level: 4
-  - name: occultist
     level: 4
   - name: shaman
     level: 4

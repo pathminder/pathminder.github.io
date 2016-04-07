@@ -3,6 +3,7 @@ title: "*clairaudience/clairvoyance*"
 school: divination
 subschool: scrying
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 3}
   - {name: medium, level: 2}

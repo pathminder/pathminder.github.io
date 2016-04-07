@@ -7,6 +7,7 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 9}
   - {name: sorcerer/wizard, level: 9}
   - {name: witch, level: 9}

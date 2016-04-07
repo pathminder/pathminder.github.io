@@ -7,6 +7,7 @@ descriptors:
   - mind-affecting
   - pain
 spell_lists:
+  - {name: occultist, level: 5}
   - name: antipaladin
     level: 4
   - name: inquisitor
@@ -14,8 +15,6 @@ spell_lists:
   - name: medium
     level: 4
   - name: mesmerist
-    level: 5
-  - name: occultist
     level: 5
   - name: psychic
     level: 6

@@ -9,6 +9,7 @@ descriptors:
   - mind-affecting
   - emotion
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: druid, level: 9}
   - {name: sorcerer/wizard, level: 8}
 casting_time: 1 hour

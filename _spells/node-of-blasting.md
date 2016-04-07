@@ -6,12 +6,11 @@ school: abjuration
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 2}
   - name: medium
     level: 3
   - name: mesmerist
     level: 3
-  - name: occultist
-    level: 2
   - name: psychic
     level: 3
 casting_time: 1 standard action

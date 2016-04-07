@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: ranger, level: 3}
   - {name: sorcerer/wizard, level: 2}
   - {name: medium, level: 2}

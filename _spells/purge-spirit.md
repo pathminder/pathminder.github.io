@@ -4,9 +4,8 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 2}
   - name: medium
-    level: 2
-  - name: occultist
     level: 2
   - name: psychic
     level: 3

@@ -8,6 +8,7 @@ descriptors:
   - evil
   - fear
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: bard, level: 3}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 3}

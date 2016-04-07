@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - light
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: cleric, level: 3}
   - {name: inquisitor, level: 3}
   - {name: paladin, level: 3}

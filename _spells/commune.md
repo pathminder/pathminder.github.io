@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
 casting_time: 10 minutes
 components:

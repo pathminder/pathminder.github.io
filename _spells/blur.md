@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: glamer
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: medium, level: 2}

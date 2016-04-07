@@ -7,6 +7,7 @@ subschool: compulsion
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: bard, level: 1}
   - {name: sorcerer/wizard, level: 1}
 casting_time: 1 round

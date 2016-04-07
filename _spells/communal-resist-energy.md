@@ -3,6 +3,7 @@ title: "*communal resist energy*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: alchemist, level: 3}
   - {name: cleric, level: 3}
   - {name: druid, level: 3}

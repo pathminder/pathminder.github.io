@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - variable
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: sorcerer/wizard, level: 5}
   - {name: summoner, level: 5}
 casting_time: 10 minutes

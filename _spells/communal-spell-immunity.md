@@ -3,6 +3,7 @@ title: "*communal spell immunity*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
   - {name: inquisitor, level: 5}
 target: creatures touched

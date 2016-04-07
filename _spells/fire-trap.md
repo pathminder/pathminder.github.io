@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - fire
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: druid, level: 2}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 10 minutes

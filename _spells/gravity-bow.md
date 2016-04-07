@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: ranger, level: 1}
   - {name: sorcerer/wizard, level: 1}
 casting_time: 1 standard action

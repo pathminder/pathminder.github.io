@@ -8,6 +8,7 @@ descriptors:
   - mind-affecting
   - see text
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 5}
   - {name: inquisitor, level: 4}
   - {name: paladin, level: 4}

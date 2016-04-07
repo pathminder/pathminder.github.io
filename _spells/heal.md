@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: healing
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 6}
   - {name: druid, level: 7}
 casting_time: 1 standard action

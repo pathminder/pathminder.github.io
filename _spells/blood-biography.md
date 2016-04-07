@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: divination
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 2}
   - {name: cleric, level: 3}
   - {name: inquisitor, level: 3}

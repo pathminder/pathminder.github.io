@@ -4,10 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 4}
   - name: magus
     level: 5
-  - name: occultist
-    level: 4
   - name: sorcerer/wizard
     level: 5
 casting_time: 1 standard action

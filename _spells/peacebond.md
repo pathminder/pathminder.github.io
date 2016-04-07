@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: inquisitor, level: 1}
   - {name: sorcerer/wizard, level: 1}
   - {name: witch, level: 1}

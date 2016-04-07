@@ -4,9 +4,8 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: divination
 spell_lists:
+  - {name: occultist, level: 3}
   - name: medium
-    level: 3
-  - name: occultist
     level: 3
   - name: psychic
     level: 5

@@ -8,6 +8,7 @@ descriptors:
   - language-dependent
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: cleric, level: 1}
   - {name: inquisitor, level: 1}
 casting_time: 1 standard action Component V

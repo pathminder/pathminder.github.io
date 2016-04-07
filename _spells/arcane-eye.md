@@ -5,6 +5,7 @@ sources:
 school: divination
 subschool: scrying
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 10 minutes
 components:

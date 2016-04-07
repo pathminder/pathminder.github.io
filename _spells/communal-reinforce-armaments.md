@@ -3,6 +3,7 @@ title: "*communal reinforce armaments*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: cleric, level: 2}
   - {name: magus, level: 2}
   - {name: sorcerer/wizard, level: 2}

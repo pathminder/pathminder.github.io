@@ -4,13 +4,12 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
+  - {name: occultist, level: 2}
   - name: cleric
     level: 2
   - name: inquisitor
     level: 2
   - name: magus
-    level: 2
-  - name: occultist
     level: 2
   - name: psychic
     level: 2

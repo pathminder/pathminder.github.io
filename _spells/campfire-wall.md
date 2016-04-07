@@ -7,6 +7,7 @@ descriptors:
   - fire
   - light
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 3}
   - {name: druid, level: 2}
   - {name: ranger, level: 2}

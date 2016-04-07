@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: sorcerer/wizard, level: 6}
 casting_time: 1 standard action
 components:

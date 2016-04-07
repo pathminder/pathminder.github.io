@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 5}
   - {name: druid, level: 4}
   - {name: ranger, level: 3}

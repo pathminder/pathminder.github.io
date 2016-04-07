@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - poison
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: antipaladin, level: 2}
   - {name: sorcerer/wizard, level: 3}
 casting_time: 1 standard action

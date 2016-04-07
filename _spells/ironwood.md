@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: druid, level: 6}
 casting_time: 1 minute/lb. created
 components:

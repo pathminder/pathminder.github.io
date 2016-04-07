@@ -1,6 +1,7 @@
 ---
 title: "*communal nondetection*"
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: antipaladin, level: 4}
   - {name: sorcerer/wizard, level: 4}
 components:

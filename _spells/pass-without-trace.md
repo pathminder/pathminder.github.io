@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: druid, level: 1}
   - {name: ranger, level: 1}
 casting_time: 1 standard action

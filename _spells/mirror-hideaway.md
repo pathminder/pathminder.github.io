@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: witch, level: 2}
 casting_time: 1 standard action

@@ -7,6 +7,7 @@ subschool: creation
 descriptors:
   - earth
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
   - {name: druid, level: 6}
   - {name: sorcerer/wizard, level: 5}

@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - electricity
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: alchemist, level: 2}
   - {name: magus, level: 2}
   - {name: sorcerer/wizard, level: 2}

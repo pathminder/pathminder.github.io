@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: bard, level: 5}
   - {name: inquisitor, level: 5}
   - {name: sorcerer/wizard, level: 6}

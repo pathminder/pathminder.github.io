@@ -344,12 +344,18 @@ layout: default
       {% when 9 %} {% assign this_level_spells = level_9_spells | sort: 'title' %}
     {% endcase %}
 
-    <ul>
-      {% for spell in this_level_spells %}
-        <li>
-          <a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+    {% assign this_level_spells_by_school = this_level_spells | group_by: 'school' %}
+
+    {% for school in this_level_spells_by_school %}
+      <h4>{{ school.name }}</h4>
+
+      <ul>
+        {% for spell in school.items %}
+          <li>
+            <a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
   {% endfor %}
 {% endif %}

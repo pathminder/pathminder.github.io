@@ -4,8 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: evocation
 spell_lists:
-  - name: occultist
-    level: 0
+  - {name: occultist, level: 0}
   - name: psychic
     level: 0
   - name: spiritualist

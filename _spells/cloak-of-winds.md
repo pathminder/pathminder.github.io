@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - air
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: druid, level: 3}
   - {name: ranger, level: 3}
   - {name: sorcerer/wizard, level: 3}

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: evocation
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 10 minutes

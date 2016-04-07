@@ -1,11 +1,10 @@
 ---
-title: "*object possession, greater*"
+title: "*greater object possession*"
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
-  - name: occultist
-    level: 5
+  - {name: occultist, level: 5}
   - name: psychic
     level: 6
   - name: sorcerer/wizard

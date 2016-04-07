@@ -3,6 +3,7 @@ title: "*mass planar adaptation*"
 sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 6}
   - {name: sorcerer/wizard, level: 7}
   - {name: summoner, level: 6}

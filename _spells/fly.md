@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: sorcerer/wizard, level: 3}
   - {name: medium, level: 3}
 casting_time: 1 standard action

@@ -4,10 +4,9 @@ sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 5}
   - name: cleric
     level: 7
-  - name: occultist
-    level: 5
   - name: psychic
     level: 6
   - name: shaman

@@ -3,6 +3,7 @@ title: "*communal spider climb*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: alchemist, level: 3}
   - {name: druid, level: 3}
   - {name: sorcerer/wizard, level: 3}

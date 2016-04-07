@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: bard, level: 4}
   - {name: cleric, level: 4}
   - {name: druid, level: 4}

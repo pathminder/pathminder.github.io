@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - light
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: cleric, level: 3}
   - {name: sorcerer/wizard, level: 2}
 casting_time: 1 standard action

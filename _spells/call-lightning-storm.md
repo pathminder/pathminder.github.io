@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - electricity
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: druid, level: 5}
 range: long
 ---

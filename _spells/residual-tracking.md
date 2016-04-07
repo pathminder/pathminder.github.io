@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 school: divination
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: ranger, level: 1}
 casting_time: 1 minute
 components:

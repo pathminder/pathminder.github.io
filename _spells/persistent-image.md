@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: figment
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: bard, level: 5}
   - {name: sorcerer/wizard, level: 5}
   - {name: medium, level: 4}

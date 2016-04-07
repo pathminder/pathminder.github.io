@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - darkness
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 2}
   - {name: cleric, level: 2}
   - {name: sorcerer/wizard, level: 2}

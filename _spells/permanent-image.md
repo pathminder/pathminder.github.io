@@ -5,6 +5,7 @@ sources:
 school: illusion
 subschool: figment
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: bard, level: 6}
   - {name: sorcerer/wizard, level: 6}
 effect: figment that cannot extend beyond a 20-ft. cube + one 10-ft. cube/level (S)

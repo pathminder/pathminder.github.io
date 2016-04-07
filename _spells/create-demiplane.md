@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: creation
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 8}
   - {name: sorcerer/wizard, level: 8}
   - {name: summoner, level: 6}

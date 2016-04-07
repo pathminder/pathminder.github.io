@@ -5,6 +5,7 @@ sources:
 school: transmutation
 subschool: polymorph
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: alchemist, level: 1}
   - {name: bard, level: 1}
   - {name: sorcerer/wizard, level: 1}

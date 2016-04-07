@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: alchemist, level: 1}
   - {name: antipaladin, level: 1}
   - {name: inquisitor, level: 1}

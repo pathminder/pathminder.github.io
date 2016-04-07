@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: sorcerer/wizard, level: 5}
 casting_time: 1 standard action
 components:

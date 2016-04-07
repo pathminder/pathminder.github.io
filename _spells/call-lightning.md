@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - electricity
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: druid, level: 3}
 casting_time: 1 round
 components:

@@ -7,6 +7,7 @@ subschool: calling
 descriptors:
   - see text for [*lesser planar binding*](/spells/lesser-planar-binding/)
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: sorcerer/wizard, level: 6}
 components:
   - V

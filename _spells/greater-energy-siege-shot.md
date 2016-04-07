@@ -4,6 +4,7 @@ school: transmutation
 descriptors:
   - variable
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: sorcerer/wizard, level: 6}
   - {name: summoner, level: 6}
 range: close

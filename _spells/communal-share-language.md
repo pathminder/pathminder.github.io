@@ -3,6 +3,7 @@ title: "*communal share language*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: bard, level: 2}
   - {name: cleric, level: 3}
   - {name: druid, level: 3}

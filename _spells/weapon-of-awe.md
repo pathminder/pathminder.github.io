@@ -7,6 +7,7 @@ school: transmutation
 descriptors:
   - emotion
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: cleric, level: 2}
   - {name: inquisitor, level: 2}
   - {name: paladin, level: 2}

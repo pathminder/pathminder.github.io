@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - fire
 spell_lists:
+  - {name: occultist, level: 0}
   - {name: bard, level: 0}
   - {name: cleric, level: 0}
   - {name: druid, level: 0}

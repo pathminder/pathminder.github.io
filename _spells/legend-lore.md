@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 6}
   - {name: medium, level: 4}

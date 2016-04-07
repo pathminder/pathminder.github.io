@@ -7,6 +7,7 @@ school: necromancy
 descriptors:
   - poison
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 4}
   - {name: druid, level: 3}
 casting_time: 1 standard action

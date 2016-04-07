@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: divination
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: inquisitor, level: 4}
   - {name: ranger, level: 4}
 casting_time: 1 standard action

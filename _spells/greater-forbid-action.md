@@ -8,6 +8,7 @@ descriptors:
   - language-dependent
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
   - {name: inquisitor, level: 5}
 target: one creature/level, no two of which can be more than 30 ft. apart

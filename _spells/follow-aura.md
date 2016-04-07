@@ -9,6 +9,7 @@ descriptors:
   - good
   - or lawful
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: inquisitor, level: 2}
 casting_time: 1 standard action
 components:

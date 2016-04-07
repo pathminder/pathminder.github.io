@@ -1,15 +1,14 @@
 ---
-title: "*object possession, lesser*"
+title: "*lesser object possession*"
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 2}
   - name: medium
     level: 2
   - name: mesmerist
     level: 3
-  - name: occultist
-    level: 2
   - name: psychic
     level: 3
   - name: sorcerer/wizard

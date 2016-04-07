@@ -1,6 +1,7 @@
 ---
 title: "*communal returning weapon*"
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 3}
   - {name: cleric, level: 3}
   - {name: inquisitor, level: 2}

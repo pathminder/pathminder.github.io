@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: druid, level: 4}
 casting_time: 1 standard action
 components:

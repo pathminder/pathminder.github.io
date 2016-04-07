@@ -6,12 +6,12 @@ school: divination
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 4}
   - name: medium
     level: 3
   - name: mesmerist
     level: 4
   - name: occultist
-    level: 4
   - name: psychic
     level: 4
   - name: sorcerer/wizard

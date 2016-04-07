@@ -7,6 +7,7 @@ subschool: shadow
 descriptors:
   - shadow
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: sorcerer/wizard, level: 1}
   - {name: witch, level: 1}
 casting_time: 1 standard action

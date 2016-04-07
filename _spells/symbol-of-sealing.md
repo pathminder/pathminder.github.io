@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - force
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 6}
   - {name: sorcerer/wizard, level: 6}
   - {name: witch, level: 6}

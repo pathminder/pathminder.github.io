@@ -7,6 +7,7 @@ school: transmutation
 descriptors:
   - curse
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: druid, level: 3}
   - {name: witch, level: 3}
 casting_time: 1 standard action component V

@@ -8,6 +8,7 @@ descriptors:
   - fear
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: sorcerer/wizard, level: 8}
   - {name: witch, level: 8}
 casting_time: 1 standard action

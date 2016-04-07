@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - air
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: druid, level: 4}
   - {name: sorcerer/wizard, level: 4}
 casting_time: 1 standard action

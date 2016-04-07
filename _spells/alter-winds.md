@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - air
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: druid, level: 1}
   - {name: sorcerer/wizard, level: 1}
 casting_time: 1 minute

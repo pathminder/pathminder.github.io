@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: divination
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: inquisitor, level: 3}
   - {name: magus, level: 3}
   - {name: ranger, level: 2}

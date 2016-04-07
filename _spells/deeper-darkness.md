@@ -6,6 +6,7 @@ school: evocation
 descriptors:
   - darkness
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: cleric, level: 3}
 duration: 10 min./level (D)
 ---

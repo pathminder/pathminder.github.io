@@ -3,6 +3,7 @@ title: "*communal stoneskin*"
 sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: alchemist, level: 5}
   - {name: druid, level: 6}
   - {name: inquisitor, level: 5}

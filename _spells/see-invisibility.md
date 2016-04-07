@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 2}
 casting_time: 1 standard action

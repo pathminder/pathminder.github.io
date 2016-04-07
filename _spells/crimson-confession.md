@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: witch, level: 2}
 casting_time: 10 minutes

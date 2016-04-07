@@ -6,8 +6,7 @@ school: evocation
 descriptors:
   - force
 spell_lists:
-  - name: occultist
-    level: 4
+  - {name: occultist, level: 4}
   - name: psychic
     level: 5
   - name: spiritualist

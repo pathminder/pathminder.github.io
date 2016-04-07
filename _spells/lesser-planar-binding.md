@@ -7,6 +7,7 @@ subschool: calling
 descriptors:
   - see text
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: sorcerer/wizard, level: 5}
   - {name: medium, level: 4}
 casting_time: 10 minutes

@@ -1,6 +1,7 @@
 ---
 title: "*communal darkvision*"
 spell_lists:
+  - {name: occultist, level: 3}
   - {name: alchemist, level: 3}
   - {name: antipaladin, level: 3}
   - {name: ranger, level: 4}

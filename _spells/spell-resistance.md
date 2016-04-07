@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: abjuration
 spell_lists:
+  - {name: occultist, level: 5}
   - {name: cleric, level: 5}
 casting_time: 1 standard action
 components:

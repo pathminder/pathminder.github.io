@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Combat
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: inquisitor, level: 2}
   - {name: magus, level: 2}
   - {name: ranger, level: 2}

@@ -5,6 +5,7 @@ sources:
 school: conjuration
 subschool: teleportation
 spell_lists:
+  - {name: occultist, level: 6}
   - {name: cleric, level: 8}
   - {name: sorcerer/wizard, level: 8}
 casting_time: 10 minutes

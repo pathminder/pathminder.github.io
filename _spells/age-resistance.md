@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: alchemist, level: 4}
   - {name: druid, level: 6}
   - {name: sorcerer/wizard, level: 6}

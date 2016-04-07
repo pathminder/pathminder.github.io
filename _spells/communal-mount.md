@@ -1,6 +1,7 @@
 ---
 title: "*communal mount*"
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: magus, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: summoner, level: 2}

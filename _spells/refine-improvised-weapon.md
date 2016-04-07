@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Advanced Class Guide
 school: transmutation
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: cleric, level: 1}
   - {name: inquisitor, level: 1}
   - {name: ranger, level: 1}

@@ -4,6 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Ultimate Magic
 school: necromancy
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: cleric, level: 1}
   - {name: druid, level: 1}
   - {name: sorcerer/wizard, level: 1}

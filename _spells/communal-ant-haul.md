@@ -1,6 +1,7 @@
 ---
 title: "*communal ant haul*"
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: alchemist, level: 2}
   - {name: cleric, level: 2}
   - {name: druid, level: 2}

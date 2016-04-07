@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - poison
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: antipaladin, level: 2}
   - {name: druid, level: 2}
   - {name: sorcerer/wizard, level: 2}

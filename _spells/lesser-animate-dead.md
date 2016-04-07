@@ -6,6 +6,7 @@ school: necromancy
 descriptors:
   - evil
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: cleric, level: 2}
   - {name: sorcerer/wizard, level: 3}
 target: one corpse

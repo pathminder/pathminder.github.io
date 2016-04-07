@@ -6,6 +6,7 @@ school: abjuration
 descriptors:
   - force
 spell_lists:
+  - {name: occultist, level: 1}
   - {name: alchemist, level: 1}
   - {name: bard, level: 1}
   - {name: magus, level: 1}

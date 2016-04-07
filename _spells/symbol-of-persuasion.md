@@ -7,6 +7,7 @@ subschool: charm
 descriptors:
   - mind-affecting
 spell_lists:
+  - {name: occultist, level: 4}
   - {name: cleric, level: 6}
   - {name: sorcerer/wizard, level: 6}
 components:

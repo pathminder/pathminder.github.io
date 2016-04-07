@@ -6,6 +6,7 @@ school: transmutation
 descriptors:
   - curse
 spell_lists:
+  - {name: occultist, level: 2}
   - {name: cleric, level: 2}
   - {name: sorcerer/wizard, level: 2}
   - {name: witch, level: 2}
