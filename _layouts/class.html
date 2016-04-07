@@ -344,31 +344,12 @@ layout: default
       {% when 9 %} {% assign this_level_spells = level_9_spells | sort: 'title' %}
     {% endcase %}
 
-    <table>
-      <thead>
-        <tr>
-          <th>Spell</th>
-          <th>School</th>
-          <th>Casting Time</th>
-          <th>Range</th>
-          <th>Duration</th>
-          <th>Save</th>
-          <th>SR</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for spell in this_level_spells %}
-          <tr>
-            <td><a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
-            <td>{{ spell.school | default: '&mdash;' }}</td>
-            <td>{{ spell.casting_time | default: '&mdash;' }}</td>
-            <td>{{ spell.range | default: '&mdash;' }}</td>
-            <td>{{ spell.duration | default: '&mdash;' }}</td>
-            <td>{{ spell.saving_throw | default: '&mdash;' }}</td>
-            <td>{{ spell.spell_resistance | default: '&mdash;' }}</td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    <ul>
+      {% for spell in this_level_spells %}
+        <li>
+          <a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 {% endif %}
