@@ -8,6 +8,7 @@ spell_lists:
   - {name: cleric, level: 4}
   - {name: sorcerer/wizard, level: 5}
   - {name: summoner, level: 5}
+  - {name: medium, level: 4}
 casting_time: 1 standard action component V
 range: personal
 target: you

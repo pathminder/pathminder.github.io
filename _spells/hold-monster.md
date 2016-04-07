@@ -9,6 +9,7 @@ descriptors:
 spell_lists:
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 5}
+  - {name: medium, level: 4}
 Components: V, S, M/DF (one hard metal bar or rod, which can be as small as a three-penny nail)
 target: one living creature
 ---

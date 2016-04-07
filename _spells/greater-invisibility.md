@@ -7,6 +7,7 @@ subschool: glamer
 spell_lists:
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 4}
+  - {name: medium, level: 3}
 components:
   - V
   - S

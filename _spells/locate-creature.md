@@ -6,6 +6,7 @@ school: divination
 spell_lists:
   - {name: bard, level: 4}
   - {name: sorcerer/wizard, level: 4}
+  - {name: medium, level: 3}
 Components: V, S, M (fur from a bloodhound)
 duration: 10 min./level
 ---

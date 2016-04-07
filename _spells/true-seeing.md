@@ -7,6 +7,7 @@ spell_lists:
   - {name: cleric, level: 5}
   - {name: druid, level: 7}
   - {name: sorcerer/wizard, level: 6}
+  - {name: medium, level: 4}
 casting_time: 1 standard action
 components:
   - V

@@ -7,6 +7,7 @@ subschool: scrying
 spell_lists:
   - {name: sorcerer/wizard, level: 4}
   - {name: witch, level: 3}
+  - {name: medium, level: 3}
 casting_time: 1 full round
 components:
   - V

@@ -11,6 +11,7 @@ spell_lists:
   - {name: sorcerer/wizard, level: 5}
   - {name: summoner, level: 4}
   - {name: witch, level: 5}
+  - {name: medium, level: 2}
 casting_time: 1 standard action
 components:
   - V

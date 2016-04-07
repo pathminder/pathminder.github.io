@@ -7,6 +7,7 @@ subschool: figment
 spell_lists:
   - {name: bard, level: 5}
   - {name: sorcerer/wizard, level: 5}
+  - {name: medium, level: 4}
 duration: 1 min./level (D)
 ---
 

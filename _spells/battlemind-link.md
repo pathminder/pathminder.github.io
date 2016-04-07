@@ -8,6 +8,7 @@ descriptors:
 spell_lists:
   - {name: inquisitor, level: 4}
   - {name: sorcerer/wizard, level: 6}
+  - {name: medium, level: 4}
 casting_time: 1 standard action
 components:
   - V

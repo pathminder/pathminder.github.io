@@ -9,6 +9,7 @@ descriptors:
   - mind- affecting
 spell_lists:
   - {name: cleric, level: 5}
+  - {name: medium, level: 4}
 target: one creature/level, no two of which can be more than 30 ft. apart
 duration: 1 round/level
 ---

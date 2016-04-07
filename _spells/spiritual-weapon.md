@@ -7,6 +7,7 @@ descriptors:
   - force
 spell_lists:
   - {name: cleric, level: 2}
+  - {name: medium, level: 2}
 casting_time: 1 standard action
 components:
   - V

@@ -8,6 +8,7 @@ spell_lists:
   - {name: antipaladin, level: 4}
   - {name: ranger, level: 4}
   - {name: sorcerer/wizard, level: 4}
+  - {name: medium, level: 4}
 casting_time: 1 standard action
 ---
 

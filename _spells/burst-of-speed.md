@@ -10,6 +10,7 @@ spell_lists:
   - {name: inquisitor, level: 3}
   - {name: paladin, level: 3}
   - {name: ranger, level: 3}
+  - {name: medium, level: 3}
 casting_time: 1 swift action
 components:
   - V

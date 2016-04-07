@@ -9,6 +9,7 @@ descriptors:
 spell_lists:
   - {name: bard, level: 5}
   - {name: sorcerer/wizard, level: 5}
+  - {name: medium, level: 3}
 casting_time: 1 minute
 components:
   - V

@@ -11,6 +11,7 @@ descriptors:
 spell_lists:
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 4}
+  - {name: medium, level: 4}
 casting_time: 1 standard action
 components:
   - V

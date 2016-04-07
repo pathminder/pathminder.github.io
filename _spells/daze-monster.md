@@ -9,6 +9,7 @@ descriptors:
 spell_lists:
   - {name: bard, level: 2}
   - {name: sorcerer/wizard, level: 2}
+  - {name: medium, level: 2}
 range: medium
 target: one living creature of 6 HD or less
 ---

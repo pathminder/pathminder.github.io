@@ -5,6 +5,7 @@ sources:
 school: divination
 spell_lists:
   - {name: cleric, level: 2}
+  - {name: medium, level: 2}
 casting_time: 1 minute
 components:
   - V

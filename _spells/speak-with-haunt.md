@@ -9,6 +9,7 @@ spell_lists:
   - {name: cleric, level: 4}
   - {name: shaman, level: 3}
   - {name: witch, level: 4}
+  - {name: medium, level: 2}
 casting_time: 10 minutes
 components:
   - V

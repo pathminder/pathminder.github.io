@@ -3,6 +3,7 @@ title: Monk (Silver Fist, Qinggong)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - Pathfinder Roleplaying Game Ultimate Magic
+  - Pathfinder Roleplaying Game Advanced Race Guide
   - "Path of War: Expanded"
 tags:
   - Initiator
@@ -170,7 +171,7 @@ class_features:
     levels: [2]
     text: A monk of 3rd level or higher gains a +2 bonus on saving throws against enchantment spells and effects.
 
-  - name: ki pool
+  - name: "*ki* pool"
     type: Su
     levels: [4, 7, 10, 16]
     levels_text:
@@ -179,9 +180,9 @@ class_features:
       10: lawful
       16: adamantine
     text: |
-      At 4th level, a monk gains a pool of ki points, supernatural energy he can use to accomplish amazing feats. The number of points in a monk's ki pool is equal to 1/2 his monk level + his Wisdom modifier. As long as he has at least 1 point in his ki pool, he can make a ki strike.
+      At 4th level, a monk gains a pool of *ki* points, supernatural energy he can use to accomplish amazing feats. The number of points in a monk's *ki* pool is equal to 1/2 his monk level + his Wisdom modifier. As long as he has at least 1 point in his *ki* pool, he can make a *ki* strike.
 
-      At 4th level, ki strike allows his unarmed attacks to be treated as magic weapons for the purpose of overcoming damage reduction.
+      At 4th level, *ki* strike allows his unarmed attacks to be treated as magic weapons for the purpose of overcoming damage reduction.
 
       At 7th level, his unarmed attacks are also treated as cold iron and silver for the purpose of overcoming damage reduction.
 
@@ -189,7 +190,7 @@ class_features:
 
       At 16th level, his unarmed attacks are treated as adamantine weapons for the purpose of overcoming damage reduction and bypassing hardness.
 
-      By spending 1 point from his ki pool, a monk can do one of the following:
+      By spending 1 point from his *ki* pool, a monk can do one of the following:
 
       - Make one additional attack at his highest attack bonus when making a flurry of blows attack, or
       - Increase his speed by 20 feet for 1 round, or
@@ -197,7 +198,7 @@ class_features:
 
       Each of these powers is activated as a swift action.
 
-      The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.
+      The *ki* pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.
 
   - name: mark of the silver fist
     type: Su
@@ -206,9 +207,9 @@ class_features:
       4: 1 ally
       12: 2 allies
       16: 3 allies
-    text: Starting at 4th level, a monk of the silver fist is able to focus his protection on one ally to better guard them. The monk of the silver fist can spend 1 ki point as a swift action to apply a special mark to one ally (other than himself) within 30 feet. For a number of rounds equal to 1 + the monk of the silver fist's initiation modifier, the marked ally gains a +4 circumstance bonus to their AC, and any enemy that attacks the marked ally provokes an attack of opportunity from the monk of the silver fist. A monk of the silver fist can only have one mark of the silver fist active at a time. At 12th level and again at 16th level, the number of allies a monk of the silver fist can have marked at a time increases by one.
+    text: Starting at 4th level, a monk of the silver fist is able to focus his protection on one ally to better guard them. The monk of the silver fist can spend 1 *ki* point as a swift action to apply a special mark to one ally (other than himself) within 30 feet. For a number of rounds equal to 1 + the monk of the silver fist's initiation modifier, the marked ally gains a +4 circumstance bonus to their AC, and any enemy that attacks the marked ally provokes an attack of opportunity from the monk of the silver fist. A monk of the silver fist can only have one mark of the silver fist active at a time. At 12th level and again at 16th level, the number of allies a monk of the silver fist can have marked at a time increases by one.
 
-  - name: ki power
+  - name: "*ki* power"
     levels: [4, 5, 7, 11, 13, 17, 19, 20]
     levels_text:
       4: 1 power
@@ -220,35 +221,37 @@ class_features:
       19: 8 powers
       20: 9 powers
     text: |
-      At the given levels on the table, the monk can select a ki power. (Note that the monk gains 2 ki powers at level 17.) Ki powers are divided into three categories: feats, monk abilities, and spells.
+      At the given levels on the table, the monk can select a *ki* power. (Note that the monk gains 2 *ki* powers at level 17.) Ki powers are divided into three categories: feats, monk abilities, and spells.
 
-      - *Feats:* These ki powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a ki power. For example, a qinggong monk can select Spring Attack as a ki power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these ki powers is a free action on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these ki powers that duplicate feats may also be activated as an immediate action; these powers are noted in the ki powers list.
-      - *Monk Abilities:* Some ki powers are standard monk abilities.
-      - *Spells:* These ki powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her concentration check bonus.
+      - *Feats:* These *ki* powers duplicate the effects of specific feats. A monk does not need to qualify for a feat to select it as a *ki* power. For example, a qinggong monk can select Spring Attack as a *ki* power even if she doesn't meet the prerequisites for selecting Spring Attack as a feat. Activating one of these *ki* powers is a free action on the monk's turn; until the start of her next turn, the monk is treated as if she had that feat. Some of these *ki* powers that duplicate feats may also be activated as an immediate action; these powers are noted in the *ki* powers list.
+      - *Monk Abilities:* Some *ki* powers are standard monk abilities.
+      - *Spells:* These *ki* powers duplicate the effects of a spell, and are spell-like abilities. A qinggong monk's class level is the caster level for these spell-like abilities, and she uses Wisdom to determine her concentration check bonus.
 
-      *Requirements:* All ki powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that ki power.
+      *Requirements:* All *ki* powers have a minimum monk level requirement to select them. A monk who does not meet this requirement cannot select that *ki* power.
 
-      *Activation:* Most ki powers require the monk to spend ki points; the exact amount is listed after the ki power. Ki powers that cost 0 ki do not require the monk to have any ki points in her ki pool to use the ability.
+      *Activation:* Most *ki* powers require the monk to spend *ki* points; the exact amount is listed after the *ki* power. Ki powers that cost 0 *ki* do not require the monk to have any *ki* points in her *ki* pool to use the ability.
 
-      The saving throw against a monk's ki power, if any, is equal to 10 + 1/2 the monk's level + the monk's Wisdom bonus.
+      The saving throw against a monk's *ki* power, if any, is equal to 10 + 1/2 the monk's level + the monk's Wisdom bonus.
 
       **4th-Level Ki Powers:**
 
-      - Acrobatic Steps (1 ki point)
-      - *augury* (1 ki point)
-      - *barkskin* (self only, 1 ki point)
-      - Deny Death (0 ki points, can be activated as an immediate action)
-      - *feather step* (self only, 1 ki point)
-      - *hydraulic push* (1 ki point)
-      - *ki arrow* (1 ki point)
-      - Ki Stand (0 ki points, can be activated as an immediate action)
-      - *message* (1 ki point)
-      - Power Attack (1 ki point)
-      - Quick Draw (1 ki point)
-      - *scorching ray* (2 ki points)
+      - Acrobatic Steps (1 *ki* point)
+      - *augury* (1 *ki* point)
+      - *barkskin* (self only, 1 *ki* point)
+      - Deny Death (0 *ki* points, can be activated as an immediate action)
+      - *feather step* (self only, 1 *ki* point)
+      - *hydraulic push* (1 *ki* point)
+      - *ki arrow* (1 *ki* point)
+      - Ki Stand (0 *ki* points, can be activated as an immediate action)
+      - *message* (1 *ki* point)
+      - *mighty fist of the earth* (1 *ki* point)
+      - Power Attack (1 *ki* point)
+      - Quick Draw (1 *ki* point)
+      - *scorching ray* (2 *ki* points)
       - slow fall: If the monk is within arm's reach of a wall, he takes damage from a fall as if the fall were 20 feet shorter than it actually is. This improves by 10 feet for every 2 monk levels, and improves to an unlimited distance at level 20.
-      - Throw Anything (1 ki point)
-      - *true strike* (self only, 1 ki point)
+      - *stone shield* (1 *ki* point)
+      - Throw Anything (1 *ki* point)
+      - *true strike* (self only, 1 *ki* point)
 
       **6th-Level Ki Powers:**
 
@@ -256,74 +259,74 @@ class_features:
       - *gaseous form* (self only, 1 *ki* point)
       - Heroic Recovery (1 *ki* point, can be activated as an immediate action)
       - high jump (1 *ki* point): The monk adds his level to an Acrobatics check made to jump, and counts as having a running start. By spending 1 additional point from his *ki* pool as a swift action, he gains an additional +20 bonus on the check.
-      - *hydraulic torrent* (2 ki points)
-      - *remove disease* (2 ki points)
-      - Sidestep (1 ki point, can be activated as an immediate action)
-      - Snatch Arrows (1 ki point, can be activated as an immediate action)
-      - Spring Attack (1 ki point)
+      - *hydraulic torrent* (2 *ki* points)
+      - *remove disease* (2 *ki* points)
+      - Sidestep (1 *ki* point, can be activated as an immediate action)
+      - Snatch Arrows (1 *ki* point, can be activated as an immediate action)
+      - Spring Attack (1 *ki* point)
 
       **7th-Level Ki Powers:**
 
-      - wholeness of body (2 ki points): As a standard action, the monk heals a number of hit points of damage equal to his monk level.
+      - wholeness of body (2 *ki* points): As a standard action, the monk heals a number of hit points of damage equal to his monk level.
 
       **8th-Level Ki Powers:**
 
-      - *dragon's breath* (2 ki points)
-      - Gliding Steps (1 ki point, can be activated as an immediate action)
-      - *neutralize poison* (3 ki points)
-      - Poison (2 ki points)
-      - *restoration* (self only, 2 ki points)
-      - *share memory* (0 ki points)
-      - *silk to steel* (1 ki point)
-      - Spider Step (1 ki point)
-      - Whirlwind Attack (2 ki points)
+      - *dragon's breath* (2 *ki* points)
+      - Gliding Steps (1 *ki* point, can be activated as an immediate action)
+      - *neutralize poison* (3 *ki* points)
+      - Poison (2 *ki* points)
+      - *restoration* (self only, 2 *ki* points)
+      - *share memory* (0 *ki* points)
+      - *silk to steel* (1 *ki* point)
+      - Spider Step (1 *ki* point)
+      - Whirlwind Attack (2 *ki* points)
 
       **10th-Level Ki Powers:**
 
-      - *discordant blast* (2 ki points)
-      - Greater Bull Rush (2 ki points)
-      - Greater Disarm (2 ki points)
-      - Greater Feint (2 ki points)
-      - Greater Sunder (2 ki points)
-      - Improved Blind-Fight (1 ki point, can be activated as an immediate action)
-      - *ki leech* (0 ki points)
-      - Lunge (1 ki point)
-      - *shadow step* (1 ki point)
-      - *spit venom* (2 ki points)
-      - Step Up and Strike (2 ki points, can be activated as an immediate action)
-      - Wind Stance (2 ki points)
+      - *discordant blast* (2 *ki* points)
+      - Greater Bull Rush (2 *ki* points)
+      - Greater Disarm (2 *ki* points)
+      - Greater Feint (2 *ki* points)
+      - Greater Sunder (2 *ki* points)
+      - Improved Blind-Fight (1 *ki* point, can be activated as an immediate action)
+      - *ki leech* (0 *ki* points)
+      - Lunge (1 *ki* point)
+      - *shadow step* (1 *ki* point)
+      - *spit venom* (2 *ki* points)
+      - Step Up and Strike (2 *ki* points, can be activated as an immediate action)
+      - Wind Stance (2 *ki* points)
 
       12th-Level Ki Powers
 
-      - abundant step (2 ki points): As a move action, the monk can use *dimension door* with a caster level equal to his monk level. He cannot take other creatures with him when he uses this ability.
-      - *battlemind link* (4 ki points)
+      - abundant step (2 *ki* points): As a move action, the monk can use *dimension door* with a caster level equal to his monk level. He cannot take other creatures with him when he uses this ability.
+      - *battlemind link* (4 *ki* points)
       - diamond body: The monk gains immunity to poisons of all kinds.
-      - Elemental Fist (2 ki points)
-      - Improvised Weapon Mastery (2 ki points)
-      - Ki Throw (2 ki points)
-      - Punishing Kick (2 ki points)
-      - *shadow walk* (3 ki points)
+      - Elemental Fist (2 *ki* points)
+      - Improvised Weapon Mastery (2 *ki* points)
+      - Ki Throw (2 *ki* points)
+      - Punishing Kick (2 *ki* points)
+      - *shadow walk* (3 *ki* points)
 
       **14th-Level Ki Powers:**
 
-      - *blood crow strike* (2 ki points)
-      - Cloud Step (3 ki points)
-      - *cold ice strike* (3 ki points)
+      - *blood crow strike* (2 *ki* points)
+      - Cloud Step (3 *ki* points)
+      - *cold ice strike* (3 *ki* points)
       - diamond soul: The monk gains spell resistance equal to his current monk level + 10. In order to affect the monk with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the monk's spell resistance.
-      - Disarming Strike (2 ki points)
-      - Improved Ki Throw (2 ki points)
-      - *ki shout* (3 ki points)
-      - *sonic thrust* (2 ki points)
+      - Disarming Strike (2 *ki* points)
+      - Improved Ki Throw (2 *ki* points)
+      - *ki shout* (3 *ki* points)
+      - *sonic thrust* (2 *ki* points)
 
       **16th-Level Ki Powers:**
 
-      - Bleeding Critical (3 ki points)
-      - Greater Blind-Fight (2 ki points, can be activated as an immediate action)
-      - Improved Vital Strike (2 ki points)
-      - Lightning Stance (3 ki points)
-      - Penetrating Strike (2 ki points)
-      - quivering palm (2 ki points): The monk can set up vibrations within the body of another creature that can thereafter be fatal if the monk so desires. He can use this quivering palm attack once per day, and he must announce his intent before making his attack roll. Creatures immune to critical hits cannot be affected. Otherwise, if the monk strikes successfully and the target takes damage from the blow, the quivering palm attack succeeds. Thereafter, the monk can try to slay the victim at any later time, as long as the attempt is made within a number of days equal to his monk level. To make such an attempt, the monk merely wills the target to die (a free action), and unless the target makes a Fortitude saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier), it dies. If the saving throw is successful, the target is no longer in danger from that particular quivering palm attack, but it may still be affected by another one at a later time. A monk can have no more than 1 quivering palm in effect at one time. If a monk uses quivering palm while another is still in effect, the previous effect is negated.
-      - *strangling hair* (3 ki points)
+      - Bleeding Critical (3 *ki* points)
+      - Greater Blind-Fight (2 *ki* points, can be activated as an immediate action)
+      - Improved Vital Strike (2 *ki* points)
+      - Lightning Stance (3 *ki* points)
+      - Penetrating Strike (2 *ki* points)
+      - quivering palm (2 *ki* points): The monk can set up vibrations within the body of another creature that can thereafter be fatal if the monk so desires. He can use this quivering palm attack once per day, and he must announce his intent before making his attack roll. Creatures immune to critical hits cannot be affected. Otherwise, if the monk strikes successfully and the target takes damage from the blow, the quivering palm attack succeeds. Thereafter, the monk can try to slay the victim at any later time, as long as the attempt is made within a number of days equal to his monk level. To make such an attempt, the monk merely wills the target to die (a free action), and unless the target makes a Fortitude saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier), it dies. If the saving throw is successful, the target is no longer in danger from that particular quivering palm attack, but it may still be affected by another one at a later time. A monk can have no more than 1 quivering palm in effect at one time. If a monk uses quivering palm while another is still in effect, the previous effect is negated.
+      - *strangling hair* (3 *ki* points)
 
       **18th-Level Ki Powers:**
 
@@ -332,13 +335,13 @@ class_features:
 
       **20th-Level Ki Powers:**
 
-      - Blinding Critical (3 ki points)
-      - Crippling Critical (3 ki points)
-      - Deafening Critical (3 ki points)
-      - empty body (3 ki points): As a move action, the monk can assume an ethereal state for 1 minute as though using the spell *etherealness*. This ability only affects the monk and cannot be used to make other creatures ethereal.
-      - Greater Penetrating Strike (3 ki points)
+      - Blinding Critical (3 *ki* points)
+      - Crippling Critical (3 *ki* points)
+      - Deafening Critical (3 *ki* points)
+      - empty body (3 *ki* points): As a move action, the monk can assume an ethereal state for 1 minute as though using the spell *etherealness*. This ability only affects the monk and cannot be used to make other creatures ethereal.
+      - Greater Penetrating Strike (3 *ki* points)
       - perfect self: The monk becomes a magical creature. He is forevermore treated as an outsider rather than as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects. Additionally, the monk gains damage reduction 10/chaotic, which allows him to ignore the first 10 points of damage from any attack made by a nonchaotic weapon or by any natural attack made by a creature that doesn't have similar damage reduction. Unlike other outsiders, the monk can still be brought back from the dead as if he were a member of his previous creature type.
-      - Tiring Critical (3 ki points)
+      - Tiring Critical (3 *ki* points)
 
   - name: purity of body
     type: Ex
@@ -353,12 +356,12 @@ class_features:
   - name: intercepting fist
     type: Ex
     levels: [12]
-    text: At 12th level, a monk of the silver fist gains the ability to swiftly cross the battlefield in the defense of his allies. Whenever an ally is targeted by an attack, the monk of the silver fist can spend 1 ki point as an immediate action to move up to his speed towards that ally. If his movement ends adjacent to the targeted ally, the monk of the silver fist becomes the target of that attack, rather than his ally.
+    text: At 12th level, a monk of the silver fist gains the ability to swiftly cross the battlefield in the defense of his allies. Whenever an ally is targeted by an attack, the monk of the silver fist can spend 1 *ki* point as an immediate action to move up to his speed towards that ally. If his movement ends adjacent to the targeted ally, the monk of the silver fist becomes the target of that attack, rather than his ally.
 
   - name: reach of the silver fist
     type: Ex
     levels: [15]
-    text: At 15th level, whenever the monk initiates a strike with a range of melee attack and a target of one creature, he can spend 1 ki point as a free action to also initiate the strike against a second target within close range (25 feet + 5 feet per 2 monk of the silver fist levels). This additional strike is treated as a melee attack, and uses the monk of the silver fist's gauntlet damage as its base damage. A monk of the silver fist can only activate this ability once per strike.
+    text: At 15th level, whenever the monk initiates a strike with a range of melee attack and a target of one creature, he can spend 1 *ki* point as a free action to also initiate the strike against a second target within close range (25 feet + 5 feet per 2 monk of the silver fist levels). This additional strike is treated as a melee attack, and uses the monk of the silver fist's gauntlet damage as its base damage. A monk of the silver fist can only activate this ability once per strike.
 ---
 
 For the truly exemplary, martial skill transcends the battlefield—it is a lifestyle, a doctrine, a state of mind. These warrior-artists search out methods of battle beyond swords and shields, finding weapons within themselves just as capable of crippling or killing as any blade. These monks (so called since they adhere to ancient philosophies and strict martial disciplines) elevate their bodies to become weapons of war, from battle-minded ascetics to self-taught brawlers. Monks tread the path of discipline, and those with the will to endure that path discover within themselves not what they are, but what they are meant to be.

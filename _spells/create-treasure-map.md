@@ -8,6 +8,7 @@ spell_lists:
   - {name: druid, level: 3}
   - {name: ranger, level: 2}
   - {name: sorcerer/wizard, level: 2}
+  - {name: medium, level: 2}
 casting_time: 1 hour
 components:
   - V

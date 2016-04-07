@@ -11,6 +11,7 @@ descriptors:
   - mind-affecting
 spell_lists:
   - {name: sorcerer/wizard, level: 4}
+  - {name: medium, level: 3}
 duration: instantaneous
 spell_resistance: yes
 ---

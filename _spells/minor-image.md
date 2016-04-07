@@ -7,6 +7,7 @@ subschool: figment
 spell_lists:
   - {name: bard, level: 2}
   - {name: sorcerer/wizard, level: 2}
+  - {name: medium, level: 2}
 duration: concentration + 2 rounds
 ---
 

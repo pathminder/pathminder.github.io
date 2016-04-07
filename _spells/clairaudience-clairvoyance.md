@@ -5,6 +5,7 @@ subschool: scrying
 spell_lists:
   - {name: bard, level: 3}
   - {name: sorcerer/wizard, level: 3}
+  - {name: medium, level: 2}
 casting_time: 10 minutes
 components:
   - V

@@ -5,6 +5,7 @@ sources:
 school: transmutation
 spell_lists:
   - {name: druid, level: 4}
+  - {name: medium, level: 4}
 casting_time: 10 minutes
 components:
   - V

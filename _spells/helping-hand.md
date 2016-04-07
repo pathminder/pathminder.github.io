@@ -5,6 +5,7 @@ sources:
 school: evocation
 spell_lists:
   - {name: cleric, level: 3}
+  - {name: medium, level: 2}
 casting_time: 1 standard action
 components:
   - V

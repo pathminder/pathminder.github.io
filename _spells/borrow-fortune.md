@@ -5,6 +5,7 @@ sources:
 school: evocation
 spell_lists:
   - {name: oracle, level: 3}
+  - {name: medium, level: 3}
 casting_time: 1 immediate action
 components:
   - V

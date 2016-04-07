@@ -5,6 +5,7 @@ sources:
 school: abjuration
 spell_lists:
   - {name: sorcerer/wizard, level: 5}
+  - {name: medium, level: 4}
 casting_time: 10 minutes
 components:
   - V

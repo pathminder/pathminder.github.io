@@ -5,7 +5,7 @@ sources:
 school: enchantment
 descriptors:
   - mind-affecting
-  - pain UM
+  - pain
 spell_lists:
   - name: antipaladin
     level: 2

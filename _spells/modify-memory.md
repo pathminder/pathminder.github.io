@@ -8,6 +8,7 @@ descriptors:
   - mind-affecting
 spell_lists:
   - {name: bard, level: 4}
+  - {name: medium, level: 4}
 casting_time: 1 round; see text
 components:
   - V

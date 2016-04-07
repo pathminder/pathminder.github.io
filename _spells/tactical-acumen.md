@@ -12,6 +12,7 @@ spell_lists:
   - {name: magus, level: 2}
   - {name: paladin, level: 1}
   - {name: sorcerer/wizard, level: 2}
+  - {name: medium, level: 2}
 casting_time: 1 standard action
 components:
   - V
