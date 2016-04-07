@@ -1,5 +1,5 @@
 ---
-title: "*sealed life, greater*"
+title: "*greater sealed life*"
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
 school: abjuration

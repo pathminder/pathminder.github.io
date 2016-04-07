@@ -1,5 +1,5 @@
 ---
-title: "*Last Emperor's defending sword, mass*"
+title: "*mass Last Emperor's defending sword*"
 sources:
   - "Pathfinder Player Companion: Arcane Anthology"
 pi_title_changed: true
