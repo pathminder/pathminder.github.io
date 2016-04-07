@@ -1,21 +1,12 @@
 ---
-title: "*detect magic*"
+title: "*identify*"
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
-  - name: alchemist
-    level: 1
-  - name: bard
-    level: 1
-  - name: sorcerer/wizard
-    level: 1
-  - name: summoner
-    level: 1
-  - name: unchained summoner
-    level: 1
-  - name: witch
-    level: 1
+  - {name: bard, level: 1}
+  - {name: sorcerer/wizard, level: 1}
+  - {name: medium, level: 1}
 casting_time: 1 standard action
 components:
   - V
@@ -28,4 +19,5 @@ saving_throw: none
 spell_resistance: no
 ---
 
-This spell functions as [*detect magic*](/spells/detect-magic/), except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.
+This spell functions as detect magic, except that it gives you a +10 enhancement bonus on [Spellcraft](/skills/spellcraft/) checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.
+

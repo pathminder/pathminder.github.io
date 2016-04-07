@@ -1,0 +1,28 @@
+---
+title: "*obsidian flow*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Combat
+school: transmutation
+descriptors:
+  - earth
+  - fire
+spell_lists:
+  - {name: druid, level: 4}
+  - {name: sorcerer/wizard, level: 4}
+  - {name: summoner, level: 3}
+casting_time: 1 standard action
+components:
+  - V
+  - S
+  - M/DF (a small piece of obsidian)
+range: close
+area: 20-ft.-radius burst
+duration: instantaneous
+saving_throw: Reflex partial, see text
+spell_resistance: no
+---
+
+You convert a thin layer of the ground to molten glass that cools quickly. Creatures in the area take 1d6 points of fire damage per two caster levels (maximum of 10d6) and become entangled. Any creature within the area that makes a successful Reflex save takes half damage and is not entangled. An entangled creature can attempt to free itself by spending a move action to attempt a Strength check or [Escape Artist](/skills/escape-artist/) check (the DC equals the spell's saving throw DC).
+
+The ground is covered with slippery expanses and sharp shards of obsidian. The area of effect is difficult terrain, and the DC of [Acrobatics](/skills/acrobatics/) checks within the area of effect increases by 5. A successful DC 15 [Acrobatics](/skills/acrobatics/) check is required to run or charge across the area. A creature that falls prone in the area takes 1d6 points of damage from sharp obsidian.
+

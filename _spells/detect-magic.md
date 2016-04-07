@@ -4,30 +4,13 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 school: divination
 spell_lists:
-  - name: bard
-    level: 0
-  - name: cleric
-    level: 0
-  - name: druid
-    level: 0
-  - name: inquisitor
-    level: 0
-  - name: magus
-    level: 0
-  - name: shaman
-    level: 0
-  - name: sorcerer/wizard
-    level: 0
-  - name: summoner
-    level: 0
-  - name: unchained summoner
-    level: 0
-  - name: witch
-    level: 0
+  - {name: bard, level: 0}
+  - {name: cleric, level: 0}
+  - {name: druid, level: 0}
+  - {name: sorcerer/wizard, level: 0}
+  - {name: medium, level: 0}
 casting_time: 1 standard action
-components:
-  - V
-  - S
+Component: V, S
 range: 60 ft.
 area: cone-shaped emanation
 duration: concentration, up to 1 min./level (D)
@@ -45,22 +28,26 @@ You detect magical auras. The amount of information revealed depends on how long
 
 Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.
 
-*Aura Strength:* An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, detect magic indicates the stronger of the two.
+*Aura Strength:* An aura's power depends on a spell's functioning spell level or an item's caster level; see the accompanying table. If an aura falls into more than one category, *detect magic* indicates the stronger of the two.
 
-| Spell or Object                 |  Faint Aura  | Moderate Aura | Strong Aura |  Overwhelming Aura  |
-|:--------------------------------|:------------:|:-------------:|:-----------:|:-------------------:|
-| Functioning spell (spell level) | 3rd or lower |    4th-6th    |   7th-9th   | 10th+ (deity-level) |
-| Magic item (caster level)       | 5th or lower |   6th-11th    |  12th-20th  |  21st+ (artifact)   |
 
-*Lingering Aura:* A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
 
-| Original Strength | Duration of Lingering Aura |
-|:------------------|:--------------------------:|
-| Faint             |         1d6 rounds         |
-| Moderate          |        1d6 minutes         |
-| Strong            |       1d6x10 minutes       |
-| Overwhelming      |          1d6 days          |
 
-Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+Spell or Object | Faint Aura | Moderate Aura | Strong aura | Overwhelming Aura
+:--|:--:|:--:|:--:|:--:
+Functioning spell (spell level) | 3rd or lower | 4th--6th | 7th--9th | 10th+ (deity-level)
+Magic item (caster level) | 5th or lower | 6th--11th | 12th--20th | 21st+ (artifact)
+
+*Lingering Aura:* A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If *detect magic* is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
+
+Original Strength | Duration of Lingering Aura
+:--|:--
+Faint | 1d6 rounds
+Moderate | 1d6 minutes
+Strong | 1d6 × 10 minutes
+Overwhelming | 1d6 days
+
+Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to *detect magic* in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
 *Detect magic* can be made permanent with a [*permanency*](/spells/permanency/) spell.
+
