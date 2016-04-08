@@ -176,7 +176,7 @@ The PCs have been invited to a day of festivities at the estate of the hostess t
 
 ### What Happened?
 
-The hostess's close friend is in serious financial trouble, which she has hidden, continuing to present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess. When the hostess caught her in the act, the close friend lashed out with a nearby object and accidentally killed the hostess. Horrified at what she had done and afraid of being caught, the close friend cleaned up the blood, then activated a scroll of dress corpse (see page 212) from the hostess's first husband's supply of scrolls, applied poison stolen from the butler's supplies, and moved the body to the bedroom, all while avoiding the night guards through her careful study of their patterns used to assist her previous larceny.
+The hostess's close friend is in serious financial trouble, which she has hidden, continuing to present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess. When the hostess caught her in the act, the close friend lashed out with a nearby object and accidentally killed the hostess. Horrified at what she had done and afraid of being caught, the close friend cleaned up the blood, then activated a scroll of [*dress corpse*](/spells/dress-corpse/) from the hostess's first husband's supply of scrolls, applied poison stolen from the butler's supplies, and moved the body to the bedroom, all while avoiding the night guards through her careful study of their patterns used to assist her previous larceny.
 
 ### The Value of Influence
 
@@ -227,7 +227,7 @@ As mentioned earlier, the close friend is the murderer. She is genuinely distrau
 
 #### The Rival Investigator
 
-The hostess's accountant is also a fan of detective stories and fancies herself an amateur investigator. Extremely detail-oriented, she noticed the use of *dress corpse*, keeping it to herself. She suspects the PCs because no one else present should have had access to the sort of magic adventurers do, and adventurers are known to kill people with weapons, rather than expensive poison. She is extremely antagonistic toward the PCs, attempting to deny them access at every turn. They can't influence her without sufficient evidence that they have been framed (evidence that they conclusively didn't plant), but once they do, she allows them access to the records room and shares the clues she has discovered so far (including the remains of the bloodstain at the true murder scene, if the PCs haven't noticed it yet).
+The hostess's accountant is also a fan of detective stories and fancies herself an amateur investigator. Extremely detail-oriented, she noticed the use of [*dress corpse*](/spells/dress-corpse/), keeping it to herself. She suspects the PCs because no one else present should have had access to the sort of magic adventurers do, and adventurers are known to kill people with weapons, rather than expensive poison. She is extremely antagonistic toward the PCs, attempting to deny them access at every turn. They can't influence her without sufficient evidence that they have been framed (evidence that they conclusively didn't plant), but once they do, she allows them access to the records room and shares the clues she has discovered so far (including the remains of the bloodstain at the true murder scene, if the PCs haven't noticed it yet).
 
 ### The Second Husband
 

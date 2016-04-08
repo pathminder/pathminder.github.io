@@ -180,7 +180,7 @@ Infiltration covers both a direct infiltration with a single, set goal (similar 
 
 ### Alternate Goals
 
-An infiltration might have one of the same goals as a normal heist (see page 118), or it could aim at one of the following goals instead. Because it is less complicated than a heist, an infiltration is typically suited to smaller and more immediate goals rather than campaign-changing ones.
+An infiltration might have one of the same goals as a normal heist, or it could aim at one of the following goals instead. Because it is less complicated than a heist, an infiltration is typically suited to smaller and more immediate goals rather than campaign-changing ones.
 
 **Assassinate or Kidnap a Creature:** The object of this infiltration is to kill or capture one or a small number of targets. It's natural for a creature to let its guard down in the safety of its home or base, allowing you to catch it at its weakest. In many cases, striking at the leader will cause followers to flee or fall into infighting, thus removing the threat they present without direct conflict.
 

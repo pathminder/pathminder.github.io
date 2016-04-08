@@ -72,7 +72,7 @@ The nemesis plants a counterfeit magic item at a shop he anticipates the PCs wil
 
 **XP Reward** low
 
-The nemesis accuses the PCs of some minor crime or other misdeed, either directly or by way of a proxy he manipulated to provide false witness. The PCs must either avoid the authorities or spend time proving their innocence, often through some form of social challenge, and maybe by engaging in a verbal duel (see pages 176--181) during some form of legal proceeding. Avoiding the authorities or failing to clear their names may have more drastic consequences, such as harsh fines, imprisonment, a decrease in influence, or even some form of corporal punishment.
+The nemesis accuses the PCs of some minor crime or other misdeed, either directly or by way of a proxy he manipulated to provide false witness. The PCs must either avoid the authorities or spend time proving their innocence, often through some form of social challenge, and maybe by engaging in a [verbal duel](/systems/verbal-duels/) during some form of legal proceeding. Avoiding the authorities or failing to clear their names may have more drastic consequences, such as harsh fines, imprisonment, a decrease in influence, or even some form of corporal punishment.
 
 **Opportunities:** The nemesis's witness can't keep her story straight or proves that she knows something she shouldn't. This not only undermines her lies, but also likely implicates the nemesis in some wrongdoing.
 
