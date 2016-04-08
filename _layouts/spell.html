@@ -14,7 +14,19 @@ layout: default
       {% endif %}
 
       {% if page.descriptors %}
-        [{{ page.descriptors | join: ', ' }}]
+        {% assign descriptor_array = empty_array %}
+
+        {% for descriptor in page.descriptors %}
+          {% assign descriptor_entry = site.descriptors | where: 'title', descriptor %}
+          {% if descriptor_entry[0] %}
+            {% assign descriptor_link = "<a href='" | append: descriptor_entry[0].url | append: "'>" | append: descriptor_entry[0].title | append: "</a>" %}
+            {% assign descriptor_array = descriptor_array | push: descriptor_link %}
+          {% else %}
+            {% assign descriptor_array = descriptor_array | push: descriptor %}
+          {% endif %}
+        {% endfor %}
+
+        [{{ descriptor_array | join: ', ' }}]
       {% endif %}
     </li>
   {% endif %}
