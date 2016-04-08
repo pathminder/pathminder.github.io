@@ -1,5 +1,7 @@
 ---
 title: "*conditional curse*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: necromancy
 descriptors:
   - curse

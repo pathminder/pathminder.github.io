@@ -1,5 +1,7 @@
 ---
 title: "*greater instant summons*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: summoning
 spell_lists:

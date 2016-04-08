@@ -1,5 +1,7 @@
 ---
 title: "*ghost brand*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 descriptors:
   - shadow

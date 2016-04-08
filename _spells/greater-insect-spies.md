@@ -1,5 +1,7 @@
 ---
 title: "*greater insect spies*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: druid, level: 6}

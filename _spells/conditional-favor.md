@@ -1,5 +1,7 @@
 ---
 title: "*conditional favor*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: abjuration
 spell_lists:
   - {name: antipaladin, level: 1}

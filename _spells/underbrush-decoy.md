@@ -1,5 +1,7 @@
 ---
 title: "*underbrush decoy*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 spell_lists:
   - {name: druid, level: 1}

@@ -1,5 +1,7 @@
 ---
 title: "*deadman's contingency*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: evocation
 spell_lists:
   - {name: bard, level: 4}

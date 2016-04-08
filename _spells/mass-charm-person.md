@@ -1,5 +1,7 @@
 ---
 title: "*mass charm person*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: charm
 descriptors:

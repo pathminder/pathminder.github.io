@@ -1,5 +1,7 @@
 ---
 title: "*trace teleport*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: psychic, level: 4}

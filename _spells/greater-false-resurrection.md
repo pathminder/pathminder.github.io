@@ -1,5 +1,7 @@
 ---
 title: "*greater false resurrection*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: calling
 descriptors:

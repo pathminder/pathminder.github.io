@@ -1,5 +1,7 @@
 ---
 title: "*mage's decree*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: evocation
 spell_lists:
   - {name: bard, level: 5}

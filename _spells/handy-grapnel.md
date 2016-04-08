@@ -1,5 +1,7 @@
 ---
 title: "*handy grapnel*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 spell_lists:
   - {name: inquisitor, level: 1}

@@ -1,5 +1,7 @@
 ---
 title: "*crime of opportunity*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

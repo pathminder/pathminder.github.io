@@ -1,5 +1,7 @@
 ---
 title: "*detect the faithful*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: antipaladin, level: 1}

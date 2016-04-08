@@ -1,5 +1,7 @@
 ---
 title: "*detect anxieties*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 descriptors:
   - mind-affecting

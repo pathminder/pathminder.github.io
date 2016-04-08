@@ -1,5 +1,7 @@
 ---
 title: "*wizened appearance*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 subschool: polymorph
 spell_lists:

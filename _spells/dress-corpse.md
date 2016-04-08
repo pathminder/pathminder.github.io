@@ -1,5 +1,7 @@
 ---
 title: "*dress corpse*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: necromancy
 spell_lists:
   - {name: cleric, level: 2}

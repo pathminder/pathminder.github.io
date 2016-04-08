@@ -1,5 +1,7 @@
 ---
 title: "*scripted hallucination*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: phantasm
 descriptors:

@@ -1,5 +1,7 @@
 ---
 title: "*resplendent mansion*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: creation
 spell_lists:

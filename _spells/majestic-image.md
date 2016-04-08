@@ -1,5 +1,7 @@
 ---
 title: "*majestic image*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 spell_lists:
   - {name: bard, level: 4}

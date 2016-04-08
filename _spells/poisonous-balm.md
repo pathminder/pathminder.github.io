@@ -1,5 +1,7 @@
 ---
 title: "*poisonous balm*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: healing
 descriptors:

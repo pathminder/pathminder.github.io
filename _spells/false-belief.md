@@ -1,5 +1,7 @@
 ---
 title: "*false belief*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

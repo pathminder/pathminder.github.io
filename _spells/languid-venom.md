@@ -1,5 +1,7 @@
 ---
 title: "*languid venom*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: necromancy
 descriptors:
   - poison

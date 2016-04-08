@@ -1,5 +1,7 @@
 ---
 title: "*controlled fireball*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: evocation
 descriptors:
   - fire

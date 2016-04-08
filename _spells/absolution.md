@@ -1,5 +1,7 @@
 ---
 title: "*absolution*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: abjuration
 spell_lists:
   - {name: cleric, level: 4}

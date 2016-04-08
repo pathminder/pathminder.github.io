@@ -1,5 +1,7 @@
 ---
 title: "*reincarnate spy*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: healing
 spell_lists:

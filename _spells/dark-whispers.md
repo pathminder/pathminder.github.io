@@ -1,5 +1,7 @@
 ---
 title: "*dark whispers*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: shadow
 descriptors:

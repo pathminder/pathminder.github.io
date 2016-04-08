@@ -1,5 +1,7 @@
 ---
 title: "*urban step*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: teleportation
 spell_lists:

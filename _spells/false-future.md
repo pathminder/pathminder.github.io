@@ -1,5 +1,7 @@
 ---
 title: "*false future*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: glamer
 spell_lists:

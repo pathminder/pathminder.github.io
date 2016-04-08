@@ -1,5 +1,7 @@
 ---
 title: "*deflect blame*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

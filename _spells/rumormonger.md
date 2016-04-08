@@ -1,5 +1,7 @@
 ---
 title: "*rumormonger*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: bard, level: 2}

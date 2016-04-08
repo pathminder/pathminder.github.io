@@ -1,5 +1,7 @@
 ---
 title: "*swallow poison*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 spell_lists:
   - {name: alchemist, level: 5}

@@ -1,5 +1,7 @@
 ---
 title: "*illusion of treachery*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: figment
 spell_lists:

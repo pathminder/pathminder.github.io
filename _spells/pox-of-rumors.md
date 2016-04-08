@@ -1,5 +1,7 @@
 ---
 title: "*pox of rumors*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

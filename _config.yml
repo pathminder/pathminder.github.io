@@ -125,6 +125,9 @@ collections:
   bushido:
     output: true
     title: Bushido
+  descriptors:
+    output: true
+    title: Descriptors
   feats:
     output: true
     title: Feats
@@ -150,6 +153,8 @@ collections:
     output: true
     title: Rogue Advanced Talents
   sources:
+    output: true
+    title: Sources
   skills:
     output: true
     title: Skills

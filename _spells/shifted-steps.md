@@ -1,5 +1,7 @@
 ---
 title: "*shifted steps*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: glamer
 descriptors:

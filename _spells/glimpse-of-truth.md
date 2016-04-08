@@ -1,5 +1,7 @@
 ---
 title: "*glimpse of truth*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: alchemist, level: 5}

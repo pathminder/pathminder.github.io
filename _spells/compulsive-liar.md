@@ -1,5 +1,7 @@
 ---
 title: "*compulsive liar*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

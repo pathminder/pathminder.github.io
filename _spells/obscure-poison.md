@@ -1,5 +1,7 @@
 ---
 title: "*obscure poison*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: abjuration
 spell_lists:
   - {name: alchemist, level: 1}

@@ -1,5 +1,7 @@
 ---
 title: "*red hand of the killer*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: necromancy
 spell_lists:
   - {name: bard, level: 4}

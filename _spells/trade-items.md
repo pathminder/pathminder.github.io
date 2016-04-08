@@ -1,5 +1,7 @@
 ---
 title: "*trade items*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: teleportation
 spell_lists:

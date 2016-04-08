@@ -1,5 +1,7 @@
 ---
 title: "*treacherous teleport*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: teleportation
 descriptors:

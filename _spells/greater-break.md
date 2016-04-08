@@ -1,5 +1,7 @@
 ---
 title: "*greater break*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: transmutation
 spell_lists:
   - {name: bloodrager, level: 4}

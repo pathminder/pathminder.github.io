@@ -1,5 +1,7 @@
 ---
 title: "*aura of the unremarkable*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: enchantment
 subschool: compulsion
 descriptors:

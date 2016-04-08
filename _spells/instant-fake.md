@@ -1,5 +1,7 @@
 ---
 title: "*instant fake*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: figment
 spell_lists:

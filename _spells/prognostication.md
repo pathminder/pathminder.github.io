@@ -1,5 +1,7 @@
 ---
 title: "*prognostication*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: cleric, level: 6}

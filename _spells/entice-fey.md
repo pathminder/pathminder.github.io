@@ -1,5 +1,7 @@
 ---
 title: "*entice fey*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: calling
 spell_lists:

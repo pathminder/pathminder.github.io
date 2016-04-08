@@ -1,5 +1,7 @@
 ---
 title: "*aerial tracks*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 descriptors:
   - air

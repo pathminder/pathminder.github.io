@@ -1,5 +1,7 @@
 ---
 title: "*pocketful of vipers*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: conjuration
 subschool: summoning
 spell_lists:

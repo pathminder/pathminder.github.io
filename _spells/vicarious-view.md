@@ -1,5 +1,7 @@
 ---
 title: "*vicarious view*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 subschool: scrying
 spell_lists:

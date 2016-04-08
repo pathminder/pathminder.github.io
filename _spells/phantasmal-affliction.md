@@ -1,5 +1,7 @@
 ---
 title: "*phantasmal affliction*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: illusion
 subschool: phantasm
 descriptors:

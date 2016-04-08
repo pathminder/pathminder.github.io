@@ -1,5 +1,7 @@
 ---
 title: "*open book*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 descriptors:
   - curse

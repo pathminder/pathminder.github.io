@@ -1,5 +1,7 @@
 ---
 title: "*voluminous vocabulary*"
+sources:
+  - Pathfinder Roleplaying Game Ultimate Intrigue
 school: divination
 spell_lists:
   - {name: alchemist, level: 3}
