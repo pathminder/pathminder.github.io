@@ -1,5 +1,7 @@
 ---
 title: Lords of the Night
+tags:
+  - Dreamscarred Press
 product_image: /images/lords-of-the-night.png
 product_url: http://drivethrurpg.com/product/148871/Lords-of-the-Night
 section_15:

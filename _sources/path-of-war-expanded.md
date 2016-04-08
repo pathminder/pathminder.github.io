@@ -1,5 +1,7 @@
 ---
 title: "Path of War: Expanded"
+tags:
+  - Dreamscarred Press
 product_image: /images/path-of-war-expanded.jpg
 product_url: http://drivethrurpg.com/product/177763/Path-of-War-Expanded
 section_15:

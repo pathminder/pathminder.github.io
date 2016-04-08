@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign empty_array = '' | split: '|' %}
+
+{% for collection in site.collections %}
+  {% assign this_collection_items = empty_array %}
+
+  {% for item in collection.docs %}
+    {% if item.sources contains page.title %}
+      {% assign this_collection_items = this_collection_items | push: item %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign this_collection_size = this_collection_items|size %}
+  {% if this_collection_size > 0 %}
+    {% assign this_collection_items = this_collection_items | sort: 'title' %}
+
+    <h2>{{ collection.title }}</h2>
+
+    <ul>
+      {% for item in this_collection_items %}
+        <li><a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

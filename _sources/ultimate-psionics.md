@@ -1,5 +1,7 @@
 ---
 title: Ultimate Psionics
+tags:
+  - Dreamscarred Press
 product_image: /images/ultimate-psionics.png
 product_url: http://www.drivethrurpg.com/product/124281/Ultimate-Psionics
 section_15:

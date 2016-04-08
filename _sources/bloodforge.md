@@ -1,5 +1,7 @@
 ---
 title: Bloodforge
+tags:
+  - Dreamscarred Press
 product_image: /images/bloodforge.png
 product_url: http://www.drivethrurpg.com/product/132681/Bloodforge
 section_15:

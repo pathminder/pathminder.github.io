@@ -1,5 +1,7 @@
 ---
 title: Path of War
+tags:
+  - Dreamscarred Press
 product_url: http://www.drivethrurpg.com/product/135308/Path-of-War
 product_image: /images/path-of-war.jpg
 section_15:

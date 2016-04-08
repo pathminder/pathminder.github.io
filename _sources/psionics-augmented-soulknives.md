@@ -1,5 +1,7 @@
 ---
 title: "Psionics Augmented: Soulknives"
+tags:
+  - Dreamscarred Press
 product_image: /images/psionics-augmented-soulknives.png
 product_url: http://www.drivethrurpg.com/product/173648/Psionics-Augmented-Soulknives
 section_15:

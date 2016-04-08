@@ -81,6 +81,11 @@ defaults:
       layout: rogue-talent
   - scope:
       path: ""
+      type: sources
+    values:
+      layout: source
+  - scope:
+      path: ""
       type: skills
     values:
       layout: skill
