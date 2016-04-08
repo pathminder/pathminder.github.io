@@ -1,0 +1,7 @@
+---
+title: sonic
+sources:
+  - Pathfinder Roleplaying Game Ultimate Magic
+---
+
+Sonic effects transmit energy to the target through frequent oscillations of pressure through the air, water, or ground. Sounds that are too high or too low for the humanoid ear to detect can still transmit enough energy to cause harm, which means that these effects can even affect deafened creatures. Sound effects can cause hit point damage, deafness, dizziness, nausea, pain, shortness of breath, and temporary blindness, and can detect creatures using batlike echolocation.
