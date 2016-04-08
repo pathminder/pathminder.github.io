@@ -41,6 +41,11 @@ defaults:
       layout: bushido
   - scope:
       path: ""
+      type: descriptors
+    values:
+      layout: descriptor
+  - scope:
+      path: ""
       type: feat-types
     values:
       layout: feat-type
