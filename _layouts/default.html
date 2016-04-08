@@ -39,9 +39,6 @@
               <a class="dropdown-item" href="/prestige-classes/">Prestige Classes</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/skills/">Skills</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" id="powers-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Feature Groups
@@ -72,8 +69,19 @@
             <div class="dropdown-menu" aria-labelledby="powers-dropdown">
               <a class="dropdown-item" href="/feats/">Feats</a>
               <a class="dropdown-item" href="/maneuvers/">Maneuvers</a>
+              <a class="dropdown-item" href="/skills/">Skills</a>
               <a class="dropdown-item" href="/spells/">Spells</a>
               <a class="dropdown-item" href="/traits/">Traits</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" id="powers-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Systems
+            </a>
+            <div class="dropdown-menu" aria-labelledby="powers-dropdown">
+              {% for system in site.systems %}
+                <a class="dropdown-item" href="{{ system.url }}">{{ system.title }}</a>
+              {% endfor %}
             </div>
           </li>
         </ul>

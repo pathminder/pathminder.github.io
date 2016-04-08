@@ -159,6 +159,9 @@ collections:
   stalker-arts:
     output: true
     title: Stalker Arts
+  systems:
+    output: true
+    title: Systems
   tactical-presences:
     output: true
     title: Tactical Presences
