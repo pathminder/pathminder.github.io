@@ -1,0 +1,29 @@
+---
+title: Metamagic
+sources:
+  - Pathfinder Roleplaying Game Core Rulebook
+---
+
+As a spellcaster's knowledge of magic grows, he can learn to cast spells in ways slightly different from the norm. Preparing and casting a spell in such a way is harder than normal but, thanks to metamagic feats, is at least possible. Spells modified by a metamagic feat use a spell slot higher than normal. This does not change the level of the spell, so the DC for saving throws against it does not go up. Metamagic feats do not affect spell-like abilities.
+
+**Prepared Spellcasters:** Prepared spellcasters, like wizards and clerics, must prepare their spells in advance. During preparation, the character chooses which spells to prepare with metamagic feats (and thus which ones take up higher-level spell slots than normal).
+
+**Cpontaneous Spellcasters:** Spontaneous spellcasters, like sorcerers and bards, choose spells as they cast them. They can choose when they cast their spells whether to apply their metamagic feats to improve them. As with other spellcasters, the improved spell uses up a higher-level spell slot. Because the sorcerer or bard has not prepared the spell in a metamagic form in advance, he must apply the metamagic feat on the spot. Therefore, such a character must also take more time to cast a metamagic spell (one enhanced by a metamagic feat) than he does to cast a regular spell. If the spell's normal casting time is a standard action, casting a metamagic version is a full-round action for a sorcerer or bard. (This isn't the same as a 1-round casting time.) The only exception is for spells modified by the Quicken Spell metamagic feat, which can be cast as normal using the feat.
+
+For a spell with a longer casting time, it takes an extra full-round action to cast the spell.
+
+**Converted Spontaneous Casting and Metamagic Feats:** A cleric spontaneously casting a *cure* or *inflict* spell, or a druid spontaneously casting a *summon nature's ally* spell, can cast a metamagic version of it instead. Extra time is also required in this case. Casting a standard action metamagic spell spontaneously is a full-round action, and a spell with a longer casting time takes an extra full-round action to cast. The only exception is for spells modified by the Quicken Spell feat, which can be cast as a swift action.
+
+**Effects of Metamagic Feats on a Spell:** In all ways, a metamagic spell operates at its original spell level, even though it is prepared and cast using a higher-level spell slot. Saving throw modifications are not changed unless stated otherwise in the feat description.
+
+The modifications made by these feats only apply to spells cast directly by the feat user. A spellcaster can't use a metamagic feat to alter a spell being cast from a wand, scroll, or other device.
+
+Metamagic feats that eliminate components of a spell don't eliminate the attack of opportunity provoked by casting a spell while threatened. Casting a spell modified by Quicken Spell does not provoke an attack of opportunity.
+
+Metamagic feats cannot be used with all spells. See the specific feat descriptions for the spells that a particular feat can't modify.
+
+**Multiple Metamagic Feats on a Spell:** A spellcaster can apply multiple metamagic feats to a single spell. Changes to its level are cumulative. You can't apply the same metamagic feat more than once to a single spell.
+
+**Magic Items and Metamagic Spells:** With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.
+
+**Counterspelling Metamagic Spells:** Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell.
