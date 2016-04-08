@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Spells</h2>
+
+<ul>
+  {% for spell in site.spells %}
+    {% if spell.descriptors contains page.title %}
+      <li><a href="{{ spell.url }}">{{ spell.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Maneuvers</h2>
+
+<ul>
+  {% for maneuver in site.maneuvers %}
+    {% if maneuver.descriptors contains page.title %}
+      <li><a href="{{ maneuver.url }}">{{ maneuver.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
