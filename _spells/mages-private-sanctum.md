@@ -21,7 +21,7 @@ spell_resistance: no
 
 This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.
 
-Divination (scrying) spells cannot perceive anything within the area, and those within are immune to [*detect thoughts*](/spells/detect-thoughts/). The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a [*sending*](/spell/sending/) or [*message*](/spells/message/) spell, or telepathic communication, such as that between a wizard and his familiar.
+Divination (scrying) spells cannot perceive anything within the area, and those within are immune to [*detect thoughts*](/spells/detect-thoughts/). The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a [*sending*](/spells/sending/) or [*message*](/spells/message/) spell, or telepathic communication, such as that between a wizard and his familiar.
 
 The spell does not prevent creatures or objects from moving into and out of the area.
 

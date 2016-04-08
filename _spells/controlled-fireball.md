@@ -23,7 +23,7 @@ saving_throw: Reflex half
 spell_resistance: yes
 ---
 
-This spell functions as [*fireball*](/spell/fireball/) except you can cause the bead offire to originate from anywhere you can see within range. You can choose a number of squares within the area up to your Intelligence bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be struck by weaker flames; the *controlled fireball* deals minimum damage in those squares.
+This spell functions as [*fireball*](/spells/fireball/) except you can cause the bead offire to originate from anywhere you can see within range. You can choose a number of squares within the area up to your Intelligence bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be struck by weaker flames; the *controlled fireball* deals minimum damage in those squares.
 
 Attempts to identify *controlled fireball* with a skill check incorrectly identify it as [*fireball*](/spells/fireball/) (as per the [ruse](/descriptors/ruse/) descriptor).
 

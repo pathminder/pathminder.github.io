@@ -12,4 +12,4 @@ spell_lists:
 effect: up to one sword per 3 levels
 ---
 
-This spell functions as [*Last Emperor's defending sword*](/spell/last-emperors-defending-sword/), except you can create one sword per 5 caster levels, each of which must defend a different creature within range.
+This spell functions as [*Last Emperor's defending sword*](/spells/last-emperors-defending-sword/), except you can create one sword per 5 caster levels, each of which must defend a different creature within range.

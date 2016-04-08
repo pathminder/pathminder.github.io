@@ -19,7 +19,7 @@ saving_throw: see text
 spell_resistance: yes
 ---
 
-*Forbiddance* seals an area against all planar travel into or within it. This includes all teleportation spells (such as [*dimension door*](/spell/dimension-door/) and [*teleport*](/spells/teleport/0), plane shifting, astral travel, ethereal travel, and all summoning spells. Such effects simply fail automatically.
+*Forbiddance* seals an area against all planar travel into or within it. This includes all teleportation spells (such as [*dimension door*](/spells/dimension-door/) and [*teleport*](/spells/teleport/0), plane shifting, astral travel, ethereal travel, and all summoning spells. Such effects simply fail automatically.
 
 In addition, it damages entering creatures whose alignments are different from yours. The effect on those attempting to enter the warded area is based on their alignment relative to yours (see below). A creature inside the area when the spell is cast takes no damage unless it exits the area and attempts to reenter, at which time it is affected as normal.
 
