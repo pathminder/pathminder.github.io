@@ -1,5 +1,5 @@
 ---
-title: Verbal Combat
+title: Verbal Duels
 sources:
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ---
