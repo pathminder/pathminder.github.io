@@ -17,7 +17,7 @@ components:
 range: close
 target: one incorporeal creature
 duration: 1 round/level
-saving_throw: Fortitude negates
+saving_throw: Will negates
 spell_resistance: yes
 ---
 
