@@ -1,6 +1,7 @@
 ---
 title: Vile Leadership
 sources:
+  - "Pathfinder Player Companion: Champions of Corruption"
   - Pathfinder Roleplaying Game Ultimate Intrigue
 tags:
 flavor_text: You rule over your own cabal of minions with a villainous cohort as your lieutenant.
