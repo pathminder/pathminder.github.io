@@ -74,6 +74,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Arcane Anthology*, Copyright 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross.
 - *Pathfinder Player Companion: Champions of Balance*, Copyright 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz
+- *Pathfinder Player Companion: Champions of Corruption*, Copyright 2014, Paizo Inc.; Authors: Paris Crenshaw, Jim Groves, Sean McGowen, and Philip Minchin.
 - *Pathfinder Player Companion: Giant Hunter’s Handbook*, Copyright 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross.
 - *Pathfinder Player Companion: Melee Tactics Toolbox*, Copyright 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz.
 - *Pathfinder Roleplaying Game Advanced Class Guide*, Copyright 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn. Jim Groves, Tim Hitchcock, Tracey Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.
