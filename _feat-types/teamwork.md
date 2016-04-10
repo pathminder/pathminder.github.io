@@ -1,6 +1,7 @@
 ---
 title: Teamwork
 sources:
+  - Pathfinder Roleplaying Game Advanced Class Guide
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ---
 

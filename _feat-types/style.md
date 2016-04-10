@@ -1,6 +1,7 @@
 ---
 title: Style
 sources:
+  - Pathfinder Roleplaying Game Advanced Class Guide
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ---
 
@@ -10,9 +11,21 @@ As a swift action, you can enter the stance employed by the fighting style that 
 
 *Feat Path:* Fox Style, Fox Insight, Fox Trickery.
 
+**Grabbing Style:** This discipline is a wrestling and grappling style that favors powerful one-handed grabs, fast repositioning of those grabbed, and the ability to move and damage one or two opponents.
+
+*Feat Path:* Grabbing Style, Grabbing Drag, Grabbing Master.
+
+**Jabbing Style:** This style favors rapid punches and kicks, typically while the fighter circles her foe. Many of these land in the same area, delivering more pain with each successive hit, or in debilitating areas of the body.
+
+*Feat Path:* Jabbing Style, Jabbing Dancer, Jabbing Master.
+
 **Owl Style:** This style takes advantage of basic training in skills that affect movement to enhance those skills through combat ability.
 
 *Feat Path:* Owl Style, Owl Swoop, Owl Dive.
+
+**Pummeling Style:** Powerful and seemingly wild haymaker punches and extended kicks are the hallmark of this style. Deeply rooted in its martial philosophy is the concept that landing one mighty strike in the right area will send an opponent sprawling.
+
+*Feat Path:* Pummeling Style, Pummeling Bully, Pummeling Charge.
 
 **Street Style:** A practitioner of this creative unarmed combat style takes advantage of urban environments to bash foes against brick walls, drag them over rough cobblestones, and impale them on fence posts and other sharp-edged objects.
 
