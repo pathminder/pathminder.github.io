@@ -54,6 +54,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 15. Copyright NOTICE
 
+- *Advanced Bestiary*, Copyright 2004, Green Ronin Publishing, LLC; Author: Matthew Sernett.
 - *Advanced Player's Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn
 - *Akashic Mysteries*, Copyright 2014 Dreamscarred Press; Author: Michael Sayre
 - *Anger of Angels*, Copyright 2003, Sean K Reynolds.
@@ -70,6 +71,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Path of War*, Copyright 2014, Dreamscarred Press.
 - *Pathfinder Advanced Player's Guide*, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
 - *Pathfinder Advanced Player’s Guide* Update 1.0, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
+- *Pathfinder Campaign Setting: Inner Sea Magic*, Copyright 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor.
 - *Pathfinder Companion: Adventurer's Armory*, Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Arcane Anthology*, Copyright 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross.

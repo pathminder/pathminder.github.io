@@ -56,6 +56,11 @@ defaults:
       layout: feat
   - scope:
       path: ""
+      type: magic-items
+    values:
+      layout: magic-item
+  - scope:
+      path: ""
       type: maneuvers
     values:
       layout: maneuver
@@ -144,6 +149,9 @@ collections:
   feat-types:
     output: true
     title: Feat Types
+  magic-items:
+    output: true
+    title: Magic Items
   maneuvers:
     output: true
     title: Maneuvers
