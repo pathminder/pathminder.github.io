@@ -2,7 +2,7 @@
 title: Sickening Critical
 tags:
   - Combat
-  - critical
+  - Critical
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your critical hits cause opponents to become sickened.
