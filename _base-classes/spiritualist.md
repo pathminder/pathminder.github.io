@@ -2,6 +2,7 @@
 title: Spiritualist
 sources:
   - Pathfinder Roleplaying Game Occult Adventures
+  - "Pathfinder Campaign Setting: Occult Realms"
 tags:
   - Psychic
 
@@ -226,11 +227,27 @@ class_features:
 
       *Shelter Allies (Su):* When the spiritualist reaches 17th level, the phantom protects its allies from terror. Allies within the phantom's increase fear aura are immune to fear as long as they are within the aura. This ability also grants the phantom's spiritualist master immunity to fear as long as the phantom is not banished to the Ethereal Plane.
 
+      **Greed:** A phantom with this focus voraciously coveted gold, gems, and hedonistic possessions in life. Such phantoms are still obsessed with hoarding wealth and project that avarice onto the spiritualists to whom they are bonded. Their coloration tends toward yellow, and the sound of jangling coins sometime manifests when they attack.
+
+      *Skills:* The phantom gains a number of ranks in Appraise and Sleight of Hand equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+
+      *Good Saves:* Fortitude and Reflex.
+
+      *Eye of Avarice:* The phantom adds half its number of Hit Dice (minimum 1) as a bonus on its Appraise checks. While it is confined to the spiritualist's consciousness, when the spiritualist attempts to identify the properties of a magic item using detect magic, the phantom grants the spiritualist this bonus on Spellcraft check.
+
+      *Ruthless Combatant (Su)*: A phantom with this focus threatens a critical hit with its slam attacks on a result of 19--20. At 11th level, its critical multiplier with slam attacks increases to ×3.
+
+      *Assume Effect (Su):* When the spiritualist reaches 7th level, when she casts a spell on herself with a range other than personal, the spell can also affect her phantom. The phantom can benefit from this ability once per day, plus one additional time per day when the spiritualist reaches 12th level and a third time when the spiritualist reaches 19th level.
+
+      *Covetous Aura (Su):* When the spiritualist reaches 12th level, as a swift action the phantom can emit a 20-foot-radius aura that exemplifies its covetous nature. The aura lasts for a number of rounds per day equal to the phantom's Hit Dice. These rounds need not be used consecutively, and the phantom can dismiss its covetous aura as a free action. Whenever a harmless (so noted by a spell's saving throw description) spell of 2nd level or lower is cast by a creature within the covetous aura, the phantom can immediately gain the benefit of that spell as if the spell had also targeted it. The intended target still gains the effect of the spell.
+
+      *Take It with You (Su):* When the spiritualist reaches 17th level, whenever the phantom is reduced to 0 hit points, a number of harmless spells affecting the phantom equal to the phantom's Charisma modifier are immediately transferred to the spiritualist for the remainder of their duration. If desired, the spiritualist can transfer only some (or none) of the spells affecting the phantom.
+
       **Hatred:** Few things draw a spirit toward the Negative Material Plane like the emotion of hatred. Phantoms with this focus often are blinded by---and blind others with---this powerful emotion. These phantoms are frequently darker and more foreboding than all but those phantoms with the fear emotional focus. Many of them manifest as dark and dreadful knights, their armor bristling with spikes and their hands seeming to grasp barbed and terrible weapons. Other times they appear as tall, gaunt figures staring down arrogantly at those who approach. These phantoms typically spew a string of curses at their foes, often profane, sometimes poetic. Their auras are pulsating and pitch black, and thrum violently when these horrible phantoms attack.
 
       *Skills:* The phantom gains a number of ranks in Acrobatics and Perception equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
 
-      *Good Saves:* Fortitude and Ref lex.
+      *Good Saves:* Fortitude and Reflex.
 
       *Weapon Finesse:* The phantom gains Weapon Finesse as a bonus feat.
 
@@ -252,11 +269,43 @@ class_features:
 
       *Jealous Combatant (Su):* Each time the phantom hits a creature with a melee attack, for 1 round that creature takes a --2 penalty on all attack rolls made against anyone other than the phantom. This effect does not stack with itself.
 
-      *Resentful Aura (Su):* When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot- radius aura that forces enemies within the aura who make an attack or cast a spell that does not include the phantom in its effect to succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or become staggered until the end of the enemy's next turn. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.
+      *Resentful Aura (Su):* When the spiritualist reaches 7th level, as a swift action, the phantom can emit a 20-foot-radius aura that forces enemies within the aura who make an attack or cast a spell that does not include the phantom in its effect to succeed at a Will saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or become staggered until the end of the enemy's next turn. Ending the aura is a free action. The phantom can use this ability in either ectoplasmic or incorporeal form.
 
       *Retribution (Su):* When the spiritualist reaches 12th level, each time a creature attacks the phantom's master, whether that attack hits or misses, it enrages the phantom. Until the end of the phantom's next turn, any attack the phantom makes that hits the creature that has attacked her deals 2d8 extra points of damage. This extra damage is precision damage.
 
       *Mine to Take (Su):* When the spiritualist reaches 17th level, once per day as an immediate action, just before the phantom's master is about to attempt a saving throw or be targeted by an attack roll, the phantom and the spiritualist can swap places as long as both are on the same plane and the phantom is aware of the attack or effect. After the swap occurs, the phantom is targeted by the attack or effect that triggered this ability, though the phantom may be immune or resistant to the effect. This is a teleportation effect. The phantom can use this ability in either ectoplasmic or incorporeal form.
+
+      **Lust:** A phantom with this focus aches for the intoxicating pleasures it experienced during life. These phantoms often writhe sensuously and whisper promises of unadulterated bliss to those they fight. Lust phantoms are typically deep rose in color, and they sometimes emit musky, exotic scents when they move.
+
+      *Skills:* The phantom gains a number of ranks in Bluff and Diplomacy equal to its number of Hit Dice. While confined in the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+
+      *Good Saves:* Fortitude and Will.
+
+      *Constitution Focus:* A phantom with this focus gains a +2 bonus to Constitution and a --2 penalty to Dexterity. Instead of gaining a bonus to Dexterity as the spiritualist gains levels, a lust-focused phantom gains a bonus to Constitution instead.
+
+      *Alluring Presence (Su):* A phantom with this focus can coerce enemies to attack it. As an immediate action, the phantom attempts a Diplomacy check against a creature targeting the spiritualist with an attack or harmful spell, provided the phantom is within the target creature's reach (or range, if the creature is attacking with a ranged weapon or spell). The DC for this check equals 10 + 1/2 the attacking creature's HD + the attacking creature's Wisdom modifier. If successful, the phantom becomes the target of all the creature's attacks for 1 round. This is a mind-affecting compulsion emotion effect.
+
+      *Mine Alone (Su):* When the spiritualist reaches 7th level, whenever the spiritualist or the phantom is subject to a charm or compulsion effect, the target of the effect can roll twice for its save---once using the spiritualist's Will save modifier and once using the phantom's---and take the better result.
+
+      *Aura of Ecstasy (Su):* When the spiritualist reaches 12th level, the lust phantom emanates an aura of ecstasy. All creatures adjacent to the phantom must succeed at a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or be shaken and staggered each round that they remain within the aura of ecstasy. Creatures that succeed at this save are immune to this phantom's aura of ecstasy for 24 hours.
+
+      *Sinful Command (Su):* When the spiritualist reaches 17th level, once per day as a standard action, the phantom can attempt to assume control of another creature's mind as per the [*dominate monster*](/spells/dominate-monster/) spell. The DC of the effect is equal to 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier.
+
+      **Pride:** No phantom is as arrogant as a pride phantom, which in life was an insufferable braggart and egotist. These phantoms often puff and posture while fighting, shouting brash taunts and paeans to their own supposed skill in all things. Pride phantoms are often a roiling green in color.
+
+      *Skills:* The phantom gains a number of ranks in Intimidate and in Perception equal to its number of Hit Dice. While the phantom is confined within the spiritualist's consciousness, the phantom grants the spiritualist Skill Focus in each of these skills.
+
+      *Good Saves:* Reflex and Will.
+
+      *Resolve:* A phantom that has this emotional focus is immune to fear effects. However, when the phantom fails an ability check, skill check, or attack roll, it loses this immunity for 1 hour. Multiple failed checks or rolls are not cumulative. Instead, they simply reset the hour of lost immunity.
+
+      *Flagrant Disregard (Ex):* As a swift action, the phantom can gain a +2 bonus on all attack rolls while taking a --1 penalty to AC for 1 round. For every 4 points of base attack bonus the phantom has, this bonus on attack rolls increases by 1 and the penalty to AC increases by 1.
+
+      *Vainglorious Oration (Su):* When the spiritualist reaches 7th level, the phantom can espouse bold lies about its own prowess as a swift action to cause enemies to become shaken. To be affected, an enemy must be within 30 feet of the phantom and able to hear it. This effect persists as long as the enemy is within 30 feet (the phantom can end the oration as a free action). This ability cannot cause a creature to become frightened or panicked, even if the target was already shaken from another effect. This is a mind-affecting fear effect that relies on audible components.
+
+      *Overwhelming Confidence (Su):* When the spiritualist reaches 12th level, as long as the phantom is immune to fear effects from its resolve ability, any morale bonuses affecting the phantom are doubled. If the phantom loses its immunity to fear, all doubled morale bonuses that are affecting the phantom are instead applied as penalties for the remainder of their duration or until the phantom regains its immunity to fear (whichever comes first).
+
+      *Illusion of Perfection (Su):* When the spiritualist reaches 17th level, the greed phantom can shroud itself in an illusion as a swift action, appearing as a model of absolute physical perfection---its idealized image of itself. The phantom gains a bonus on melee damage rolls equal to its Charisma modifier. However, whenever the phantom deals damage to a creature, the creature can attempt a Will save (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) to disbelieve the effect, reducing the bonus on damage rolls by half if successful. The phantom can use illusion of perfection for a number of minutes per day equal to its Hit Dice. This duration need not be used all at once, but must be expended in 1-minute intervals. This ability is a mind-affecting illusion effect.
 
       **Zeal:** A phantom with this emotional focus fixates on every task given as if it were the phantom's last. The most basic commands are treated as life-and-death situations, and the truly dangerous ones are faced with a resolve and tenacity that sometimes defies common sense. Zeal phantoms take the form of steadfast protectors or daring and manic creatures looking for the next challenge or opportunity to prove itself to either its master or itself. Often very prideful creatures, these phantoms display an orange aura upon completing their tasks. They are prone to boast about their accomplishments and chastise those around them for not accomplishing more.
 
