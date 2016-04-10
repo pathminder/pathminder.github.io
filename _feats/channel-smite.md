@@ -1,0 +1,13 @@
+---
+title: Channel Smite
+tags:
+  - combat
+sources:
+  - Pathfinder Roleplaying Game Core Rulebook
+flavor_text: You can channel your divine energy through a melee weapon you wield.
+prerequisites:
+  - channel energy class feature
+benefit: |
+  Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.
+---
+
