@@ -60,7 +60,7 @@ layout: default
   <ul>
     {% for item in this_tag_items %}
       <li>
-        <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>{% if item.summary or item.flavor_text %}:
+        <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>{% if item.summary or item.flavor_text %}:
 
           {% if item.summary %}
             {{ item.summary | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
