@@ -41,33 +41,34 @@ layout: default
 {% endif %}
 
 {% for tag in tags %}
-  <div class="card">
-    <div class="card-header">
-      <h2 class="h4 card-title m-b-0 p-b-0">{{ tag }} {{ source_collection.title }}</h2>
-    </div>
+  <h2>{{ tag }} {{ source_collection.title }}</h2>
 
-    {% assign this_tag_items = empty_array %}
-    {% for item in site[listing_source] %}
-      {% if item.tags contains tag %}
+  {% assign this_tag_items = empty_array %}
+  {% for item in site[listing_source] %}
+    {% if item.tags contains tag %}
+      {% assign this_tag_items = this_tag_items | push: item %}
+    {% endif %}
+
+    {% if tag == 'General' %}
+      {% assign item_tags_size = item.tags|size %}
+      {% if item_tags_size == 0 %}
         {% assign this_tag_items = this_tag_items | push: item %}
       {% endif %}
+    {% endif %}
+  {% endfor %}
 
-      {% if tag == 'General' %}
-        {% assign item_tags_size = item.tags|size %}
-        {% if item_tags_size == 0 %}
-          {% assign this_tag_items = this_tag_items | push: item %}
+  <ul>
+    {% for item in this_tag_items %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>{% if item.summary or item.flavor_text %}:
+
+          {% if item.summary %}
+            {{ item.summary | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% else %}
+            {{ item.flavor_text | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% endif %}
         {% endif %}
-      {% endif %}
+      </li>
     {% endfor %}
-
-    <div class="card-block">
-      <ul class="card-text">
-        {% for item in this_tag_items %}
-          <li class="card-text">
-            <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  </ul>
 {% endfor %}
