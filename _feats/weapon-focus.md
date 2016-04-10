@@ -1,7 +1,7 @@
 ---
 title: Weapon Focus
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Choose one type of weapon. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.

@@ -1,7 +1,7 @@
 ---
 title: Shatter Defenses
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your skill with your chosen weapon leaves opponents unable to defend themselves if you strike them when their defenses are already compromised.

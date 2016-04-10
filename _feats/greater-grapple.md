@@ -1,7 +1,7 @@
 ---
 title: Greater Grapple
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Maintaining a grapple is second nature to you.

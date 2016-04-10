@@ -1,7 +1,7 @@
 ---
 title: Lightning Stance
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: The speed at which you move makes it nearly impossible for opponents to strike you.

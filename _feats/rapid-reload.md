@@ -1,7 +1,7 @@
 ---
 title: Rapid Reload
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Choose a type of crossbow (hand, light, or heavy). You can reload such weapons quickly.

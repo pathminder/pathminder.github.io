@@ -1,7 +1,7 @@
 ---
 title: Whirlwind Attack
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can strike out at every foe within reach.

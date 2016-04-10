@@ -1,7 +1,7 @@
 ---
 title: Step Up
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can close the distance when a foe tries to move away.

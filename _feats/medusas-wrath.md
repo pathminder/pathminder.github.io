@@ -1,7 +1,7 @@
 ---
 title: Medusa's Wrath
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can take advantage of your opponent's confusion, delivering multiple blows.

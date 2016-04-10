@@ -1,7 +1,7 @@
 ---
 title: Greater Trip
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can make free attacks on foes that you knock down.

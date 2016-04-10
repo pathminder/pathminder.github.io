@@ -1,7 +1,7 @@
 ---
 title: Greater Overrun
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Enemies must dive to avoid your dangerous move.

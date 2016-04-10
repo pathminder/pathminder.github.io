@@ -1,7 +1,7 @@
 ---
 title: Greater Vital Strike
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can make a single attack that deals incredible damage.

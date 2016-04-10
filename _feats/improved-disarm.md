@@ -1,7 +1,7 @@
 ---
 title: Improved Disarm
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at knocking weapons from a foe's grasp.

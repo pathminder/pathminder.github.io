@@ -1,7 +1,7 @@
 ---
 title: Disruptive
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your training makes it difficult for enemy spellcasters to safely cast spells near you.

@@ -1,7 +1,7 @@
 ---
 title: Snatch Arrows
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.

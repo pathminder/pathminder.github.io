@@ -1,7 +1,7 @@
 ---
 title: Two-Weapon Fighting
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can fight with a weapon wielded in each of your hands. You can make one extra attack each round with the secondary weapon.

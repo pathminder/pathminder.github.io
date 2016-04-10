@@ -1,7 +1,7 @@
 ---
 title: Defensive Combat Training
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You excel at defending yourself from all manner of combat maneuvers.

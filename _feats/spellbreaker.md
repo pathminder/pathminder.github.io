@@ -1,7 +1,7 @@
 ---
 title: Spellbreaker
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can strike at enemy spellcasters who fail to cast defensively when you threaten them.

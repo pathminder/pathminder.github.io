@@ -1,7 +1,7 @@
 ---
 title: Improved Trip
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at sending your opponents to the ground.

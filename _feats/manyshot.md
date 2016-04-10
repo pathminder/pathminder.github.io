@@ -1,7 +1,7 @@
 ---
 title: Manyshot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can fire multiple arrows at a single target.

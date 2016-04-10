@@ -1,7 +1,7 @@
 ---
 title: Ride-By Attack
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: While mounted and charging, you can move, strike at a foe, and then continue moving.

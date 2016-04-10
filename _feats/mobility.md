@@ -1,7 +1,7 @@
 ---
 title: Mobility
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can easily move through a dangerous melee.

@@ -1,7 +1,7 @@
 ---
 title: Weapon Specialization
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed strike or grapple) for which you have already selected the [Weapon Focus](/feats/weapon-focus/) feat. You deal extra damage when using this weapon.

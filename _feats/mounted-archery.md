@@ -1,7 +1,7 @@
 ---
 title: Mounted Archery
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at making ranged attacks while mounted.

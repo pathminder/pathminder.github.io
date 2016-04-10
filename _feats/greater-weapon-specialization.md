@@ -1,7 +1,7 @@
 ---
 title: Greater Weapon Specialization
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Choose one type of weapon (including unarmed strike or grapple) for which you possess the [Weapon Specialization](/feats/weapon-specialization/) feat. Your attacks with the chosen weapon are more devastating than normal.

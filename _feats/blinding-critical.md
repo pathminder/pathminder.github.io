@@ -1,7 +1,7 @@
 ---
 title: Blinding Critical
 tags:
-  - combat
+  - Combat
   - critical
 sources:
   - Pathfinder Roleplaying Game Core Rulebook

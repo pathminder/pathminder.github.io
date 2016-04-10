@@ -1,7 +1,7 @@
 ---
 title: Two-Weapon Defense
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at defending yourself while dual-wielding.

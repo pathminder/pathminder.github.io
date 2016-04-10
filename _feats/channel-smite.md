@@ -1,7 +1,7 @@
 ---
 title: Channel Smite
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can channel your divine energy through a melee weapon you wield.

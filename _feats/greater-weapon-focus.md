@@ -1,7 +1,7 @@
 ---
 title: Greater Weapon Focus
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Choose one type of weapon (including unarmed strike or grapple) for which you have already selected [Weapon Focus](/feats/weapon-focus/). You are a master at your chosen weapon.

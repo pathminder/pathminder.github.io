@@ -1,7 +1,7 @@
 ---
 title: Critical Mastery
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your critical hits cause two additional effects.

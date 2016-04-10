@@ -1,7 +1,7 @@
 ---
 title: Deflect Arrows
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can knock arrows and other projectiles off course, preventing them from hitting you.

@@ -1,7 +1,7 @@
 ---
 title: Shot on the Run
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can move, fire a ranged weapon, and move again before your foes can react.

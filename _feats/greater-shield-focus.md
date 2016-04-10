@@ -1,7 +1,7 @@
 ---
 title: Greater Shield Focus
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at deflecting blows with your shield.

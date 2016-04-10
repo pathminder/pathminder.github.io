@@ -1,7 +1,7 @@
 ---
 title: Spring Attack
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can deftly move up to a foe, strike, and withdraw before he can react.

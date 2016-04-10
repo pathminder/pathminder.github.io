@@ -1,7 +1,7 @@
 ---
 title: Double Slice
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your off-hand weapon while dual-wielding strikes with greater power.

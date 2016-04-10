@@ -1,7 +1,7 @@
 ---
 title: Greater Disarm
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can knock weapons far from an enemy's grasp.

@@ -1,7 +1,7 @@
 ---
 title: Rapid Shot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can make an additional ranged attack.

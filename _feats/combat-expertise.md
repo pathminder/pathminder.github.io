@@ -1,7 +1,7 @@
 ---
 title: Combat Expertise
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can increase your defense at the expense of your accuracy.

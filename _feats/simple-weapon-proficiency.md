@@ -1,7 +1,7 @@
 ---
 title: Simple Weapon Proficiency
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are trained in the use of basic weapons.

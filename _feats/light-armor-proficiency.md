@@ -1,7 +1,7 @@
 ---
 title: Light Armor Proficiency
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at wearing light armor.

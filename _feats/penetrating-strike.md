@@ -1,7 +1,7 @@
 ---
 title: Penetrating Strike
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your attacks are capable of penetrating the defenses of some creatures.

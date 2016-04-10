@@ -1,7 +1,7 @@
 ---
 title: Shield Slam
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: In the right position, your shield can be used to send opponents flying.

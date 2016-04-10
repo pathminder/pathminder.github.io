@@ -1,7 +1,7 @@
 ---
 title: Lunge
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can strike foes that would normally be out of reach.

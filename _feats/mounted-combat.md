@@ -1,7 +1,7 @@
 ---
 title: Mounted Combat
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are adept at guiding your mount through combat.

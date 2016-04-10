@@ -1,7 +1,7 @@
 ---
 title: Weapon Finesse
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are trained in using your agility in melee combat, as opposed to brute strength.

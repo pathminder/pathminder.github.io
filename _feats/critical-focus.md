@@ -1,7 +1,7 @@
 ---
 title: Critical Focus
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are trained in the art of causing pain.

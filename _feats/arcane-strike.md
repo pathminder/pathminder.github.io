@@ -1,7 +1,7 @@
 ---
 title: Arcane Strike
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You draw upon your arcane power to enhance your weapons with magical energy.

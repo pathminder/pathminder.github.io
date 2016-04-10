@@ -1,7 +1,7 @@
 ---
 title: Improvised Weapon Mastery
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.

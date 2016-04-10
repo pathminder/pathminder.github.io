@@ -1,7 +1,7 @@
 ---
 title: Greater Bull Rush
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your bull rush attacks throw enemies off balance.

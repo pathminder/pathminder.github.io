@@ -1,7 +1,7 @@
 ---
 title: Catch Off-Guard
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Foes are surprised by your skilled use of unorthodox and improvised weapons.

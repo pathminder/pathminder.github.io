@@ -1,7 +1,7 @@
 ---
 title: Gorgon's Fist
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: With one well-placed blow, you leave your target reeling.

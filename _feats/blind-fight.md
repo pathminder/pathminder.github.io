@@ -1,7 +1,7 @@
 ---
 title: Blind-Fight
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at attacking opponents that you cannot clearly perceive.

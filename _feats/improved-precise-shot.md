@@ -1,7 +1,7 @@
 ---
 title: Improved Precise Shot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your ranged attacks ignore anything but total concealment and cover.

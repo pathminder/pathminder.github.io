@@ -1,7 +1,7 @@
 ---
 title: Shield Master
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your mastery of the shield allows you to fight with it without hindrance.

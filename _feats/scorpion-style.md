@@ -1,7 +1,7 @@
 ---
 title: Scorpion Style
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can perform an unarmed strike that greatly hampers your target's movement.

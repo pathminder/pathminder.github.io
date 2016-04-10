@@ -1,7 +1,7 @@
 ---
 title: Quick Draw
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can draw weapons faster than most.

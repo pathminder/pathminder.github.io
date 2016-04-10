@@ -1,7 +1,7 @@
 ---
 title: Two-Weapon Rend
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.

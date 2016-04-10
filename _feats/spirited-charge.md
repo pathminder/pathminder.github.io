@@ -1,7 +1,7 @@
 ---
 title: Spirited Charge
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your mounted charge attacks deal a tremendous amount of damage.

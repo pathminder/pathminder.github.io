@@ -1,7 +1,7 @@
 ---
 title: Intimidating Prowess
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your physical might is intimidating to others.

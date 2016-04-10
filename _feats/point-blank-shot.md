@@ -1,7 +1,7 @@
 ---
 title: Point-Blank Shot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are especially accurate when making ranged attacks against close targets.

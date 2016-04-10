@@ -1,7 +1,7 @@
 ---
 title: Agile Maneuvers
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You've learned to use your quickness in place of brute force when performing combat maneuvers.

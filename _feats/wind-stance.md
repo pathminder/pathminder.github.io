@@ -1,7 +1,7 @@
 ---
 title: Wind Stance
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your erratic movements make it difficult for enemies to pinpoint your location.

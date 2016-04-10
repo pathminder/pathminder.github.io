@@ -1,7 +1,7 @@
 ---
 title: Stunning Fist
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You know just where to strike to temporarily stun a foe.

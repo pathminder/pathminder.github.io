@@ -1,7 +1,7 @@
 ---
 title: Stand Still
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can stop foes that try to move past you.

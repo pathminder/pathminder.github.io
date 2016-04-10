@@ -1,7 +1,7 @@
 ---
 title: Arcane Armor Training
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You have learned how to cast spells while wearing armor.

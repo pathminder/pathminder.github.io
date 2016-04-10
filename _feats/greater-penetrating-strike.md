@@ -1,7 +1,7 @@
 ---
 title: Greater Penetrating Strike
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your attacks penetrate the defenses of most foes.

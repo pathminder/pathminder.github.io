@@ -1,7 +1,7 @@
 ---
 title: Deadly Stroke
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: With a well-placed strike, you can bring a swift and painful end to most foes.

@@ -1,7 +1,7 @@
 ---
 title: Far Shot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are more accurate at longer ranges.

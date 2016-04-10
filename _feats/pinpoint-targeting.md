@@ -1,7 +1,7 @@
 ---
 title: Pinpoint Targeting
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can target the weak points in your opponent's armor.

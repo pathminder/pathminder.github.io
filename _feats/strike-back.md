@@ -1,7 +1,7 @@
 ---
 title: Strike Back
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can strike at foes that attack you using their superior reach, by targeting their limbs or weapons as they come at you.

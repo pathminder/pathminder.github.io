@@ -1,7 +1,7 @@
 ---
 title: Arcane Armor Mastery
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You have mastered the ability to cast spells while wearing armor.

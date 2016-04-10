@@ -1,7 +1,7 @@
 ---
 title: Dazzling Display
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your skill with your favored weapon can frighten enemies.

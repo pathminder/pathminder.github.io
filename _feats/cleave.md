@@ -1,7 +1,7 @@
 ---
 title: Cleave
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can strike two adjacent foes with a single swing.

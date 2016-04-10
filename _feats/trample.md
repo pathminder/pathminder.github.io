@@ -1,7 +1,7 @@
 ---
 title: Trample
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: While mounted, you can ride down opponents and trample them under your mount.

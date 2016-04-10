@@ -1,7 +1,7 @@
 ---
 title: Precise Shot
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are adept at firing ranged attacks into melee.

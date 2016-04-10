@@ -1,7 +1,7 @@
 ---
 title: Improved Shield Bash
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can protect yourself with your shield, even if you use it to attack.

@@ -1,7 +1,7 @@
 ---
 title: Greater Two-Weapon Fighting
 tags:
-  - combat
+  - Combat
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are incredibly skilled at fighting with two weapons at the same time.
