@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your bull rush attacks throw enemies off balance.
 prerequisites:
-  - [Improved Bull Rush](/feats/improved-bull-rush/)
-  - [Power Attack](/feats/power-attack/)
+  - "[Improved Bull Rush](/feats/improved-bull-rush/)"
+  - "[Power Attack](/feats/power-attack/)"
   - base attack bonus +6
   - Str 13
 benefit: |

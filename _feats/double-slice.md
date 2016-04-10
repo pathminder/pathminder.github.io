@@ -7,7 +7,7 @@ sources:
 flavor_text: Your off-hand weapon while dual-wielding strikes with greater power.
 prerequisites:
   - Dex 15
-  - [Two-Weapon Fighting](/feats/two-weapon-fighting/)
+  - "[Two-Weapon Fighting](/feats/two-weapon-fighting/)"
 benefit: |
   Add your Strength bonus to damage rolls made with your off-hand weapon.
 normal: |

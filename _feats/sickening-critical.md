@@ -7,7 +7,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your critical hits cause opponents to become sickened.
 prerequisites:
-  - [Critical Focus](/feats/critical-focus/)
+  - "[Critical Focus](/feats/critical-focus/)"
   - base attack bonus +11
 benefit: |
   Whenever you score a critical hit, your opponent becomes sickened for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.

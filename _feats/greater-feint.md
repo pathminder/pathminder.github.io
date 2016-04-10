@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at making foes overreact to your attacks.
 prerequisites:
-  - [Combat Expertise](/feats/combat-expertise/)
-  - [Improved Feint](/feats/improved-feint/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
+  - "[Improved Feint](/feats/improved-feint/)"
   - base attack bonus +6
   - Int 13
 benefit: |

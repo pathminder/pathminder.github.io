@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at deflecting blows with your shield.
 prerequisites:
-  - [Shield Focus](/feats/shield-focus/)
-  - [Shield Proficiency](/feats/shield-proficiency/)
+  - "[Shield Focus](/feats/shield-focus/)"
+  - "[Shield Proficiency](/feats/shield-proficiency/)"
   - base attack bonus +1
   - 8th-level fighter
 benefit: |

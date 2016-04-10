@@ -7,7 +7,7 @@ sources:
 flavor_text: Choose one type of weapon (including unarmed strike or grapple) for which you have already selected [Weapon Focus](/feats/weapon-focus/). You are a master at your chosen weapon.
 prerequisites:
   - Proficiency with selected weapon
-  - [Weapon Focus](/feats/weapon-focus/) with selected weapon
+  - "[Weapon Focus](/feats/weapon-focus/) with selected weapon"
   - base attack bonus +1
   - 8th-level fighter
 benefit: |

@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your devastating strikes cleave through weapons and armor and into their wielders, damaging both item and wielder alike in a single terrific strike.
 prerequisites:
-  - [Improved Sunder](/feats/improved-sunder/)
-  - [Power Attack](/feats/power-attack/)
+  - "[Improved Sunder](/feats/improved-sunder/)"
+  - "[Power Attack](/feats/power-attack/)"
   - base attack bonus +6
   - Str 13
 benefit: |

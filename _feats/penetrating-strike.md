@@ -6,7 +6,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your attacks are capable of penetrating the defenses of some creatures.
 prerequisites:
-  - [Weapon Focus](/feats/weapon-focus/)
+  - "[Weapon Focus](/feats/weapon-focus/)"
   - base attack bonus +1
   - 12th-level fighter
   - proficiency with weapon

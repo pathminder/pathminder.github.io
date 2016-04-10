@@ -4,7 +4,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are especially hard to kill. Not only do your wounds automatically stabilize when grievously injured, but you can remain conscious and continue to act even at death's door.
 prerequisites:
-  - [Endurance](/feats/endurance/)
+  - "[Endurance](/feats/endurance/)"
 benefit: |
   When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious.
 

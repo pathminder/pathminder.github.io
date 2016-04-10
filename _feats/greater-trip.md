@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You can make free attacks on foes that you knock down.
 prerequisites:
-  - [Combat Expertise](/feats/combat-expertise/)
-  - [Improved Trip](/feats/improved-trip/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
+  - "[Improved Trip](/feats/improved-trip/)"
   - base attack bonus +6
   - Int 13
 benefit: |

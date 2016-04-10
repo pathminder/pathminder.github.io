@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Maintaining a grapple is second nature to you.
 prerequisites:
-  - [Improved Grapple](/feats/improved-grapple/)
-  - [Improved Unarmed Strike](/feats/improved-unarmed-strike/)
+  - "[Improved Grapple](/feats/improved-grapple/)"
+  - "[Improved Unarmed Strike](/feats/improved-unarmed-strike/)"
   - base attack bonus +6
   - Dex 13
 benefit: |

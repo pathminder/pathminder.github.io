@@ -6,10 +6,10 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: With a well-placed strike, you can bring a swift and painful end to most foes.
 prerequisites:
-  - [Dazzling Display](/feats/dazzling-display/)
-  - [Greater Weapon Focus](/feats/greater-weapon-focus/)
-  - [Shatter Defenses](/feats/shatter-defenses/)
-  - [Weapon Focus](/feats/weapon-focus/)
+  - "[Dazzling Display](/feats/dazzling-display/)"
+  - "[Greater Weapon Focus](/feats/greater-weapon-focus/)"
+  - "[Shatter Defenses](/feats/shatter-defenses/)"
+  - "[Weapon Focus](/feats/weapon-focus/)"
   - proficiency with the selected weapon
   - base attack bonus +11
 benefit: |

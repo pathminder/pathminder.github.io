@@ -7,7 +7,7 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Your critical hits cause opponents to become fatigued.
 prerequisites:
-  - [Critical Focus](/feats/critical-focus/)
+  - "[Critical Focus](/feats/critical-focus/)"
   - base attack bonus +13
 benefit: |
   Whenever you score a critical hit, your opponent becomes fatigued. This feat has no additional effect on a fatigued or exhausted creature.

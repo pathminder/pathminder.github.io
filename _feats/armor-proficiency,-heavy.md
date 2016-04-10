@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: You are skilled at wearing heavy armor.
 prerequisites:
-  - [Light Armor Proficiency](/feats/light-armor-proficiency/)
-  - [Medium Armor Proficiency](/feats/medium-armor-proficiency/)
+  - "[Light Armor Proficiency](/feats/light-armor-proficiency/)"
+  - "[Medium Armor Proficiency](/feats/medium-armor-proficiency/)"
 benefit: |
   See [Light Armor Proficiency](/feats/light-armor-proficiency/).
 normal: |

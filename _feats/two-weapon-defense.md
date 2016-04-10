@@ -7,7 +7,7 @@ sources:
 flavor_text: You are skilled at defending yourself while dual-wielding.
 prerequisites:
   - Dex 15
-  - [Two-Weapon Fighting](/feats/two-weapon-fighting/)
+  - "[Two-Weapon Fighting](/feats/two-weapon-fighting/)"
 benefit: |
   When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC.
 

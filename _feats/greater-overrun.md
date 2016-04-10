@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Core Rulebook
 flavor_text: Enemies must dive to avoid your dangerous move.
 prerequisites:
-  - [Improved Overrun](/feats/improved-overrun/)
-  - [Power Attack](/feats/power-attack/)
+  - "[Improved Overrun](/feats/improved-overrun/)"
+  - "[Power Attack](/feats/power-attack/)"
   - base attack bonus +6
   - Str 13
 benefit: |
