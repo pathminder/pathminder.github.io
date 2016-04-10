@@ -149,6 +149,9 @@ collections:
   feat-types:
     output: true
     title: Feat Types
+  glossary-terms:
+    output: true
+    title: Glossary Terms
   magic-items:
     output: true
     title: Magic Items
