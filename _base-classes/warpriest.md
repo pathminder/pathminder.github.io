@@ -56,7 +56,7 @@ class_features:
 
   - name: ex-warpriests
     levels: [1]
-    text: A warpriest who grossly violates the code of conduct required by his god loses all spells and class features, except for his armor, shield, weapon proficiencies, and bonus feats. He cannot thereafter gain levels as a warpriest of that god until he atones for his deeds (see the *atonement* spell on page 245 of the Core Rulebook).
+    text: A warpriest who grossly violates the code of conduct required by his god loses all spells and class features, except for his armor, shield, weapon proficiencies, and bonus feats. He cannot thereafter gain levels as a warpriest of that god until he atones for his deeds (see the [*atonement*](/spells/atonement/) spell).
 
   - name: spells
     levels: [1]
@@ -76,7 +76,7 @@ class_features:
   - name: aura
     type: Ex
     levels: [1]
-    text: A warpriest of a chaotic, evil, good, or lawful deity has a particularly powerful aura (as a cleric) corresponding to the deity's alignment (see *detect evil* on page 266 of the Core Rulebook).
+    text: A warpriest of a chaotic, evil, good, or lawful deity has a particularly powerful aura (as a cleric) corresponding to the deity's alignment (see [*detect evil*](/spells/detect-evil/)).
 
   - name: blessings
     type: Su
