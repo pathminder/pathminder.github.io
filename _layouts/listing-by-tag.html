@@ -43,13 +43,15 @@ layout: default
     {% endif %}
 
     {% if tag == 'General' %}
-      {% if item.tags|size == 0 %}
+      {% assign item_tag_size = item.tags|size %}
+      {% if item_tag_size == 0 %}
         {% assign this_tag_items = this_tag_items | push: item %}
       {% endif %}
     {% endif %}
   {% endfor %}
 
-  {% if this_tag_items|size > 0 %}
+  {% assign this_tag_items_size = this_tag_items|size %}
+  {% if this_tag_items_size > 0 %}
     <h2>{{ tag }} {{ source_collection.title }}</h2>
 
     {% for level in site.data.general.levels_including_blank %}
