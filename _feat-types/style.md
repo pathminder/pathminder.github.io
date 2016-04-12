@@ -19,6 +19,10 @@ As a swift action, you can enter the stance employed by the fighting style that 
 
 *Feat Path:* Jabbing Style, Jabbing Dancer, Jabbing Master.
 
+**Kitsune Style:** Pulling from the trickster habits of kitsune, this style focuses on duping and incapacitating foes in the heat of combat.
+
+*Feat Path:* Kitsune Style, Kitsune Tricks, Kitsune Vengeance.
+
 **Owl Style:** This style takes advantage of basic training in skills that affect movement to enhance those skills through combat ability.
 
 *Feat Path:* Owl Style, Owl Swoop, Owl Dive.

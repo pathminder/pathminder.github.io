@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{% assign empty_array = '' | split: '|' %}
+
+{% assign stat_items = empty_array %}
+
+{% if page.price or page.weight or page.type or page.save or page.effect or page.cure %}
+<ul class="list-unstyled">
+{% endif %}
+
+{% if page.price %}
+  {% assign stat_item_text = page.price | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Price</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if page.weight %}
+  {% assign stat_item_text = page.weight | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Weight</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if stat_items|size > 0 %}
+  <li>{{ stat_items|join: '; ' }}</li>
+{% endif %}
+
+{% assign stat_items = empty_array %}
+
+{% if page.type %}
+  {% assign stat_item_text = page.type | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Type</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if page.save %}
+  {% assign stat_item_text = page.save | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Save</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if stat_items|size > 0 %}
+  <li>{{ stat_items|join: '; ' }}</li>
+{% endif %}
+
+{% assign stat_items = empty_array %}
+
+{% if page.effect %}
+  {% assign stat_item_text = page.effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Effect</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if page.cure %}
+  {% assign stat_item_text = page.cure | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Cure</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if stat_items|size > 0 %}
+  <li>{{ stat_items|join: '; ' }}</li>
+{% endif %}
+
+{% if page.price or page.weight or page.type or page.save or page.effect or page.cure %}
+</ul>
+{% endif %}
+
+{{ content }}

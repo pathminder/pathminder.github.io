@@ -11,8 +11,7 @@ layout: default
 {% else %}
   {% assign listing_source = layout.listing_source %}
 {% endif %}
-{% assign source_collection = site.collections|where: 'label', listing_source %}
-{% assign source_collection = source_collection[0] %}
+{% assign source_collection = site.collections|where: 'label', listing_source|first %}
 
 {% if page.limit_by_page_title_as_tag %}
   {% assign limit_by_page_title_as_tag = page.limit_by_page_title_as_tag %}
@@ -23,11 +22,7 @@ layout: default
 {% if limit_by_page_title_as_tag %}
   {% assign tags = empty_array | push: page.title %}
 {% else %}
-  {% if page.include_general %}
-    {% assign tags = empty_array | push: 'General' %}
-  {% else %}
-    {% assign tags = empty_array %}
-  {% endif %}
+  {% assign tags = empty_array | push: 'General' %}
 
   {% assign general_items = empty_array %}
   {% for item in site[listing_source] %}
@@ -41,8 +36,6 @@ layout: default
 {% endif %}
 
 {% for tag in tags %}
-  <h2>{{ tag }} {{ source_collection.title }}</h2>
-
   {% assign this_tag_items = empty_array %}
   {% for item in site[listing_source] %}
     {% if item.tags contains tag %}
@@ -50,25 +43,38 @@ layout: default
     {% endif %}
 
     {% if tag == 'General' %}
-      {% assign item_tags_size = item.tags|size %}
-      {% if item_tags_size == 0 %}
+      {% if item.tags|size == 0 %}
         {% assign this_tag_items = this_tag_items | push: item %}
       {% endif %}
     {% endif %}
   {% endfor %}
 
-  <ul>
-    {% for item in this_tag_items %}
-      <li>
-        <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>{% if item.summary or item.flavor_text %}:
+  {% if this_tag_items|size > 0 %}
+    <h2>{{ tag }} {{ source_collection.title }}</h2>
 
-          {% if item.summary %}
-            {{ item.summary | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-          {% else %}
-            {{ item.flavor_text | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-          {% endif %}
+    {% for level in site.data.general.levels_including_blank %}
+      {% assign this_level_items = this_tag_items | where: 'minimum_level', level | default: empty_array %}
+      {% assign this_level_size = this_level_items|size %}
+      {% if this_level_size > 0 %}
+        {% if level != '' %}
+          <h3 class="h4 m-y-1">Minimum Level {{ level }}</h3>
         {% endif %}
-      </li>
+
+        <ul>
+          {% for item in this_level_items %}
+            <li>
+              <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>{% if item.type %} ({{ item.type }}){% endif %}{% if item.summary or item.flavor_text %}:
+
+                {% if item.summary %}
+                  {{ item.summary | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% else %}
+                  {{ item.flavor_text | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+                {% endif %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     {% endfor %}
-  </ul>
+  {% endif %}
 {% endfor %}

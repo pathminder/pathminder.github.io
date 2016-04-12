@@ -2,7 +2,6 @@
 title: Skills
 layout: listing-by-tag
 listing_source: skills
-include_general: true
 sources:
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ---

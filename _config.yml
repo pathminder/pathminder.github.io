@@ -26,6 +26,16 @@ defaults:
       layout: default
   - scope:
       path: ""
+      type: afflictions
+    values:
+      layout: affliction
+  - scope:
+      path: ""
+      type: alchemist-discoveries
+    values:
+      layout: class-talent
+  - scope:
+      path: ""
       type: base-classes
     values:
       layout: class
@@ -33,12 +43,12 @@ defaults:
       path: ""
       type: blade-skills
     values:
-      layout: blade-skill
+      layout: class-talent
   - scope:
       path: ""
       type: bushido
     values:
-      layout: bushido
+      layout: class-talent
   - scope:
       path: ""
       type: descriptors
@@ -81,14 +91,19 @@ defaults:
       layout: race
   - scope:
       path: ""
+      type: rage-powers
+    values:
+      layout: class-talent
+  - scope:
+      path: ""
       type: rogue-talents
     values:
-      layout: rogue-talent
+      layout: class-talent
   - scope:
       path: ""
       type: rogue-advanced-talents
     values:
-      layout: rogue-talent
+      layout: class-talent
   - scope:
       path: ""
       type: sources
@@ -108,12 +123,12 @@ defaults:
       path: ""
       type: stalker-arts
     values:
-      layout: stalker-art
+      layout: class-talent
   - scope:
       path: ""
       type: tactical-presences
     values:
-      layout: tactical-presence
+      layout: class-talent
   - scope:
       path: ""
       type: trait-types
@@ -128,9 +143,15 @@ defaults:
       path: ""
       type: warlord-gambits
     values:
-      layout: warlord-gambit
+      layout: class-talent
 
 collections:
+  afflictions:
+    output: true
+    title: Afflictions
+  alchemist-discoveries:
+    output: true
+    title: Alchemist Discoveries
   base-classes:
     output: true
     title: Base Classes
@@ -167,6 +188,9 @@ collections:
   races:
     output: true
     title: Races
+  rage-powers:
+    output: true
+    title: Rage Powers
   rogue-talents:
     output: true
     title: Rogue Talents
