@@ -1,0 +1,17 @@
+{% comment %}
+  Use like:
+  {% include linked-descriptors.html descriptors=page.descriptors %}
+{% endcomment %}
+
+{% for descriptor in include.descriptors %}
+  {% assign descriptor_entry = site.descriptors | where: 'title', descriptor | first %}
+  {{ descriptor_entry }}
+  {% if descriptor_entry|first %}
+    {% assign descriptor_link = "<a href='" | append: descriptor_entry.url | append: "'>" | append: descriptor_entry.title | append: "</a>" %}
+    {% assign descriptor_array = descriptor_array | push: descriptor_link %}
+  {% else %}
+    {% assign descriptor_array = descriptor_array | push: descriptor %}
+  {% endif %}
+{% endfor %}
+
+{{ descriptor_array | join: ', ' }}

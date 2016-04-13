@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% assign empty_array = '' | split: '|' %}
+
+<ul class="list-unstyled">
+  {% if page.school %}
+    <li>
+      <strong>School</strong> {{ page.school }}{% if page.subschool %} ({{ page.subschool }}){% endif %}{% if page.descriptors %} [{% include linked-descriptors.html descriptors=page.descriptors %}]{% endif %}{% if page.level %}; <strong>Level</strong> {{ page.level }}{% endif %}
+    <li>
+  {% endif %}
+
+  {% if page.casting_time %}
+    <li><strong>Casting Time</strong> {{ page.casting_time }}</li>
+  {% endif %}
+
+  {% if page.components %}
+    <li><strong>Components</strong> {% include markdownify-array.html array=page.components %}</li>
+  {% endif %}
+
+  {% if page.skill_checks %}
+    <li><strong>Skill Checks</strong> {% include markdownify-array.html array=page.skill_checks separator='; ' %}</li>
+  {% endif %}
+
+  {% if page.range %}
+    <li>
+      <strong>Range</strong>
+      {{ page.range }}
+      {% if page.range == 'close' %}(25 ft. + 5 ft./character level of the primary caster){% endif %}
+      {% if page.range == 'medium' %}(100 ft. + 10 ft./character level of the primary caster){% endif %}
+      {% if page.range == 'long' %}(400 ft. + 40 ft./character level of the primary caster){% endif %}
+    </li>
+  {% endif %}
+
+  {% if page.target %}
+    <li><strong>Target(s)</strong> {{ page.target | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
+
+  {% if page.area %}
+    <li><strong>Area</strong> {{ page.area | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
+
+  {% if page.effect %}
+    <li><strong>Effect</strong> {{ page.effect | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
+
+</ul>
+
+{{ content }}

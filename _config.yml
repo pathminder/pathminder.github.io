@@ -7,8 +7,11 @@ github:
   repository_url: https://github.com/pathminder/pathminder.github.io
   issues_url: https://github.com/pathminder/pathminder.github.io/issues
 
-gems:
-  - jekyll-sitemap
+# This is commented out because it takes an absurd amount of time - upwards of
+# 400 seconds per build.
+#
+# gem:
+#   - jekyll-sitemap
 
 exclude:
   - CNAME
@@ -84,6 +87,11 @@ defaults:
       type: martial-disciplines
     values:
       layout: martial-discipline
+  - scope:
+      path: ""
+      type: occult-rituals
+    values:
+      layout: occult-ritual
   - scope:
       path: ""
       type: prestige-classes
@@ -190,6 +198,9 @@ collections:
   martial-disciplines:
     output: true
     title: Martial Disciplines
+  occult-rituals:
+    output: true
+    title: Occult Rituals
   prestige-classes:
     output: true
     title: Prestige Classes

@@ -1,0 +1,43 @@
+---
+title: Occult Rituals
+sources:
+  - Pathfinder Roleplaying Game Occult Adventures
+layout: listing-by-tag
+listing_source: occult-rituals
+---
+
+It's a common belief that only those initiated in the rites and practices of arcane, divine, or psychic magic can cast spells, but this is not strictly true. Hidden within dusty libraries and amid the ramblings of lunatics lie the mysteries of another form of spellcasting---occult ritual magic. These spells are rare, coveted by both those eager to gain their power and those wishing to hide their existence. Most traditional spellcasters consider these rituals dangerous and uncontrollable, something to be avoided or used as a last resort. They fear the power these ceremonies grant to the uninitiated, as the rituals allow those with only a glimmering of understanding the ability to interact with the underlying fabric of magic.
+
+While anyone can attempt to cast occult rituals, the process is fraught with peril. The strange and intricate incantations are often challenging to perform with precision, and failure can weaken the casters or even unleash horrors upon the world. Even when successfully performed, each occult ritual has a price---a backlash that affects at least the caster leading the ritual, and often those assisting in its performance.
+
+## Casting Occult Rituals
+
+Before performing an occult ritual, the primary caster must assemble and ready all the components needed as well as any secondary casters. Some occult rituals require the casting to occur at a specific time or place; attempting to cast such rituals at a different time or a substandard location is nearly impossible.
+
+Casting an occult ritual requires at least 10 minutes per ritual level and sometimes as long as 1 hour per ritual level. One of the casters---either the primary caster or a secondary caster who the primary caster specifies---attempts one of the skill checks required by the ritual every 10 minutes of the casting, unless the ritual takes 1 hour per caster level, in which case the caster attempts the check every hour of the ritual. These checks cannot benefit from the aid another action, and the caster attempting the check can't take 10 or take 20, even if she has an ability that would normally allow her to do so when threatened or distracted. Furthermore, because of the specific procedures of ritual casting, mundane equipment that grants bonuses on skill checks can't usually increase the caster's bonus on the checks required by the ritual, unless the GM allows it. Bonuses on the skill checks required for the ritual that are granted by feats, spells (with enough duration to last throughout the casting), traits, and magic items usually apply, at the GM's discretion. The primary caster decides the order in which the various skill checks are attempted, but the GM rolls for the checks and tracks the progress of the ritual casting in secret. Once a ritual casting begins, it must be performed to its completion unless it's disrupted by outside influences or fails.
+
+The primary caster leads a ritual's casting, often with the aid of a number of secondary casters. Secondary casters can be indispensable to the ritual's casting even when they're not taking an active role in ensuring its success. Unless stated otherwise in the ritual description, secondary casters must be within 100 feet and line of effect of the primary caster and each other during the entirety of a ritual's casting.
+
+If a ritual allows the participation of secondary casters, in such cases, the ritual's Components line includes "SC" ("secondary casters") as an entry, immediately followed by a parenthetical that details any maximum or minimum number of secondary casters required to cast the ritual. If a ritual description has no secondary caster entry, that ritual does not permit the assistance of secondary casters. While secondary casters can help by attempting the skill checks the primary caster assigns them, their chief purpose is to aid in the ritual's casting. If a ritual's casting is aided by at least four secondary casters, all casters gain a +1 bonus on all skill checks attempted as part of casting the occult ritual. This bonus increases by 1 for every four secondary casters beyond four (up to a maximum bonus of +5 for 20 or more secondary casters).
+
+To cast an occult ritual, the primary caster must learn the ritual's secrets (see Discovering Occult Rituals). Secondary casters can assist in the casting without fully understanding the intricacies of the ritual.
+
+Since it is possible for those lacking the ability to cast arcane, divine, or psychic spells to cast rituals, variables that would normally rely on caster level (such as range and spell resistance) use the character level or total Hit Dice of the primary caster instead. This is the case even for a ritual caster who has the ability to cast spells. Characters with a caster level gain a +1 bonus on skill checks to cast a ritual, and this bonus increases by 1 for every 5 caster levels they possess (to a maximum of +5 at caster level 20th) as their understanding of the fundamentals of magic grows.
+
+It's difficult to disrupt a ritual. Casting a ritual does not provoke attacks of opportunity, and the casters can pause the ritual to engage in combat or take other actions---though not without consequences. For each round an occult ritual is paused in this way, the DC of all the ritual's subsequent skill checks increases by 1. For practical purposes, a ritual is successfully disrupted when its casting is paused for more than 1 minute or any of the casters are incapacitated, killed, or moved more than 100 feet from (or out of line of effect of) all other casters.
+
+If more than half the skill checks for an occult ritual are successful, the ritual succeeds, and the primary caster (and the secondary casters if specified) experiences the ritual's backlash before the ritual's effect occurs. The DC for a saving throw against a ritual's effects (if applicable) is equal to 10 + the ritual level + the primary caster's Intelligence, Wisdom, or Charisma bonus (whichever is highest).
+
+If the casters fail half of the skill checks required for an occult ritual (rounded down), the ritual ends, the casters also experience the ritual's backlash, and the failure consequences occur. The consequences of failure are detailed in each ritual's description.
+
+## Discovering Occult Rituals
+
+The mysteries of occult rituals are jealously guarded secrets, often painstakingly obscured by a ritual's originators or those who stumbled upon the obscure formulae detailing it. The particulars of casting occult rituals are hidden within coded tomes, concealed in puzzles, or referenced only through allusions woven into esoteric tales. Recovering the casting method of an occult ritual can be an adventure within itself, something revealed by hallucinatory visions, coerced from an occult practitioner, or passed on by a true initiate hovering at death's door and wishing for his genius to live beyond his mortal existence.
+
+If an occult ritual is taught or its secrets are explained directly, it takes at least 1 day per ritual level to learn the method of its casting. Learning a ritual from hidden clues or from scratch takes a week or a month per ritual level (GM's discretion). At the end of this period of study and contemplation, the person attempting to learn the ritual must succeed at an Intelligence check (DC = 15 + the ritual level if learning from clues or a coerced teacher, or DC = 10 + the ritual level if learning from an instructor eager to teach). Failing the check means the secrets of the ritual elude the learner's understanding, though she can start the process anew at the same rate of potential discovery.
+
+## Tapping into Ley Lines
+
+A primary ritual caster with the ability to cast spells or use spell-like abilities can tap into a [ley line](/systems/ley-lines/) within 30 feet by performing a simple ritual that takes 1 hour per 2 caster levels of the ley line. At the end of the ritual, the primary caster must succeed at a Spellcraft check (DC = 15 + the ley line's caster level) to attune herself with the ley line. If she fails, she can try the attunement ritual anew. On a successful check, the primary caster and any secondary casters gain a +1 bonus on skill checks to cast an occult ritual using the ley line, provided they remain within 30 feet of the ley line. This bonus increases by 1 for every 5 caster levels of the ley line, to a maximum of +5.
+
+This form of attunement can be broken in the standard ways described in the [ley lines](/systems/ley-lines/) system.

@@ -24,6 +24,15 @@ layout: default
 {% else %}
   {% assign tags = empty_array | push: 'General' %}
 
+  {% assign all_tags = empty_array %}
+  {% assign all_tags_arrays = site[listing_source] | map: tags %}
+  {% for subarray in all_tags_arrays %}
+    {% assign all_tags = empty_array | concat: subarray %}
+  {% endfor %}
+  {% assign all_tags = all_tags | sort %}
+
+  x-{{ all_tags }}-x
+
   {% assign general_items = empty_array %}
   {% for item in site[listing_source] %}
     {% for tag in item.tags %}

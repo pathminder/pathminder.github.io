@@ -1,0 +1,14 @@
+{% comment %}
+  Use like:
+  {% include markdownify-array.html array=page.array separator='; ' %}
+{% endcomment %}
+
+{% assign markdown_array = '' | split: '|' %}
+{% assign separator = include.separator | default: ', ' %}
+
+{% for item in include.array %}
+  {% assign markdown_item = item | append: '' | markdownify | remove: '<p>' | remove: '</p>' | strip %}
+  {% assign markdown_array = markdown_array | push: markdown_item %}
+{% endfor %}
+
+{{ markdown_array | join: separator }}
