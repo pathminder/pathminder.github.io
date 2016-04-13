@@ -4,7 +4,7 @@ sources:
   - "Pathfinder Campaign Setting: Rival Guide"
 tags:
   - Drug
-type ingested
+type: ingested
 addiction: moderate, Fortitude DC 18
 price: 60 gp
 effect: 1 hour; +1d4 Cha and +1 Dex
