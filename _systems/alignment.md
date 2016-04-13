@@ -2,12 +2,15 @@
 title: Alignment
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Ultimate Campaign
   - "Pathfinder Player Companion: Champions of Corruption"
 ---
 
 A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.
 
 Alignment is a tool for developing your character's identity---it is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.
+
+When thinking of alignments, use a simple test: How would the character treat a stranger in trouble? A chaotic good person who sees a stranger being robbed would rush to his aid---a person in distress needs help. A lawful good character would move to take over the situation and see justice done. A neutral character might stand back and watch developments, acting as she sees fit on this occasion, and perhaps acting differently the next time. A chaotic evil character would join in, and perhaps try to rob both the victim and the robbers. A lawful evil character would hang back, waiting for the fight to end, and then take advantage for his own gain or that of his god or cult.
 
 All creatures have an alignment. Alignment determines the effectiveness of some spells and magic items.
 
@@ -51,17 +54,33 @@ The first six alignments, lawful good through chaotic neutral, are standard alig
 
 ### Lawful Good
 
+*Justice is all. Honor is my armor. He who commits a crime will pay. Without law and truth, there is only chaos. I am the light, I am the sword of righteousness. My enemy shall pay in the end. Right is might. My soul is pure. My word is truth.*
+
+*Core Concepts:* Duty, fairness, honor, property, responsibility, right, truth, virtue, worthiness
+
 A lawful good character acts as a good person is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilty go unpunished. Lawful good combines honor with compassion.
+
+A lawful good character at the extreme end of the lawful-chaotic spectrum can seem pitiless. She may become obsessive about delivering justice, thinking nothing of dedicating herself to chasing a wicked dragon across the world or pursuing a devil into Hell. She can come across as a taskmaster, bent upon her aims without swerving, and may see others who are less committed as weak. Though she may seem austere, even harsh, she is always consistent, working from her doctrine or faith. Hers is a world of order, and she obeys superiors and finds it almost impossible to believe there's any bad in them. She may be more easily duped by such imposters, but in the end she will see justice is done—by her own hand if necessary.
 
 ### Neutral Good
 
+*Do the best I can. See the good in everyone. Help others. Work toward the greater good. My soul is good, regardless of how I look. Never judge a book by its cover. Devotion to the goodness in life does not require approval. Charity begins at home. Be kind.*
+
+*Core Concepts:* Benevolence, charity, considerateness, goodness, humaneness, kindness, reason, right
+
 A neutral good character does the best that a good person can do. He is devoted to helping others. He works with kings and magistrates but does not feel beholden to them.
 
-Neutral good means doing what is good and right without bias for or against order.
+Neutral good means doing what is good and right without bias for or against order.  neutral good character does anything he can, and works with anyone he can, for the greater good. Such a character is devoted to being good, and works in any way he can to achieve it. He may forgive an evil person if he thinks that person has reformed, and he believes that in everyone there is a little bit of good.
 
 ### Chaotic Good
 
+*My soul is good, but free. Laws have no conscience. Blind order promotes disorder. Goodness cannot be learned just from a book of prayer. Compassion does not wear a uniform. The smallest act of kindness is never wasted. Repay kindness with kindness. Be kind to someone in trouble—it may be you who needs kindness the next day.*
+
+*Core Concepts:* Benevolence, charity, freedom, joy, kindness, mercy, warmth
+
 A chaotic good character acts as his conscience directs him with little regard for what others expect of him. He makes his own way, but he's kind and benevolent. He believes in goodness and right but has little use for laws and regulations. He hates it when people try to intimidate others and tell them what to do. He follows his own moral compass, which, although good, may not agree with that of society.
+
+A chaotic good character can seem unpredictable, giving alms to an unfortunate outside a church but refusing to make a donation within. She trusts her instincts and could put more stock in the words of a beggar with kind eyes than the teachings of a harsh-looking bishop. She might rob from the rich and give to the poor, or spend lavishly for her own joy and that of her friends. In extreme cases, a chaotic good character may seem reckless in her benevolence.
 
 Chaotic good combines a good heart with a free spirit.
 
