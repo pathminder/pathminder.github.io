@@ -7,8 +7,8 @@ sources:
 flavor_text: The force intrinsic to your critical hits can knock your foes down.
 prerequisites:
   - Int 13
-  - [Combat Expertise](/feats/combat-expertise/)
-  - [Improved Trip](/feats/improved-trip/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
+  - "[Improved Trip](/feats/improved-trip/)"
   - base attack bonus +9
 benefit: |
   Whenever you score a critical hit with a melee attack, you can trip your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may knock your opponent prone as if from the trip combat maneuver. This does not provoke an attack of opportunity. If you are tripped during your own trip attempt, you can drop your weapon to avoid being tripped.

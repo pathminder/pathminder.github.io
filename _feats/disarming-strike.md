@@ -7,8 +7,8 @@ sources:
 flavor_text: Your critical hits can disarm your foes.
 prerequisites:
   - Int 13
-  - [Combat Expertise](/feats/combat-expertise/)
-  - [Improved Disarm](/feats/improved-disarm/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
+  - "[Improved Disarm](/feats/improved-disarm/)"
   - base attack bonus +9
 benefit: |
   Whenever you score a critical hit with a melee attack, you can disarm your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may disarm your opponent as if from the disarm combat maneuver. This does not provoke an attack of opportunity.

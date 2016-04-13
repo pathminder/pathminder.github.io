@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 flavor_text: Your keen senses guide your hand against hidden foes.
 prerequisites:
-  - [Perception](/skills/perception/) 10 ranks
-  - [Blind-Fight](/feats/blind-fight/)
+  - "[Perception](/skills/perception/) 10 ranks"
+  - "[Blind-Fight](/feats/blind-fight/)"
 benefit: |
   Your melee attacks ignore the miss chance for less than total concealment. You may still reroll your miss chance percentile roll for total concealment.
 

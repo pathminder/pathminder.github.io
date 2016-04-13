@@ -7,7 +7,7 @@ sources:
 flavor_text: Your critical hits can move your foes where you wish.
 prerequisites:
   - Int 13
-  - [Combat Expertise](/feats/combat-expertise/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
   - <a href="#improved-reposition">Improved Reposition</a>
   - base attack bonus +9
 benefit: |

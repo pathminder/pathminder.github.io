@@ -7,7 +7,7 @@ sources:
 flavor_text: You are adept at using greater numbers against foes.
 prerequisites:
   - Int 13
-  - [Combat Expertise](/feats/combat-expertise/)
+  - "[Combat Expertise](/feats/combat-expertise/)"
 benefit: |
   You are considered to be flanking an opponent if at least two of your allies are threatening that opponent, regardless of your actual positioning.
 normal: |

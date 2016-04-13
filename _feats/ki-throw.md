@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 flavor_text: Your physical control and mastery of momentum allows you to throw enemies.
 prerequisites:
-  - [Improved Trip](/feats/improved-trip/)
-  - [Improved Unarmed Strike](/feats/improved-unarmed-strike/)
+  - "[Improved Trip](/feats/improved-trip/)"
+  - "[Improved Unarmed Strike](/feats/improved-unarmed-strike/)"
 benefit: |
   On a successful unarmed trip attack against a target your size or smaller, you may throw the target prone in any square you threaten rather than its own square. This movement does not provoke attacks of opportunity, and you cannot throw the creature into a space occupied by other creatures.
 special: |

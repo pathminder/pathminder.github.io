@@ -6,8 +6,8 @@ sources:
   - Pathfinder Roleplaying Game Advanced Player's Guide
 flavor_text: Your enemies cannot hide from you.
 prerequisites:
-  - [Perception](/skills/perception/) 15 ranks
-  - [Improved Blind-Fight](/feats/improved-blind-fight/)
+  - "[Perception](/skills/perception/) 15 ranks"
+  - "[Improved Blind-Fight](/feats/improved-blind-fight/)"
 benefit: |
   Your melee attacks ignore the miss chance for less than total concealment, and you treat opponents with total concealment as if they had normal concealment (20% miss chance instead of 50%). You may still reroll a miss chance percentile roll as normal.
 

@@ -8,7 +8,7 @@ flavor_text: You empower your strike with elemental energy
 prerequisites:
   - Con 13
   - Wis 13
-  - [Improved Unarmed Strike](/feats/improved-unarmed-strike/)
+  - "[Improved Unarmed Strike](/feats/improved-unarmed-strike/)"
   - base attack bonus +8
 benefit: |
   When you use Elemental Strike pick one of the following energy types: acid, cold, electricity, or fire. On a successful hit, the attack deals damage normally plus 1d6 points of damage of the chosen type. You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). You may attempt an elemental fist attack once per day for every four levels you have attained (see Special), and no more than once per round.
