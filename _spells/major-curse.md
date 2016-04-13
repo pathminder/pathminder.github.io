@@ -22,5 +22,5 @@ saving_throw: Will negates
 spell_resistance: yes
 ---
 
-This spell functions as [*bestow curse*](/spells/bestow-curse/), except the DC to remove the curse is equal to the save DC + 5.
+This spell functions as [*bestow curse*](/spells/bestow-curse/), except the DC to remove the curse is equal to the save DC + 5, and you may inflict a major [spellblight](/systems/spellblights/) instead of a minor spellblight.
 
