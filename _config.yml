@@ -7,11 +7,8 @@ github:
   repository_url: https://github.com/pathminder/pathminder.github.io
   issues_url: https://github.com/pathminder/pathminder.github.io/issues
 
-# This is commented out because it takes an absurd amount of time - upwards of
-# 400 seconds per build.
-#
-# gem:
-#   - jekyll-sitemap
+gem:
+  - jekyll-sitemap
 
 exclude:
   - CNAME

@@ -45,6 +45,24 @@ layout: default
     <li><strong>Effect</strong> {{ page.effect | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
   {% endif %}
 
+  {% if page.duration %}
+    <li><strong>Duration</strong> {{ page.duration | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
+
+  {% if page.saving_throw or page.spell_resistance %}
+    <li>
+      <strong>Saving Throw</strong> {{ page.saving_throw | markdownify | remove: '<p>' | remove: '</p>' | strip }};
+      <strong>SR</strong> {{ page.spell_resistance | append: '' | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    </li>
+  {% endif %}
+
+  {% if page.backlash %}
+    <li><strong>Backlash</strong> {{ page.backlash | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
+
+  {% if page.failure %}
+    <li><strong>Failure</strong> {{ page.failure | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endif %}
 </ul>
 
 {{ content }}
