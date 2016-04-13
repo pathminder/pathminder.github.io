@@ -1,0 +1,11 @@
+---
+title: Branded for Retribution
+sources:
+  - Pathfinder Roleplaying Game Ultimate Combat
+flavor_text: You brand an enemy with your bane weapon, making it more vulnerable to your allies' attacks.
+prerequisites:
+  - bane class feature
+benefit: |
+  As a standard action, expend 3 rounds of your bane class feature and make a melee touch attack with the weapon affected by bane. If you hit, your target takes no damage but is branded until the start of your next turn. While this brand remains, your allies' weapons are considered to have the bane ability with which your weapon is imbued when they attack the branded creature.
+---
+
