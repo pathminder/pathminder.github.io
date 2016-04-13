@@ -31,8 +31,6 @@ layout: default
   {% endfor %}
   {% assign all_tags = all_tags | sort %}
 
-  x-{{ all_tags }}-x
-
   {% assign general_items = empty_array %}
   {% for item in site[listing_source] %}
     {% for tag in item.tags %}
