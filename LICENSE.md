@@ -73,6 +73,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 - *Pathfinder Advanced Player’s Guide* Update 1.0, Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
 - *Pathfinder Campaign Setting: Inner Sea Magic*, Copyright 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor.
 - *Pathfinder Campaign Setting: Occult Realms*, Copyright 2015, Paizo Inc.; Authors: Robert Brookes, Thurston Hillman, Thomas M. Reed, and Mark Seifter.
+- *Pathfinder Campaign Setting: Rival Guide*, Copyright 2011, Paizo Publishing, LLC. Authors: Brian Cortijo, Adam Daigle, Tim Hitchcock, Brandon Hodge, Colin McComb, Jason Nelson, Amber Scott, Neil Spicer, and Todd Stewart.
 - *Pathfinder Companion: Adventurer's Armory*, Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.
 - *Pathfinder Companion: Sargava, the Lost Colony*, Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.
 - *Pathfinder Player Companion: Arcane Anthology*, Copyright 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross.

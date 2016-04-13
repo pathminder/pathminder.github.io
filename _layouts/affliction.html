@@ -31,6 +31,11 @@ layout: default
   {% assign stat_items = stat_items | push: stat_item_text %}
 {% endif %}
 
+{% if page.addiction %}
+  {% assign stat_item_text = page.addiction | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Addiction</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
 {% if page.save %}
   {% assign stat_item_text = page.save | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Save</strong> ' %}
   {% assign stat_items = stat_items | push: stat_item_text %}
@@ -42,8 +47,23 @@ layout: default
 
 {% assign stat_items = empty_array %}
 
+{% if page.initial_effect %}
+  {% assign stat_item_text = page.initial_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Initial Effect</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if page.secondary_effect %}
+  {% assign stat_item_text = page.secondary_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Secondary Effect</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
 {% if page.effect %}
   {% assign stat_item_text = page.effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Effect</strong> ' %}
+  {% assign stat_items = stat_items | push: stat_item_text %}
+{% endif %}
+
+{% if page.damage %}
+  {% assign stat_item_text = page.damage | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Damage</strong> ' %}
   {% assign stat_items = stat_items | push: stat_item_text %}
 {% endif %}
 
