@@ -2,6 +2,7 @@
 title: Knowledge (geography)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 tags:
   - Knowledge
 ability_score: Int

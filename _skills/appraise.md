@@ -2,18 +2,19 @@
 title: Appraise
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Occult Adventures
 ability_score: Int
 ---
 
 You can use Appraise evaluate the monetary value of an object. Retrying Appraise checks with the same items gives you the same results. The table shows uses of Appraise and the time they take.
 
-| Appraise task                |               Requires                |      Time       |  Retry   |     DC     |
-|:-----------------------------|:-------------------------------------:|:---------------:|:--------:|:----------:|
-| Appraise common item or work |                  ---                  | Standard action |    No    |     20     |
-| Appraise rare item or work   |                  ---                  | Standard action |    No    | 25 or more |
-| Evaluate hoard               |                  ---                  |     1 round     |    No    | 20 or more |
-| Psychometry, once per day    | Psychic spells or Psychic Sensitivity |    1 minute     | See text |   Varies   |
+| Appraise task                |      Requires       |      Time       |  Retry   |     DC     |
+|:-----------------------------|:-------------------:|:---------------:|:--------:|:----------:|
+| Appraise common item or work |         ---         | Standard action |    No    |     20     |
+| Appraise rare item or work   |         ---         | Standard action |    No    | 25 or more |
+| Evaluate hoard               |         ---         |     1 round     |    No    | 20 or more |
+| Psychometry, once per day    | occult skill unlock |    1 minute     | See text |   Varies   |
 
 **Appraise Item:** By taking 1 standard action, you can evaluate the monetary value of an object. If you succeed by 5 or more, you also determine if the item has magic properties, although this success does not grant knowledge of the magic item's abilities.
 
@@ -28,3 +29,15 @@ If you fail the check by less than 5 or the item has no significant psychic impr
 If you attempt to use psychometry on an item affected by *charge object* or *implant false reading*, you automatically learn all information imprinted by the spell. You must also attempt a Will save. If the item is affected by an *implant false reading* spell, on a success, you realize the information was false, and can determine the true information as well. On a failure, or if the item is affected by a *charge object* spell, you believe the information is true.
 
 Multiple readings on an object or place always give the same results unless its circumstances or ownership have changed, but additional checks might reach further back into an object's history. You don't reroll the saving throw to determine if a psychic imprint is false.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** A successful DC 20 Appraise check reveals whether an item is magical, and a second check (DC = 25 + the item's caster level) unveils its properties. You can use Appraise to detect non-written forgeries and counterfeits.
+
+**10 Ranks:** You can determine the most expensive object a creature is wearing or wielding (or in a 5-foot cube) as a standard action by succeeding at a DC 20 check. You never make a wildly inaccurate appraisal of an item's value.
+
+**15 Ranks:** Determining the most expensive object as above is a move action. You can substitute an Appraise check at a --10 penalty for a Will save to disbelieve a figment or glamer.
+
+**20 Ranks:** Determining the most expensive object as above is a move action, and if the check succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm a creature of that object for 1 minute.

@@ -2,6 +2,7 @@
 title: Bluff
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Ultimate Intrigue
   - "Pathfinder Player Companion: Giant Hunter's Handbook"
 ability_score: Cha
@@ -83,3 +84,15 @@ Don't underestimate the benefit of using Bluff to send messages through innuendo
 **Trick Someone:** Bluff can be used to cleverly trip a target up and get him to reveal something or make a mistake. In these cases, he realizes his mistake soon after, but by then it is too late, and the falsehood has done its damage. This is similar to using Bluff to feint or create a diversion, but has broader applications in social situations. For instance, suppose a swashbuckler suspected that an assassin works for the queen. The swashbuckler might be able to trick the assassin into revealing more information by pretending to be a fellow agent of the queen in an attempt to gauge the assassin's response. Of course, if the assassin doesn't work for the queen and sees through the ruse, he might attempt his own Bluff check to pretend that he works for the queen and fell for the trick, thus causing the swashbuckler to investigate the innocent queen.
 
 **Surprise in Conversation:** Not every surprise round begins with an ambush from unseen assailants. If a character or several characters unexpectedly attack in the midst of a conversation or other normal activity, their victims might be surprised. To determine if a victim is surprised, he should attempt a Sense Motive check opposed by the assailant's Bluff check rather than a Perception opposed by the assailant's Stealth check. This is also a good way to adjudicate several abilities, including several vigilante talents that trigger when the target thinks the vigilante is an ally.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** The penalty to Bluff a creature after a failed check is halved unless you failed by 5 or more.
+
+**10 Ranks:** You take no penalty to Bluff a creature after a failed check unless you failed by 5 or more.
+
+**15 Ranks:** Creatures magically attempting to read your thoughts, detect your alignment, or reveal when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff) or the effect reveals nothing.
+
+**20 Ranks:** As a full-round action, you can make a [*suggestion*](/spells/suggestion/) (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your *suggestion* is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion.

@@ -2,6 +2,7 @@
 title: Diplomacy
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Occult Adventures
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ability_score: Cha
@@ -11,12 +12,12 @@ You can use this skill to persuade others to agree with your arguments, to resol
 
 You cannot use Diplomacy against a creature that does not understand you or has an Intelligence of 3 or less. Diplomacy is generally ineffective in combat and against creatures that intend to harm you or your allies in the immediate future.
 
-| Diplomacy task          |               Requires                |      Time       |        Retry         |         DC         |
-|:------------------------|:-------------------------------------:|:---------------:|:--------------------:|:------------------:|
-| Change attitude         |                  ---                  |    1 minute     |          No          |       Varies       |
-| Make request            |                  ---                  | 1 round or more | Not for same request |       Varies       |
-| Gather information      |                  ---                  |    1d4 hours    |         Yes          |       Varies       |
-| Hypnotism, once per day | Psychic spells or Psychic Sensitivity |    1 minute     |          No          | 20 + Will modifier |
+| Diplomacy task          |      Requires       |      Time       |        Retry         |         DC         |
+|:------------------------|:-------------------:|:---------------:|:--------------------:|:------------------:|
+| Change attitude         |         ---         |    1 minute     |          No          |       Varies       |
+| Make request            |         ---         | 1 round or more | Not for same request |       Varies       |
+| Gather information      |         ---         |    1d4 hours    |         Yes          |       Varies       |
+| Hypnotism, once per day | occult skill unlock |    1 minute     |          No          | 20 + Will modifier |
 
 **Change Attitude:** With 1 minute of continuous interaction, you can change the initial attitudes of nonplayer characters. The DC of this check depends on the creature's starting attitude toward you, adjusted by its Charisma modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. You cannot use Diplomacy to influence a given creature's attitude more than once in a 24-hour period.
 
@@ -65,3 +66,15 @@ Gathering information is itself a conspicuous act, so others who are gathering i
 *Implant Suggestion:* You can implant a suggested course of reasonable action in the mind of a willing creature, along with a defined trigger. To implant a suggestion, you spend 1 minute inducing a trance-like state in the subject, after which you attempt a Diplomacy check. If the check is successful, you implant the course of action, as a suggestion spell with a duration of 10 minutes plus 10 additional minutes for every 1 by which your check result exceeds the DC. If the subject ceases to be willing, it can attempt a Will save once each round to shake off the effects. The save DC is equal to 10 + 1/2 your character level + your Charisma modifier. You can attempt to subtly implant a suggestion in the mind of an unwilling creature with an attitude of indifferent or better after 1 minute of continuous, calm interaction with that creature, but the DC is 10 higher.
 
 *Recall Memory:* You can draw out forgotten memories from a willing subject. You spend 1 minute inducing a calming, trance-like state in the subject, after which you attempt a Diplomacy check. If you succeed at the check, the hypnotized creature can reroll any previously failed Intelligence or Knowledge check to recall the forgotten information with a +4 bonus. The information must be something the subject once knew or was exposed to.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** The time required to influence a creature's attitude or gather information is halved.
+
+**10 Ranks:** You can attempt to adjust a creature's attitude in 1 round by taking a --10 penalty. If you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours that attitude change persists.
+
+**15 Ranks:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days, not hours. You can gather information in 10 minutes by taking a --5 penalty.
+
+**20 Ranks:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty.

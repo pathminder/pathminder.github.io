@@ -2,6 +2,7 @@
 title: Survival
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Occult Adventures
 ability_score: Wis
 ---
@@ -12,14 +13,14 @@ If you are trained in Survival, you can automatically determine where true north
 
 A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.
 
-| Survival task                       |               Requires                |           Retry            |      Time       |      DC       |
-|:------------------------------------|:-------------------------------------:|:--------------------------:|:---------------:|:-------------:|
-| Get along in the wild, once per day |                  ---                  |             No             |       ---       |      10       |
-| Resist weather, once per day        |                  ---                  |             No             |       ---       |      15       |
-| Navigate                            |                  ---                  |             No             |       ---       |      15       |
-| Predict weather                     |                  ---                  |             No             |       ---       |      15       |
-| Follow tracks                       |                  ---                  | After 10 minutes or 1 hour | 1 round or more |    Varies     |
-| Dowsing, once per day               | Psychic spells or Psychic Sensitivity |          Next day          |   10 minutes    | 15, 20, or 25 |
+| Survival task                       |      Requires       |           Retry            |      Time       |      DC       |
+|:------------------------------------|:-------------------:|:--------------------------:|:---------------:|:-------------:|
+| Get along in the wild, once per day |         ---         |             No             |       ---       |      10       |
+| Resist weather, once per day        |         ---         |             No             |       ---       |      15       |
+| Navigate                            |         ---         |             No             |       ---       |      15       |
+| Predict weather                     |         ---         |             No             |       ---       |      15       |
+| Follow tracks                       |         ---         | After 10 minutes or 1 hour | 1 round or more |    Varies     |
+| Dowsing, once per day               | occult skill unlock |          Next day          |   10 minutes    | 15, 20, or 25 |
 
 **Get Along in the Wild:** Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. You make a Survival check once every 24 hours. The result of that check applies until the next check is made.
 
@@ -87,3 +88,15 @@ For a group of mixed sizes, apply only the modifier for the largest size categor
 *Grave Dowsing:* The dowsing rod points in the direction of the largest burial site, cairn, or tomb within range.
 
 *Locate Metal and Gems:* You concentrate on a specific metal or mineral. On a successful check, the dowsing rod points to the largest quantity of the selected mineral within range.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1 point for every 5 ranks you possess in Survival.
+
+**10 Ranks:** You can track creatures that leave no tracks, including flying and swimming creatures and creatures using trackless step or pass without trace, taking a --20 penalty on your Survival check.
+
+**15 Ranks:** Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants you cold resistance or fire resistance 5 for 24 hours. You can share this with one ally for every 5 by which you exceeded the check.
+
+**20 Ranks:** You take only a --10 penalty when tracking creatures that leave no tracks.

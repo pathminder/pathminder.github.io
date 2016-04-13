@@ -2,6 +2,7 @@
 title: Disable Device
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Dex
 armor_check_penalty: true
 trained_only: true
@@ -39,3 +40,15 @@ To disarm a magic trap, you must have the trapfinding ability.
 | Average      | 25 |
 | Good         | 30 |
 | Superior     | 40 |
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** Reduce the time required to disarm a trap or open a lock by taking a --5 penalty on your Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1 round, a standard action, a move action, a swift action.
+
+**10 Ranks:** You can disarm magical traps at a --10 penalty even if you lack the trapfinding ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger them, even if you perform the trigger action (such as looking at a *symbol*). If you fail the check, you can still trigger the trap, and you can't use this ability to bypass it.
+
+**15 Ranks:** When attacked by a trap, you can attempt a Disable Device check as an immediate action (adding your trap sense bonus, if any) opposed by the trap's attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC by at least 10).
+
+**20 Ranks:** You halve the penalties for performing a quick disarm as described in the 5 Ranks entry. If you possess the trapfinding ability and accept a --20 penalty while using the ability unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an immediate action before it can trigger if you exceed the DC by at least 10.

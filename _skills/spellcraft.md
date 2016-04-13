@@ -2,6 +2,7 @@
 title: Spellcraft
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Ultimate Psionics
 ability_score: Int
 trained_only: true
@@ -39,3 +40,15 @@ If you're trained in this skill, you can perform tasks like identifying magic it
 **Craft Magic or Psionic Item:** Making a Spellcraft check to craft a magic or psionic item is made as part of the creation process.
 
 **Understand Unique Magic or Psionic Effect:** You can understand a strange or unique magic or psionic effect, such as the effects of an outcrop of psionically resonant crystal.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** Identifying magic items takes 1 full round, and the time required to learn a spell from a spellbook is halved.
+
+**10 Ranks:** You can identify magic items without using [*detect magic*](/spells/detect-magic/), though the DC is increased by 10.
+
+**15 Ranks:** Identifying magic items is a standard action, and the time required to learn a new spell from a spellbook is reduced to 1 minute per spell level.
+
+**20 Ranks:** Whenever you attempt a caster level check, attempt a Spellcraft check at a --20 penalty at the same DC. If the Spellcraft check succeeds, you gain a +2 circumstance bonus on your caster level check.

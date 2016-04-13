@@ -2,6 +2,7 @@
 title: Stealth
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Ultimate Intrigue
   - "Pathfinder Player Companion: Giant Hunter's Handbook"
 ability_score: Dex
@@ -45,3 +46,15 @@ In general, there are four states of awareness that a creature can have with reg
 **Hide Behind Creature:** Normally the soft cover provided by other creatures is not sufficient to allow you to attempt a Stealth check. Soft cover provided by creatures at least one size category larger than you does allow you to attempt Stealth checks against other creatures not already aware of your presence at a --10 penalty. If the creature providing the cover knows which square you occupy and is trying to avoid concealing you, this penalty increases to --20.
 
 You can also hide from a creature by staying under its own body if it is at least two size categories larger than you and you are in its space. Such attempts also take a –10 penalty, which increases to a –20 penalty if the creature is aware you are in the area. If the creature moves away from you, you are automatically revealed, unless you have readied an action to move with it.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** Reduce the Stealth penalty from sniping by 10.
+
+**10 Ranks:** Stealth check penalties for moving quickly are halved, including the ability unlocked at 5 ranks, moving full speed, and reaching concealment after creating a distraction.
+
+**15 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the end of your turn.
+
+**20 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn.

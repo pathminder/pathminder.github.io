@@ -2,6 +2,7 @@
 title: Perform
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Cha
 ---
 
@@ -42,3 +43,15 @@ Each of the nine categories of the Perform skill includes a variety of methods, 
 *Memorable Performance:* In a prosperous city, you can earn 1d6 gp/day. In time, you may come to the attention of noble patrons and develop a national reputation.
 
 *Extraordinary Performance:* In a prosperous city, you can earn 3d6 gp/day. In time, you may draw attention from distant patrons, or even from extraplanar beings.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks. Each Perform skill gains access to skill unlocks separately.
+
+**5 Ranks:** Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can attempt a DC 20 Perform check to gain a +2 circumstance bonus on the check.
+
+**10 Ranks:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 25 Perform check to increase the save DC by 1.
+
+**15 Ranks:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can attempt a DC 30 Perform check to increase your caster level by 1. You must choose whether to use this ability or the ability unlocked at 10 ranks when casting the spell.
+
+**20 Ranks:** Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check.

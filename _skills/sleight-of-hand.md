@@ -2,6 +2,7 @@
 title: Sleight of Hand
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Dex
 armor_check_penalty: true
 trained_only: true
@@ -31,3 +32,15 @@ Drawing a hidden weapon is a standard action and doesn’t provoke an attack of 
 **Lift Object:** If you try to take something from a creature, you must make a DC 20 Sleight of Hand check. The opponent makes a Perception check to detect the attempt, opposed by the Sleight of Hand check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence.
 
 **Entertain Audience:** You can use Sleight of Hand to entertain an audience as though you were using the [Perform](/skills/perform/) skill. In such a case, your "act" encompasses elements of legerdemain, juggling, and the like.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** When attempting a disarm or steal maneuver, a successful Sleight of Hand check against your target's CMD grants a +2 circumstance bonus on your combat maneuver check.
+
+**10 Ranks:** The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon) as a move action is reduced to --10.
+
+**15 Ranks:** You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a swift action at a --20 penalty.
+
+**20 Ranks:** You take no penalty for using Sleight of Hand as a move action, and take only a --10 penalty when using it as a swift action.

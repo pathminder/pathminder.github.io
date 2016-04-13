@@ -2,6 +2,7 @@
 title: Perception
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Occult Adventures
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ability_score: Wis
@@ -13,12 +14,12 @@ Most Perception checks are reactive, made in response to observable stimulus. In
 
 Creatures with the scent special quality have a +8 bonus on Perception checks made to detect a scent. Creatures with the tremorsense special quality have a +8 bonus on Perception checks against creatures touching the ground and automatically make any such checks within their range.
 
-| Perception task         |               Requires                |         Time          |  Retry   |         DC         |
-|:------------------------|:-------------------------------------:|:---------------------:|:--------:|:------------------:|
-| Notice opponent         |                  ---                  |          ---          |    No    | Opposed by Stealth |
-| Notice details          |                  ---                  |          ---          |    No    |       Varies       |
-| Search area             |                  ---                  | 1 move action or more |    No    |       Varies       |
-| Read aura, once per day | Psychic spells or Psychic Sensitivity |      10 minutes       | Next day |       Varies       |
+| Perception task         |      Requires       |         Time          |  Retry   |         DC         |
+|:------------------------|:-------------------:|:---------------------:|:--------:|:------------------:|
+| Notice opponent         |         ---         |          ---          |    No    | Opposed by Stealth |
+| Notice details          |         ---         |          ---          |    No    |       Varies       |
+| Search area             |         ---         | 1 move action or more |    No    |       Varies       |
+| Read aura, once per day | occult skill unlock |      10 minutes       | Next day |       Varies       |
 
 **Notice Opponent:** Noticing an opponent is an opposed check versus an opponent's Stealth check to notice the opponent and avoid being surprised. If you are successful, you notice the opponent and can react accordingly. If you fail, your opponent can take a variety of actions, including sneaking past you and attacking you.
 
@@ -82,3 +83,15 @@ Terrible conditions are as for unfavorable conditions, but more extreme. For exa
 | Read magic aura     |             20 + creature's HD or item's caster level              |
 
 You can read a creature or object's aura more than once, whether you read the same aura or a different one.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping is halved. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 20 feet.
+
+**10 Ranks:** The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible creature or object.
+
+**15 Ranks:** You remain alert to sounds even in your sleep, and the normal DC increase to Perception checks when you are sleeping doesn't apply to you. The distance modifier on the DC of your Perception checks is reduced to +1 per 40 feet.
+
+**20 Ranks:** You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet.

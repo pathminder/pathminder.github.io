@@ -2,6 +2,7 @@
 title: Handle Animal
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Cha
 trained_only: true
 ---
@@ -77,3 +78,15 @@ You must spend half the given time (at the rate of 3 hours per day per animal be
 You must spend half the time raising the animal (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Handle Animal check. If the check fails, your attempt to rear the animal fails and you need not complete the rearing time. If the check succeeds, you must invest the remainder of the time to complete the rearing. If the time is interrupted or the task is not followed through to completion, the attempt to rear the animal automatically fails.
 
 A successfully domesticated animal can be taught tricks at the same time it's being raised, or it can be taught as a domesticated animal later.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.
+
+**10 Ranks:** Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.
+
+**15 Ranks:** You can train an animal to understand your speech (as speak with animals) with 1 week of effort and a successful DC 30 Handle Animal check. Its actions are still limited by its Intelligence. You can teach a trick in 1 day (increasing the DC by 10) or 1 hour (increasing the DC by 20).
+
+**20 Ranks:** You can make your speech understandable to any animal for 24 hours with a successful DC 30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1 hour (increasing the DC by 10), or 1 minute (increasing the DC by 20).

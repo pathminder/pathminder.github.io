@@ -2,6 +2,7 @@
 title: Knowledge (arcana)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Occult Adventures
   - Ultimate Psionics
 tags:
@@ -22,7 +23,7 @@ Knowledge (arcana) covers ancient mysteries, magic traditions, arcane symbols, c
 | Identify a construct creature's abilities and weaknesses     |                  ---                  |   ---    |    No    | 10 + monster's CR |
 | Identify a dragon creature's abilities and weaknesses        |                  ---                  |   ---    |    No    | 10 + monster's CR |
 | Identify a magical beast creature's abilities and weaknesses |                  ---                  |   ---    |    No    | 10 + monster's CR |
-| Phrenology, once per day                                     | Psychic spells or Psychic Sensitivity | 1 minute | Next day |      Varies       |
+| Phrenology, once per day                                     | occult skill unlock | 1 minute | Next day |      Varies       |
 
 **Identify Aura:** This works as the identify aura functionality of [Spellcraft](/skills/spellcraft/), except that you can also identify auras on creatures.
 

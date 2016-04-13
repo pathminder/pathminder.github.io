@@ -2,6 +2,7 @@
 title: Intimidate
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ability_score: Cha
 ---
@@ -28,3 +29,15 @@ After the Intimidate expires, the target treats you as unfriendly and may report
 *Explaining Negative Consequences:* Sometimes a character wants to calmly explain negative consequences to someone in a way that merely relies on logic, not fear. This is particularly important when attempting to convince someone immune to fear, such as a paladin or vampire, to back down in the face of negative consequences. This is different than improving a creature's attitude or making a request (particularly since a character might try it with an unfriendly creature), so it doesn't fall under Diplomacy. One good way to handle this is to use the rules for influence or verbal duels instead, since those both allow for logic and knowledge to help impact the situation. If only a skill check is possible, consider allowing an Intimidate check that doesn't apply any modifiers tied to frightening the target (such as the Intimidating Prowess feat, size modifiers, an inquisitor's stern gaze, and so on) and then having the result not be a fear effect.
 
 **Demoralize Opponent:** As a standard action, you can use this skill to cause an opponent to become shaken for a number of rounds. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom modifier. If you are successful, the target is shaken for 1 round. This duration increases by 1 round for every 5 by which you beat the DC. You can only threaten an opponent in this way if it is within 30 feet and can clearly see and hear you. Using demoralize on the same creature only extends the duration; it does not create a stronger fear condition.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** If you exceed the DC to demoralize a target by at least 10, it is frightened for 1 round and shaken thereafter. The total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened condition, but the target is still shaken, even if it has the stalwart ability.
+
+**10 Ranks:** If you exceed the DC to demoralize a target by at least 10, it is panicked for 1 round or frightened for 1d4 rounds (your choice) and shaken thereafter. The total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or panicked condition, but the target is still shaken, even if it has the stalwart ability.
+
+**15 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1 round or panicked for 1d4 rounds (your choice) and frightened thereafter. The total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering, panicked, and frightened conditions, but the target is still shaken, even if it has the stalwart ability.
+
+**20 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter. The total duration cannot exceed 1 round plus 1 round for every 5 by which you exceed the DC. A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the stalwart ability.

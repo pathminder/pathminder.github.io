@@ -2,6 +2,7 @@
 title: Fly
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Dex
 armor_check_penalty: true
 ---
@@ -51,3 +52,15 @@ Taking any action that violates these rules requires a Fly check. The difficulty
 | Windstorm  | 51--74 mph  |    Medium    |      Small      |     --8     |
 | Hurricane  | 75--174 mph |    Large     |     Medium      |    --12     |
 | Tornado    |  175+ mph   |     Huge     |      Large      |    --16     |
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing movement.
+
+**10 Ranks:** A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed. You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus 10 feet for every 10 points by which you exceed the DC.
+
+**15 Ranks:** A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing movement, or a 180-degree turn by sacrificing 5 feet of movement. You are considered one size category larger when determining wind effects on Fly checks.
+
+**20 Ranks:** A successful DC 35 Fly check allows you to fly straight up at full speed. You are considered two size categories larger when determining wind effects on Fly checks.

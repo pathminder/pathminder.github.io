@@ -2,6 +2,7 @@
 title: Disguise
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Pathfinder Roleplaying Game Ultimate Intrigue
 ability_score: Cha
 ---
@@ -32,3 +33,15 @@ If you are impersonating a particular individual, those who know what that perso
 | Friends or associates |               +6                |
 | Close friends         |               +8                |
 | Intimate              |               +10               |
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You can create a disguise in 1d3 minutes.
+
+**10 Ranks:** You can create a disguise in 1d3 rounds. If you take the full normal amount of time to create your disguise, you take no penalty for disguising your gender, race, or age category.
+
+**15 Ranks:** You can create a disguise as a full-round action.
+
+**20 Ranks:** You can create a disguise as a standard action, or as a full-round action combined with a Bluff check to create a diversion to hide.

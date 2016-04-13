@@ -2,6 +2,7 @@
 title: Climb
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Str
 armor_check_penalty: true
 ---
@@ -48,3 +49,15 @@ Success indicates that you catch the falling character, but his total weight, in
 If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.
 
 **Haul Character:** You can use a rope to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You are no longer denied your Dexterity bonus when climbing.
+
+**10 Ranks:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10 feet, but only on surfaces with a Climb DC of 20 or lower.
+
+**15 Ranks:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to your base speed on surfaces with a Climb DC of 20 or lower, and of 10 feet on all other surfaces.
+
+**20 Ranks:** You gain a natural climb speed equal to your base speed on all surfaces. If you have both hands free, you gain a +8 racial bonus on Climb checks.

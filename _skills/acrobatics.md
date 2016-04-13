@@ -2,6 +2,7 @@
 title: Acrobatics
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
 ability_score: Dex
 armor_check_penalty: true
 ---
@@ -65,3 +66,15 @@ The only Acrobatics modifiers that apply are those concerning the surface you ar
 *High Jump:* Your check result divided by four is the height you reach. If this isn't far enough but it this puts you within 1 foot or closer of the height you're trying to jump, you can attempt a DC 20 Reflex save to grab hold. If you can't reach, you land prone.
 
 **Soften Fall:** When you deliberately fall any distance, even as a result of a missed jump, a DC 15 Acrobatics skill check allows you to ignore the first 10 feet fallen, although you still end up prone if you take damage from a fall. See the falling rules for further details.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You can move at normal speed through a threatened square without provoking an attack of opportunity by increasing the DC of the check by 5 (instead of by 10). You aren't denied your Dexterity bonus when attempting Acrobatics checks with DCs of 20 or lower.
+
+**10 Ranks:** You can attempt an Acrobatics check at a --10 penalty and use the result as your CMD against trip maneuvers. You can also attempt an Acrobatics check at a --10 penalty in place of a Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10 feet shorter for every 10 by which you exceed the DC.
+
+**15 Ranks:** You do not provoke attacks of opportunity when standing up from prone.
+
+**20 Ranks:** You double the result of any Acrobatics check when jumping and never fall prone at the end of a fall as long as you remain conscious.

@@ -2,6 +2,7 @@
 title: Use Magic Device
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
+  - Pathfinder Roleplaying Game Pathfinder Unchained
   - Ultimate Psionics
 ability_score: Cha
 trained_only: true
@@ -52,3 +53,15 @@ Before you use a power stone, you must first have addressed it to determine what
 **Decipher Written Spell:** This works like deciphering a written spell with the Spellcraft skill, except with a higher DC.
 
 **Address Power Stone:** This works like addressing a power stone using Spellcraft, except with a higher DC.
+
+## Skill Unlocks
+
+If you have the [Signature Skill](/feats/signature-skill/) feat, the rogue's edge ability, or another ability that grants you the skill unlocks for this skill, you gain access to the following abilities when you have sufficient ranks.
+
+**5 Ranks:** You can use the aid another action to assist another creature's Use Magic Device check by attempting a check against the item's Use Magic Device DC.
+
+**10 Ranks:** If you roll a natural 1 when activating an item, you take a --10 penalty on Use Magic Device checks with that item for 24 hours instead of being unable to activate it. This penalty stacks with itself.
+
+**15 Ranks:** You can use this skill to emulate two races or two alignments simultaneously.
+
+**20 Ranks:** If you roll a natural 1 when activating an item, you can reroll the check at a --10 penalty to activate the item. You must take the result of the second check, even if it is worse, and you can't reroll it again.
