@@ -4,7 +4,7 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Campaign Setting: Rival Guide"
 
-ability_scores: +2 Constitution, +2 Wisdom, --2 Charisma
+ability_scores: +2 Con, +2 Wis, --2 Cha
 type: humanoid
 size: Medium
 
@@ -19,7 +19,7 @@ ages:
   maximum: +2d100
 
 height_and_weight:
-  height_modifier: ×(2d4)
+  height_modifier: +2d4
   weight_modifier: ×7
   genders:
     - name: male

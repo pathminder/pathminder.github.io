@@ -6,7 +6,7 @@ sources:
 tags:
   - Psionic
 
-ability_scores: +2 Con, +2 Wis, --2Dex
+ability_scores: +2 Con, +2 Wis, --2 Dex
 type: humanoid
 subtypes:
   - noral
