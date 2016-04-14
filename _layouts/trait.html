@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.tags|length > 0 %}
-  <p><strong>Trait Type(s)</strong> {{ page.tags|join: '; ' }}</p>
+  <p><strong>Trait Type(s)</strong> {{ page.tags|join: '; ' }} {% if page.type %}({{ page.type }}){% endif %}</p>
 {% endif %}
 
 {{ content }}
