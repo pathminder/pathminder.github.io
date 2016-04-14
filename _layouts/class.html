@@ -277,18 +277,6 @@ layout: default
   {% endfor %}
 {% endfor %}
 
-{% if page.favored_class_bonuses %}
-  <h2>Favored Class Bonuses</h2>
-
-  <dl>
-    {% assign favored_class_bonuses = page.favored_class_bonuses | sort: 'race' %}
-    {% for favored_class_bonus in favored_class_bonuses %}
-      <dt>{{ favored_class_bonus.race | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}</dt>
-      <dd>{{ favored_class_bonus.bonus | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}</dd>
-    {% endfor %}
-  </dl>
-{% endif %}
-
 {% if page.spell_list %}
   {% assign level_0_spells = empty_array %}
   {% assign level_1_spells = empty_array %}
