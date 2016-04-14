@@ -1,0 +1,10 @@
+---
+title: Bullied
+sources:
+  - Pathfinder Roleplaying Game Advanced Player's Guide
+tags:
+  - Combat
+---
+
+You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attacks of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes—you must have a level of monk, the Improved Unarmed Strike feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.
+

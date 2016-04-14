@@ -1,0 +1,10 @@
+---
+title: Charming
+sources:
+  - Pathfinder Roleplaying Game Advanced Player's Guide
+tags:
+  - Social
+---
+
+Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use Bluff or Diplomacy on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.
+
