@@ -1,0 +1,16 @@
+---
+title: "*ring of swarming stabs*"
+aura: faint transmutation
+cl: 5th
+slot: ring
+price: 6,000 gp
+weight: ---
+construction_requirements:
+  - [Forge Ring](/feats/forge-ring/)
+  - [*guidance*](/spells/guidance/)
+  - creator must be able to sneak attack
+cost: 3,000 gp
+---
+
+This ring is crafted of hardened leather strips, into which bits of fur, feathers, bone, and ivory have been woven. Twice per day, when the wearer is flanking an opponent, he can as a swift action deal an additional 1d6 points of damage on a successful melee attack against that opponent. This is a sneak attack for any effects that reduce or negate such damage.
+
