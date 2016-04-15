@@ -6,7 +6,7 @@ layout: default
 
 {% assign stat_items = empty_array %}
 
-{% if page.type %}
+{% if page.price %}
   {% assign stat_item_text = '<strong>Price</strong> ' | append: page.price %}
   {% assign stat_items = stat_items | push: stat_item_text %}
 {% endif %}
