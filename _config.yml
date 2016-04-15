@@ -61,6 +61,11 @@ defaults:
       layout: equipment
   - scope:
       path: ""
+      type: evolutions
+    values:
+      layout: evolution
+  - scope:
+      path: ""
       type: feat-types
     values:
       layout: feat-type
@@ -74,6 +79,11 @@ defaults:
       type: magic-items
     values:
       layout: magic-item
+  - scope:
+      path: ""
+      type: magic-item-properties
+    values:
+      layout: magic-item-property
   - scope:
       path: ""
       type: maneuvers
@@ -177,6 +187,9 @@ collections:
   equipment:
     output: true
     title: Equipment
+  evolutions:
+    output: true
+    title: Evolutions
   feats:
     output: true
     title: Feats
@@ -189,6 +202,9 @@ collections:
   magic-items:
     output: true
     title: Magic Items
+  magic-item-properties:
+    output: true
+    title: Magic Item Properties
   maneuvers:
     output: true
     title: Maneuvers

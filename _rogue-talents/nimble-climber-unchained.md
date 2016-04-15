@@ -1,5 +1,5 @@
 ---
-title: nimble climber
+title: nimble climber (Unchained)
 sources:
   - Pathfinder Roleplaying Game Pathfinder Unchained
 type: Ex
