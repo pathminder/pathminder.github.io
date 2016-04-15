@@ -6,10 +6,10 @@ slot: shield
 price: 52,620 gp
 weight: 45 lbs.
 construction_requirements:
-  - [Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)
-  - [Turn Undead](/feats/turn-undead/)
-  - [*death ward*](/spells/death-ward/)
-  - [*etherealness*](/spells/etherealness/)
+  - "[Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)"
+  - "[Turn Undead](/feats/turn-undead/)"
+  - "[*death ward*](/spells/death-ward/)"
+  - "[*etherealness*](/spells/etherealness/)"
 cost: 26,390 gp
 ---
 

@@ -6,10 +6,10 @@ slot: body
 price: 5,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*eagle's splendor*](/spells/eagles-splendor/)
-  - [*mending*](/spells/mending/)
-  - [*prestidigitation*](/spells/prestidigitation/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*eagle's splendor*](/spells/eagles-splendor/)"
+  - "[*mending*](/spells/mending/)"
+  - "[*prestidigitation*](/spells/prestidigitation/)"
   - creator must be a [drow](/races/drow/)
 cost: 2,500 gp
 ---

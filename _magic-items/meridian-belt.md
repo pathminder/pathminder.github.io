@@ -6,8 +6,8 @@ slot: belt
 price: 1,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*polymorph*](/spells/polymorph/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*polymorph*](/spells/polymorph/)"
 cost: 500 gp
 ---
 

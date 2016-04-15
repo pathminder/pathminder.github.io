@@ -6,9 +6,9 @@ slot: shoulders
 price: 1,000 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*cure light wounds*](/spells/cure-light-wounds/)
-  - [*stabilize*](/spells/stabilize/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*cure light wounds*](/spells/cure-light-wounds/)"
+  - "[*stabilize*](/spells/stabilize/)"
 cost: 500 gp
 ---
 

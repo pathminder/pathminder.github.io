@@ -6,8 +6,8 @@ slot: feet
 price: 56,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*ride the waves*](/spells/ride-the-waves/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*ride the waves*](/spells/ride-the-waves/)"
 cost: 28,000 gp
 ---
 

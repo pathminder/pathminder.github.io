@@ -6,8 +6,8 @@ slot: none
 price: 26,500 gp
 weight: 5 lbs.
 construction_requirements:
-  - [Craft Rod](/feats/craft-rod/)
-  - [*stone shape*](/spells/stone-shape/)
+  - "[Craft Rod](/feats/craft-rod/)"
+  - "[*stone shape*](/spells/stone-shape/)"
 cost: 13,250 gp
 ---
 

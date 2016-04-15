@@ -6,9 +6,9 @@ slot: head
 price: 8,000 gp
 weight: 4 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*innocence*](/spells/innocence/)
-  - [*stone shape*](/spells/stone-shape/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*innocence*](/spells/innocence/)"
+  - "[*stone shape*](/spells/stone-shape/)"
 cost: 4,000 gp
 ---
 

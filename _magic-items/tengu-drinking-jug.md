@@ -6,9 +6,9 @@ slot: none
 price: 1,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*prestidigitation*](/spells/prestidigtation/)
-  - [*purify food and drink*](/spells/purify-food-and-drink/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*prestidigitation*](/spells/prestidigtation/)"
+  - "[*purify food and drink*](/spells/purify-food-and-drink/)"
 cost: 500 gp
 ---
 

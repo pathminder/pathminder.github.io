@@ -6,8 +6,8 @@ slot: head
 price: 800 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*disguise self*](/spells/disguise-self/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*disguise self*](/spells/disguise-self/)"
 cost: 400 gp
 ---
 

@@ -6,8 +6,8 @@ slot: eyes
 price: 12,000 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*darkness*](/spells/darkness/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*darkness*](/spells/darkness/)"
 cost: 6,000 gp
 ---
 

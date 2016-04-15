@@ -6,10 +6,10 @@ slot: none
 price: 10,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*gust of wind*](/spells/gust-of-wind/)
-  - [*whispering wind*](/spells/whispering-wind/)
-  - [*wind wall*](/spells/wind-wall/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*gust of wind*](/spells/gust-of-wind/)"
+  - "[*whispering wind*](/spells/whispering-wind/)"
+  - "[*wind wall*](/spells/wind-wall/)"
 cost: 5,000 gp
 ---
 

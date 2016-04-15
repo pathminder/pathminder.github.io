@@ -6,8 +6,8 @@ slot: wrists
 price: 16,200 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*dominate person*](/spells/dominate-person/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*dominate person*](/spells/dominate-person/)"
 cost: 8,200 gp
 ---
 

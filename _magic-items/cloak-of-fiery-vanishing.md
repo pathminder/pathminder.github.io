@@ -6,9 +6,9 @@ slot: shoulders
 price: 2,600 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*invisibility*](/spells/invisibility/)
-  - [*silent image*](/spells/silent-image/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*invisibility*](/spells/invisibility/)"
+  - "[*silent image*](/spells/silent-image/)"
 cost: 1,300 gp
 ---
 

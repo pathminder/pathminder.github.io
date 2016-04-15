@@ -6,8 +6,8 @@ slot: belt
 price: 60,000 gp
 weight: 10 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*stoneskin*](/spells/stoneskin/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*stoneskin*](/spells/stoneskin/)"
   - creator must be an [oread](/races/oreads/) or a creature with the earth subtype
 cost: 30,000 gp
 ---

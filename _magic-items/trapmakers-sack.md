@@ -6,8 +6,8 @@ slot: none
 price: 20,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*fabricate*](/spells/fabricate/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*fabricate*](/spells/fabricate/)"
   - creator must have 5 ranks in [Craft](/skills/craft/) (traps)
 cost: 10,000 gp
 ---

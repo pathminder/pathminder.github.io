@@ -6,9 +6,9 @@ slot: head
 price: 16,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
   - creator must be a [tiefling](/races/tieflings/) of good alignment
-  - [*holy aura*](/spells/holy-aura/)
+  - "[*holy aura*](/spells/holy-aura/)"
 cost: 8,000 gp
 ---
 

@@ -6,9 +6,9 @@ slot: none
 price: 10,305 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)
-  - [*bull's strength*](/spells/bulls-strength/)
-  - [*keen edge*](/spells/keen-edge/)
+  - "[Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)"
+  - "[*bull's strength*](/spells/bulls-strength/)"
+  - "[*keen edge*](/spells/keen-edge/)"
 cost: 5,305 gp
 ---
 

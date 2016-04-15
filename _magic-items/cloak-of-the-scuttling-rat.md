@@ -6,8 +6,8 @@ slot: shoulders
 price: 6,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*beast shape I*](/spells/beast-shape-i/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*beast shape I*](/spells/beast-shape-i/)"
 cost: 3,000 gp
 ---
 

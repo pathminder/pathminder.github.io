@@ -6,7 +6,7 @@ slot: none
 price: 750 gp (1st), 3,000 gp (2nd), 6,750 gp (3rd)
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
   - creator must be a [kitsune](/races/kitsunes/)
 cost: 365 gp (1st), 1,500 gp (2nd), or 3,375 gp (3rd)
 ---

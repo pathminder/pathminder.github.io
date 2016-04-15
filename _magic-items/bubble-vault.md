@@ -6,9 +6,9 @@ slot: none
 price: 1,500 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*shrink item*](/spells/shrink-item/)
-  - [*unseen servant*](/spells/unseen-servant/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*shrink item*](/spells/shrink-item/)"
+  - "[*unseen servant*](/spells/unseen-servant/)"
 cost: 750 gp
 ---
 

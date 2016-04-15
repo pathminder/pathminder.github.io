@@ -6,8 +6,8 @@ slot: ring
 price: 6,000 gp
 weight: ---
 construction_requirements:
-  - [Forge Ring](/feats/forge-ring/)
-  - [*guidance*](/spells/guidance/)
+  - "[Forge Ring](/feats/forge-ring/)"
+  - "[*guidance*](/spells/guidance/)"
   - creator must be able to sneak attack
 cost: 3,000 gp
 ---

@@ -6,9 +6,9 @@ slot: shield
 price: 13,170 gp
 weight: 7 lbs.
 construction_requirements:
-  - [Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)
-  - [*feather fall*](/spells/feather-fall/)
-  - [*overland flight*](/spells/overland-flight/)
+  - "[Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)"
+  - "[*feather fall*](/spells/feather-fall/)"
+  - "[*overland flight*](/spells/overland-flight/)"
 cost: 6,670 gp
 ---
 

@@ -6,8 +6,8 @@ slot: neck
 price: 9,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*resist energy*](/spells/resist-energy/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*resist energy*](/spells/resist-energy/)"
   - creator must be a [tiefling](/races/tieflings/), half-fiend, or true fiend
 cost: 4,500 gp
 ---

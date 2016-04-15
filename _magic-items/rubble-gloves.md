@@ -6,8 +6,8 @@ slot: hands
 price: 8,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*expeditious excavation*](/spells/expeditious-excavation/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*expeditious excavation*](/spells/expeditious-excavation/)"
 cost: 4,000 gp
 ---
 

@@ -6,9 +6,9 @@ slot: shoulders
 price: 2,800 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*alter self*](/spells/alter-self/)
-  - [*resistance*](/spells/resistance/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*alter self*](/spells/alter-self/)"
+  - "[*resistance*](/spells/resistance/)"
 cost: 1,250 gp
 ---
 

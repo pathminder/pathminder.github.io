@@ -6,9 +6,9 @@ slot: none
 price: 30,240 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*darkness*](/spells/darkness/)
-  - [*shadow conjuration*](/spells/shadow-conjuration/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*darkness*](/spells/darkness/)"
+  - "[*shadow conjuration*](/spells/shadow-conjuration/)"
 cost: 15,120 gp
 ---
 

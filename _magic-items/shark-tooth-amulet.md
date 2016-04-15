@@ -6,8 +6,8 @@ slot: neck
 price: 9,000 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*touch of the sea*](/spells/touch-of-the-sea/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*touch of the sea*](/spells/touch-of-the-sea/)"
   - the crafter must be an [undine](/races/undines/) or have the water subtype
 cost: 4,500 gp
 ---

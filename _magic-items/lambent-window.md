@@ -6,9 +6,9 @@ slot: none
 price: 20,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*plane shift*](/spells/plane-shift/)
-  - [*scrying*](/spells/scrying/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*plane shift*](/spells/plane-shift/)"
+  - "[*scrying*](/spells/scrying/)"
 cost: 10,000 gp
 ---
 

@@ -6,8 +6,8 @@ slot: hands
 price: 6,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*bestow curse*](/spells/bestow-curse/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*bestow curse*](/spells/bestow-curse/)"
 cost: 3,000 gp
 ---
 

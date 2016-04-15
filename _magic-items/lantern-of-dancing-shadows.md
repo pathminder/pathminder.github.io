@@ -6,10 +6,10 @@ slot: none
 price: 41,000 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*darkness*](/spells/darkeness/)
-  - [*mass ghostbane dirge*](/spells/mass-ghostbane-dirge/)
-  - [*shadow conjuration*](/spells/shadow-conjuration/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*darkness*](/spells/darkeness/)"
+  - "[*mass ghostbane dirge*](/spells/mass-ghostbane-dirge/)"
+  - "[*shadow conjuration*](/spells/shadow-conjuration/)"
 cost: 20,500 gp
 ---
 

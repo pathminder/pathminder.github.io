@@ -6,9 +6,9 @@ slot: ring
 price: 5,000 gp
 weight: ---
 construction_requirements:
-  - [Forge Ring](/feats/forge-ring/)
-  - [*magic fang*](/spells/magic-fang/)
-  - [*polymorph*](/spells/polymorph/)
+  - "[Forge Ring](/feats/forge-ring/)"
+  - "[*magic fang*](/spells/magic-fang/)"
+  - "[*polymorph*](/spells/polymorph/)"
 cost: 2,500 gp
 ---
 

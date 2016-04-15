@@ -6,8 +6,8 @@ slot: none
 price: 1,400 gp
 weight: 1/2 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*imbue with spell ability*](/spells/imbue-with-spell-ability/) or [*mnemonic enhancer*](/spells/mnemonic-enhancer/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*imbue with spell ability*](/spells/imbue-with-spell-ability/) or [*mnemonic enhancer*](/spells/mnemonic-enhancer/)"
 cost: 700 gp
 ---
 

@@ -6,10 +6,10 @@ slot: none
 price: 50,000 gp (*despair*), 60,000 gp (*ferocity*), 45,000 gp (*iron resolve*)
 weight: 3 lbs.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*crushing despair*](/spells/crushing-despair/) (*despair*)
-  - [*rage*](/spells/rage/) (*ferocity*)
-  - [*aid*](/spells/aid/) and [*bear's endurance*](/spells/bears-endurance/) (*iron resolve*)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*crushing despair*](/spells/crushing-despair/) (*despair*)"
+  - "[*rage*](/spells/rage/) (*ferocity*)"
+  - "[*aid*](/spells/aid/) and [*bear's endurance*](/spells/bears-endurance/) (*iron resolve*)"
 cost: 25,000 gp (*despair*), 30,000 gp (*ferocity*), 22,500 gp (*iron resolve*)
 ---
 

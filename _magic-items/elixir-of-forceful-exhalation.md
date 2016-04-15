@@ -6,8 +6,8 @@ slot: none
 price: 900 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*gust of wind*](/spells/gust-of-wind/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*gust of wind*](/spells/gust-of-wind/)"
 cost: 450 gp
 ---
 

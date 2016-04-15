@@ -6,8 +6,8 @@ slot: none
 price: 50 gp
 weight: 1/2 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*stabilize*](/spells/stabilize/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*stabilize*](/spells/stabilize/)"
 cost: 25 gp
 ---
 

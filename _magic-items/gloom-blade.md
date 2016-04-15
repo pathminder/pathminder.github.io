@@ -6,8 +6,8 @@ slot: none
 price: 8,810 gp
 weight: 2 lbs.
 construction_requirements:
-  - [Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)
-  - [*deeper darkness*](/spells/deeper-darkness/)
+  - "[Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)"
+  - "[*deeper darkness*](/spells/deeper-darkness/)"
 cost: 4,560 gp
 ---
 

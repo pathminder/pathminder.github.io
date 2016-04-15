@@ -6,8 +6,8 @@ slot: none
 price: 9,100 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*animate objects*](/spells/animate-objects/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*animate objects*](/spells/animate-objects/)"
 cost: 4,550 gp
 ---
 

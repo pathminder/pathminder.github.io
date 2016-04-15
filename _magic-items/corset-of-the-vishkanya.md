@@ -6,9 +6,9 @@ slot: body
 price: 3,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*grease*](/spells/grease/)
-  - [*squeeze*](/spells/squeeze/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*grease*](/spells/grease/)"
+  - "[*squeeze*](/spells/squeeze/)"
 cost: 1,500 gp
 ---
 

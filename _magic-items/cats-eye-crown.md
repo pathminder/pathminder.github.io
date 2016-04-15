@@ -6,9 +6,9 @@ slot: head (and none; see below)
 price: 18,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*clairaudience/clairvoyance*](/spells/clairaudience-clairvoyance/)
-  - [*darkvision*](/spells/darkvision/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*clairaudience/clairvoyance*](/spells/clairaudience-clairvoyance/)"
+  - "[*darkvision*](/spells/darkvision/)"
   - creator must be [catfolk](/races/catfolk/)
 cost: 9,000 gp
 ---

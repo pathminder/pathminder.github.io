@@ -6,9 +6,9 @@ slot: none
 price: 64,305 gp
 weight: 5 lbs.
 construction_requirements:
-  - [Craft Rod](/feats/craft-rod/)
-  - [*deeper darkness*](/spells/deeper-darkness/)
-  - [*true seeing*](/spells/true-seeing/)
+  - "[Craft Rod](/feats/craft-rod/)"
+  - "[*deeper darkness*](/spells/deeper-darkness/)"
+  - "[*true seeing*](/spells/true-seeing/)"
 cost: 32,305 gp
 ---
 

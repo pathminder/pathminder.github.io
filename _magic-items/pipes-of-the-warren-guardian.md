@@ -6,8 +6,8 @@ slot: none
 price: 6,000 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*summon monster III*](/spells/summon-monster-iii/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*summon monster III*](/spells/summon-monster-iii/)"
 cost: 3,000 gp
 ---
 

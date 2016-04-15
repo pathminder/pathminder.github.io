@@ -6,8 +6,8 @@ slot: none
 price: 3,300 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*legend lore*](/spells/legend-lore/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*legend lore*](/spells/legend-lore/)"
 cost: 1,650 gp
 ---
 

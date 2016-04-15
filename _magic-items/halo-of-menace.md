@@ -6,8 +6,8 @@ slot: head
 price: 84,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*order's wrath*](/spells/orders-wrath/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*order's wrath*](/spells/orders-wrath/)"
   - creator must be an aasimar or an archon
 cost: 42,000 gp
 ---

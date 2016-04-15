@@ -6,8 +6,8 @@ slot: feet
 price: 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp (+5)
 weight: 4 lbs. (for four)
 construction_requirements:
-  - [Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
+  - "[Craft Magic Arms and Armor](/feats/craft-magic-arms-and-armor/)"
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
   - creator's caster level must be at least three times the amulet's bonus
   - plus any requirements of the melee weapon special abilities
 cost: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)

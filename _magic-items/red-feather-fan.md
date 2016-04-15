@@ -6,9 +6,9 @@ slot: none
 price: 5,000 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*daylight*](/spells/daylight/)
-  - [*deeper darkness*](/spells/deeper-darkness/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*daylight*](/spells/daylight/)"
+  - "[*deeper darkness*](/spells/deeper-darkness/)"
 cost: 2,500 gp
 ---
 

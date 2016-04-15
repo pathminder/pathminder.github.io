@@ -6,9 +6,9 @@ slot: neck
 price: 9,000 gp
 weight: ---
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*light*](/spells/light/)
-  - [*invisibility*](/spells/invisibility/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*light*](/spells/light/)"
+  - "[*invisibility*](/spells/invisibility/)"
 cost: 4,500 gp
 ---
 

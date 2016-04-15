@@ -6,8 +6,8 @@ slot: feet
 price: 1,400 gp
 weight: 1 lb.
 construction_requirements:
-  - [Craft Wondrous Item](/feats/craft-wondrous-item/)
-  - [*cat's grace*](/spells/cats-grace/)
+  - "[Craft Wondrous Item](/feats/craft-wondrous-item/)"
+  - "[*cat's grace*](/spells/cats-grace/)"
 cost: 700 gp
 ---
 
