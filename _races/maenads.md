@@ -5,6 +5,7 @@ sources:
 
 tags:
   - Psionic
+  - Uncommon
 
 ability_scores: +2 to any
 type: humanoid
@@ -57,7 +58,7 @@ A primarily sea-faring race, maenads are a dichotomy. To outsiders, they appear 
 - **Outburst:** Maenads can dampen their mental processes for an increase in raw power called an outburst. As a result, they take a --2 penalty to Intelligence and Wisdom but gain a +2 bonus to Strength. The character must spend one power point at the beginning of each round during an outburst and may stop an outburst at any time.
 - **Inner Rage:** Maenads are able to rage one additional round per day should they have the rage ability and they gain an additional round per day every odd character level. In addition to using these rounds for rage, maenads may use them to fuel their outburst, instead of power points.
 - **Ordered Rage:** Maenads may take levels in the barbarian class even if they are of the lawful alignment.
-- **Natural Sailors:** Maenads have a +2 bonus to Swim and Profession (sailor) checks. In addition, they gain a +2 bonus to Acrobatics and Climb checks made on sailing ships.
+- **Natural Sailors:** Maenads have a +2 bonus to [Swim](/skills/swim/) and [Profession](/skills/profession/) (sailor) checks. In addition, they gain a +2 bonus to [Acrobatics](/skills/acrobatics/) and [Climb](/skills/climb/) checks made on sailing ships.
 - **Weapon Familiarity:** Maenads are proficient with flails. Maenads treat any weapon with the word "maenad" in the name as a martial weapon rather than an exotic one.
 - **Psionic Aptitude:** When a maenad takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.
 - **Languages:** Maenads begin play speaking Common and Maenad. Maenads with high Intelligence scores can choose can choose from the following: Aquan, Draconic, Dwarven, Elven, and Goblin.

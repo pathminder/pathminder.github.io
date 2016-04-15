@@ -4,6 +4,9 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Roleplaying Game Advanced Race Guide"
 
+tags:
+  - Core
+
 summary: Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others.
 
 ability_scores: +2 Dex, +2 Int, --2 Con
@@ -54,7 +57,7 @@ Elves are not foolish enough, however, to dismiss all aspects of other races and
 
 **Alignment and Religion:** Elves are emotional and capricious, yet value kindness and beauty. Most elves are chaotic good, wishing all creatures to be safe and happy, but unwilling to sacrifice personal freedom or choice to accomplish such goals. serving as an example of personal artistry and freedom of expressions, rather than seeking some base physical gratification.
 
-**Adventurers:** Many elves embark on adventures out of a desire to explore the world, leaving their secluded realms to reclaim forgotten elven magic or search out lost kingdoms established millennia ago by their ancestors. This need to see a wider world is accepted by their societies as a natural part of becoming mature and experienced individuals. Such elves are expected to return in some few decades and take up lives in their homelands once more, enriched both in treasure and in worldview. For those elves raised among humans, however, life within their homes—watching friends and family swiftly age and die—is often stifling, and the ephemeral and unfettered life of an adventurer holds a natural appeal.
+**Adventurers:** Many elves embark on adventures out of a desire to explore the world, leaving their secluded realms to reclaim forgotten elven magic or search out lost kingdoms established millennia ago by their ancestors. This need to see a wider world is accepted by their societies as a natural part of becoming mature and experienced individuals. Such elves are expected to return in some few decades and take up lives in their homelands once more, enriched both in treasure and in worldview. For those elves raised among humans, however, life within their homes---watching friends and family swiftly age and die---is often stifling, and the ephemeral and unfettered life of an adventurer holds a natural appeal.
 
 Elves generally eschew melee because of their relative frailty, preferring instead to engage enemies at range. Most see combat as unpleasant even when needful, and prefer it be done as quickly as possible, preferably without getting close enough to smell their foes. This preference for making war at a distance, coupled with their natural accuracy and grasp of the arcane, encourages elves to pursue classes such as wizards and rangers.
 
@@ -65,14 +68,14 @@ Elves generally eschew melee because of their relative frailty, preferring inste
 - **Normal Speed:** Elves have a base speed of 30 feet.
 - **Low-Light Vision:** Elves can see twice as far as humans in conditions of dim light.
 - **Elven Immunities:** Elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects.
-- **Elven Magic:** Elves receive a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, elves receive a +2 racial bonus on Spellcraft skill checks made to identify the properties of magic items.
-- **Keen Senses:** Elves receive a +2 racial bonus on Perception skill checks.
+- **Elven Magic:** Elves receive a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, elves receive a +2 racial bonus on [Spellcraft](/skills/spellcraft/) skill checks made to identify the properties of magic items.
+- **Keen Senses:** Elves receive a +2 racial bonus on [Perception](/skills/perception/) skill checks.
 - **Weapon Familiarity:** Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word "elven" in its name as a martial weapon.
 - **Languages:** Elves begin play speaking Common and Elven. Elves with high Intelligence scores can choose from the following: Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.
 
 ## Alternate Racial Traits
 
-The following racial traits may be selected instead of the standard elf racial traits.
+The following racial traits may be selected instead of the standard elf racial traits. Consult your GM before selecting any of these new options.
 
 **Arcane Focus:** Some elven families have such long traditions of producing wizards (and other arcane spellcasters) that they raise their children with the assumption each is destined to be a powerful magic-user, with little need for mundane concerns such as skill with weapons. Elves with this racial trait gain a +2 racial bonus on concentration checks made to cast arcane spells defensively. This racial trait replaces weapon familiarity.
 
@@ -92,13 +95,13 @@ The following racial traits may be selected instead of the standard elf racial t
 
 **Lightbringer:** Many elves revere the sun, moon, and stars, but some are literally infused with the radiant power of the heavens. Elves with this racial trait are immune to light-based blindness and dazzle effects, and are treated as one level higher when determining the effects of any light-based spell or effect they cast (including spell-like and supernatural abilities). Elves with Intelligence scores of 10 or higher may use light at will as a spell-like ability. This racial trait replaces the elven immunities and elven magic racial traits.
 
-**Silent Hunter:** Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using Stealth while moving by 5 and can make Stealth checks while running at a –20 penalty (this number includes the penalty reduction from this racial trait). This racial trait replaces elven magic.
+**Silent Hunter:** Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using [Stealth](/skills/stealth/) while moving by 5 and can make [Stealth](/skills/stealth/) checks while running at a –20 penalty (this number includes the penalty reduction from this racial trait). This racial trait replaces elven magic.
 
-**Spirit of the Waters:** Some elves have adapted to life in tune with the sea or along the reedy depths of wild rivers and lakes. They gain a +4 racial bonus on Swim checks, can always take 10 while swimming, and may choose Aquan as a bonus language. They are proficient with longspear, trident, and net. This racial trait replaces elven magic and weapon familiarity.
+**Spirit of the Waters:** Some elves have adapted to life in tune with the sea or along the reedy depths of wild rivers and lakes. They gain a +4 racial bonus on [Swim](/skills/swim/) checks, can always take 10 while swimming, and may choose Aquan as a bonus language. They are proficient with longspear, trident, and net. This racial trait replaces elven magic and weapon familiarity.
 
-**Urbanite:** Elves who live in cities for more than a century can grow to know the ebb and flow of social situations just as their forest-dwelling cousins know the rules of the wild. Elves with this racial trait gain a +2 racial bonus on Diplomacy checks made to gather information and Sense Motive checks made to get a hunch about a social situation. This racial trait replaces keen senses.
+**Urbanite:** Elves who live in cities for more than a century can grow to know the ebb and flow of social situations just as their forest-dwelling cousins know the rules of the wild. Elves with this racial trait gain a +2 racial bonus on [Diplomacy](/skills/diplomacy/) checks made to gather information and Sense Motive checks made to get a hunch about a social situation. This racial trait replaces keen senses.
 
-**Woodcraft:** Elves know the deep secrets of the wild like no others, especially secrets of the forests. Elves with this racial trait gain a +1 racial bonus on Knowledge (nature) and Survival checks. In forest terrain, these bonuses improve to +2. This racial trait replaces elven magic.
+**Woodcraft:** Elves know the deep secrets of the wild like no others, especially secrets of the forests. Elves with this racial trait gain a +1 racial bonus on [Knowledge (nature)](/skills/knowledge-nature/) and Survival checks. In forest terrain, these bonuses improve to +2. This racial trait replaces elven magic.
 
 ## Racial Subtypes
 

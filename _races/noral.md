@@ -5,6 +5,7 @@ sources:
 
 tags:
   - Psionic
+  - Uncommon
 
 ability_scores: +2 Con, +2 Wis, --2 Dex
 type: humanoid
@@ -69,7 +70,7 @@ One area where norals dislike the interactions with other races is in the procli
 - **Symbiotic Resistance:** The symbiotic bond between the noral and the erliss grants all bonded norals a +2 racial bonus on saving throws against disease and mind-affecting effects.
 - **Symbiotic Surge:** A noral is able to tap into the power of the symbiote to gain a temporary boost. Once per day, a noral can exhaust the symbiote to add 1d6 to a single d20 roll. This decision must be made prior to the result of the roll is determined.
 - **Noral Psionics:** Norals gain the following psi-like ability: 1/day---*mind thrust*. The manifester level for this effect is equal to 1/2 the noral's level (minimum 1st). The DC for this power is equal to 10 + the power's level + the noral's Charisma modifier.
-- **Gift of Tongues:** Norals are naturally skilled at social interactions and understanding other cultures. Norals gain a +1 racial bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill.
+- **Gift of Tongues:** Norals are naturally skilled at social interactions and understanding other cultures. Norals gain a +1 racial bonus on [Bluff](/skills/bluff/) and [Diplomacy](/skills/diplomacy/) checks, and they learn one additional language every time they put a rank in the Linguistics skill.
 - **Low-Light Vision:** Norals can see twice as far as humans in conditions of dim light.
 - **Naturally Psionic:** Norals gain the Wild Talent feat as a bonus feat at 1st level. If a noral takes levels in a psionic class, he instead gains the Psionic Talent feat.
 - **Psionic Aptitude:** When a noral takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.

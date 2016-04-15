@@ -4,10 +4,17 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Roleplaying Game Advanced Race Guide"
 
+tags:
+  - Core
+
 summary: Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.
 
 ability_scores: +2 to any
 type: humanoid
+subtypes:
+  - half-elf
+  - human
+  - elf
 size: Medium
 
 ages:
@@ -52,11 +59,11 @@ Gnomes and halflings often see half-elves as a curiosity. Those half-elves who h
 
 Perhaps the most peculiar and dichotomous relations exist between half-elves and half-orcs. Those half-orcs and half-elves who were raised among their non-human kin normally see one another as hated and ancient foes. However, half-elves who have been marginalized by society feel a deep, almost instant kinship with half-orcs, knowing their burdens are often that much harder because of their appearance and somewhat brutish nature. Not all half-orcs are inclined or able to understand such empathy, but those who do often find themselves with a dedicated diplomat, liaison, and apologist. For their own part, half-orcs usually return the favor by acting as bodyguards or intimidators, and take on other roles uniquely suited to their brawny forms.
 
-**Alignment and Religion:** Half-elves' isolation strongly influences their characters and philosophies. Cruelty does not come naturally to them, nor does blending in or bending to societal convention—as a result, most half-elves are chaotic good. Half-elves' lack of a unified culture makes them less likely to turn to religion, but those who do generally follow the common faiths of their homeland. Others come to religion and worship later in their lives, especially if they have been made to feel part of a community through faith or the work of clerical figures.
+**Alignment and Religion:** Half-elves' isolation strongly influences their characters and philosophies. Cruelty does not come naturally to them, nor does blending in or bending to societal convention---as a result, most half-elves are chaotic good. Half-elves' lack of a unified culture makes them less likely to turn to religion, but those who do generally follow the common faiths of their homeland. Others come to religion and worship later in their lives, especially if they have been made to feel part of a community through faith or the work of clerical figures.
 
 Some half-elves feel the pull of the divine but live beyond the formal religious instruction of society. Such individuals often worship ideas and concepts like freedom, harmony, or balance, or the primal forces of the world. Still others gravitate toward long-forgotten gods, finding comfort and kinship in the idea that even deities can be overlooked.
 
-**Adventurers:** Half-elves tend to be itinerants, wandering the lands in search of a place they might finally call home. The desire to prove themselves to the community and establish a personal identity—or even a legacy—drives many half-elf adventurers to lives of bravery. Some half-elves claim that despite their longevity, they perceive the passage of time more like humans than elves, and are driven to amass wealth, power, or fame early on in life so they may spend the rest of their years enjoying it.
+**Adventurers:** Half-elves tend to be itinerants, wandering the lands in search of a place they might finally call home. The desire to prove themselves to the community and establish a personal identity---or even a legacy---drives many half-elf adventurers to lives of bravery. Some half-elves claim that despite their longevity, they perceive the passage of time more like humans than elves, and are driven to amass wealth, power, or fame early on in life so they may spend the rest of their years enjoying it.
 
 ## Half-Elf Racial Traits
 
@@ -67,29 +74,29 @@ Some half-elves feel the pull of the divine but live beyond the formal religious
 - **Adaptability:** Half-elves receive [Skill Focus](/feats/skill-focus/) as a bonus feat at 1st level.
 - **Elf Blood:** Half-elves count as both elves and humans for any effect related to race.
 - **Elven Immunities:** Half-elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects.
-- **Keen Senses:** Half-elves receive a +2 racial bonus on Perception skill checks.
+- **Keen Senses:** Half-elves receive a +2 racial bonus on [Perception](/skills/perception/) skill checks.
 - **Multitalented:** Half-elves choose two favored classes at first level and gain +1 hit point or +1 skill point whenever they take a level in either one of those classes. See Classes for more information about favored classes.
 - **Languages:** Half-elves begin play speaking Common and Elven. Half-elves with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).
 
 ## Alternate Racial Traits
 
-The following racial traits may be selected instead of existing half-elf racial traits.
+The following racial traits may be selected instead of existing half-elf racial traits. Consult your GM before selecting any of these new options.
 
 **Ancestral Arms:** Some half-elves receive training in an unusual weapon. Half-elves with this racial trait receive Exotic Weapon Proficiency or Martial Weapon Proficiency with one weapon as a bonus feat at 1st level. This racial trait replaces the adaptability racial trait.
 
 **Arcane Training:** Half-elves occasionally seek tutoring to help them master the magic in their blood. Half-elves with this racial trait have only one favored class, and it must be an arcane spellcasting class. They can use spell trigger and spell completion items for their favored class as if one level higher (or as a 1st-level character if they have no levels in that class). This racial trait replaces the multitalented racial trait.
 
-**Drow-Blooded:** Some half-elves born of drow parents exhibit more drow traits than others—particularly many of the physical features of the drow—and have darkvision 60 feet and light blindness. This racial trait replaces the low-light vision racial trait.
+**Drow-Blooded:** Some half-elves born of drow parents exhibit more drow traits than others---particularly many of the physical features of the drow---and have darkvision 60 feet and light blindness. This racial trait replaces the low-light vision racial trait.
 
 **Drow Magic:** A few half-elves with drow ancestry exhibit the innate magic of that race. Half-elves with this trait have drow blood somewhere in their background, and can cast dancing lights, darkness, and faerie fire each once per day, using the half-elf's character level as the caster level for these spell-like abilities. This racial trait replaces the adaptability and multitalented racial traits.
 
 **Dual Minded:** The mixed ancestry of some half-elves makes them resistant to mental attacks. Half-elves with this racial trait gain a +2 bonus on all Will saving throws. This racial trait replaces the adaptability racial trait.
 
-**Integrated:** Many half-elves are skilled in the art of ingratiating themselves into a community as if they were natives. Half-elves with this racial trait gain a +1 bonus on Bluff, Disguise, and Knowledge (local) checks. This racial trait replaces the adaptability racial trait.
+**Integrated:** Many half-elves are skilled in the art of ingratiating themselves into a community as if they were natives. Half-elves with this racial trait gain a +1 bonus on Bluff, Disguise, and [Knowledge (local)](/skills/knowledge-local/) checks. This racial trait replaces the adaptability racial trait.
 
-**Wary:** Many half-elves have spent their long lives moving from place to place, often driven out by the hostility of others. Such experiences have made them wary of others' motivations. Half-elves with this trait gain a +1 racial bonus on Sense Motive and Bluff checks. This racial trait replaces the keen senses racial trait.
+**Wary:** Many half-elves have spent their long lives moving from place to place, often driven out by the hostility of others. Such experiences have made them wary of others' motivations. Half-elves with this trait gain a +1 racial bonus on Sense Motive and [Bluff](/skills/bluff/) checks. This racial trait replaces the keen senses racial trait.
 
-**Water Child:** Some half-elves are born of elves adapted to life on or near the water. These half-elves gain a +4 racial bonus on Swim checks, can always take 10 while swimming, and may choose Aquan as a bonus language. This racial trait replaces the adaptability and multitalented racial traits.
+**Water Child:** Some half-elves are born of elves adapted to life on or near the water. These half-elves gain a +4 racial bonus on [Swim](/skills/swim/) checks, can always take 10 while swimming, and may choose Aquan as a bonus language. This racial trait replaces the adaptability and multitalented racial traits.
 
 ## Racial Subtypes
 
@@ -125,7 +132,7 @@ The following favored options are available to all half-elves who have the liste
 
 **Magus:** Add +1/4 to the magus's arcane pool.
 
-**Monk:** Add +1/2 on Escape Artist checks and on Acrobatics checks to cross narrow surfaces.
+**Monk:** Add +1/2 on [Escape Artist](/skills/escape-artist/) checks and on [Acrobatics](/skills/acrobatics/) checks to cross narrow surfaces.
 
 **Oracle:** Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.
 
@@ -133,7 +140,7 @@ The following favored options are available to all half-elves who have the liste
 
 **Ranger:** Add +1 skill rank to the ranger's animal companion. If the ranger ever replaces his companion, the new companion gains these bonus skill ranks.
 
-**Rogue:** Add a +1/2 bonus on Bluff checks to feint and Diplomacy checks to gather information.
+**Rogue:** Add a +1/2 bonus on [Bluff](/skills/bluff/) checks to feint and [Diplomacy](/skills/diplomacy/) checks to gather information.
 
 **Sorcerer:** Select one bloodline power at 1st level that is normally usable a number of times per day equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that bloodline power.
 

@@ -4,6 +4,9 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Roleplaying Game Advanced Race Guide"
 
+tags:
+  - Core
+
 summary: Members of this diminutive race find strength in family, community, and their own innate and seemingly inexhaustible luck. While their fierce curiosity is sometimes at odds with their intrinsic common sense, halflings are eternal optimists and cunning opportunists with an incredible knack for getting out the worst situations.
 
 ability_scores: +2 Dex, +2 Cha, --2 Str
@@ -46,7 +49,7 @@ Halflings prefer simple and modest clothing. Though willing and able to dress up
 
 Halflings rely on customs and traditions to maintain their own culture. They have an extensive oral history filled with important stories about folk heroes who exemplify particular halfling virtues, but otherwise see little purpose in studying history in and of itself. Given a choice between a pointless truth and a useful fable, halflings almost always opt for the fable. This tendency helps to explain at least something of the famous halfling adaptability. Halflings look to the future and find it very easy to cast off the weight of ancient grudges or obligations that drag down so many other races.
 
-**Relations:** A typical halfling prides himself on his ability to go unnoticed by other races—a trait that allows many halflings to excel at thievery and trickery. Most halflings know full well the stereotypical view other races take of them as a result, and go out of their way to be forthcoming and friendly to the bigger races when they're not trying to go unnoticed. They get along fairly well with gnomes, although most halflings regard these eccentric creatures with a hefty dose of caution. Halflings respect elves and dwarves, but these races often live in remote regions far from the comforts of civilization that halflings enjoy, thus limiting opportunities for interaction. By and large, only half-orcs are shunned by halflings, for their great size and violent natures are a bit too intimidating for most halflings to cope with.
+**Relations:** A typical halfling prides himself on his ability to go unnoticed by other races---a trait that allows many halflings to excel at thievery and trickery. Most halflings know full well the stereotypical view other races take of them as a result, and go out of their way to be forthcoming and friendly to the bigger races when they're not trying to go unnoticed. They get along fairly well with gnomes, although most halflings regard these eccentric creatures with a hefty dose of caution. Halflings respect elves and dwarves, but these races often live in remote regions far from the comforts of civilization that halflings enjoy, thus limiting opportunities for interaction. By and large, only half-orcs are shunned by halflings, for their great size and violent natures are a bit too intimidating for most halflings to cope with.
 
 Halflings coexist well with humans as a general rule, but since some of the more aggressive human societies value halflings as slaves, they try not to grow too complacent. Halflings strongly value their freedom, especially the ability to travel in search of new experiences and the autonomy this requires. However, practical and flexible as always, enslaved halflings seldom fight back directly against their masters. When possible, they wait for the perfect opportunity and then simply slip away. Sometimes, if enslaved for long enough, halflings even come to adopt their owners as their new families. Though they still dream of escape and liberty, these halflings also make the best of their lives.
 
@@ -61,18 +64,18 @@ Other such vagabonds often put up with this curious race in hopes that some of t
 ## Halfling Racial Traits
 
 - **+2 Dexterity, +2 Charisma, –2 Strength:** Halflings are nimble and strong-willed, but their small stature makes them weaker than other races.
-- **Small:** Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a --1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.
+- **Small:** Halflings are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a --1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on [Stealth](/skills/stealth/) checks.
 - **Slow Speed:** Halflings have a base speed of 20 feet.
 - **Fearless:** Halflings receive a +2 racial bonus on all saving throws against fear. This bonus stacks with the bonus granted by halfling luck.
 - **Halfling Luck:** Halflings receive a +1 racial bonus on all saving throws.
-- **Keen Senses:** Halflings receive a +2 racial bonus on Perception skill checks.
-- **Sure-Footed:** Halflings receive a +2 racial bonus on Acrobatics and Climb skill checks.
+- **Keen Senses:** Halflings receive a +2 racial bonus on [Perception](/skills/perception/) skill checks.
+- **Sure-Footed:** Halflings receive a +2 racial bonus on [Acrobatics](/skills/acrobatics/) and [Climb](/skills/climb/) skill checks.
 - **Weapon Familiarity:** Halflings are proficient with slings and treat any weapon with the word "halfling" in its name as a martial weapon.
 - **Languages:** Halflings begin play speaking Common and Halfling. Halflings with high Intelligence scores can choose from the following: Dwarven, Elven, Gnome, and Goblin.
 
 ## Alternate Racial Traits
 
-The following racial traits may be selected instead of existing halfling racial traits.
+The following racial traits may be selected instead of existing halfling racial traits. Consult your GM before selecting any of these new options.
 
 **Adaptable Luck:** Some halflings have greater control over their innate luck. This ability gives them more options for how they can apply their good fortune from day to day, but also narrows its scope. Three times per day, a halfling can gain a +2 luck bonus on an ability check, attack roll, saving throw, or skill check. If halflings choose to use the ability before they make the roll or check, they gain the full +2 bonus; if they choose to do so afterward, they only gain a +1 bonus. Using adaptive luck in this way is not an action. This racial trait replaces halfling luck.
 
@@ -80,23 +83,23 @@ The following racial traits may be selected instead of existing halfling racial 
 
 **Fleet of Foot:** Some halflings are quicker than their kin but less cautious. Halflings with this racial trait move at normal speed and have a base speed of 30 feet. This racial trait replaces slow speed and sure-footed.
 
-**Ingratiating:** Halflings often survive at the whims of larger, more aggressive races. Because of this, they go out of their way to make themselves more useful, or at least entertaining, to larger folk. Halflings with this racial trait gain a +2 bonus on skill checks for a single Perform skill of their choice, and Perform is always a class skill for them. They also gain a +2 bonus on Craft and Profession checks. This racial trait replaces keen senses and sure-footed.
+**Ingratiating:** Halflings often survive at the whims of larger, more aggressive races. Because of this, they go out of their way to make themselves more useful, or at least entertaining, to larger folk. Halflings with this racial trait gain a +2 bonus on skill checks for a single [Perform](/skills/perform/) skill of their choice, and [Perform](/skills/perform/) is always a class skill for them. They also gain a +2 bonus on [Craft](/skills/craft/) and [Profession](/skills/profession/) checks. This racial trait replaces keen senses and sure-footed.
 
 **Low Blow:** Some halflings train extensively in the art of attacking larger creatures. Halflings with this racial trait gain a +1 bonus on critical confirmation rolls against opponents larger than themselves. This racial trait replaces keen senses.
 
-**Outrider:** Some halflings specialize in mounted combat. Halflings with this racial trait gain a +2 bonus on Handle Animal and Ride checks. This racial trait replaces sure-footed.
+**Outrider:** Some halflings specialize in mounted combat. Halflings with this racial trait gain a +2 bonus on [Handle Animal](/skills/handle-animal/) and [Ride](/skills/ride/) checks. This racial trait replaces sure-footed.
 
 **Polyglot:** Some halflings, especially those who spend a lot of time traveling, develop a talent for learning new languages. These halflings gain a +2 racial bonus on Linguistics checks, and it is always a class skill for them. Halflings with this racial trait also begin play with the ability to speak Common, Halfling, and any one other language of their choice (except for secret languages, such as Druidic) in addition to bonus languages due to high Intelligence. They still gain the normal list of halfling bonus languages. This racial trait replaces keen senses and alters the halfling language racial trait.
 
-**Practicality:** Halflings value hard work and common sense. Halflings with this racial trait gain a +2 bonus on any one Craft or Profession skill, as well as on Sense Motive checks and saves against illusions. This racial trait replaces fearless and sure-footed.
+**Practicality:** Halflings value hard work and common sense. Halflings with this racial trait gain a +2 bonus on any one [Craft](/skills/craft/) or [Profession](/skills/profession/) skill, as well as on Sense Motive checks and saves against illusions. This racial trait replaces fearless and sure-footed.
 
-**Shiftless:** Halflings have a reputation for larceny and guile—and sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on Bluff and Sleight of Hand checks, and Sleight of Hand is always a class skill for them. This racial trait replaces sure-footed.
+**Shiftless:** Halflings have a reputation for larceny and guile---and sometimes it's well deserved. Halflings with this racial trait gain a +2 racial bonus on [Bluff](/skills/bluff/) and Sleight of Hand checks, and Sleight of Hand is always a class skill for them. This racial trait replaces sure-footed.
 
-**Swift as Shadows:** Halflings possess incredible stealth even while moving through obstructed areas. Halflings with this racial trait reduce the penalty for using Stealth while moving by 5, and reduce the Stealth check penalty for sniping by 10. This racial trait replaces sure-footed.
+**Swift as Shadows:** Halflings possess incredible stealth even while moving through obstructed areas. Halflings with this racial trait reduce the penalty for using [Stealth](/skills/stealth/) while moving by 5, and reduce the [Stealth](/skills/stealth/) check penalty for sniping by 10. This racial trait replaces sure-footed.
 
 **Underfoot:** Halflings must train hard to effectively fight bigger opponents. Halflings with this racial trait gain a +1 dodge bonus to AC against foes larger than themselves and a +1 bonus on Reflex saving throws to avoid trample attacks. This racial trait replaces halfling luck.
 
-**Wanderlust:** Halflings love travel and maps. Halflings with this racial trait receive a +2 bonus on Knowledge (geography) and Survival checks. When casting spells or using abilities that provide or enhance movement, halflings treat their caster level as +1 higher than normal. This racial trait replaces fearless and halfling luck.
+**Wanderlust:** Halflings love travel and maps. Halflings with this racial trait receive a +2 bonus on [Knowledge (geography)](/skills/knowledge-geography/) and Survival checks. When casting spells or using abilities that provide or enhance movement, halflings treat their caster level as +1 higher than normal. This racial trait replaces fearless and halfling luck.
 
 **Warslinger:** Halflings are experts at the use of the sling. Halflings with this racial trait can reload a sling as a free action. Reloading a sling still requires two hands and provokes attacks of opportunity. This racial trait replaces sure-footed.
 
@@ -118,7 +121,7 @@ The following favored options are available to all halflings who have the listed
 
 **Barbarian:** Add a +1/2 bonus to trap sense or +1/3 to the bonus from the surprise accuracy rage power.
 
-**Bard:** Add +1/2 on Bluff checks to pass secret messages, +1/2 on Diplomacy checks to gather information, and +1/2 on Disguise checks to appear as an elven, half-elven, or human child.
+**Bard:** Add +1/2 on [Bluff](/skills/bluff/) checks to pass secret messages, +1/2 on [Diplomacy](/skills/diplomacy/) checks to gather information, and +1/2 on Disguise checks to appear as an elven, half-elven, or human child.
 
 **Cavalier:** Add +1/2 to the cavalier's effective class level for the purposes of determining the damage he deals when making an attack of opportunity against a challenged foe.
 

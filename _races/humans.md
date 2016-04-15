@@ -4,6 +4,9 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Roleplaying Game Advanced Race Guide"
 
+tags:
+  - Core
+
 summary: Ambitious, sometimes heroic, and always confident, humans have an ability to work together toward common goals that makes them a force to be reckoned with. Though short-lived compared to other races, their boundless energy and drive allow them to accomplish much in their brief lifetimes.
 
 ability_scores: +2 to any
@@ -63,7 +66,7 @@ Of course, well-meaning, blundering ignorance and numerical superiority are not 
 
 ## Alternate Racial Traits
 
-The following racial traits may be selected instead of existing human racial traits.
+The following racial traits may be selected instead of existing human racial traits. Consult your GM before selecting any of these new options.
 
 **Adoptive Parentage:** Humans are sometimes orphaned and adopted by other races. Choose one humanoid race without the human subtype. You start play with that race's languages and gain that race's weapon familiarity racial trait (if any). If the race does not have weapon familiarity, you gain either [Skill Focus](/feats/skill-focus/) or [Weapon Focus](/feats/weapon-focus/) as a bonus feat that is appropriate for that race instead. This racial trait replaces the bonus feat trait.
 
@@ -73,15 +76,15 @@ The following racial traits may be selected instead of existing human racial tra
 
 **Focused Study:** All humans are skillful, but some, rather than being generalists, tend to specialize in a handful of skills. At 1st, 8th, and 16th level, such humans gain Skill Focus in a skill of their choice as a bonus feat. This racial trait replaces the bonus feat trait.
 
-**Heart of the Fields:** Humans born in rural areas are used to hard labor. They gain a racial bonus equal to half their character level to any one Craft or Profession skill, and once per day they may ignore an effect that would cause them to become fatigued or exhausted. This racial trait replaces skilled.
+**Heart of the Fields:** Humans born in rural areas are used to hard labor. They gain a racial bonus equal to half their character level to any one [Craft](/skills/craft/) or [Profession](/skills/profession/) skill, and once per day they may ignore an effect that would cause them to become fatigued or exhausted. This racial trait replaces skilled.
 
-**Heart of the Mountains:** Humans born in the mountains are skilled at negotiating heights and precipices. They gain a +2 racial bonus on Climb checks and Acrobatics checks to move on narrow surfaces and uneven ground. Furthermore, they are considered acclimated to the effects of high altitude. This racial trait replaces skilled.
+**Heart of the Mountains:** Humans born in the mountains are skilled at negotiating heights and precipices. They gain a +2 racial bonus on [Climb](/skills/climb/) checks and [Acrobatics](/skills/acrobatics/) checks to move on narrow surfaces and uneven ground. Furthermore, they are considered acclimated to the effects of high altitude. This racial trait replaces skilled.
 
-**Heart of the Sea:** Humans born near the sea are always drawn to it. They gain a +2 racial bonus on Profession (sailor) and Swim checks, and these are always class skills for them. They can hold their breath twice as long as normal, and spellcasters gain a +4 racial bonus on concentration checks when attempting to cast spells underwater. This racial trait replaces skilled.
+**Heart of the Sea:** Humans born near the sea are always drawn to it. They gain a +2 racial bonus on [Profession](/skills/profession/) (sailor) and [Swim](/skills/swim/) checks, and these are always class skills for them. They can hold their breath twice as long as normal, and spellcasters gain a +4 racial bonus on concentration checks when attempting to cast spells underwater. This racial trait replaces skilled.
 
-**Heart of the Slums:** Humans who eke out a life in a city's teeming slums must be quick and clever. They gain a +2 racial bonus on Sleight of Hand and Stealth checks, and a +4 racial bonus on Survival checks in urban and underground settings. In addition, they may roll twice when saving against disease, taking the better roll. This racial trait replaces skilled.
+**Heart of the Slums:** Humans who eke out a life in a city's teeming slums must be quick and clever. They gain a +2 racial bonus on Sleight of Hand and [Stealth](/skills/stealth/) checks, and a +4 racial bonus on Survival checks in urban and underground settings. In addition, they may roll twice when saving against disease, taking the better roll. This racial trait replaces skilled.
 
-**Heart of the Snows:** Humans born in chilly climes treat cold climates as one category less severe. They gain a +2 racial bonus on Fortitude saving throws against the effects of cold climates, on any check or saving throw to avoid slipping and falling, and to CMD against trip combat maneuvers. This bonus applies on Acrobatics and Climb checks made in slippery conditions. This racial trait replaces skilled.
+**Heart of the Snows:** Humans born in chilly climes treat cold climates as one category less severe. They gain a +2 racial bonus on Fortitude saving throws against the effects of cold climates, on any check or saving throw to avoid slipping and falling, and to CMD against trip combat maneuvers. This bonus applies on [Acrobatics](/skills/acrobatics/) and [Climb](/skills/climb/) checks made in slippery conditions. This racial trait replaces skilled.
 
 **Heart of the Streets:** Humans from bustling cities are skilled with crowds. They gain a +1 racial bonus on Reflex saves and a +1 dodge bonus to Armor Class when adjacent to at least two other allies. Crowds do not count as difficult terrain for them. This racial trait replaces skilled.
 
@@ -93,7 +96,7 @@ The following racial traits may be selected instead of existing human racial tra
 
 **Mixed Heritage:** Often human civilization is defined by more than one characteristic. A human with this trait may select a second "Heart of the" racial trait. This replaces the bonus feat racial trait.
 
-**Silver Tongued:** Human are often adept at subtle manipulation and putting even sworn foes at ease. Humans with this trait gain a +2 bonus on Diplomacy and Bluff checks. In addition, when they use Diplomacy to shift a creature's attitude, they can shift up to three steps up rather than just two. This racial trait replaces skilled.
+**Silver Tongued:** Human are often adept at subtle manipulation and putting even sworn foes at ease. Humans with this trait gain a +2 bonus on [Diplomacy](/skills/diplomacy/) and [Bluff](/skills/bluff/) checks. In addition, when they use [Diplomacy](/skills/diplomacy/) to shift a creature's attitude, they can shift up to three steps up rather than just two. This racial trait replaces skilled.
 
 ## Racial Subtypes
 
@@ -125,7 +128,7 @@ The following options are available to all humans who have the listed favored cl
 
 **Cleric:** Add a +1 bonus on caster level checks made to overcome the spell resistance of outsiders.
 
-**Druid:** Add a +1/2 bonus on Diplomacy and Intimidate checks to change a creature's attitude.
+**Druid:** Add a +1/2 bonus on [Diplomacy](/skills/diplomacy/) and [Intimidate](/skills/intimidate/) checks to change a creature's attitude.
 
 **Fighter:** Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.
 
@@ -135,7 +138,7 @@ The following options are available to all humans who have the listed favored cl
 
 **Magus:** Add +1/4 point to the magus' arcane pool.
 
-**Monk:** Add +1/4 point to the monk's ki pool.
+**Monk:** Add +1/4 point to the monk's *ki* pool.
 
 **Oracle:** Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.
 

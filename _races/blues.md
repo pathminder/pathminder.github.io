@@ -5,6 +5,7 @@ sources:
 
 tags:
   - Psionic
+  - Uncommon
 
 ability_scores: +2 Int, +2 Dex, --2 Str
 type: humanoid
@@ -51,14 +52,14 @@ Once thought to be a subrace of the goblins, blues are related to goblins, being
 
 - +2 Intelligence, +2 Dexterity, --2 Strength. Blues are smart and quick, but their small size makes them weak.
 - **Goblinoid:** Blues are of the humanoid (goblinoid) subtype.
-- **Small:** Blues are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.
+- **Small:** Blues are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on [Stealth](/skills/stealth/) checks.
 - **Normal Speed:** Blues are fast for their size, and have a base speed of 30 feet.
 - **Darkvision:** Blues can see in the dark up to 60 feet.
 - **Naturally Psionic:** Blues gain the Wild Talent feat as a bonus feat at 1st level. If a blue takes levels in a psionic class, he instead gains the Psionic Talent feat.
 - **Psionic Aptitude:** When a blue takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.
 - **Pariah:** The appearance of the blue can affect the reactions of those nearby. A blue takes a -1 penalty to Charisma-based skill checks when dealing with non-goblinoid humanoids, but gains a +1 bonus to Charisma-based skill checks while interacting with goblins.
 - **Repletion (Su):** A blue can sustain his body without need of food or water. If he spends 1 power point, a blue does not need to eat or drink for 24 hours.
-- **Keen Senses:** Blues receive a +2 racial bonus on Perception skill checks.
-- **Stealthy:** Blues receive a +2 racial bonus on Stealth and Ride checks, and blues always treat Stealth as a class skill.
+- **Keen Senses:** Blues receive a +2 racial bonus on [Perception](/skills/perception/) skill checks.
+- **Stealthy:** Blues receive a +2 racial bonus on [Stealth](/skills/stealth/) and [Ride](/skills/ride/) checks, and blues always treat [Stealth](/skills/stealth/) as a class skill.
 - **Weapon Familiarity:** Blues treat any weapon with the word “goblin” in its name as a martial weapon.
 - **Languages:** Blues begin play speaking Common and Goblin. Blues with high Intelligence scores can choose from the following: Draconic, Dwarven, Gnoll, Gnome, Halfling, and Orc.

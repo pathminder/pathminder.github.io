@@ -6,7 +6,10 @@ sources:
 
 tags:
   - Psionic
+  - Subterranean
   - Uncommon
+
+summary: Gray skinned, deep-dwelling dwarves who hate their lighter skinned cousins, duergar view life as constant toil ending only in death. Though these dwarves are typically evil, honor and keeping one's word means everything to them, and a rare few make loyal adventuring companions.
 
 ability_scores: +2 Con, +2 Wis, --4 Cha
 type: humanoid
@@ -66,8 +69,8 @@ What returned from that unknown place where logic no longer made sense, where th
 - **Slow and Steady:** Duergar have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.
 - **Duergar Immunities**: Duergar are immune to paralysis, phantasms, and poison. They gain a +2 racial bonus on saves against spells and spell-like abilities.
 - **Stability:** Duergar receive a +4 racial bonus to their CMD against bull rush or trip attempts while on solid ground.
-- **Enlarge Person (Sp):** A duergar can use *enlarge person* once per day, using its character level as its caster level and affecting itself only.
-- **Invisibility (Sp):** A duergar can use *invisibility* once per day, using its character level as its caster level and affecting itself only.
+- **Enlarge Person (Sp):** A duergar can use [*enlarge person*](/spells/enlarge-person/) once per day, using its character level as its caster level and affecting itself only.
+- **Invisibility (Sp):** A duergar can use [*invisibility*](/spells/invisibility/) once per day, using its character level as its caster level and affecting itself only.
 - **Superior Darkvision:** Duergar have superior darkvision, allowing them to see perfectly in the dark up to 120 feet.
 - **Light Sensitivity:** Duergar are dazzled in areas of bright light.
 - **Languages:** Duergar begin play speaking Common, Dwarven, and Undercommon. Duergar with high Intelligence scores can choose from the following: Aklo, Draconic, Giant, Goblin, Orc, and Terran. See the Linguistics skill page for more information about these languages.
@@ -79,6 +82,28 @@ A psionic duergar applies these racial traits in addition to the duergar racial 
 - Psionic duergars have --2 Charisma instead of --4 Charisma.
 - **Darkvision:** Psionic duergars can see in the dark up to 60 feet. This replaces superior darkvision.
 - **Poison Resistance:** Instead of being immune to poison, psionic duergars get a +2 racial bonus on saving throws against poison.
-- **Duergar Psionics:** Psionic duergars gain the following psi-like abilities: 1/day---*expansion* and *cloud mind*. These abilities affect only the duergar and his gear. The manifester level for these effects is equal to the duergar's level (minimum 3rd). The DC for cloud mind is equal to 10 + the power's level + the duergar's Charisma modifier. This replaces enlarge person and invisibility.
+- **Duergar Psionics:** Psionic duergars gain the following psi-like abilities: 1/day---*expansion* and *cloud mind*. These abilities affect only the duergar and his gear. The manifester level for these effects is equal to the duergar's level (minimum 3rd). The DC for cloud mind is equal to 10 + the power's level + the duergar's Charisma modifier. This replaces *enlarge person* and *invisibility*.
 - **Naturally Psionic**: Psionic duergars gain the Wild Talent feat as a bonus feat at 1st level. If a duergar takes levels in a psionic class, he instead gains the Psionic Talent feat.
 - **Psionic Aptitude:** When a psionic duergar takes a level in a favored class, he can choose to gain an additional power point instead of a hit point or skill point.
+
+## Alternate Racial Traits
+
+The following racial traits may be selected instead of existing duergar racial traits. Consult your GM before selecting any of these new options.
+
+**Blood Enmity:** Duergar have long warred against their dwarven cousins and the hated drow. Duergar with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the dwarf or elf subtypes. This racial trait replaces the *invisibility* spell-like ability.
+
+**Daysighted:** The cruel light of the sun harms some duergar less than others. Such duergar lack the light sensitivity racial trait, but have darkvision of only 60 feet.
+
+**Deep Magic:** Duergar spellcasters labor long to overcome the inborn spell resistance held by so many of their underground foes. Duergar with this racial trait receive a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on dispel checks. This racial trait replaces the enlarge person and invisibility spell-like abilities.
+
+**Dwarf Traits:** Duergar can select any dwarf racial trait that replaces stability. They can select dwarf racial traits that replace the hardy dwarf racial trait by giving up duergar immunities instead.
+
+## Favored Class Options
+
+The following options are available to all duergar who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
+
+**Cleric:** Add a +1/2 bonus on checks made to craft magic items.
+
+**Fighter:** Add +1 to the fighter's CMD when resisting a bull rush or trip attempt.
+
+**Inquisitor:** Add +1/6 to the number of times per day the inquisitor can use the judgment class feature.

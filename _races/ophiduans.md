@@ -5,6 +5,7 @@ sources:
 
 tags:
   - Psionic
+  - Uncommon
 
 ability_scores: +2 Dex, +2 Wis, --2 Cha
 type: humanoid

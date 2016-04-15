@@ -5,6 +5,7 @@ sources:
 
 tags:
   - Psionic
+  - Uncommon
 
 ability_scores: +2 Cha, +2 Dex, --2 Str
 type: humanoid
@@ -49,7 +50,7 @@ Small and insectoid in appearance, dromites stand out in most crowds of humanoid
 
 - +2 Charisma, +2 Dexterity, --2 Strength: Dromites are self-willed go-getters and naturally agile, but are weaker due to their small size.
 - **Insectoid Blood:** Dromites are of the humanoid (insectoid) subtype.
-- **Small:** Dromites are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a --1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on Stealth checks.
+- **Small:** Dromites are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a --1 penalty to their Combat Maneuver Bonus and Combat Maneuver Defense, and a +4 size bonus on [Stealth](/skills/stealth/) checks.
 - **Slow Speed:** Dromites have a base speed of 20 feet.
 - **Chitin:** Dromites receive a +1 natural armor bonus and one of the following kinds of energy resistance of their choice at creation: cold 5, electricity 5, fire 5, or sonic 5. This choice is permanent and stacks with any future energy resistance gained through other effects.
 - **Naturally Psionic:** Dromites gain the Wild Talent feat as a bonus feat at 1st level. If a dromite takes levels in a psionic class, he instead gains the Psionic Talent feat.
@@ -61,6 +62,6 @@ Small and insectoid in appearance, dromites stand out in most crowds of humanoid
   When a dromite detects a scent, the exact location of the source is not revealed---only its presence somewhere within range. The dromite can take a move action to note the direction of the scent. When the dromite is within 5 feet of the source, it pinpoints the source's location.
 
   A dromite with the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Survival skill. Dromites tracking by scent ignore the effects of surface conditions and poor visibility.
-- **Compound Eyes:** Dromites receive a +2 racial bonus on Perception checks.
+- **Compound Eyes:** Dromites receive a +2 racial bonus on [Perception](/skills/perception/) checks.
 - **Psionic Aptitude:** When a dromite takes a level in a favored class, it can choose to gain an additional power point instead of a hit point or skill point.
 - **Languages:** Dromites begin play speaking Common. Dromites with high Intelligence scores can choose from the following: Dwarven, Gnome, Goblin, and Terran.

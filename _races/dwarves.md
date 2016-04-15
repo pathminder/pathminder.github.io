@@ -4,6 +4,9 @@ sources:
   - "Pathfinder Roleplaying Game Core Rulebook"
   - "Pathfinder Roleplaying Game Advanced Race Guide"
 
+tags:
+  - Core
+
 summary: These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia.
 
 ability_scores: +2 Con, +2 Wis, --2 Cha
@@ -61,37 +64,37 @@ While it is said that dwarves are not venturesome or inventive, it would be more
 - **Hatred:** Dwarves receive a +1 bonus on attack rolls against humanoid creatures of the orc and goblinoid subtypes due to special training against these hated foes.
 - **Hardy:** Dwarves receive a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.
 - **Stability:** Dwarves receive a +4 racial bonus to their Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground.
-- **Stonecunning:** Dwarves receive a +2 bonus on Perception checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
+- **Stonecunning:** Dwarves receive a +2 bonus on [Perception](/skills/perception/) checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
 - **Weapon Familiarity:** Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word "dwarven" in its name as a martial weapon.
 - **Languages:** Dwarves begin play speaking Common and Dwarven. Dwarves with high Intelligence scores can choose from the following: Giant, Gnome, Goblin, Orc, Terran, and Undercommon.
 
 ## Alternate Racial Traits
 
-The following racial traits may be selected instead of the standard dwarf racial traits.
+The following racial traits may be selected instead of the standard dwarf racial traits. Consult your GM before selecting any of these new options.
 
 **Ancient Enmity:** Dwarves have long been in conflict with elves, especially the hated drow. Dwarves with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the elf subtype. This racial trait replaces hatred.
 
-**Craftsman:** Dwarves are known for their superior craftsmanship when it comes to metallurgy and stonework. Dwarves with this racial trait receive a +2 racial bonus on all Craft or Profession checks related to metal or stone. This racial trait replaces greed.
+**Craftsman:** Dwarves are known for their superior craftsmanship when it comes to metallurgy and stonework. Dwarves with this racial trait receive a +2 racial bonus on all [Craft](/skills/craft/) or [Profession](/skills/profession/) checks related to metal or stone. This racial trait replaces greed.
 
 **Deep Warrior:** Dwarves with this racial trait grew up facing the abominations that live deep beneath the surface. They receive a +2 dodge bonus to AC against monsters of the aberration type and a +2 racial bonus on combat maneuver checks made to grapple such creatures (or to continue a grapple). This racial trait replaces defensive training.
 
 **Giant Hunter:** Dwarves with this racial trait gain a +1 bonus on attack rolls against humanoids with the giant subtype. Furthermore, they gain a +2 bonus on Survival checks to find and follow tracks made by humanoids with the giant subtype. This racial trait replaces the hatred racial trait.
 
-**Lorekeeper:** Dwarves keep extensive records about their history and the world around them. Dwarves with this racial trait receive a +2 racial bonus on Knowledge (history) checks that pertain to dwarves or their enemies. They can make such skill checks untrained. This racial trait replaces greed.
+**Lorekeeper:** Dwarves keep extensive records about their history and the world around them. Dwarves with this racial trait receive a +2 racial bonus on [Knowledge (history)](/skills/knowledge-history/) checks that pertain to dwarves or their enemies. They can make such skill checks untrained. This racial trait replaces greed.
 
 **Magic Resistant:** Some of the older dwarven clans are particularly resistant to magic. Dwarves with this racial trait gain spell resistance equal to 5 + their character level. This resistance can be lowered for 1 round as a standard action. Dwarves with this racial trait take a --2 penalty on all concentration checks made in relation to arcane spells. This racial trait replaces hardy.
 
 **Minesight:** Dwarves with this racial trait increase the range of their darkvision to 90 feet; however, they are automatically dazzled in bright light and take a --2 penalty on saving throws against effects with the light descriptor. This racial trait replaces darkvision.
 
-**Mountaineer:** Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making Climb or Acrobatics checks to cross narrow or slippery surfaces. This racial trait replaces stability.
+**Mountaineer:** Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making [Climb](/skills/climb/) or [Acrobatics](/skills/acrobatics/) checks to cross narrow or slippery surfaces. This racial trait replaces stability.
 
 **Relentless:** Dwarves are skilled at pushing their way through a battlefield, tossing aside lesser foes with ease. Dwarves with this racial trait receive a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent. This bonus only applies while both the dwarf and his opponent are standing on the ground. This racial trait replaces stability.
 
 **Rock Stepper:** Dwarves with this racial trait can skillfully negotiate rocky terrain. They can ignore difficult terrain created by rubble, broken ground, or steep stairs when they take a 5-foot step. This racial trait replaces stonecunning.
 
-**Saltbeard:** Dwarves occasionally found iron cities along rugged seacoasts, and natives of such cities gain a +2 bonus on Profession (sailor) and Survival checks while at sea. They gain a +1 racial bonus on attack rolls and a +2 dodge bonus to AC against creatures with the aquatic or water subtype. Their greed racial trait applies only to treasure found in or under the water, but applies to all such treasure regardless of whether or not it contains metal or gemstones. This racial trait replaces defensive training, hatred, and stonecunning.
+**Saltbeard:** Dwarves occasionally found iron cities along rugged seacoasts, and natives of such cities gain a +2 bonus on [Profession](/skills/profession/) (sailor) and Survival checks while at sea. They gain a +1 racial bonus on attack rolls and a +2 dodge bonus to AC against creatures with the aquatic or water subtype. Their greed racial trait applies only to treasure found in or under the water, but applies to all such treasure regardless of whether or not it contains metal or gemstones. This racial trait replaces defensive training, hatred, and stonecunning.
 
-**Sky Sentinel:** As creatures with a deep affinity for the ground, dwarves are wary of attacks from above. Enemies on higher ground gain no attack roll bonus against dwarves with this racial trait, and they gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on Perception checks against flying creatures. This racial trait replaces defensive training, hatred, and stonecunning.
+**Sky Sentinel:** As creatures with a deep affinity for the ground, dwarves are wary of attacks from above. Enemies on higher ground gain no attack roll bonus against dwarves with this racial trait, and they gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on [Perception](/skills/perception/) checks against flying creatures. This racial trait replaces defensive training, hatred, and stonecunning.
 
 **Stonesinger:** Some dwarves' affinity for the earth grants them greater powers. Dwarves with this racial trait are treated as one level higher when casting spells with the earth descriptor or using granted powers of the Earth domain, the bloodline powers of the deep earth bloodline or earth elemental bloodline, and revelations of the oracle's stone mystery. This ability does not give them early access to level-based powers; it only affects the powers they could use without this ability. This racial trait replaces stonecunning.
 
@@ -101,7 +104,7 @@ The following racial traits may be selected instead of the standard dwarf racial
 
 **Xenophobic:** Isolationist dwarves despise non-dwarven humanoids. They speak only Dwarven and do not gain any bonus languages from possessing a high Intelligence score. In addition, they learn only one language per 2 ranks of Linguistics they possess. However, their untrusting nature gives them a +1 bonus against mind-affecting effects, except for fear affects. This racial trait replaces a dwarf's normal languages.
 
-**Wyrmscourged:** Dwarves with this racial trait gain a +1 bonus on attack rolls and a +2 dodge bonus to AC and on saving throws against the exceptional, supernatural, and spell-like abilities of dragons. They also gain a +2 racial bonus on Knowledge (arcana) checks to identify dragons and can make such checks untrained. This racial trait replaces defensive training, hatred, and stonecunning.
+**Wyrmscourged:** Dwarves with this racial trait gain a +1 bonus on attack rolls and a +2 dodge bonus to AC and on saving throws against the exceptional, supernatural, and spell-like abilities of dragons. They also gain a +2 racial bonus on [Knowledge (arcana)](/skills/knowledge-arcana/) checks to identify dragons and can make such checks untrained. This racial trait replaces defensive training, hatred, and stonecunning.
 
 ## Racial Subtypes
 
