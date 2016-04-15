@@ -82,7 +82,7 @@ class_features:
 
       *6th-Level Mesmerist Spells:* charm monster (mass), create mindscape (greater), demand, dream travel, euphoric tranquility, eyebite, geas/quest, getaway, hold person (mass), hostile juxtaposition (greater), insanity, invisibility (mass), irresistible dance, overwhelming presence, permanent image, phantasmal revenge, power word blind, programmed image, project image, scrying (greater), symbol of persuasion, true seeing, veil, waves of ecstasy, waves of exhaustion.
 
-  - name: consummate liar:
+  - name: consummate liar
     levels: [1, 4, 6, 8, 10, 12, 14, 16, 18, 20]
     levels_text:
       1:  "+1"
