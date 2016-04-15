@@ -63,7 +63,7 @@ defaults:
       path: ""
       type: evolutions
     values:
-      layout: evolution
+      layout: class-talent
   - scope:
       path: ""
       type: feat-types
@@ -83,7 +83,7 @@ defaults:
       path: ""
       type: magic-item-properties
     values:
-      layout: magic-item-property
+      layout: magic-item
   - scope:
       path: ""
       type: maneuvers

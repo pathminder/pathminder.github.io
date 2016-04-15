@@ -15,10 +15,14 @@ layout: default
     </li>
   {% endif %}
 
-  {% if page.slot or page.weight or page.price %}
+  {% if page.slot or page.type or page.weight or page.price %}
     <li>
       {% if page.slot %}
-        <strong>Slot</strong> {{ page.slot | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.weight or page.price %};{% endif %}
+        <strong>Slot</strong> {{ page.slot | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.weight or page.type or page.price %};{% endif %}
+      {% endif %}
+
+      {% if page.type %}
+        <strong>Type</strong> {{ page.type | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.weight or page.price %};{% endif %}
       {% endif %}
 
       {% if page.weight %}

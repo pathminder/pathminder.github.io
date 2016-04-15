@@ -11,7 +11,7 @@ layout: default
 <dl>
   {% if page.prerequisites %}
     <dt>Prerequisites</dt>
-    <dd>{{ page.prerequisites | join: ", " | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+    <dd>{{ page.prerequisites | join: ", " | prepend: '' | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
   {% endif %}
 
   <dt>Hit Die</dt>
@@ -273,7 +273,7 @@ layout: default
   {% for feature in level_features %}
     <h3 class="h4" id="{{ feature.name | slugify }}"><span style="text-transform: capitalize;">{{ feature.name | prepend: '' | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}</span> {% if feature.type %}({{ feature.type }}){% endif %}</h3>
 
-    {{ feature.text | markdownify }}
+    {{ feature.text | prepend: '' | markdownify }}
   {% endfor %}
 {% endfor %}
 
