@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - dhampir
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +10d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 The half-living children of vampires birthed by human females, dhampirs are progenies of both horror and tragedy. The circumstances of a dhampir's conception are often called into question but scarcely understood, as few mortal mothers survive the childbirth. Those who do often abandon their monstrous children and refuse to speak of the matter. While some speculate that dhampirs result when mortal women couple with vampires, others claim that they form when a pregnant woman suffers a vampire bite. Some particularly zealous scholars even contest dhampirs' status as a unique race, instead viewing them as humans suffering from an unholy affliction. Indeed, this hypothesis is strengthened by dhampirs' seeming inability to reproduce, their offspring inevitably humans (usually sorcerers with the undead bloodline). Regardless, they live and die just like any other mortal creatures, despite possessing a supernatural longevity akin to that of elves.

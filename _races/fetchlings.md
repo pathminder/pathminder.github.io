@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +1d6
+  self-taught: +2d6
+  trained: +3d6
+  middle_age: 62
+  old: 93
+  venerable: 125
+  maximum: +3d20
+
+height_and_weight:
+  height_modifier: +2d6
+  weight_modifier: ×3
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 90 lb.
+    - name: female
+      base_height: 5'2"
+      base_weight: 80 lb.
 ---
 
 Descended from humans trapped on the Shadow Plane, fetchlings are creatures of darkness and light intertwined. Generations of contact with that strange plane and its denizens have made fetchlings a race apart from humanity. While fetchlings acknowledge their origins, they exhibit little physical or cultural resemblance to their ancestors on the Material Plane, and are often insulted when compared to humans. Some members of the race also take offense at the name fetchling, as it was given to them by humans who saw them as little more than fetchers of rare materials from the Shadow Plane. Most fetchlings instead prefer to be called kayal, a word borrowed from Aklo that roughly translates to "shadow people" or "dusk dwellers."

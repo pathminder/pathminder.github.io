@@ -12,7 +12,28 @@ ability_scores: +2 Dex, --4 Str, --2 Con
 type: humanoid
 subtypes:
   - reptilian
-size: Medium
+size: Small
+
+ages:
+  adulthood: 12
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 20
+  old: 30
+  venerable: 40
+  maximum: +1d20
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_height: 2'6"
+      base_weight: 25 lb.
+    - name: female
+      base_height: 2'4"
+      base_weight: 20 lb.
 ---
 
 Kobolds are weak, craven, and seethe with a festering resentment for the rest of the world, especially members of races that seem stronger, smarter, or superior to them in any way. They proudly claim kinship to dragons, but beneath all the bluster, the comparison to their glorious cousins leaves kobolds with a profound sense of inadequacy. Though they are hardworking, clever, and blessed with a natural talent for mechanical devices and mining, they spend their days nursing grudges and hatreds instead of celebrating their own gifts. Kobold tactics specialize in traps and ambushes, but kobolds enjoy anything that allows them to harm others without putting themselves at risk. Often, they seek to capture rather than to kill, taking out their frustrations on the helpless victims they drag back to their claustrophobic lairs.

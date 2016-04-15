@@ -14,6 +14,27 @@ type: humanoid
 subtypes:
   - tengu
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d6
+  weight_modifier: ×3
+  genders:
+    - name: male
+      base_height: 4'0"
+      base_weight: 65 lb.
+    - name: female
+      base_height: 3'10"
+      base_weight: 55 lb.
 ---
 
 The crowlike tengus are known as a race of scavengers and irrepressible thieves. Covetous creatures predominantly motivated by greed, they are vain and easily won over with flattery. Deceptive, duplicitous, and cunning, tengus seek circumstances in which they can take advantage of the situation, often at the expense of others, including their own kind. They can be highly competitive, but impulsive and rash. Some claim their behavior is innate, while others believe their selfish mannerisms are cultural and developed as a learned adaptation that has enabled their people to endure through centuries of oppression.

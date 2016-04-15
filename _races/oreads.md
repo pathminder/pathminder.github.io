@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 60
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 150
+  old: 200
+  venerable: 250
+  maximum: +6d100
+
+height_and_weight:
+  height_modifier: +2d6
+  weight_modifier: ×7
+  genders:
+    - name: male
+      base_height: 4'0"
+      base_weight: 150 lb.
+    - name: female
+      base_height: 3'9"
+      base_weight: 120 lb.
 ---
 
 Oreads are humans whose ancestry includes the touch of an elemental being of earth somewhere along the line, often that of a shaitan genie. Stoic and contemplative, oreads are a race not easily moved, yet almost unstoppable when spurred to action. They remain a mystery to most of the world thanks to their reclusive nature, but those who seek them out in their secluded mountain hideaways find oreads to be quiet, dependable, and protective of their friends.

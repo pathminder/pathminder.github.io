@@ -29,7 +29,7 @@ ages:
 
 height_and_weight:
   height_modifier: +2d4
-  weight_modifier: +(2d8×7)
+  weight_modifier: ×7
   genders:
     - name: male
       base_height: 3'9"

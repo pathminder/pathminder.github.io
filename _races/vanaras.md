@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - vanara
 size: Medium
+
+ages:
+  adulthood: 14
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 30
+  old: 45
+  venerable: 60
+  maximum: +2d10
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'8"
+      base_weight: 105 lb.
+    - name: female
+      base_height: 4'2"
+      base_weight: 90 lb.
 ---
 
 Vanaras are intelligent, monkeylike humanoids that live in deep, warm forests and lush jungles. A vanara's body is covered in a thin coat of soft fur, and individuals with chestnut, ivory, and even golden coats are common. Despite their fur, vanaras can grow lengthy hair on their head just as humans can, and both male and female vanaras take pains to wear elaborate hairstyles for important social functions. The hair on a vanara's head matches the color of its fur. All vanaras have long, prehensile tails and handlike feet capable of well-articulated movements. A vanara stands slightly shorter and weighs slightly less than a typical human.

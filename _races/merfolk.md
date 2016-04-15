@@ -14,6 +14,27 @@ type: humanoid
 subtypes:
   - aquatic
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 35
+  old: 52
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'10"
+      base_weight: 145 lb.
+    - name: female
+      base_height: 5'8"
+      base_weight: 135 lb.
 ---
 
 Merfolk have the upper torsos of well-built and attractive humans and lower halves consisting of the tail and fins of a great fish. Their hair and scales span a wide range of hues, with merfolk in a given region closely resembling each other. Merfolk can breathe air freely but move on dry land only with difficulty, and rarely spend long periods out of water. As a race, merfolk are insular and distrustful of strangers, but individuals, especially adventuring merfolk, break the mold and can be quite garrulous. Merfolk concern themselves more with nature and the arts than with morality and ethical debates, and have a strong inclination toward neutral alignments.

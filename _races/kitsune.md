@@ -15,6 +15,27 @@ subtypes:
   - kitsune
   - shapechanger
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 32
+  old: 50
+  venerable: 65
+  maximum: +3d12
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 100 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 Kitsune, or fox folk, are vulpine shapeshifters known for their love of both trickery and art. Kitsune possess two forms: that of an attractive human of slender build with salient eyes, and their true form of an anthropomorphic fox. Despite an irrepressible penchant for deception, kitsune prize loyalty and make true companions. They delight in the arts, particularly riddles and storytelling, and settle in ancestral clans, taking their wisdom from both the living and spirits.

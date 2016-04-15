@@ -12,6 +12,27 @@ type: humanoid
 subtypes:
   - wayang
 size: Small
+
+ages:
+  adulthood: 40
+  intuitive: +4d6
+  self-taught: +5d6
+  trained: +6d6
+  middle_age: 100
+  old: 150
+  venerable: 200
+  maximum: +1d100
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_height: 3'0"
+      base_weight: 35 lb.
+    - name: female
+      base_height: 2'10"
+      base_weight: 30 lb.
 ---
 
 The wayangs are a race of small supernatural humanoids who trace their ancestry to the Plane of Shadows. They are extremely gaunt, with pixielike stature and skin the color of deep shadow. Deeply spiritual, they follow a philosophy known as "The Dissolution," which teaches that in passing they may again merge into the shadow. They readily express their beliefs through ritual scarification and skin bleaching, marking their bodies with raised white dots in ornate spirals and geometric patterns. Shy and elusive, they live in small, interdependent tribes. Wayangs rarely associate with outsiders.

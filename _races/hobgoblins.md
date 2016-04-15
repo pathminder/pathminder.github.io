@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - goblinoid
 size: Medium
+
+ages:
+  adulthood: 14
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 30
+  old: 45
+  venerable: 60
+  maximum: +2d10
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'2"
+      base_weight: 165 lb.
+    - name: female
+      base_height: 4'0"
+      base_weight: 145 lb.
 ---
 
 Fierce and militaristic, hobgoblins survive by conquest. The raw materials to fuel their war machines come from raids, their armaments and buildings from the toil of slaves worked to death. Naturally ambitious and envious, hobgoblins seek to better themselves at the expense of others of their kind, yet in battle they put aside petty differences and fight with discipline rivaling that of the finest soldiers. Hobgoblins have little love or trust for one another, and even less for outsiders. Life for these brutes consists of duty to those of higher station, domination of those below, and the rare opportunities to seize personal glory and elevate their status.

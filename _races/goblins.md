@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - goblinoid
 size: Small
+
+ages:
+  adulthood: 12
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 20
+  old: 30
+  venerable: 40
+  maximum: +1d20
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_height: 2'8"
+      base_weight: 30 lb.
+    - name: female
+      base_height: 2'6"
+      base_weight: 25 lb.
 ---
 
 Goblins are a race of childlike creatures with a destructive and voracious nature that makes them almost universally despised. Weak and cowardly, goblins are frequently manipulated or enslaved by stronger creatures that need destructive, disposable foot soldiers. Those goblins that rely on their own wits to survive live on the fringes of society and feed on refuse and the weaker members of more civilized races. Most other races view them as virulent parasites that have proved impossible to exterminate.

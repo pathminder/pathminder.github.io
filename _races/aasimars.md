@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'2"
+      base_weight: 110 lb.
+    - name: female
+      base_height: 5'0"
+      base_weight: 90 lb.
 ---
 
 Aasimars are humans with a significant amount of celestial or other good outsider blood in their ancestry. While not always benevolent, aasimars are more inclined toward acts of kindness rather than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar heritage can lie dormant for generations, only to appear suddenly in the child of two apparently human parents. Most societies interpret aasimar births as good omens, though it must be acknowledged that some aasimars take advantage of the reputation of their kind, brutally subverting the expectations of others with acts of terrifying cruelty or abject venality. "It's always the one you least suspect" is the axiom these evil aasimars live by, and they often lead double lives as upstanding citizens or false heroes, keeping their corruption well hidden. Thankfully, these few are the exception and not the rule.

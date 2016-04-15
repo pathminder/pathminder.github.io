@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 60
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 150
+  old: 200
+  venerable: 250
+  maximum: +6d100
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'2"
+      base_weight: 110 lb.
+    - name: female
+      base_height: 5'0"
+      base_weight: 90 lb.
 ---
 
 Born from the descendants of humans and beings of elemental air such as djinn, sylphs are a shy and reclusive race consumed by intense curiosity. Sylphs spend their lives blending into the crowd, remaining unnoticed as they spy and eavesdrop on the people around them. They call this hobby "listening to the wind," and for many sylphs it becomes an obsession. Sylphs rely on their capable, calculating intellects and on knowledge gleaned from eavesdropping to deliver them from danger.

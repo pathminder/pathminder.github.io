@@ -14,6 +14,27 @@ type: humanoid
 subtypes:
   - aquatic
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +1d6
+  self-taught: +2d6
+  trained: +3d6
+  middle_age: 62
+  old: 93
+  venerable: 125
+  maximum: +3d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 Gillmen are the remnants of a race of surface-dwelling humanoids whose homeland was drowned in a great cataclysm at the hands of the aboleth. The aboleths rescued a few survivors, warping them into an amphibious race to serve as emissaries to the surface world. Modern gillmen remain reclusive and suspicious, scarred by both the loss of their ancient heritage and the sure knowledge that aboleths do nothing without expecting to profit from it. Physically gillmen have expressive brows, pale skin, dark hair, and bright purple eyes. Three slim gills mark each side of their necks, near the shoulder, but they are otherwise close enough in appearance to humans that they can pass as such (for a time) without fear of detection.

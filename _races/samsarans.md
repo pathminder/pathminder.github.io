@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - samsaran
 size: Medium
+
+ages:
+  adulthood: 60
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 150
+  old: 200
+  venerable: 250
+  maximum: +6d100
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 110 lb.
+    - name: female
+      base_height: 5'6"
+      base_weight: 110 lb.
 ---
 
 Mysterious humanoids with pale blue flesh and transparent blood like the waters of a trickling brook, samsarans are ancient creatures even in their youth. A samsaran's life is not a linear progression from birth to death, but rather a circle of birth to death to rebirth. Whenever a samsaran dies, it reincarnates anew as a young samsaran to live a new life. Her past memories remain vague and indistinct---and each new incarnation is as different a creature and personality as a child is to a parent.

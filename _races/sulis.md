@@ -13,6 +13,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 Sulis, or suli-jann, are the descendents of mortals and jann. They manifest their otherworldly heritage in adolescence, or when awakened by an encounter with a genie. Strong and attractive, these dynamic individuals can call forth elemental energies to augment their prowess in combat. Neither genie nor quite human, sulis stand in two worlds and often feel as if they don't belong to either.

@@ -13,6 +13,24 @@ type: humanoid
 subtypes:
   - changeling
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×5
+  genders:
+    - name: female
+      base_height: 5'2"
+      base_weight: 85 lb.
 ---
 
 Changelings are the offspring of hags and their lovers taken through magic or madness. Dropped off on doorsteps of prospective foster parents, changelings are raised by strangers. Typically tall, slender, dark haired, and attractive, changelings otherwise resemble their fathers' race. They are always female, and their mismatched colored eyes and abnormally pale skin hint at their true heritage. At puberty, changelings receive "the call," a hypnotic spiritual voice that beckons them to travel and discover their true origins. Changelings who ignore this call choose their own destiny; those who heed it discover their "mother" and may come into great power by transforming into hags themselves.

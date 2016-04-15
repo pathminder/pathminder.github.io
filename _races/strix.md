@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - strix
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 20
+  old: 30
+  venerable: 40
+  maximum: +1d20
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 125 lb.
+    - name: female
+      base_height: 5'2"
+      base_weight: 115 lb.
 ---
 
 Human neighbors tell horrific tales of slaughter woven with frightened suspicion when speaking of strix. Strix, however, tell a tale of encroachment and a struggle for land and resources. For ages, humans invaded strix lands fighting bloody battles against the fierce, black-skinned creatures they thought to be winged devils. Over time, strix have developed a hatred for humankind and now fiercely protect their dwindling numbers.

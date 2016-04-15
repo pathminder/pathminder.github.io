@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 60
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 150
+  old: 200
+  venerable: 250
+  maximum: +6d100
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'2"
+      base_weight: 110 lb.
+    - name: female
+      base_height: 5'0"
+      base_weight: 90 lb.
 ---
 
 Humans whose ancestry includes beings of elemental fire such as efreet, ifrits are a passionate and fickle race. No ifrit is satisfied with a sedentary life; like a wildfire, ifrits must keep moving or burn away into nothingness. Ifrits not only adore flames, but personify multiple aspects of them as well, embodying both fire's dynamic, ever-changing energy and its destructive, pitiless nature.

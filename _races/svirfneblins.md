@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - gnome
 size: Small
+
+ages:
+  adulthood: 40
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +9d6
+  middle_age: 100
+  old: 150
+  venerable: 200
+  maximum: +3d100
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_height: 3'0"
+      base_weight: 35 lb.
+    - name: female
+      base_height: 2'10"
+      base_weight: 30 lb.
 ---
 
 In the dark below earth, svirfneblin protect their enclaves, keeping their small communities safe from the terrors of the lightless depths. Serious creatures with slate-gray skin, these gnomes vary greatly from their surface cousins by choosing to live in the shadowy depths and protect the world above from the foul creatures sharing their chambers, vaults, and tunnels.

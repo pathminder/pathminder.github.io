@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - reptilian
 size: Medium
+
+ages:
+  adulthood: 20
+  intuitive: +1d6
+  self-taught: +2d6
+  trained: +3d6
+  middle_age: 60
+  old: 90
+  venerable: 120
+  maximum: +3d20
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×7
+  genders:
+    - name: male
+      base_height: 5'9"
+      base_weight: 180 lb.
+    - name: female
+      base_height: 5'6"
+      base_weight: 160 lb.
 ---
 
 The nagaji are a race of ophidian humanoids with scaled skin that mimics the dramatic appearance of true nagas. Like serpents, they have forked tongues and lidless eyes, giving them an unblinking gaze that most other races find unnerving. Their physical forms are otherwise humanlike, raising wary speculation about their origins. It is widely believed that true nagas created them as a servitor race, through crossbreeding, magic, or both, and indeed nagaji revere nagas as living gods. Nagaji often inspire awe and fear among other humanoids, as much for their mysterious ancestry as for their talent for both swords and sorcery.

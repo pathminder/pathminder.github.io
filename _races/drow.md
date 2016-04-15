@@ -14,6 +14,28 @@ type: humanoid
 subtypes:
   - elf
 size: Medium
+
+ages:
+  adulthood: 110
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +10d6
+  middle_age: 175
+  old: 263
+  venerable: 350
+  maximum: +4d100
+
+height_and_weight:
+  weight_modifier: ×3
+  genders:
+    - name: male
+      base_height: 5'4"
+      base_weight: 90 lb.
+      height_modifier: +2d6
+    - name: female
+      base_height: 5'4"
+      base_weight: 100 lb.
+      height_modifier: +2d8
 ---
 
 Cruel and cunning, drow are a dark reflection of the elven race. Also called dark elves, they dwell deep underground in elaborate cities shaped from the rock of cyclopean caverns. Drow seldom make themselves known to surface folk, preferring to remain legends while advancing their sinister agendas through proxies and agents. Drow have no love for anyone but themselves, and are adept at manipulating other creatures. While they are not born evil, malignancy is deep-rooted in their culture and society, and nonconformists rarely survive for long. Some stories tell that given the right circumstances, a particularly hateful elf might turn into a drow, though such a transformation would require a truly heinous individual.

@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - vishkanya
 size: Medium
+
+ages:
+  adulthood: 15
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 35
+  old: 53
+  venerable: 70
+  maximum: +2d20
+
+height_and_weight:
+  height_modifier: +2d8
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 5'3"
+      base_weight: 85 lb.
+    - name: female
+      base_height: 5'1"
+      base_weight: 75 lb.
 ---
 
 Vishkanyas are a race of exotic humanoids with poisonous blood. Possessed of an alien beauty, these graceful humanoids see the world through serpentine eyes of burnished gold. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent. They cannot be generalized as good or evil, but since they truly speak with forked tongues, they are content to accept the gold they're offered and leave questions of morality to others.

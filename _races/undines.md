@@ -14,6 +14,27 @@ type: outsider
 subtypes:
   - native
 size: Medium
+
+ages:
+  adulthood: 60
+  intuitive: +4d6
+  self-taught: +6d6
+  trained: +8d6
+  middle_age: 150
+  old: 200
+  venerable: 250
+  maximum: +6d100
+
+height_and_weight:
+  height_modifier: +2d10
+  weight_modifier: ×5
+  genders:
+    - name: male
+      base_height: 4'10"
+      base_weight: 120 lb.
+    - name: female
+      base_height: 4'5"
+      base_weight: 85 lb.
 ---
 
 Undines are humans who trace their ancestry to creatures from the Plane of Water. Even at first glance, one notices the potency of their ancestry, for an undine's very flesh mimics the color of lakes, seas, and oceans. Whether they have the blood of marids or water mephits as their kin, all undines define themselves through their ancestry. They perceive their individual differences as gifts and explore the supernatural aspects of their unique heritage to the fullest.

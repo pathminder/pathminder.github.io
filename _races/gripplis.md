@@ -13,6 +13,27 @@ type: humanoid
 subtypes:
   - grippli
 size: Small
+
+ages:
+  adulthood: 12
+  intuitive: +1d4
+  self-taught: +1d6
+  trained: +2d6
+  middle_age: 20
+  old: 30
+  venerable: 40
+  maximum: +1d20
+
+height_and_weight:
+  height_modifier: +2d4
+  weight_modifier: ×1
+  genders:
+    - name: male
+      base_height: 1'7"
+      base_weight: 25 lb.
+    - name: female
+      base_height: 1'5"
+      base_weight: 20 lb.
 ---
 
 Gripplis stand just over 2 feet tall and have mottled green-and-brown skin. Most gripplis are primitive hunter gatherers, living on large insects and fish found near their treetop homes, and are unconcerned about events outside their swamps. The rare grippli who leaves the safety of the swamp tends to be a ranger or alchemist seeking to trade for metals and gems.
