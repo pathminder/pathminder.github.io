@@ -47,9 +47,9 @@ class_features:
       1: 1 feat
       6: 2 feats
     text: |
-      Primal disciples draw their skill and strength from longstanding traditions of combat and skill in their tribes. At 1st level and again at 6th level, a primal disciple gains one of the following feats as a bonus feat: Enduring Protector, Martial Charge, Martial Power, Prodigious Two Weapon Fighting, Seize the Opportunity, or Victorious Recovery. She must meet the prerequisites for these feats as normal.
+      Primalr disciples draw their skill and strength from longstanding traditions of combat and skill in their tribes. At 1st level and again at 6th level, a primal disciple gains one of the following feats as a bonus feat: Enduring Protector, Martial Charge, Martial Power, Prodigious Two Weapon Fighting, Seize the Opportunity, or Victorious Recovery. She must meet the prerequisites for these feats as normal.
 
-  - name: race
+  - name: rage
     type: Ex
     levels: [1]
     text: |
