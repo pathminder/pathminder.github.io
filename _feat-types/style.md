@@ -76,7 +76,7 @@ As a swift action, you can enter the stance employed by the fighting style that 
 
 **Panther Style:** Students of the panther throw caution to the wind as they weave recklessly among their foes. Those who master the style turn their unrivaled mobility into a weapon, striking their enemies with a series of swift retaliatory strikes.
 
-*Feat Path:* [Panther Style](/feats/panther-style/), [Panther Claws](/feats/panther-claws/), [Panther Parry](/feats/panther-parry/).
+*Feat Path:* [Panther Style](/feats/panther-style/), [Panther Claw](/feats/panther-claw/), [Panther Parry](/feats/panther-parry/).
 
 **Pummeling Style:** Powerful and seemingly wild haymaker punches and extended kicks are the hallmark of this style. Deeply rooted in its martial philosophy is the concept that landing one mighty strike in the right area will send an opponent sprawling.
 
@@ -88,7 +88,7 @@ As a swift action, you can enter the stance employed by the fighting style that 
 
 **Snake Style:** Snake style emphasizes quick, shifting movements. Its practitioners normally hold their hands flat with the fingers together to mimic the head of a snake. Able to strike when least expected, snake stylists are known for opportunism and blinding speed.
 
-*Feat Path:* [Snake Style](/feats/snake-style/), [Snake Sidewinder](/feats/snake-sidewinder/), [Snake Fang](/feats/snake-fang/).
+*Feat Path:* [Snake Style](/feats/snake-style/), [Snake Sidewind](/feats/snake-sidewind/), [Snake Fang](/feats/snake-fang/).
 
 **Snapping Turtle Style:** The snapping turtle style emphasizes active defense with one hand. Students of the style utilize a variety of locks, grabs, and circular blocks to protect themselves, as well as employing a debilitating clutch.
 
