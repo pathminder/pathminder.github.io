@@ -2,22 +2,21 @@
 layout: default
 ---
 
-{% assign empty_array = '' | split: '|' %}
+{% if page.price or page.tags.size > 0 %}
+  <ul class="list-inline">
+    {% if page.price %}
+      <li class="list-inline-item">
+        <strong>Price</strong> {{ page.price }}
+      </li>
+    {% endif %}
 
-{% assign stat_items = empty_array %}
-
-{% if page.price %}
-  {% assign stat_item_text = '<strong>Price</strong> ' | append: page.price %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.tags|size > 0 %}
-  {% assign stat_item_text = page.tags | join: ', ' | prepend: '<strong>Tags</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <p>{{ stat_items|join: '; ' }}</p>
+    {% if page.tags.size > 0 %}
+      <li class="list-inline-item">
+        <strong>Tags</strong>
+        {{ page.tags | join: ', ' }}
+      </li>
+    {% endif %}
+  </ul>
 {% endif %}
 
 {{ content }}

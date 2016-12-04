@@ -7,39 +7,44 @@ layout: default
 <ul class="list-unstyled">
   {% if page.school or page.subschool or page.descriptors %}
     <li>
-      <strong>School</strong> {{ page.school }}
+      <strong>School</strong>
+
+      {{ page.school }}
 
       {% if page.subschool %}
         ({{ page.subschool }})
       {% endif %}
 
       {% if page.descriptors %}
-        {% assign descriptor_array = empty_array %}
-
-        {% for descriptor in page.descriptors %}
-          {% assign descriptor_entry = site.descriptors | where: 'title', descriptor %}
-          {% if descriptor_entry[0] %}
-            {% assign descriptor_link = "<a href='" | append: descriptor_entry[0].url | append: "'>" | append: descriptor_entry[0].title | append: "</a>" %}
-            {% assign descriptor_array = descriptor_array | push: descriptor_link %}
-          {% else %}
-            {% assign descriptor_array = descriptor_array | push: descriptor %}
-          {% endif %}
-        {% endfor %}
-
-        [{{ descriptor_array | join: ', ' }}]
+        [<ul class="list-inline">
+          {% for descriptor in page.descriptors %}
+            {% assign descriptor_entry = site.descriptors | where: 'title', descriptor | first %}
+            {% if descriptor_entry %}
+              <li class="list-inline-item">
+                <a href="{{ descriptor_entry.url }}">{{ descriptor_entry.title }}</a>
+              </li>
+            {% else %}
+              <li class="list-inline-item">
+                {{ descriptor }}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>]
       {% endif %}
     </li>
   {% endif %}
 
   {% if page.spell_lists %}
-    {% assign spell_lists_array = empty_array %}
-
-    {% for spell_list in page.spell_lists %}
-      {% assign spell_list_text = spell_list.name | append: ' ' | append: spell_list.level %}
-      {% assign spell_lists_array = spell_lists_array | push: spell_list_text %}
-    {% endfor %}
-
-    <li><strong>Spell Lists</strong> {{ spell_lists_array | join: ', ' }}</li>
+    <li>
+      <strong>Spell Lists</strong>
+      <ul class="list-inline">
+        {% for spell_list in page.spell_lists %}
+          <li class="list-inline-item">
+            {{ spell_list.name }} {{ spell_list.level }}
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
   {% endif %}
 
   {% if page.casting_time %}

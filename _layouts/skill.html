@@ -5,28 +5,31 @@ layout: default
 {% assign empty_array = '' | split: '|' %}
 {% assign stat_items = empty_array %}
 
-{% if page.ability_score %}
-  {% assign text = '<strong>' | append: page.ability_score | append: '</strong>' %}
-  {% assign stat_items = stat_items | push: text %}
-{% endif %}
+{% if page.ability_score or page.armor_check_penalty or page.trained_only %}
+  <ul class="list-inline">
+    {% if page.ability_score %}
+      <li class="list-inline-item">
+        <strong>{{ page.ability_score }}</strong>
+      </li>
+    {% endif %}
 
-{% if page.armor_check_penalty %}
-  {% assign text = '<strong>Armor Check Penalty</strong>' %}
-  {% assign stat_items = stat_items | push: text %}
-{% endif %}
+    {% if page.armor_check_penalty %}
+      <li class="list-inline-item">
+        <strong>Armor Check Penalty</strong>
+      </li>
+    {% endif %}
 
-{% if page.trained_only %}
-  {% assign text = '<strong>Trained Only</strong>' %}
-  {% assign stat_items = stat_items | push: text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <p>{{ stat_items|join: '; ' }}</p>
+    {% if page.trained_only %}
+      <li class="list-inline-item">
+        <strong>Trained Only</strong>
+      </li>
+    {% endif %}
+  </ul>
 {% endif %}
 
 {% if page.tags %}
   {% for tag in page.tags %}
-    {% assign matching_skills = site.skills|where: 'title', tag %}
+    {% assign matching_skills = site.skills | where: 'title', tag %}
     {% for skill in matching_skills %}
       <p>This is a <a href="{{ skill.url }}">{{ skill.title }} skill</a> and follows the rules of that parent skill.</p></p>
     {% endfor %}

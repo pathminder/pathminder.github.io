@@ -7,18 +7,9 @@ layout: default
 {% assign empty_array = '' | split: '|' %}
 
 {% for collection in site.collections %}
-  {% assign this_collection_items = empty_array %}
+  {% assign this_collection_items = collection.docs | where_exp: 'item', 'item.sources contains page.title' | sort: 'title' %}
 
-  {% for item in collection.docs %}
-    {% if item.sources contains page.title %}
-      {% assign this_collection_items = this_collection_items | push: item %}
-    {% endif %}
-  {% endfor %}
-
-  {% assign this_collection_size = this_collection_items|size %}
-  {% if this_collection_size > 0 %}
-    {% assign this_collection_items = this_collection_items | sort: 'title' %}
-
+  {% if this_collection_items.size > 0 %}
     <h2>{{ collection.title }}</h2>
 
     <ul>

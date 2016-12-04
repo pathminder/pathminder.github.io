@@ -2,82 +2,89 @@
 layout: default
 ---
 
-{% assign empty_array = '' | split: '|' %}
-
-{% assign stat_items = empty_array %}
-
 {% if page.price or page.weight or page.type or page.save or page.effect or page.cure %}
-<ul class="list-unstyled">
-{% endif %}
+  <ul class="list-unstyled">
+    {% if page.price or page.weight %}
+      <li>
+        <ul class="list-inline">
+          {% if page.price %}
+            <li class="list-inline-item">
+              <strong>Price</strong>
+              {{ page.price | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.weight %}
+            <li class="list-inline-item">
+              <strong>Weight</strong>
+              {{ page.weight | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+        </ul>
+      </li>
+    {% endif %}
 
-{% if page.price %}
-  {% assign stat_item_text = page.price | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Price</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
+    {% if page.type or page.addiction or page.save %}
+      <li>
+        <ul class="list-inline">
+          {% if page.type %}
+            <li class="list-inline-item">
+              <strong>Type</strong>
+              {{ page.type | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.addiction %}
+            <li class="list-inline-item">
+              <strong>Addiction</strong>
+              {{ page.addiction | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.save %}
+            <li class="list-inline-item">
+              <strong>Save</strong>
+              {{ page.save | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+        </ul>
+      </li>
+    {% endif %}
 
-{% if page.weight %}
-  {% assign stat_item_text = page.weight | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Weight</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <li>{{ stat_items|join: '; ' }}</li>
-{% endif %}
-
-{% assign stat_items = empty_array %}
-
-{% if page.type %}
-  {% assign stat_item_text = page.type | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Type</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.addiction %}
-  {% assign stat_item_text = page.addiction | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Addiction</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.save %}
-  {% assign stat_item_text = page.save | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Save</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <li>{{ stat_items|join: '; ' }}</li>
-{% endif %}
-
-{% assign stat_items = empty_array %}
-
-{% if page.initial_effect %}
-  {% assign stat_item_text = page.initial_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Initial Effect</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.secondary_effect %}
-  {% assign stat_item_text = page.secondary_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Secondary Effect</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.effect %}
-  {% assign stat_item_text = page.effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Effect</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.damage %}
-  {% assign stat_item_text = page.damage | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Damage</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.cure %}
-  {% assign stat_item_text = page.cure | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip | prepend: '<strong>Cure</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <li>{{ stat_items|join: '; ' }}</li>
-{% endif %}
-
-{% if page.price or page.weight or page.type or page.save or page.effect or page.cure %}
-</ul>
+    {% if page.initial_effect or page.secondary_effect or page.effect or page.damage or page.cure %}
+      <li>
+        <ul class="list-inline">
+          {% if page.initial_effect %}
+            <li class="list-inline-item">
+              <strong>Initial Effect</strong>
+              {{ page.initial_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.secondary_effect %}
+            <li class="list-inline-item">
+              <strong>Secondary Effect</strong>
+              {{ page.secondary_effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.effect %}
+            <li class="list-inline-item">
+              <strong>Effect</strong>
+              {{ page.effect | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.damage %}
+            <li class="list-inline-item">
+              <strong>Damage</strong>
+              {{ page.damage | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+          {% if page.cure %}
+            <li class="list-inline-item">
+              <strong>Cure</strong>
+              {{ page.cure | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' }}
+            </li>
+          {% endif %}
+        </ul>
+      </li>
+    {% endif %}
+  </ul>
 {% endif %}
 
 {{ content }}

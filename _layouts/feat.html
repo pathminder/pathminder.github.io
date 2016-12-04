@@ -2,40 +2,43 @@
 layout: default
 ---
 
+{% assign empty_array = "" | split:"|" %}
+
 {% if page.flavor_text %}
   <em>{{ page.flavor_text | markdownify }}</em>
 {% endif %}
 
 <dl>
   {% if page.tags %}
-    {% assign types = "" | split:"|" %}
-    {% for type in site.feat-types %}
-      {% if page.tags contains type.title %}
-        {% assign type_link = '<a href="' | append: type.url | append: '">' | append: type.title | append: '</a>' %}
-        {% assign types = types | push: type_link %}
-      {% endif %}
-    {% endfor %}
-
+    {% assign types = site.feat-types | where_exp: 'item', 'page.tags contains item.title' %}
     <dt>Feat Type(s)</dt>
     <dd>
-      {{ types | join: ', ' }}
-
-      {% assign types_size = types|size %}
-      {% if types_size == 0 %}
-        <a href="/feat-types/general/">General</a>
-      {% endif %}
+      <ul class="list-inline">
+        {% for type in types %}
+          <li class="list-inline-entry">
+            <a href="{{ type.url }}">{{ type.title }}</a>
+          </li>
+        {% endfor %}
+        {% if types.size == 0 %}
+          <li class="list-inline-entry">
+            <a href="/feat-types/general/">General</a>
+          </li>
+        {% endif %}
+      </ul>
     </dd>
   {% endif %}
 
   {% if page.prerequisites %}
-    {% assign prerequisites = "" | split:"|" %}
-    {% for prerequisite in page.prerequisites %}
-      {% assign marked_prerequisite = prerequisite | markdownify | remove: '<p>' | remove: '</p>' | rstrip %}
-      {% assign prerequisites = prerequisites | push: marked_prerequisite %}
-    {% endfor %}
-
     <dt>Prerequisites</dt>
-    <dd>{{ prerequisites | join: '; ' }}</dd>
+    <dd>
+      <ul class="list-inline">
+        {% for prerequisite in page.prerequisites %}
+          <li class="list-inline-item">
+            {{ prerequisite | markdownify | remove: '<p>' | remove: '</p>' }}
+          </li>
+        {% endfor %}
+      </ul>
+    </dd>
   {% endif %}
 
   {% if page.benefit %}

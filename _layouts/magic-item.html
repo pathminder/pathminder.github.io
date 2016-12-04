@@ -5,33 +5,55 @@ layout: default
 <ul class="list-unstyled">
   {% if page.aura or page.cl %}
     <li>
-      {% if page.aura %}
-        <strong>Aura</strong> {{ page.aura | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.cl %};{% endif %}
-      {% endif %}
+      <ul class="list-inline">
+        {% if page.aura %}
+          <li class="list-inline-item">
+            <strong>Aura</strong>
+            {{ page.aura | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
 
-      {% if page.cl %}
-        <strong>CL</strong> {{ page.cl | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}
-      {% endif %}
+        {% if page.cl %}
+          <li class="list-inline-item">
+            <strong>CL</strong>
+            {{ page.cl | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
+      </ul>
     </li>
   {% endif %}
 
   {% if page.slot or page.type or page.weight or page.price %}
     <li>
-      {% if page.slot %}
-        <strong>Slot</strong> {{ page.slot | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.weight or page.type or page.price %};{% endif %}
-      {% endif %}
+      <ul class="list-inline">
+        {% if page.slot %}
+          <li class="list-inline-item">
+            <strong>Slot</strong>
+            {{ page.slot | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
 
-      {% if page.type %}
-        <strong>Type</strong> {{ page.type | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.weight or page.price %};{% endif %}
-      {% endif %}
+        {% if page.type %}
+          <li class="list-inline-item">
+            <strong>Type</strong>
+            {{ page.type | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
 
-      {% if page.weight %}
-        <strong>Weight</strong> {{ page.weight | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}{% if page.price %};{% endif %}
-      {% endif %}
+        {% if page.weight %}
+          <li class="list-inline-item">
+            <strong>Weight</strong>
+            {{ page.weight | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
 
-      {% if page.price %}
-        <strong>Price</strong> {{ page.price | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}
-      {% endif %}
+        {% if page.price %}
+          <li class="list-inline-item">
+            <strong>Price</strong>
+            {{ page.price | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
+      </ul>
     </li>
   {% endif %}
 </ul>
@@ -41,21 +63,28 @@ layout: default
 <ul class="list-unstyled">
   {% if page.construction_requirements or page.cost %}
     <li>
-      {% if page.construction_requirements|size > 0 %}
-        <strong>Construction Requirements</strong>
+      <ul class="list-inline">
+        {% if page.construction_requirements.size > 0 %}
+          <li class="list-inline-item">
+            <strong>Construction Requirements</strong>
 
-        {% assign processed_requirements = '' | split: '|' %}
-        {% for item in page.construction_requirements %}
-          {% assign this_requirement = item | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip %}
-          {% assign processed_requirements = processed_requirements | push: this_requirement %}
-        {% endfor %}
+            {% assign processed_requirements = '' | split: '|' %}
+            {% for item in page.construction_requirements %}
+              {% assign this_requirement = item | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' %}
+              {% assign processed_requirements = processed_requirements | push: this_requirement %}
+            {% endfor %}
 
-        {{ processed_requirements | join: ', '  }}{% if page.cost %};{% endif %}
-      {% endif %}
+            {{ processed_requirements | join: ', '  }}
+          </li>
+        {% endif %}
 
-      {% if page.cost %}
-        <strong>Cost</strong> {{ page.cost | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' | rstrip }}
-      {% endif %}
+        {% if page.cost %}
+          <li class="list-inline-item">
+            <strong>Cost</strong>
+            {{ page.cost | append: '' | markdownify | remove: '<p>' | remove: '</p>' | replace: '<hr />', '&mdash;' }}
+          </li>
+        {% endif %}
+      </ul>
     </li>
   {% endif %}
 </ul>

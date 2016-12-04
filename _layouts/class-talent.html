@@ -2,27 +2,28 @@
 layout: default
 ---
 
-{% assign empty_array = '' | split: '|' %}
+{% if page.type or page.minimum_level or page.tags.size > 0 %}
+  <ul class="list-inline">
+    {% if page.type %}
+      <li class="list-inline-item">
+        <strong>Type</strong> {{ page.type }}
+      </li>
+    {% endif %}
 
-{% assign stat_items = empty_array %}
+    {% if page.minimum_level %}
+      <li class="list-inline-item">
+        <strong>Minimum Class Level</strong>
+        {{ page.minimum_level }}
+      </li>
+    {% endif %}
 
-{% if page.type %}
-  {% assign stat_item_text = '<strong>Type</strong> ' | append: page.type %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.minimum_level %}
-  {% assign stat_item_text = '<strong>Minimum Class Level</strong> ' | append: page.minimum_level %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if page.tags|size > 0 %}
-  {% assign stat_item_text = page.tags | join: ', ' | prepend: '<strong>Tags</strong> ' %}
-  {% assign stat_items = stat_items | push: stat_item_text %}
-{% endif %}
-
-{% if stat_items|size > 0 %}
-  <p>{{ stat_items|join: '; ' }}</p>
+    {% if page.tags.size > 0 %}
+      <li class="list-inline-item">
+        <strong>Tags</strong>
+        {{ page.tags | join: ', ' }}
+      </li>
+    {% endif %}
+  </ul>
 {% endif %}
 
 {{ content }}

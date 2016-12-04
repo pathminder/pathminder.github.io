@@ -5,85 +5,54 @@ layout: default
 {{ content }}
 
 {% assign empty_array = '' | split: '|' %}
+{% assign listing_source = page.listing_source | default: layout.listing_source %}
+{% assign source_collection = site.collections | where: 'label', listing_source | first %}
 
-{% if page.listing_source %}
-  {% assign listing_source = page.listing_source %}
-{% else %}
-  {% assign listing_source = layout.listing_source %}
-{% endif %}
-{% assign source_collection = site.collections|where: 'label', listing_source|first %}
-
-{% if page.limit_by_page_title_as_tag %}
-  {% assign limit_by_page_title_as_tag = page.limit_by_page_title_as_tag %}
-{% else %}
-  {% assign limit_by_page_title_as_tag = layout.limit_by_page_title_as_tag %}
-{% endif %}
+{% assign limit_by_page_title_as_tag = page.limit_by_page_title_as_tag | default: layout.limit_by_page_title_as_tag %}
 
 {% if limit_by_page_title_as_tag %}
   {% assign tags = empty_array | push: page.title %}
 {% else %}
   {% assign tags = empty_array | push: 'General' %}
 
-  {% assign all_tags = empty_array %}
-  {% assign all_tags_arrays = site[listing_source] | map: tags %}
-  {% for subarray in all_tags_arrays %}
-    {% assign all_tags = empty_array | concat: subarray %}
-  {% endfor %}
-  {% assign all_tags = all_tags | sort %}
-
-  {% assign general_items = empty_array %}
   {% for item in site[listing_source] %}
     {% for tag in item.tags %}
-      {% unless tags contains tag %}
-        {% assign tags = tags | push: tag %}
-      {% endunless %}
+      {% assign tags = tags | push: tag %}
     {% endfor %}
   {% endfor %}
-  {% assign tags = tags | sort %}
+
+  {% assign tags = tags | uniq | sort %}
 {% endif %}
 
 {% for tag in tags %}
-  {% assign this_tag_items = empty_array %}
-  {% for item in site[listing_source] %}
-    {% if item.tags contains tag %}
-      {% assign this_tag_items = this_tag_items | push: item %}
-    {% endif %}
+  {% assign this_tag_items = site[listing_source] | where_exp: 'item', 'item.tags contains tag' %}
 
-    {% if tag == 'General' %}
-      {% assign item_tag_size = item.tags|size %}
-      {% if item_tag_size == 0 %}
-        {% assign this_tag_items = this_tag_items | push: item %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
+  {% if tag == 'General' %}
+    {% assign items_with_no_tags = site[listing_source] | where_exp: 'item', 'item.tags.size == 0' %}
+    {% for item_with_no_tags in items_with_no_tags %}
+      {% assign this_tag_items = this_tag_items | push: item_with_no_tags %}
+    {% endfor %}
+  {% endif %}
 
-  {% assign this_tag_items_size = this_tag_items|size %}
-  {% if this_tag_items_size > 0 %}
+  {% if this_tag_items.size > 0 %}
     <h2>{{ tag }} {{ source_collection.title }}</h2>
 
-    {% for level in site.data.general.levels_including_blank %}
-      {% assign this_level_items = this_tag_items | where: 'minimum_level', level | default: empty_array %}
-      {% assign this_level_size = this_level_items|size %}
-      {% if this_level_size > 0 %}
-        {% if level != '' %}
-          <h3 class="h4 m-y-1">Minimum Level {{ level }}</h3>
-        {% endif %}
-
-        <ul>
-          {% for item in this_level_items %}
-            <li>
-              <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>{% if item.type %} ({{ item.type }}){% endif %}{% if item.summary or item.flavor_text %}:
-
-                {% if item.summary %}
-                  {{ item.summary | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-                {% else %}
-                  {{ item.flavor_text | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
-                {% endif %}
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+    {% assign grouped_items = this_tag_items | group_by: 'minimum_level' %}
+    {% for group in grouped_items %}
+      {% if group.name != '' %}
+        <h3 class="h4 m-y-1">Minimum Level {{ group.name }}</h3>
       {% endif %}
+
+      <ul>
+        {% for item in group.items %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title | append: '' | markdownify | remove: '<p>' | remove: '</p>' | rstrip }}</a>{% if item.type %} ({{ item.type }}){% endif %}{% if item.summary or item.flavor_text %}:
+
+              {{ item.summary | default: item.flavor_text | append: '' | markdownify | remove: '<p>' | remove: '</p>' }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     {% endfor %}
   {% endif %}
 {% endfor %}
