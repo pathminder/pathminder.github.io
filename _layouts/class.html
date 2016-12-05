@@ -164,20 +164,20 @@ layout: default
             {% endcase %}
           </td>
           <td>
-            {% assign level_features = empty_array %}
-            {% for feature in page.class_features %}
-              {% if feature.levels contains level %}
-                {% assign slugified_name = feature.name | slugify %}
-                {% assign markdownified_name = feature.name | prepend: '' | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip %}
-                {% assign feature_link = '<a href="#' | append: slugified_name | append: '">' | append: markdownified_name | append: '</a>' %}
-                {% if feature.levels_text[level] %}
-                  {% assign this_level_text = feature.levels_text[level] | prepend: '' | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip %}
-                  {% assign feature_link = feature_link | append: ' (' | append: this_level_text | append: ')' %}
-                {% endif %}
-                {% assign level_features = level_features | push: feature_link %}
-              {% endif %}
+            {% assign level_features = page.class_features | where_exp: 'item', 'item.levels contains level' %}
+            {% assign feature_links = empty_array %}
+
+            {% for feature in level_features %}
+              {% capture feature_link %}
+                <a href="#{{ feature.name | slugify }}">{{ feature.name | prepend: '' | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip }}</a>
+                  {% if feature.levels_text[level] %}
+                    ({{ feature.levels_text[level] | prepend: '' | markdownify | replace: '<hr />', '&mdash;' | remove: '<p>' | remove: '</p>' | rstrip }})
+                  {% endif %}
+              {% endcapture %}
+              {% assign feature_links = feature_links | push: feature_link %}
             {% endfor %}
-            {{ level_features | sort | join: ", " }}
+
+            {{ feature_links | sort | join: ", " }}
           </td>
           {% if page.spells_per_day %}
             {% for spell_level in (1..site.data.spells-per-day[page.spells_per_day].spell_levels) %}
@@ -262,12 +262,7 @@ layout: default
 {% endif %}
 
 {% for level in (1..page.max_level) %}
-  {% assign level_features = empty_array %}
-  {% for feature in page.class_features %}
-    {% if feature.levels[0] == level %}
-      {% assign level_features = level_features | push: feature %}
-    {% endif %}
-  {% endfor %}
+  {% assign level_features = page.class_features | where_exp: 'item', 'item.levels[0] == level' %}
   {% assign level_features = level_features | sort: "name" %}
 
   {% for feature in level_features %}

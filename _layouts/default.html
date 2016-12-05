@@ -180,16 +180,14 @@
                 <p><strong>SECTION 15</strong></p>
 
                 {% assign section_15_entries = "" | split:"|" %}
-                {% for site_source in site.sources %}
-                  {% if page.sources contains site_source.title %}
-                    {% for section_15_entry in site_source.section_15 %}
-                      {% unless section_15_entries contains section_15_entry %}
-                        {% assign section_15_entries = section_15_entries | push: section_15_entry %}
-                      {% endunless %}
-                    {% endfor %}
-                  {% endif %}
+                {% assign sources = site.sources | where_exp: 'item', 'page.sources contains item.title' %}
+
+                {% for source in sources %}
+                  {% for section_15_entry in source.section_15 %}
+                    {% assign section_15_entries = section_15_entries | push: section_15_entry %}
+                  {% endfor %}
                 {% endfor %}
-                {% assign section_15_entries = section_15_entries | sort %}
+                {% assign section_15_entries = section_15_entries | uniq | sort %}
 
                 <ul>
                   {% for section_15_entry in section_15_entries %}
