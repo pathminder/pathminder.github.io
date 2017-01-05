@@ -97,13 +97,14 @@ class_features:
 
   - name: soulburning
     type: Su
-    levels: [1, 5, 9, 13, 17]
+    levels: [1, 4, 8, 12, 16, 20]
     levels_text:
       1: +1d6
-      5: +2d6
-      9: +3d6
-      13: +4d6
-      17: +5d6
+      4: +2d6
+      8: +3d6
+      12: +4d6
+      16: +5d6
+      20: +6d6
     text: |
       When combating his target, the soul hunter can use his *ki* to cause disharmony within a Claimed creature's very life energy, causing the foe's own *ki* to erupt into life-destroying energy. Some describe the pain experienced as being the worst that any could endure, like something was inside their very spirit and devouring it whole. When making an attack or initiating a martial maneuver against his Claimed target, the soul hunter may force this subtle disharmony to become a geyser of agony, as the soul hunter's *ki* causes the target's life energies to ignite. This inflicts an additional 1d6 points of damage at 1st level upon a successful attack, and this damage increases by an additional 1d6 points of damage every four soul hunter levels.
 
