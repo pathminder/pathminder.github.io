@@ -3,7 +3,7 @@ title: Unorthodox Method
 sources:
   - "Path of War: Expanded"
 tags:
-  - Social
+  - Regional
 ---
 
 **Region:** Any.
