@@ -1,5 +1,5 @@
 ---
-title: Fighter (Drill Sargeant, Mutation Warrior, Myrmidon)
+title: Fighter (Drill Sergeant, Mutation Warrior, Myrmidon)
 sources:
   - Pathfinder Roleplaying Game Core Rulebook
   - "Pathfinder Player Companion: Melee Tactics Toolbox"
