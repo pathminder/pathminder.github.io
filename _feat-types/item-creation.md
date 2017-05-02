@@ -16,7 +16,7 @@ Using an item creation feat also requires access to a laboratory or magical work
 
 - Scrolls: Base price = spell level × caster level × 25 gp.
 - Potions: Base price = spell level × caster level × 50 gp.
-= Wands: Base price = spell level × caster level × 750 gp.
+- Wands: Base price = spell level × caster level × 750 gp.
 
 **Staves:** The price for staves is calculated using more complex formulas (see the magic item creation system).
 
