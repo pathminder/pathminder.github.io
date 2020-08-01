@@ -78,9 +78,7 @@ A duelist might apply bonuses or penalties to a tactic's associated skill check 
 
 You use a fable or parable featuring an underlying message to frame the debate. While it is sometimes difficult to use allegory in the heat of an exchange, it makes a very effective opener.
 
-**Associated Skills:** Knowledge (history), (religion), Perform (act), Perform (oratory).
-
-#### Knowledge
+**Associated Skills:** Knowledge (history), Knowledge (religion), Perform (act), Perform (oratory).
 
 **Interaction:** You take a --2 penalty on the associated skill checks when using allegory as a counter.
 
